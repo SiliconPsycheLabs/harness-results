@@ -28,7 +28,7 @@ The agent works in a real accounting application (Odoo 17, with invented data). 
 | Gate table | `harness_supplier_bill`, compiled from the tools' own fields and the company's limits (`fe7ef9c6a1ec`) |
 | Limits of the company | a new supplier is added to the register by purchasing, never by the agent; a supplier's bank account is changed by the administration, never by the agent; a bill above 5,000 euros is entered by the administration; the supplier of a bill is one of the register |
 | Per request (median) | 3 model calls, 3,264 tokens in, 221 tokens out, 7.5 seconds |
-| Run | 2026-11-27, 52 runs, 0 ended on an error |
+| Run | 2026-11-26, 52 runs, 0 ended on an error |
 
 The seconds were measured on a machine that was doing other work at the same time.
 
