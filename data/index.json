@@ -1034,7 +1034,7 @@
     {
      "skill": "word",
      "summary": "Write a Word document (.docx) from an office request: letters, minutes, quotes, reports, notices, instructions.",
-     "skill_version": "0.1.1",
+     "skill_version": "0.1.0",
      "harness": "0.1.0",
      "model": "llama3.1-8b",
      "company": "acme-components",
