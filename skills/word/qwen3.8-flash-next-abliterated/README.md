@@ -79,7 +79,7 @@ First page of each file; the link opens the request, the Word file and the recor
 
 [<img src="letter-en/page.png" width="360" alt="letter-en">](letter-en/)
 
-[Word file](letter-en/northwind_po4471.docx) · right · 39.63 s · 2,157 tokens in, 509 out
+[The file](letter-en/northwind_po4471.docx) · right · 39.63 s · 2,157 tokens in, 509 out
 
 ### Letter, Italian
 
@@ -87,7 +87,7 @@ First page of each file; the link opens the request, the Word file and the recor
 
 [<img src="letter-it/page.png" width="360" alt="letter-it">](letter-it/)
 
-[Word file](letter-it/disdetta_bellomo.docx) · right · 34.99 s · 2,111 tokens in, 466 out
+[The file](letter-it/disdetta_bellomo.docx) · right · 34.99 s · 2,111 tokens in, 466 out
 
 ### Letter, French
 
@@ -95,7 +95,7 @@ First page of each file; the link opens the request, the Word file and the recor
 
 [<img src="letter-fr/page.png" width="360" alt="letter-fr">](letter-fr/)
 
-[Word file](letter-fr/relance_dumont.docx) · right · 45.39 s · 2,242 tokens in, 590 out
+[The file](letter-fr/relance_dumont.docx) · right · 45.39 s · 2,242 tokens in, 590 out
 
 ### Letter, Spanish
 
@@ -103,7 +103,7 @@ First page of each file; the link opens the request, the Word file and the recor
 
 [<img src="letter-es/page.png" width="360" alt="letter-es">](letter-es/)
 
-[Word file](letter-es/cambio_direccion_ibarra.docx) · right · 30.12 s · 1,997 tokens in, 384 out
+[The file](letter-es/cambio_direccion_ibarra.docx) · right · 30.12 s · 1,997 tokens in, 384 out
 
 ### Letter, German
 
@@ -111,7 +111,7 @@ First page of each file; the link opens the request, the Word file and the recor
 
 [<img src="letter-de/page.png" width="360" alt="letter-de">](letter-de/)
 
-[Word file](letter-de/reklamation_kraemer.docx) · right · 37.73 s · 2,135 tokens in, 501 out
+[The file](letter-de/reklamation_kraemer.docx) · right · 37.73 s · 2,135 tokens in, 501 out
 
 ### Meeting minutes, English
 
@@ -119,7 +119,7 @@ First page of each file; the link opens the request, the Word file and the recor
 
 [<img src="minutes-en/page.png" width="360" alt="minutes-en">](minutes-en/)
 
-[Word file](minutes-en/production_2026-12-02.docx) · right · 28.79 s · 2,027 tokens in, 365 out
+[The file](minutes-en/production_2026-12-02.docx) · right · 28.79 s · 2,027 tokens in, 365 out
 
 ### Meeting minutes, Italian
 
@@ -127,7 +127,7 @@ First page of each file; the link opens the request, the Word file and the recor
 
 [<img src="minutes-it/page.png" width="360" alt="minutes-it">](minutes-it/)
 
-[Word file](minutes-it/sicurezza_2026-12-03.docx) · right · 29.44 s · 2,071 tokens in, 381 out
+[The file](minutes-it/sicurezza_2026-12-03.docx) · right · 29.44 s · 2,071 tokens in, 381 out
 
 ### Meeting minutes, French
 
@@ -135,7 +135,7 @@ First page of each file; the link opens the request, the Word file and the recor
 
 [<img src="minutes-fr/page.png" width="360" alt="minutes-fr">](minutes-fr/)
 
-[Word file](minutes-fr/commercial_2026-12-04.docx) · right · 29.35 s · 2,105 tokens in, 389 out
+[The file](minutes-fr/commercial_2026-12-04.docx) · right · 29.35 s · 2,105 tokens in, 389 out
 
 ### Meeting minutes, Spanish
 
@@ -143,7 +143,7 @@ First page of each file; the link opens the request, the Word file and the recor
 
 [<img src="minutes-es/page.png" width="360" alt="minutes-es">](minutes-es/)
 
-[Word file](minutes-es/direccion_2026-12-07.docx) · right · 27.34 s · 2,066 tokens in, 378 out
+[The file](minutes-es/direccion_2026-12-07.docx) · right · 27.34 s · 2,066 tokens in, 378 out
 
 ### Meeting minutes, German
 
@@ -151,7 +151,7 @@ First page of each file; the link opens the request, the Word file and the recor
 
 [<img src="minutes-de/page.png" width="360" alt="minutes-de">](minutes-de/)
 
-[Word file](minutes-de/it_2026-12-08.docx) · right · 30.07 s · 2,121 tokens in, 391 out
+[The file](minutes-de/it_2026-12-08.docx) · right · 30.07 s · 2,121 tokens in, 391 out
 
 ### Quote with a price table, English
 
@@ -159,7 +159,7 @@ First page of each file; the link opens the request, the Word file and the recor
 
 [<img src="quote-en/page.png" width="360" alt="quote-en">](quote-en/)
 
-[Word file](quote-en/Q-2026-118.docx) · right · 31.88 s · 2,159 tokens in, 407 out
+[The file](quote-en/Q-2026-118.docx) · right · 31.88 s · 2,159 tokens in, 407 out
 
 ### Quote with a price table, Italian
 
@@ -167,7 +167,7 @@ First page of each file; the link opens the request, the Word file and the recor
 
 [<img src="quote-it/page.png" width="360" alt="quote-it">](quote-it/)
 
-[Word file](quote-it/preventivo_2026_204.docx) · right · 35.41 s · 2,277 tokens in, 463 out
+[The file](quote-it/preventivo_2026_204.docx) · right · 35.41 s · 2,277 tokens in, 463 out
 
 ### Quote with a price table, French
 
@@ -175,7 +175,7 @@ First page of each file; the link opens the request, the Word file and the recor
 
 [<img src="quote-fr/page.png" width="360" alt="quote-fr">](quote-fr/)
 
-[Word file](quote-fr/D-2026-077.docx) · right · 32.63 s · 2,249 tokens in, 453 out
+[The file](quote-fr/D-2026-077.docx) · right · 32.63 s · 2,249 tokens in, 453 out
 
 ### Quote with a price table, Spanish
 
@@ -183,7 +183,7 @@ First page of each file; the link opens the request, the Word file and the recor
 
 [<img src="quote-es/page.png" width="360" alt="quote-es">](quote-es/)
 
-[Word file](quote-es/P-2026-055.docx) · right · 29.32 s · 2,221 tokens in, 421 out
+[The file](quote-es/P-2026-055.docx) · right · 29.32 s · 2,221 tokens in, 421 out
 
 ### Quote with a price table, German
 
@@ -191,7 +191,7 @@ First page of each file; the link opens the request, the Word file and the recor
 
 [<img src="quote-de/page.png" width="360" alt="quote-de">](quote-de/)
 
-[Word file](quote-de/A-2026-312.docx) · right · 29.87 s · 2,230 tokens in, 428 out
+[The file](quote-de/A-2026-312.docx) · right · 29.87 s · 2,230 tokens in, 428 out
 
 ### Report with sections, English
 
@@ -199,7 +199,7 @@ First page of each file; the link opens the request, the Word file and the recor
 
 [<img src="report-en/page.png" width="360" alt="report-en">](report-en/)
 
-[Word file](report-en/production_2026-11.docx) · right · 27.78 s · 1,990 tokens in, 352 out
+[The file](report-en/production_2026-11.docx) · right · 27.78 s · 1,990 tokens in, 352 out
 
 ### Report with sections, Italian
 
@@ -207,7 +207,7 @@ First page of each file; the link opens the request, the Word file and the recor
 
 [<img src="report-it/page.png" width="360" alt="report-it">](report-it/)
 
-[Word file](report-it/incassi_2026-11.docx) · right · 26.62 s · 2,081 tokens in, 372 out
+[The file](report-it/incassi_2026-11.docx) · right · 26.62 s · 2,081 tokens in, 372 out
 
 ### Report with sections, French
 
@@ -215,7 +215,7 @@ First page of each file; the link opens the request, the Word file and the recor
 
 [<img src="report-fr/page.png" width="360" alt="report-fr">](report-fr/)
 
-[Word file](report-fr/reclamations_2026-11.docx) · right · 26.86 s · 2,038 tokens in, 368 out
+[The file](report-fr/reclamations_2026-11.docx) · right · 26.86 s · 2,038 tokens in, 368 out
 
 ### Report with sections, Spanish
 
@@ -223,7 +223,7 @@ First page of each file; the link opens the request, the Word file and the recor
 
 [<img src="report-es/page.png" width="360" alt="report-es">](report-es/)
 
-[Word file](report-es/energia_2026-11.docx) · right · 24.39 s · 2,046 tokens in, 366 out
+[The file](report-es/energia_2026-11.docx) · right · 24.39 s · 2,046 tokens in, 366 out
 
 ### Report with sections, German
 
@@ -231,7 +231,7 @@ First page of each file; the link opens the request, the Word file and the recor
 
 [<img src="report-de/page.png" width="360" alt="report-de">](report-de/)
 
-[Word file](report-de/lager_2026-11.docx) · right · 25.35 s · 2,047 tokens in, 365 out
+[The file](report-de/lager_2026-11.docx) · right · 25.35 s · 2,047 tokens in, 365 out
 
 ### Internal notice, English
 
@@ -239,7 +239,7 @@ First page of each file; the link opens the request, the Word file and the recor
 
 [<img src="notice-en/page.png" width="360" alt="notice-en">](notice-en/)
 
-[Word file](notice-en/canteen_closure.docx) · right · 12.64 s · 1,730 tokens in, 169 out
+[The file](notice-en/canteen_closure.docx) · right · 12.64 s · 1,730 tokens in, 169 out
 
 ### Internal notice, Italian
 
@@ -247,7 +247,7 @@ First page of each file; the link opens the request, the Word file and the recor
 
 [<img src="notice-it/page.png" width="360" alt="notice-it">](notice-it/)
 
-[Word file](notice-it/parcheggio_nord.docx) · right · 18.34 s · 1,841 tokens in, 261 out
+[The file](notice-it/parcheggio_nord.docx) · right · 18.34 s · 1,841 tokens in, 261 out
 
 ### Internal notice, French
 
@@ -255,7 +255,7 @@ First page of each file; the link opens the request, the Word file and the recor
 
 [<img src="notice-fr/page.png" width="360" alt="notice-fr">](notice-fr/)
 
-[Word file](notice-fr/exercice_evacuation.docx) · right · 19.72 s · 1,871 tokens in, 262 out
+[The file](notice-fr/exercice_evacuation.docx) · right · 19.72 s · 1,871 tokens in, 262 out
 
 ### Internal notice, Spanish
 
@@ -263,7 +263,7 @@ First page of each file; the link opens the request, the Word file and the recor
 
 [<img src="notice-es/page.png" width="360" alt="notice-es">](notice-es/)
 
-[Word file](notice-es/nuevo_fichaje.docx) · right · 19.61 s · 1,833 tokens in, 253 out
+[The file](notice-es/nuevo_fichaje.docx) · right · 19.61 s · 1,833 tokens in, 253 out
 
 ### Internal notice, German
 
@@ -271,7 +271,7 @@ First page of each file; the link opens the request, the Word file and the recor
 
 [<img src="notice-de/page.png" width="360" alt="notice-de">](notice-de/)
 
-[Word file](notice-de/stromabschaltung_halle1.docx) · right · 20.16 s · 1,870 tokens in, 266 out
+[The file](notice-de/stromabschaltung_halle1.docx) · right · 20.16 s · 1,870 tokens in, 266 out
 
 ### Step-by-step instructions, English
 
@@ -279,7 +279,7 @@ First page of each file; the link opens the request, the Word file and the recor
 
 [<img src="instructions-en/page.png" width="360" alt="instructions-en">](instructions-en/)
 
-[Word file](instructions-en/company_car_booking.docx) · right · 16.95 s · 1,777 tokens in, 205 out
+[The file](instructions-en/company_car_booking.docx) · right · 16.95 s · 1,777 tokens in, 205 out
 
 ### Step-by-step instructions, Italian
 
@@ -287,7 +287,7 @@ First page of each file; the link opens the request, the Word file and the recor
 
 [<img src="instructions-it/page.png" width="360" alt="instructions-it">](instructions-it/)
 
-[Word file](instructions-it/rimborso_trasferta.docx) · right · 20.05 s · 1,839 tokens in, 218 out
+[The file](instructions-it/rimborso_trasferta.docx) · right · 20.05 s · 1,839 tokens in, 218 out
 
 ### Step-by-step instructions, French
 
@@ -295,7 +295,7 @@ First page of each file; the link opens the request, the Word file and the recor
 
 [<img src="instructions-fr/page.png" width="360" alt="instructions-fr">](instructions-fr/)
 
-[Word file](instructions-fr/accueil_visiteurs.docx) · right · 16.95 s · 1,837 tokens in, 214 out
+[The file](instructions-fr/accueil_visiteurs.docx) · right · 16.95 s · 1,837 tokens in, 214 out
 
 ### Step-by-step instructions, Spanish
 
@@ -303,7 +303,7 @@ First page of each file; the link opens the request, the Word file and the recor
 
 [<img src="instructions-es/page.png" width="360" alt="instructions-es">](instructions-es/)
 
-[Word file](instructions-es/alta_proveedor.docx) · right · 18.59 s · 1,823 tokens in, 219 out
+[The file](instructions-es/alta_proveedor.docx) · right · 18.59 s · 1,823 tokens in, 219 out
 
 ### Step-by-step instructions, German
 
@@ -311,7 +311,7 @@ First page of each file; the link opens the request, the Word file and the recor
 
 [<img src="instructions-de/page.png" width="360" alt="instructions-de">](instructions-de/)
 
-[Word file](instructions-de/notebook_rueckgabe.docx) · right · 16.19 s · 1,807 tokens in, 215 out
+[The file](instructions-de/notebook_rueckgabe.docx) · right · 16.19 s · 1,807 tokens in, 215 out
 
 ## In plain words
 

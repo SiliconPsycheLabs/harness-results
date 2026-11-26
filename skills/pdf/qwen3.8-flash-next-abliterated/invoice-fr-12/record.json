@@ -1,0 +1,20 @@
+{
+ "supplier": "Atelier Dumont SARL",
+ "number": "F-90699",
+ "date": "2027-01-27",
+ "due_date": "2027-03-13",
+ "lines": [
+  {
+   "description": "vannes à bille",
+   "quantity": 25,
+   "unit_price": 52.4
+  },
+  {
+   "description": "flexibles hydrauliques",
+   "quantity": 3,
+   "unit_price": 40.5
+  }
+ ],
+ "total": 1431.5,
+ "total_page": 2
+}

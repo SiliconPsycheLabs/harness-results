@@ -1,0 +1,147 @@
+{
+ "request": "order-it-5",
+ "kind": "order",
+ "language": "it",
+ "model": "qwen3.8-flash-next-abliterated",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_xlsx",
+    "arguments": {
+     "path": "/acme/documents/sheets/order_2026-626.xlsx",
+     "sheet": "2026-626",
+     "columns": [
+      {
+       "name": "Articolo",
+       "type": "text"
+      },
+      {
+       "name": "Quantità",
+       "type": "number"
+      },
+      {
+       "name": "Prezzo unitario",
+       "type": "number"
+      },
+      {
+       "name": "Totale",
+       "type": "number"
+      }
+     ],
+     "rows": [
+      [
+       "cinghie di trasmissione",
+       "40",
+       "40.10",
+       "1604.00"
+      ],
+      [
+       "guanti da lavoro",
+       "2",
+       "3.80",
+       "7.60"
+      ],
+      [
+       "metri di tessuto tecnico",
+       "10",
+       "10.75",
+       "107.50"
+      ],
+      [
+       "tubi idraulici",
+       "50",
+       "36.55",
+       "1827.50"
+      ],
+      [
+       "riduttori di pressione",
+       "5",
+       "143.85",
+       "719.25"
+      ]
+     ],
+     "total_columns": [
+      "Totale"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/sheets/order_2026-626.xlsx",
+  "seconds": 29.69,
+  "tokens_in": 2116,
+  "tokens_out": 426,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_xlsx",
+    "arguments": {
+     "path": "/acme/documents/sheets/order_2026-626.xlsx",
+     "sheet": "2026-626",
+     "columns": [
+      {
+       "name": "Articolo",
+       "type": "text"
+      },
+      {
+       "name": "Quantità",
+       "type": "number"
+      },
+      {
+       "name": "Prezzo unitario",
+       "type": "number"
+      },
+      {
+       "name": "Totale",
+       "type": "number"
+      }
+     ],
+     "rows": [
+      [
+       "cinghie di trasmissione",
+       "40",
+       "40.10",
+       "1604.00"
+      ],
+      [
+       "guanti da lavoro",
+       "2",
+       "3.80",
+       "7.60"
+      ],
+      [
+       "metri di tessuto tecnico",
+       "10",
+       "10.75",
+       "107.50"
+      ],
+      [
+       "tubi idraulici",
+       "50",
+       "36.55",
+       "1827.50"
+      ],
+      [
+       "riduttori di pressione",
+       "5",
+       "143.85",
+       "719.25"
+      ]
+     ],
+     "total_columns": [
+      "Totale"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/sheets/order_2026-626.xlsx"
+ }
+}

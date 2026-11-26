@@ -1,0 +1,25 @@
+{
+ "supplier": "Harbor Tools Inc.",
+ "number": "HT-89319",
+ "date": "2026-12-10",
+ "due_date": "2027-01-09",
+ "lines": [
+  {
+   "description": "hydraulic hoses",
+   "quantity": 60,
+   "unit_price": 20.0
+  },
+  {
+   "description": "pressure gauges",
+   "quantity": 30,
+   "unit_price": 66.85
+  },
+  {
+   "description": "hacksaw blades",
+   "quantity": 15,
+   "unit_price": 2.8
+  }
+ ],
+ "total": 3247.5,
+ "total_page": 2
+}

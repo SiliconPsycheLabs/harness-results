@@ -1,0 +1,135 @@
+{
+ "request": "order-es-13",
+ "kind": "order",
+ "language": "es",
+ "model": "qwen3.8-flash-next-abliterated",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_xlsx",
+    "arguments": {
+     "path": "/acme/documents/sheets/order_2026-698.xlsx",
+     "sheet": "2026-698",
+     "columns": [
+      {
+       "name": "Artículo",
+       "type": "text"
+      },
+      {
+       "name": "Cantidad",
+       "type": "number"
+      },
+      {
+       "name": "Precio unitario",
+       "type": "number"
+      },
+      {
+       "name": "Total",
+       "type": "number"
+      }
+     ],
+     "rows": [
+      [
+       "brocas",
+       "50",
+       "4.55",
+       "227.50"
+      ],
+      [
+       "mangueras hidráulicas",
+       "25",
+       "19.90",
+       "497.50"
+      ],
+      [
+       "correas",
+       "10",
+       "74.95",
+       "749.50"
+      ],
+      [
+       "rodamientos",
+       "10",
+       "16.55",
+       "165.50"
+      ]
+     ],
+     "total_columns": [
+      "Total"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/sheets/order_2026-698.xlsx",
+  "seconds": 23.1,
+  "tokens_in": 2009,
+  "tokens_out": 379,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_xlsx",
+    "arguments": {
+     "path": "/acme/documents/sheets/order_2026-698.xlsx",
+     "sheet": "2026-698",
+     "columns": [
+      {
+       "name": "Artículo",
+       "type": "text"
+      },
+      {
+       "name": "Cantidad",
+       "type": "number"
+      },
+      {
+       "name": "Precio unitario",
+       "type": "number"
+      },
+      {
+       "name": "Total",
+       "type": "number"
+      }
+     ],
+     "rows": [
+      [
+       "brocas",
+       "50",
+       "4.55",
+       "227.50"
+      ],
+      [
+       "mangueras hidráulicas",
+       "25",
+       "19.90",
+       "497.50"
+      ],
+      [
+       "correas",
+       "10",
+       "74.95",
+       "749.50"
+      ],
+      [
+       "rodamientos",
+       "10",
+       "16.55",
+       "165.50"
+      ]
+     ],
+     "total_columns": [
+      "Total"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/sheets/order_2026-698.xlsx"
+ }
+}

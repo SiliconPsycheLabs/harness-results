@@ -1,0 +1,135 @@
+{
+ "request": "order-de-17",
+ "kind": "order",
+ "language": "de",
+ "model": "qwen3.8-flash-next-abliterated",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_xlsx",
+    "arguments": {
+     "path": "/acme/documents/sheets/order_2027-189.xlsx",
+     "sheet": "2027-189",
+     "columns": [
+      {
+       "name": "Artikel",
+       "type": "text"
+      },
+      {
+       "name": "Menge",
+       "type": "number"
+      },
+      {
+       "name": "Einzelpreis",
+       "type": "number"
+      },
+      {
+       "name": "Gesamt",
+       "type": "number"
+      }
+     ],
+     "rows": [
+      [
+       "Hydraulikschläuche",
+       "10",
+       "21.95",
+       "219.50"
+      ],
+      [
+       "Spannfutter",
+       "20",
+       "198.25",
+       "3965.00"
+      ],
+      [
+       "Fräsköpfe",
+       "25",
+       "117.10",
+       "2927.50"
+      ],
+      [
+       "Bohrer",
+       "5",
+       "10.15",
+       "50.75"
+      ]
+     ],
+     "total_columns": [
+      "Gesamt"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/sheets/order_2027-189.xlsx",
+  "seconds": 28.32,
+  "tokens_in": 2036,
+  "tokens_out": 388,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_xlsx",
+    "arguments": {
+     "path": "/acme/documents/sheets/order_2027-189.xlsx",
+     "sheet": "2027-189",
+     "columns": [
+      {
+       "name": "Artikel",
+       "type": "text"
+      },
+      {
+       "name": "Menge",
+       "type": "number"
+      },
+      {
+       "name": "Einzelpreis",
+       "type": "number"
+      },
+      {
+       "name": "Gesamt",
+       "type": "number"
+      }
+     ],
+     "rows": [
+      [
+       "Hydraulikschläuche",
+       "10",
+       "21.95",
+       "219.50"
+      ],
+      [
+       "Spannfutter",
+       "20",
+       "198.25",
+       "3965.00"
+      ],
+      [
+       "Fräsköpfe",
+       "25",
+       "117.10",
+       "2927.50"
+      ],
+      [
+       "Bohrer",
+       "5",
+       "10.15",
+       "50.75"
+      ]
+     ],
+     "total_columns": [
+      "Gesamt"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/sheets/order_2027-189.xlsx"
+ }
+}

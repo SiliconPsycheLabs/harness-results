@@ -1,0 +1,147 @@
+{
+ "request": "order-en-3",
+ "kind": "order",
+ "language": "en",
+ "model": "qwen3.8-flash-next-abliterated",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_xlsx",
+    "arguments": {
+     "path": "/acme/documents/sheets/order_2026-120.xlsx",
+     "sheet": "2026-120",
+     "columns": [
+      {
+       "name": "Item",
+       "type": "text"
+      },
+      {
+       "name": "Quantity",
+       "type": "number"
+      },
+      {
+       "name": "Unit price",
+       "type": "number"
+      },
+      {
+       "name": "Total",
+       "type": "number"
+      }
+     ],
+     "rows": [
+      [
+       "hydraulic hoses",
+       "20",
+       "20.00",
+       "400.00"
+      ],
+      [
+       "conveyor belts",
+       "10",
+       "217.10",
+       "2171.00"
+      ],
+      [
+       "safety gloves",
+       "25",
+       "5.65",
+       "141.25"
+      ],
+      [
+       "ball bearings",
+       "40",
+       "5.30",
+       "212.00"
+      ],
+      [
+       "tool cabinets",
+       "12",
+       "187.75",
+       "2253.00"
+      ]
+     ],
+     "total_columns": [
+      "Total"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/sheets/order_2026-120.xlsx",
+  "seconds": 26.49,
+  "tokens_in": 2070,
+  "tokens_out": 416,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_xlsx",
+    "arguments": {
+     "path": "/acme/documents/sheets/order_2026-120.xlsx",
+     "sheet": "2026-120",
+     "columns": [
+      {
+       "name": "Item",
+       "type": "text"
+      },
+      {
+       "name": "Quantity",
+       "type": "number"
+      },
+      {
+       "name": "Unit price",
+       "type": "number"
+      },
+      {
+       "name": "Total",
+       "type": "number"
+      }
+     ],
+     "rows": [
+      [
+       "hydraulic hoses",
+       "20",
+       "20.00",
+       "400.00"
+      ],
+      [
+       "conveyor belts",
+       "10",
+       "217.10",
+       "2171.00"
+      ],
+      [
+       "safety gloves",
+       "25",
+       "5.65",
+       "141.25"
+      ],
+      [
+       "ball bearings",
+       "40",
+       "5.30",
+       "212.00"
+      ],
+      [
+       "tool cabinets",
+       "12",
+       "187.75",
+       "2253.00"
+      ]
+     ],
+     "total_columns": [
+      "Total"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/sheets/order_2026-120.xlsx"
+ }
+}

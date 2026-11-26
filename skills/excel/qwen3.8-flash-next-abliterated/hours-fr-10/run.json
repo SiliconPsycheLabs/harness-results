@@ -1,0 +1,149 @@
+{
+ "request": "hours-fr-10",
+ "kind": "hours",
+ "language": "fr",
+ "model": "qwen3.8-flash-next-abliterated",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_xlsx",
+    "arguments": {
+     "path": "/acme/documents/sheets/hours_2027-547.xlsx",
+     "sheet": "2027-547",
+     "columns": [
+      {
+       "name": "Nom",
+       "type": "text"
+      },
+      {
+       "name": "Heures",
+       "type": "number"
+      },
+      {
+       "name": "Taux horaire",
+       "type": "number"
+      },
+      {
+       "name": "Montant",
+       "type": "number"
+      }
+     ],
+     "rows": [
+      [
+       "Luc Moreau",
+       "40",
+       "31.00",
+       "1240.00"
+      ],
+      [
+       "Inès Garnier",
+       "20",
+       "21.50",
+       "430.00"
+      ],
+      [
+       "Hugo Besnard",
+       "32",
+       "42.50",
+       "1360.00"
+      ],
+      [
+       "Paul Lefèvre",
+       "38",
+       "27.50",
+       "1045.00"
+      ],
+      [
+       "Nadia Perrin",
+       "36",
+       "33.00",
+       "1188.00"
+      ]
+     ],
+     "total_columns": [
+      "Heures",
+      "Montant"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/sheets/hours_2027-547.xlsx",
+  "seconds": 22.09,
+  "tokens_in": 2013,
+  "tokens_out": 284,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_xlsx",
+    "arguments": {
+     "path": "/acme/documents/sheets/hours_2027-547.xlsx",
+     "sheet": "2027-547",
+     "columns": [
+      {
+       "name": "Nom",
+       "type": "text"
+      },
+      {
+       "name": "Heures",
+       "type": "number"
+      },
+      {
+       "name": "Taux horaire",
+       "type": "number"
+      },
+      {
+       "name": "Montant",
+       "type": "number"
+      }
+     ],
+     "rows": [
+      [
+       "Luc Moreau",
+       "40",
+       "31.00",
+       "1240.00"
+      ],
+      [
+       "Inès Garnier",
+       "20",
+       "21.50",
+       "430.00"
+      ],
+      [
+       "Hugo Besnard",
+       "32",
+       "42.50",
+       "1360.00"
+      ],
+      [
+       "Paul Lefèvre",
+       "38",
+       "27.50",
+       "1045.00"
+      ],
+      [
+       "Nadia Perrin",
+       "36",
+       "33.00",
+       "1188.00"
+      ]
+     ],
+     "total_columns": [
+      "Heures",
+      "Montant"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/sheets/hours_2027-547.xlsx"
+ }
+}

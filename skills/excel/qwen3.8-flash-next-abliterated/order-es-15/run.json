@@ -1,0 +1,147 @@
+{
+ "request": "order-es-15",
+ "kind": "order",
+ "language": "es",
+ "model": "qwen3.8-flash-next-abliterated",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_xlsx",
+    "arguments": {
+     "path": "/acme/documents/sheets/order_2027-685.xlsx",
+     "sheet": "2027-685",
+     "columns": [
+      {
+       "name": "Artículo",
+       "type": "text"
+      },
+      {
+       "name": "Cantidad",
+       "type": "number"
+      },
+      {
+       "name": "Precio unitario",
+       "type": "number"
+      },
+      {
+       "name": "Total",
+       "type": "number"
+      }
+     ],
+     "rows": [
+      [
+       "correas",
+       "10",
+       "43.90",
+       "439.00"
+      ],
+      [
+       "mangueras hidráulicas",
+       "25",
+       "24.95",
+       "623.75"
+      ],
+      [
+       "juntas tóricas",
+       "50",
+       "6.35",
+       "317.50"
+      ],
+      [
+       "bridas de acero",
+       "2",
+       "31.20",
+       "62.40"
+      ],
+      [
+       "filtros de aire",
+       "2",
+       "30.05",
+       "60.10"
+      ]
+     ],
+     "total_columns": [
+      "Total"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/sheets/order_2027-685.xlsx",
+  "seconds": 32.39,
+  "tokens_in": 2095,
+  "tokens_out": 419,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_xlsx",
+    "arguments": {
+     "path": "/acme/documents/sheets/order_2027-685.xlsx",
+     "sheet": "2027-685",
+     "columns": [
+      {
+       "name": "Artículo",
+       "type": "text"
+      },
+      {
+       "name": "Cantidad",
+       "type": "number"
+      },
+      {
+       "name": "Precio unitario",
+       "type": "number"
+      },
+      {
+       "name": "Total",
+       "type": "number"
+      }
+     ],
+     "rows": [
+      [
+       "correas",
+       "10",
+       "43.90",
+       "439.00"
+      ],
+      [
+       "mangueras hidráulicas",
+       "25",
+       "24.95",
+       "623.75"
+      ],
+      [
+       "juntas tóricas",
+       "50",
+       "6.35",
+       "317.50"
+      ],
+      [
+       "bridas de acero",
+       "2",
+       "31.20",
+       "62.40"
+      ],
+      [
+       "filtros de aire",
+       "2",
+       "30.05",
+       "60.10"
+      ]
+     ],
+     "total_columns": [
+      "Total"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/sheets/order_2027-685.xlsx"
+ }
+}

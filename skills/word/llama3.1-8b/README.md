@@ -79,7 +79,7 @@ First page of each file; the link opens the request, the Word file and the recor
 
 [<img src="letter-en/page.png" width="360" alt="letter-en">](letter-en/)
 
-[Word file](letter-en/northwind_po4471.docx) · not right: fact lacks: Northwind Bearings Ltd; fact lacks: 3 December 2026 · 8.03 s · 1,886 tokens in, 279 out
+[The file](letter-en/northwind_po4471.docx) · not right: fact lacks: Northwind Bearings Ltd; fact lacks: 3 December 2026 · 8.03 s · 1,886 tokens in, 279 out
 
 ### Letter, Italian
 
@@ -87,7 +87,7 @@ First page of each file; the link opens the request, the Word file and the recor
 
 [<img src="letter-it/page.png" width="360" alt="letter-it">](letter-it/)
 
-[Word file](letter-it/disdetta_bellomo.docx) · not right: fact lacks: Marco Bellomo · 9.12 s · 2,007 tokens in, 340 out
+[The file](letter-it/disdetta_bellomo.docx) · not right: fact lacks: Marco Bellomo · 9.12 s · 2,007 tokens in, 340 out
 
 ### Letter, French
 
@@ -95,7 +95,7 @@ First page of each file; the link opens the request, the Word file and the recor
 
 [<img src="letter-fr/page.png" width="360" alt="letter-fr">](letter-fr/)
 
-[Word file](letter-fr/relance_dumont.docx) · not right: fact lacks: 15 novembre 2026; amount lacks: 4860.0 · 7.41 s · 1,924 tokens in, 293 out
+[The file](letter-fr/relance_dumont.docx) · not right: fact lacks: 15 novembre 2026; amount lacks: 4860.0 · 7.41 s · 1,924 tokens in, 293 out
 
 ### Letter, Spanish
 
@@ -103,7 +103,7 @@ First page of each file; the link opens the request, the Word file and the recor
 
 [<img src="letter-es/page.png" width="360" alt="letter-es">](letter-es/)
 
-[Word file](letter-es/cambio_direccion_ibarra.docx) · right · 7.82 s · 1,915 tokens in, 310 out
+[The file](letter-es/cambio_direccion_ibarra.docx) · right · 7.82 s · 1,915 tokens in, 310 out
 
 ### Letter, German
 
@@ -111,7 +111,7 @@ First page of each file; the link opens the request, the Word file and the recor
 
 [<img src="letter-de/page.png" width="360" alt="letter-de">](letter-de/)
 
-[Word file](letter-de/reklamation_kraemer.docx) · right · 7.85 s · 1,952 tokens in, 305 out
+[The file](letter-de/reklamation_kraemer.docx) · right · 7.85 s · 1,952 tokens in, 305 out
 
 ### Meeting minutes, English
 
@@ -119,7 +119,7 @@ First page of each file; the link opens the request, the Word file and the recor
 
 [<img src="minutes-en/page.png" width="360" alt="minutes-en">](minutes-en/)
 
-[Word file](minutes-en/production_2026-12-02.docx) · not right: fact lacks: Paolo Ferri; fewer than 4 bullet items; fewer than 3 numbered items · 8.05 s · 1,939 tokens in, 314 out
+[The file](minutes-en/production_2026-12-02.docx) · not right: fact lacks: Paolo Ferri; fewer than 4 bullet items; fewer than 3 numbered items · 8.05 s · 1,939 tokens in, 314 out
 
 ### Meeting minutes, Italian
 
@@ -127,7 +127,7 @@ First page of each file; the link opens the request, the Word file and the recor
 
 [<img src="minutes-it/page.png" width="360" alt="minutes-it">](minutes-it/)
 
-[Word file](minutes-it/sicurezza_2026-12-03.docx) · not right: fact lacks: Giulia Conti; fewer than 3 bullet items · 9.62 s · 2,123 tokens in, 404 out
+[The file](minutes-it/sicurezza_2026-12-03.docx) · not right: fact lacks: Giulia Conti; fewer than 3 bullet items · 9.62 s · 2,123 tokens in, 404 out
 
 ### Meeting minutes, French
 
@@ -135,7 +135,7 @@ First page of each file; the link opens the request, the Word file and the recor
 
 [<img src="minutes-fr/page.png" width="360" alt="minutes-fr">](minutes-fr/)
 
-[Word file](minutes-fr/commercial_2026-12-04.docx) · right · 10.37 s · 2,165 tokens in, 438 out
+[The file](minutes-fr/commercial_2026-12-04.docx) · right · 10.37 s · 2,165 tokens in, 438 out
 
 ### Meeting minutes, Spanish
 
@@ -143,7 +143,7 @@ First page of each file; the link opens the request, the Word file and the recor
 
 [<img src="minutes-es/page.png" width="360" alt="minutes-es">](minutes-es/)
 
-[Word file](minutes-es/direccion_2026-12-07.docx) · right · 12.77 s · 2,238 tokens in, 537 out
+[The file](minutes-es/direccion_2026-12-07.docx) · right · 12.77 s · 2,238 tokens in, 537 out
 
 ### Meeting minutes, German
 
@@ -158,7 +158,7 @@ not right: no file at the path asked · 101.85 s · 860 tokens in, 4,000 out
 
 [<img src="quote-en/page.png" width="360" alt="quote-en">](quote-en/)
 
-[Word file](quote-en/Q-2026-118.docx) · not right: fact lacks: Harbor Tools Inc. · 11.53 s · 2,133 tokens in, 460 out
+[The file](quote-en/Q-2026-118.docx) · not right: fact lacks: Harbor Tools Inc. · 11.53 s · 2,133 tokens in, 460 out
 
 ### Quote with a price table, Italian
 
@@ -166,7 +166,7 @@ not right: no file at the path asked · 101.85 s · 860 tokens in, 4,000 out
 
 [<img src="quote-it/page.png" width="360" alt="quote-it">](quote-it/)
 
-[Word file](quote-it/preventivo_2026_204.docx) · right · 9.33 s · 2,154 tokens in, 373 out
+[The file](quote-it/preventivo_2026_204.docx) · right · 9.33 s · 2,154 tokens in, 373 out
 
 ### Quote with a price table, French
 
@@ -174,7 +174,7 @@ not right: no file at the path asked · 101.85 s · 860 tokens in, 4,000 out
 
 [<img src="quote-fr/page.png" width="360" alt="quote-fr">](quote-fr/)
 
-[Word file](quote-fr/D-2026-077.docx) · right · 15.02 s · 2,348 tokens in, 605 out
+[The file](quote-fr/D-2026-077.docx) · right · 15.02 s · 2,348 tokens in, 605 out
 
 ### Quote with a price table, Spanish
 
@@ -182,7 +182,7 @@ not right: no file at the path asked · 101.85 s · 860 tokens in, 4,000 out
 
 [<img src="quote-es/page.png" width="360" alt="quote-es">](quote-es/)
 
-[Word file](quote-es/P-2026-055.docx) · right · 7.42 s · 2,037 tokens in, 288 out
+[The file](quote-es/P-2026-055.docx) · right · 7.42 s · 2,037 tokens in, 288 out
 
 ### Quote with a price table, German
 
@@ -190,7 +190,7 @@ not right: no file at the path asked · 101.85 s · 860 tokens in, 4,000 out
 
 [<img src="quote-de/page.png" width="360" alt="quote-de">](quote-de/)
 
-[Word file](quote-de/A-2026-312.docx) · not right: table lacks: Hydraulikschläuche · 12.89 s · 2,259 tokens in, 498 out
+[The file](quote-de/A-2026-312.docx) · not right: table lacks: Hydraulikschläuche · 12.89 s · 2,259 tokens in, 498 out
 
 ### Report with sections, English
 
@@ -198,7 +198,7 @@ not right: no file at the path asked · 101.85 s · 860 tokens in, 4,000 out
 
 [<img src="report-en/page.png" width="360" alt="report-en">](report-en/)
 
-[Word file](report-en/production_2026-11.docx) · right · 6.78 s · 1,863 tokens in, 264 out
+[The file](report-en/production_2026-11.docx) · right · 6.78 s · 1,863 tokens in, 264 out
 
 ### Report with sections, Italian
 
@@ -206,7 +206,7 @@ not right: no file at the path asked · 101.85 s · 860 tokens in, 4,000 out
 
 [<img src="report-it/page.png" width="360" alt="report-it">](report-it/)
 
-[Word file](report-it/incassi_2026-11.docx) · right · 8.18 s · 1,969 tokens in, 288 out
+[The file](report-it/incassi_2026-11.docx) · right · 8.18 s · 1,969 tokens in, 288 out
 
 ### Report with sections, French
 
@@ -214,7 +214,7 @@ not right: no file at the path asked · 101.85 s · 860 tokens in, 4,000 out
 
 [<img src="report-fr/page.png" width="360" alt="report-fr">](report-fr/)
 
-[Word file](report-fr/reclamations_2026-11.docx) · right · 9.94 s · 2,058 tokens in, 383 out
+[The file](report-fr/reclamations_2026-11.docx) · right · 9.94 s · 2,058 tokens in, 383 out
 
 ### Report with sections, Spanish
 
@@ -222,7 +222,7 @@ not right: no file at the path asked · 101.85 s · 860 tokens in, 4,000 out
 
 [<img src="report-es/page.png" width="360" alt="report-es">](report-es/)
 
-[Word file](report-es/energia_2026-11.docx) · right · 8.28 s · 1,992 tokens in, 313 out
+[The file](report-es/energia_2026-11.docx) · right · 8.28 s · 1,992 tokens in, 313 out
 
 ### Report with sections, German
 
@@ -230,7 +230,7 @@ not right: no file at the path asked · 101.85 s · 860 tokens in, 4,000 out
 
 [<img src="report-de/page.png" width="360" alt="report-de">](report-de/)
 
-[Word file](report-de/lager_2026-11.docx) · right · 8.68 s · 1,993 tokens in, 314 out
+[The file](report-de/lager_2026-11.docx) · right · 8.68 s · 1,993 tokens in, 314 out
 
 ### Internal notice, English
 
@@ -238,7 +238,7 @@ not right: no file at the path asked · 101.85 s · 860 tokens in, 4,000 out
 
 [<img src="notice-en/page.png" width="360" alt="notice-en">](notice-en/)
 
-[Word file](notice-en/canteen_closure.docx) · right · 7.07 s · 1,793 tokens in, 258 out
+[The file](notice-en/canteen_closure.docx) · right · 7.07 s · 1,793 tokens in, 258 out
 
 ### Internal notice, Italian
 
@@ -246,7 +246,7 @@ not right: no file at the path asked · 101.85 s · 860 tokens in, 4,000 out
 
 [<img src="notice-it/page.png" width="360" alt="notice-it">](notice-it/)
 
-[Word file](notice-it/parcheggio_nord.docx) · right · 8.61 s · 1,931 tokens in, 318 out
+[The file](notice-it/parcheggio_nord.docx) · right · 8.61 s · 1,931 tokens in, 318 out
 
 ### Internal notice, French
 
@@ -254,7 +254,7 @@ not right: no file at the path asked · 101.85 s · 860 tokens in, 4,000 out
 
 [<img src="notice-fr/page.png" width="360" alt="notice-fr">](notice-fr/)
 
-[Word file](notice-fr/exercice_evacuation.docx) · not right: fewer than 3 bullet items · 7.42 s · 1,892 tokens in, 279 out
+[The file](notice-fr/exercice_evacuation.docx) · not right: fewer than 3 bullet items · 7.42 s · 1,892 tokens in, 279 out
 
 ### Internal notice, Spanish
 
@@ -262,7 +262,7 @@ not right: no file at the path asked · 101.85 s · 860 tokens in, 4,000 out
 
 [<img src="notice-es/page.png" width="360" alt="notice-es">](notice-es/)
 
-[Word file](notice-es/nuevo_fichaje.docx) · not right: fewer than 3 bullet items · 5.84 s · 1,820 tokens in, 221 out
+[The file](notice-es/nuevo_fichaje.docx) · not right: fewer than 3 bullet items · 5.84 s · 1,820 tokens in, 221 out
 
 ### Internal notice, German
 
@@ -270,7 +270,7 @@ not right: no file at the path asked · 101.85 s · 860 tokens in, 4,000 out
 
 [<img src="notice-de/page.png" width="360" alt="notice-de">](notice-de/)
 
-[Word file](notice-de/stromabschaltung_halle1.docx) · not right: fewer than 3 bullet items · 6.25 s · 1,860 tokens in, 235 out
+[The file](notice-de/stromabschaltung_halle1.docx) · not right: fewer than 3 bullet items · 6.25 s · 1,860 tokens in, 235 out
 
 ### Step-by-step instructions, English
 
@@ -285,7 +285,7 @@ not right: no file at the path asked · 100.35 s · 777 tokens in, 4,000 out
 
 [<img src="instructions-it/page.png" width="360" alt="instructions-it">](instructions-it/)
 
-[Word file](instructions-it/rimborso_trasferta.docx) · not right: fact lacks: 10 giorni · 11.87 s · 2,133 tokens in, 482 out
+[The file](instructions-it/rimborso_trasferta.docx) · not right: fact lacks: 10 giorni · 11.87 s · 2,133 tokens in, 482 out
 
 ### Step-by-step instructions, French
 
@@ -293,7 +293,7 @@ not right: no file at the path asked · 100.35 s · 777 tokens in, 4,000 out
 
 [<img src="instructions-fr/page.png" width="360" alt="instructions-fr">](instructions-fr/)
 
-[Word file](instructions-fr/accueil_visiteurs.docx) · not right: fact lacks: badge visiteur; fact lacks: lunettes de protection · 7.12 s · 1,933 tokens in, 278 out
+[The file](instructions-fr/accueil_visiteurs.docx) · not right: fact lacks: badge visiteur; fact lacks: lunettes de protection · 7.12 s · 1,933 tokens in, 278 out
 
 ### Step-by-step instructions, Spanish
 
@@ -301,7 +301,7 @@ not right: no file at the path asked · 100.35 s · 777 tokens in, 4,000 out
 
 [<img src="instructions-es/page.png" width="360" alt="instructions-es">](instructions-es/)
 
-[Word file](instructions-es/alta_proveedor.docx) · not right: fact lacks: certificado fiscal; fewer than 4 numbered items · 6.59 s · 1,913 tokens in, 274 out
+[The file](instructions-es/alta_proveedor.docx) · not right: fact lacks: certificado fiscal; fewer than 4 numbered items · 6.59 s · 1,913 tokens in, 274 out
 
 ### Step-by-step instructions, German
 
@@ -309,7 +309,7 @@ not right: no file at the path asked · 100.35 s · 777 tokens in, 4,000 out
 
 [<img src="instructions-de/page.png" width="360" alt="instructions-de">](instructions-de/)
 
-[Word file](instructions-de/notebook_rueckgabe.docx) · not right: fewer than 4 numbered items · 7.1 s · 1,911 tokens in, 286 out
+[The file](instructions-de/notebook_rueckgabe.docx) · not right: fewer than 4 numbered items · 7.1 s · 1,911 tokens in, 286 out
 
 ## In plain words
 

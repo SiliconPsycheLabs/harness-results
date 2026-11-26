@@ -4,11 +4,15 @@ A deterministic gate decides what an agent may do, and the harness makes the age
 
 Each skill is one thing an office needs done. Its page gives the whole recipe (model, harness version, the instructions, the limits) with what it cost in tokens and seconds, so the same result can be had again.
 
+- **[excel](skills/excel/)**: Write an Excel sheet (.xlsx) from an office request: a table with typed columns and a total row computed by a formula.
+- **[pdf](skills/pdf/)**: Read a supplier invoice in PDF and save its data as a record: supplier, number, dates, lines, net total and the page the total is on.
 - **[supplier_bill](skills/supplier_bill/)**: Enter a supplier invoice in the accounting application as a draft bill: supplier, number, dates, lines and net total.
 - **[word](skills/word/)**: Write a Word document (.docx) from an office request: letters, minutes, quotes, reports, notices, instructions.
 
 | Skill | Model | Done right | Stopped by the company's limits | Time per request | Tokens per request |
 | --- | --- | --- | --- | --- | --- |
+| [excel](skills/excel/) | [`qwen3.8-flash-next-abliterated`](skills/excel/qwen3.8-flash-next-abliterated/) | **20 of 20** | **6 of 6** | 26.4 s | 2,014 in, 383 out |
+| [pdf](skills/pdf/) | [`qwen3.8-flash-next-abliterated`](skills/pdf/qwen3.8-flash-next-abliterated/) | **20 of 20** | **6 of 6** | 17.9 s | 3,145 in, 291 out |
 | [supplier_bill](skills/supplier_bill/) | [`qwen3-8b`](skills/supplier_bill/qwen3-8b/) | **20 of 20** | **6 of 6** | 7.5 s | 3,264 in, 221 out |
 | [supplier_bill](skills/supplier_bill/) | [`qwen3.8-flash-next-abliterated`](skills/supplier_bill/qwen3.8-flash-next-abliterated/) | **20 of 20** | **6 of 6** | 22.3 s | 3,271 in, 231 out |
 | [supplier_bill](skills/supplier_bill/) | [`llama3.1-8b`](skills/supplier_bill/llama3.1-8b/) | **19 of 20** | **6 of 6** | 6.0 s | 3,174 in, 202 out |
