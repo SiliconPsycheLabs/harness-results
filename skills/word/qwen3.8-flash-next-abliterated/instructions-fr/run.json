@@ -1,0 +1,75 @@
+{
+ "request": "instructions-fr",
+ "kind": "instructions",
+ "language": "fr",
+ "model": "qwen3.8-flash-next-abliterated",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/procedures/accueil_visiteurs.docx",
+     "title": "Procédure d'accueil des visiteurs",
+     "blocks": [
+      {
+       "type": "numbered",
+       "items": [
+        "Annoncer le visiteur à l'accueil la veille.",
+        "Lui remettre un badge visiteur.",
+        "L'accompagner en permanence dans les ateliers.",
+        "Lui faire porter les lunettes de protection.",
+        "Récupérer le badge à la sortie."
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Avertissement : aucun visiteur ne reste seul dans les ateliers.",
+       "align": "justify"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Le document est enregistré : /acme/documents/procedures/accueil_visiteurs.docx",
+  "seconds": 15.65,
+  "tokens_in": 2109,
+  "tokens_out": 183,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/procedures/accueil_visiteurs.docx",
+     "title": "Procédure d'accueil des visiteurs",
+     "blocks": [
+      {
+       "type": "numbered",
+       "items": [
+        "Annoncer le visiteur à l'accueil la veille.",
+        "Lui remettre un badge visiteur.",
+        "L'accompagner en permanence dans les ateliers.",
+        "Lui faire porter les lunettes de protection.",
+        "Récupérer le badge à la sortie."
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Avertissement : aucun visiteur ne reste seul dans les ateliers.",
+       "align": "justify"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Le document est enregistré : /acme/documents/procedures/accueil_visiteurs.docx"
+ }
+}

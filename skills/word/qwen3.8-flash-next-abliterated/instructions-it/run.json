@@ -1,0 +1,82 @@
+{
+ "request": "instructions-it",
+ "kind": "instructions",
+ "language": "it",
+ "model": "qwen3.8-flash-next-abliterated",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/istruzioni/rimborso_trasferta.docx",
+     "title": "Come chiedere il rimborso di una trasferta",
+     "blocks": [
+      {
+       "type": "numbered",
+       "items": [
+        "Compilare il modulo R12 entro 10 giorni dal rientro.",
+        "Allegare le ricevute originali.",
+        "Farlo firmare dal responsabile.",
+        "Consegnarlo all'ufficio amministrazione."
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Avvertenza: le spese senza ricevuta non sono rimborsate.",
+       "align": "justify"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "File salvato in /acme/documents/istruzioni/rimborso_trasferta.docx",
+  "seconds": 17.15,
+  "tokens_in": 2111,
+  "tokens_out": 186,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/istruzioni/rimborso_trasferta.docx",
+     "title": "Come chiedere il rimborso di una trasferta",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Come chiedere il rimborso di una trasferta",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Per richiedere il rimborso di una trasferta è necessario seguire i seguenti passi, in ordine:"
+      },
+      {
+       "type": "numbered",
+       "items": [
+        "Compilare il modulo R12 entro 10 giorni dal rientro.",
+        "Allegare le ricevute originali.",
+        "Far firmare il modulo dal responsabile.",
+        "Consegnarlo all'ufficio amministrazione."
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Avvertenza: le spese senza ricevuta non sono rimborsate.",
+       "align": "justify"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "File salvato in /acme/documents/istruzioni/rimborso_trasferta.docx"
+ }
+}

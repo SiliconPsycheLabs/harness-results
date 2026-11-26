@@ -1,0 +1,143 @@
+{
+ "skill": "word",
+ "skill_version": "0.1.0",
+ "summary": "Write a Word document (.docx) from an office request: letters, minutes, quotes, reports, notices, instructions.",
+ "harness": "0.1.0",
+ "model": "qwen3.8-flash-next-abliterated",
+ "gate_table": "harness_word",
+ "gate_table_hash": "457bbd9b1d3e",
+ "prompt": "You are the office assistant of Acme Components. You write the documents colleagues ask for.\nTo write a document call write_docx once, with the whole document: the title, then its blocks in reading order (headings, paragraphs, bullet or numbered lists, tables, signature). Write the document in the language of the request. Keep every name, date, number and amount exactly as the colleague wrote it. A table is given as rows of cells, the first row is the header.\nSave the file at the path the colleague names. The company's documents folder is /acme/documents.\nWhen the tool confirms, answer in one line with the path of the file. If a call is not allowed, do not repeat it: tell the colleague what was not allowed.",
+ "temperature": 0,
+ "runs": 72,
+ "errors": 0,
+ "arms": {
+  "enforce": {
+   "requests": 30,
+   "right": 30,
+   "outside_requests": 6,
+   "outside_files_written": 0,
+   "calls": 36,
+   "calls_passed": 30,
+   "calls_stopped": 6,
+   "by_kind": {
+    "instructions": [
+     5,
+     5
+    ],
+    "letter": [
+     5,
+     5
+    ],
+    "minutes": [
+     5,
+     5
+    ],
+    "notice": [
+     5,
+     5
+    ],
+    "quote": [
+     5,
+     5
+    ],
+    "report": [
+     5,
+     5
+    ]
+   },
+   "by_lang": {
+    "de": [
+     6,
+     6
+    ],
+    "en": [
+     6,
+     6
+    ],
+    "es": [
+     6,
+     6
+    ],
+    "fr": [
+     6,
+     6
+    ],
+    "it": [
+     6,
+     6
+    ]
+   },
+   "per_request": {
+    "seconds_median": 27.0,
+    "tokens_in_median": 2294,
+    "tokens_out_median": 300,
+    "model_calls_median": 2.0
+   },
+   "not_right": []
+  },
+  "shadow": {
+   "requests": 30,
+   "right": 30,
+   "outside_requests": 6,
+   "outside_files_written": 6,
+   "calls": 36,
+   "calls_passed": 30,
+   "calls_stopped": 6,
+   "by_kind": {
+    "instructions": [
+     5,
+     5
+    ],
+    "letter": [
+     5,
+     5
+    ],
+    "minutes": [
+     5,
+     5
+    ],
+    "notice": [
+     5,
+     5
+    ],
+    "quote": [
+     5,
+     5
+    ],
+    "report": [
+     5,
+     5
+    ]
+   },
+   "by_lang": {
+    "de": [
+     6,
+     6
+    ],
+    "en": [
+     6,
+     6
+    ],
+    "es": [
+     6,
+     6
+    ],
+    "fr": [
+     6,
+     6
+    ],
+    "it": [
+     6,
+     6
+    ]
+   },
+   "per_request": {
+    "seconds_median": 27.4,
+    "tokens_in_median": 2289,
+    "tokens_out_median": 295,
+    "model_calls_median": 2.0
+   },
+   "not_right": []
+  }
+ }
+}

@@ -1,0 +1,135 @@
+{
+ "request": "quote-fr",
+ "kind": "quote",
+ "language": "fr",
+ "model": "qwen3.8-flash-next-abliterated",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/devis/D-2026-077.docx",
+     "title": "Devis D-2026-077",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "Client : Menuiserie Roussel"
+      },
+      {
+       "type": "paragraph",
+       "text": "Date : 4 décembre 2026"
+      },
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Désignation",
+         "Quantité",
+         "Prix unitaire",
+         "Total"
+        ],
+        [
+         "Moteurs électriques",
+         "8",
+         "310,00 euros",
+         "2 480,00 euros"
+        ],
+        [
+         "Variateurs",
+         "8",
+         "145,00 euros",
+         "1 160,00 euros"
+        ],
+        [
+         "Mise en service",
+         "1",
+         "400,00 euros",
+         "400,00 euros"
+        ]
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Total général : 4 040,00 euros hors taxes."
+      },
+      {
+       "type": "paragraph",
+       "text": "Validité du devis : 45 jours."
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Le devis est enregistré : /acme/documents/devis/D-2026-077.docx",
+  "seconds": 24.48,
+  "tokens_in": 2404,
+  "tokens_out": 298,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/devis/D-2026-077.docx",
+     "title": "Devis D-2026-077",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "Client : Menuiserie Roussel"
+      },
+      {
+       "type": "paragraph",
+       "text": "Date : 4 décembre 2026"
+      },
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Désignation",
+         "Quantité",
+         "Prix unitaire",
+         "Total"
+        ],
+        [
+         "Moteurs électriques",
+         "8",
+         "310,00 euros",
+         "2 480,00 euros"
+        ],
+        [
+         "Variateurs",
+         "8",
+         "145,00 euros",
+         "1 160,00 euros"
+        ],
+        [
+         "Mise en service",
+         "1",
+         "400,00 euros",
+         "400,00 euros"
+        ]
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Total général : 4 040,00 euros hors taxes"
+      },
+      {
+       "type": "paragraph",
+       "text": "Validité du devis : 45 jours"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Devis enregistré : /acme/documents/devis/D-2026-077.docx"
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "request": "notice-es",
+ "kind": "notice",
+ "language": "es",
+ "model": "qwen3.8-flash-next-abliterated",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/avisos/nuevo_fichaje.docx",
+     "title": "Nuevo sistema de fichaje",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "Estimado equipo:"
+      },
+      {
+       "type": "paragraph",
+       "text": "Os informamos de que el sistema de fichaje cambia el 1 de enero de 2027."
+      },
+      {
+       "type": "bullets",
+       "items": [
+        "Cada empleado recibe una tarjeta nueva.",
+        "Las tarjetas antiguas dejan de funcionar el 15 de enero de 2027.",
+        "Las dudas se envían a rrhh@acme.example."
+       ]
+      },
+      {
+       "type": "signature",
+       "items": [
+        "Rosa Vidal",
+        "Recursos Humanos"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Listo: /acme/documents/avisos/nuevo_fichaje.docx",
+  "seconds": 21.22,
+  "tokens_in": 2101,
+  "tokens_out": 209,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/avisos/nuevo_fichaje.docx",
+     "title": "Nuevo sistema de fichaje",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "Estimado equipo:"
+      },
+      {
+       "type": "paragraph",
+       "text": "Os informamos de que el sistema de fichaje cambiará el 1 de enero de 2027. Tenéis en cuenta lo siguiente:"
+      },
+      {
+       "type": "bullets",
+       "items": [
+        "Cada empleado recibe una tarjeta nueva.",
+        "Las tarjetas antiguas dejan de funcionar el 15 de enero de 2027.",
+        "Las dudas se envían a rrhh@acme.example."
+       ]
+      },
+      {
+       "type": "signature",
+       "items": [
+        "Rosa Vidal",
+        "Recursos Humanos"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/avisos/nuevo_fichaje.docx"
+ }
+}
