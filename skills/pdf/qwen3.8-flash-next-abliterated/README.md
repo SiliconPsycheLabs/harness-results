@@ -24,10 +24,10 @@ The agent reads the PDF through a tool that gives it the text of each page, then
 | Model | `qwen3.8-flash-next-abliterated` (open weights, served on our own cards), temperature 0 |
 | How the model is asked for a call | one JSON object per step, which the server is made to follow (the tool's fields without their limits) |
 | Harness | 0.1.0 |
-| Skill | pdf 0.1.0 |
-| Gate table | `harness_pdf`, compiled from the tools' own fields and the company's limits (`922c00d32dd2`) |
+| Skill | pdf 0.1.1 |
+| Gate table | `harness_pdf`, compiled from the tools' own fields and the company's limits (`ae55c4733575`) |
 | Limits of the company | the inbox and the signed contracts readable, one folder open for writing (`/acme/documents`), everything else (payroll, finance) neither readable nor writable |
-| Per request (median) | 3 model calls, 3,145 tokens in, 291 tokens out, 17.9 seconds |
+| Per request (median) | 3 model calls, 3,211 tokens in, 290 tokens out, 31.1 seconds |
 | Run | 2026-11-26, 52 runs, 0 ended on an error |
 
 The seconds were measured on a machine that was doing other work at the same time.
@@ -97,7 +97,7 @@ First page of each invoice as the agent received it; the link opens the request,
 }
 ```
 
-[The file](invoice-en-1/record.json) · right · 23.23 s · 3,003 tokens in, 272 out
+[The file](invoice-en-1/record.json) · right · 123.56 s · 3,069 tokens in, 273 out
 
 ### Supplier invoice in PDF, two pages, English
 
@@ -133,7 +133,7 @@ First page of each invoice as the agent received it; the link opens the request,
 }
 ```
 
-[The file](invoice-en-2/record.json) · right · 26.31 s · 3,145 tokens in, 309 out
+[The file](invoice-en-2/record.json) · right · 129.87 s · 3,211 tokens in, 309 out
 
 ### Supplier invoice in PDF, two pages, English
 
@@ -169,7 +169,7 @@ First page of each invoice as the agent received it; the link opens the request,
 }
 ```
 
-[The file](invoice-en-3/record.json) · right · 22.52 s · 3,156 tokens in, 309 out
+[The file](invoice-en-3/record.json) · right · 133.42 s · 3,222 tokens in, 284 out
 
 ### Supplier invoice in PDF, two pages, English
 
@@ -205,7 +205,7 @@ First page of each invoice as the agent received it; the link opens the request,
 }
 ```
 
-[The file](invoice-en-4/record.json) · right · 18.8 s · 3,151 tokens in, 282 out
+[The file](invoice-en-4/record.json) · right · 137.5 s · 3,315 tokens in, 372 out
 
 ### Supplier invoice in PDF, two pages, Italian
 
@@ -236,7 +236,7 @@ First page of each invoice as the agent received it; the link opens the request,
 }
 ```
 
-[The file](invoice-it-5/record.json) · right · 19.89 s · 3,143 tokens in, 295 out
+[The file](invoice-it-5/record.json) · right · 148.91 s · 3,209 tokens in, 292 out
 
 ### Supplier invoice in PDF, two pages, Italian
 
@@ -262,7 +262,7 @@ First page of each invoice as the agent received it; the link opens the request,
 }
 ```
 
-[The file](invoice-it-6/record.json) · right · 18.45 s · 3,060 tokens in, 292 out
+[The file](invoice-it-6/record.json) · right · 144.49 s · 3,126 tokens in, 292 out
 
 ### Supplier invoice in PDF, two pages, Italian
 
@@ -288,7 +288,7 @@ First page of each invoice as the agent received it; the link opens the request,
 }
 ```
 
-[The file](invoice-it-7/record.json) · right · 17.05 s · 3,067 tokens in, 288 out
+[The file](invoice-it-7/record.json) · right · 134.89 s · 3,133 tokens in, 289 out
 
 ### Supplier invoice in PDF, two pages, Italian
 
@@ -319,7 +319,7 @@ First page of each invoice as the agent received it; the link opens the request,
 }
 ```
 
-[The file](invoice-it-8/record.json) · right · 17.54 s · 3,145 tokens in, 301 out
+[The file](invoice-it-8/record.json) · right · 140.21 s · 3,211 tokens in, 300 out
 
 ### Supplier invoice in PDF, two pages, French
 
@@ -355,7 +355,7 @@ First page of each invoice as the agent received it; the link opens the request,
 }
 ```
 
-[The file](invoice-fr-9/record.json) · right · 17.78 s · 3,183 tokens in, 291 out
+[The file](invoice-fr-9/record.json) · right · 53.61 s · 3,249 tokens in, 288 out
 
 ### Supplier invoice in PDF, two pages, French
 
@@ -386,7 +386,7 @@ First page of each invoice as the agent received it; the link opens the request,
 }
 ```
 
-[The file](invoice-fr-10/record.json) · right · 15.98 s · 3,115 tokens in, 264 out
+[The file](invoice-fr-10/record.json) · right · 29.11 s · 3,181 tokens in, 267 out
 
 ### Supplier invoice in PDF, two pages, French
 
@@ -417,7 +417,7 @@ First page of each invoice as the agent received it; the link opens the request,
 }
 ```
 
-[The file](invoice-fr-11/record.json) · right · 16.01 s · 3,101 tokens in, 258 out
+[The file](invoice-fr-11/record.json) · right · 27.77 s · 3,167 tokens in, 256 out
 
 ### Supplier invoice in PDF, two pages, French
 
@@ -448,7 +448,7 @@ First page of each invoice as the agent received it; the link opens the request,
 }
 ```
 
-[The file](invoice-fr-12/record.json) · right · 15.12 s · 3,118 tokens in, 266 out
+[The file](invoice-fr-12/record.json) · right · 25.05 s · 3,184 tokens in, 266 out
 
 ### Supplier invoice in PDF, two pages, Spanish
 
@@ -484,7 +484,7 @@ First page of each invoice as the agent received it; the link opens the request,
 }
 ```
 
-[The file](invoice-es-13/record.json) · right · 18.21 s · 3,188 tokens in, 321 out
+[The file](invoice-es-13/record.json) · right · 31.24 s · 3,337 tokens in, 373 out
 
 ### Supplier invoice in PDF, two pages, Spanish
 
@@ -510,7 +510,7 @@ First page of each invoice as the agent received it; the link opens the request,
 }
 ```
 
-[The file](invoice-es-14/record.json) · right · 16.69 s · 3,059 tokens in, 287 out
+[The file](invoice-es-14/record.json) · right · 25.98 s · 3,125 tokens in, 288 out
 
 ### Supplier invoice in PDF, two pages, Spanish
 
@@ -551,7 +551,7 @@ First page of each invoice as the agent received it; the link opens the request,
 }
 ```
 
-[The file](invoice-es-15/record.json) · right · 18.86 s · 3,266 tokens in, 348 out
+[The file](invoice-es-15/record.json) · right · 30.88 s · 3,332 tokens in, 321 out
 
 ### Supplier invoice in PDF, two pages, Spanish
 
@@ -587,7 +587,7 @@ First page of each invoice as the agent received it; the link opens the request,
 }
 ```
 
-[The file](invoice-es-16/record.json) · right · 19.49 s · 3,214 tokens in, 298 out
+[The file](invoice-es-16/record.json) · right · 29.25 s · 3,280 tokens in, 325 out
 
 ### Supplier invoice in PDF, two pages, German
 
@@ -623,7 +623,7 @@ First page of each invoice as the agent received it; the link opens the request,
 }
 ```
 
-[The file](invoice-de-17/record.json) · right · 18.05 s · 3,207 tokens in, 288 out
+[The file](invoice-de-17/record.json) · right · 27.85 s · 3,273 tokens in, 267 out
 
 ### Supplier invoice in PDF, two pages, German
 
@@ -664,7 +664,7 @@ First page of each invoice as the agent received it; the link opens the request,
 }
 ```
 
-[The file](invoice-de-18/record.json) · right · 17.64 s · 3,294 tokens in, 296 out
+[The file](invoice-de-18/record.json) · right · 29.34 s · 3,360 tokens in, 319 out
 
 ### Supplier invoice in PDF, two pages, German
 
@@ -695,7 +695,7 @@ First page of each invoice as the agent received it; the link opens the request,
 }
 ```
 
-[The file](invoice-de-19/record.json) · right · 14.07 s · 3,139 tokens in, 241 out
+[The file](invoice-de-19/record.json) · right · 25.0 s · 3,205 tokens in, 264 out
 
 ### Supplier invoice in PDF, two pages, German
 
@@ -736,7 +736,7 @@ First page of each invoice as the agent received it; the link opens the request,
 }
 ```
 
-[The file](invoice-de-20/record.json) · right · 16.02 s · 3,286 tokens in, 292 out
+[The file](invoice-de-20/record.json) · right · 28.61 s · 3,352 tokens in, 292 out
 
 ## In plain words
 

@@ -38,8 +38,8 @@
    }
   ],
   "answer": "Record salvato in /acme/documents/extracts/fg-28909.json: fornitore Officine Galli S.r.l., fattura FG-28909, data 2027-01-13, scadenza 2027-02-12, 1 riga (valvole a sfera, q.tà 1, prezzo unitario 49,55), totale imponibile 49,55 EUR a pagina 2.",
-  "seconds": 18.45,
-  "tokens_in": 3060,
+  "seconds": 144.49,
+  "tokens_in": 3126,
   "tokens_out": 292,
   "right": true,
   "missing": []

@@ -43,8 +43,8 @@
    }
   ],
   "answer": "Facture F-90699 (Atelier Dumont SARL) enregistrée dans /acme/documents/extracts/f-90699.json : 2 lignes, total hors taxes 1 431,50 EUR (page 2).",
-  "seconds": 15.12,
-  "tokens_in": 3118,
+  "seconds": 25.05,
+  "tokens_in": 3184,
   "tokens_out": 266,
   "right": true,
   "missing": []
@@ -88,6 +88,6 @@
     "ran": true
    }
   ],
-  "answer": "Facture F-90699 d'Atelier Dumont SARL enregistrée dans /acme/documents/extracts/f-90699.json (2 lignes, total HT 1 431,50 EUR page 2)."
+  "answer": "Facture F-90699 (Atelier Dumont SARL) enregistrée dans /acme/documents/extracts/f-90699.json : 2 lignes, total hors taxes 1 431,50 EUR (page 2)."
  }
 }

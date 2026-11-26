@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "ventas@suministrosibarra.example"
+ ],
+ "subject": "Pedido PO-1987",
+ "body": "Estimados señores de Suministros Ibarra S.L.:\n\nLes enviamos nuestro pedido PO-1987. Necesitamos la entrega antes del 15 de enero de 2027 y el pedido asciende a 7.919,90 euros.\n\nRogamos a Carmen Ibarra que nos envíe una confirmación por escrito.\n\nQuedamos a la espera de sus noticias.\n\nAtentamente,\n\nOficina de Acme Components",
+ "attachments": [
+  "/acme/documents/orders/po-1987.xlsx"
+ ]
+}

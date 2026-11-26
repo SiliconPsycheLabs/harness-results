@@ -47,10 +47,10 @@
     "ran": true
    }
   ],
-  "answer": "Guardado en /acme/documents/extracts/si-52227.json: Suministros Ibarra S.L., factura SI-52227, fecha 2026-12-02, vencimiento 2027-01-31, 3 líneas, base imponible 104,20 EUR (página 2).",
-  "seconds": 18.21,
-  "tokens_in": 3188,
-  "tokens_out": 321,
+  "answer": "Datos de la factura SI-52227 guardados en /acme/documents/extracts/si-52227.json (proveedor Suministros Ibarra S.L., 3 líneas, base imponible 104,20 EUR en página 2).",
+  "seconds": 31.24,
+  "tokens_in": 3337,
+  "tokens_out": 373,
   "right": true,
   "missing": []
  },
@@ -98,6 +98,6 @@
     "ran": true
    }
   ],
-  "answer": "Guardado en /acme/documents/extracts/si-52227.json: Suministros Ibarra S.L., factura SI-52227, fecha 2026-12-02, vencimiento 2027-01-31, 3 líneas, base imponible 104,20 EUR (página 2)."
+  "answer": "Factura SI-52227 de Suministros Ibarra S.L. guardada en /acme/documents/extracts/si-52227.json (3 líneas, base imponible 104,20 EUR en la página 2)."
  }
 }

@@ -47,10 +47,10 @@
     "ran": true
    }
   ],
-  "answer": "Rechnung LM-4683 von Lindner Maschinenbau AG gespeichert unter /acme/documents/extracts/lm-4683.json (3 Positionen, Nettosumme 6.183,00 EUR auf Seite 2).",
-  "seconds": 18.05,
-  "tokens_in": 3207,
-  "tokens_out": 288,
+  "answer": "Die Daten der Rechnung LM-4683 von Lindner Maschinenbau AG wurden unter /acme/documents/extracts/lm-4683.json gespeichert.",
+  "seconds": 27.85,
+  "tokens_in": 3273,
+  "tokens_out": 267,
   "right": true,
   "missing": []
  },
@@ -98,6 +98,6 @@
     "ran": true
    }
   ],
-  "answer": "Die Daten der Rechnung LM-4683 von Lindner Maschinenbau AG wurden unter /acme/documents/extracts/lm-4683.json gespeichert (3 Positionen, Nettosumme 6.183,00 EUR auf Seite 2)."
+  "answer": "Die Daten der Rechnung LM-4683 von Lindner Maschinenbau AG wurden unter /acme/documents/extracts/lm-4683.json gespeichert."
  }
 }

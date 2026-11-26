@@ -47,10 +47,10 @@
     "ran": true
    }
   ],
-  "answer": "Facture F-26881 (Atelier Dumont SARL) enregistrée dans /acme/documents/extracts/f-26881.json : 3 lignes, total hors taxes 3 779,75 EUR (page 2).",
-  "seconds": 17.78,
-  "tokens_in": 3183,
-  "tokens_out": 291,
+  "answer": "Facture F-26881 d'Atelier Dumont SARL enregistrée dans /acme/documents/extracts/f-26881.json (3 lignes, total HT 3 779,75 EUR page 2).",
+  "seconds": 53.61,
+  "tokens_in": 3249,
+  "tokens_out": 288,
   "right": true,
   "missing": []
  },
@@ -98,6 +98,6 @@
     "ran": true
    }
   ],
-  "answer": "Facture F-26881 (Atelier Dumont SARL) enregistrée dans /acme/documents/extracts/f-26881.json : 3 lignes, total hors taxes 3 779,75 EUR (page 2)."
+  "answer": "Données enregistrées dans /acme/documents/extracts/f-26881.json"
  }
 }

@@ -1,0 +1,73 @@
+{
+ "request": "send-de-19",
+ "kind": "send",
+ "language": "de",
+ "model": "qwen3.8-flash-next-abliterated",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Lindner Maschinenbau AG"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "info@lindner-maschinenbau.example"
+     ],
+     "subject": "Bestellung PO-6350",
+     "body": "Sehr geehrte Damen und Herren,\n\nanbei senden wir Ihnen unsere Bestellung PO-6350. Wir benötigen die Lieferung bis zum 28. Dezember 2026. Der Gesamtbetrag der Bestellung beträgt 4.618,10 Euro.\n\nBitte senden Sie uns eine schriftliche Bestätigung zu.\n\nMit freundlichen Grüßen\nIhr Team bei Acme Components",
+     "attachments": [
+      "/acme/documents/orders/po-6350.xlsx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Die Bestellung PO-6350 wurde an Lindner Maschinenbau AG gesendet.",
+  "seconds": 28.81,
+  "tokens_in": 2165,
+  "tokens_out": 246,
+  "right": false,
+  "missing": [
+   "the mail lacks: Voss"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Lindner Maschinenbau AG"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "info@lindner-maschinenbau.example"
+     ],
+     "subject": "Bestellung PO-6350",
+     "body": "Sehr geehrte Damen und Herren,\n\nhiermit senden wir Ihnen unsere Bestellung PO-6350. Wir benötigen die Lieferung bis zum 28. Dezember 2026. Der Gesamtbetrag der Bestellung beträgt 4.618,10 Euro.\n\nBitte lassen Sie uns eine schriftliche Bestätigung zukommen.\n\nMit freundlichen Grüßen\nIhr Team von Acme Components",
+     "attachments": [
+      "/acme/documents/orders/po-6350.xlsx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Die Bestellung PO-6350 wurde an Lindner Maschinenbau AG gesendet."
+ }
+}

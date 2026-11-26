@@ -53,8 +53,8 @@
    }
   ],
   "answer": "Die Daten der Rechnung KW-34438 wurden unter /acme/documents/extracts/kw-34438.json gespeichert.",
-  "seconds": 16.02,
-  "tokens_in": 3286,
+  "seconds": 28.61,
+  "tokens_in": 3352,
   "tokens_out": 292,
   "right": true,
   "missing": []

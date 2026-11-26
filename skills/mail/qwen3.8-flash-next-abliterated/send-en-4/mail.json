@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "orders@northwind-bearings.example"
+ ],
+ "subject": "Order PO-5201",
+ "body": "Dear Northwind Bearings Ltd,\n\nPlease find attached our order PO-5201.\n\nWe require delivery by 24 January 2027. The total value of the order is 5,035.80 EUR.\n\nCould you please ask Ruth Sawyer to confirm this order in writing?\n\nThank you for your assistance.\n\nBest regards,\n\nAcme Components",
+ "attachments": [
+  "/acme/documents/orders/po-5201.xlsx"
+ ]
+}

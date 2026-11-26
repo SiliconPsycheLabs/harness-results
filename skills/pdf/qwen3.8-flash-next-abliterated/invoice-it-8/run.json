@@ -42,10 +42,10 @@
     "ran": true
    }
   ],
-  "answer": "Record salvato in /acme/documents/extracts/fg-55551.json: fornitore Officine Galli S.r.l., fattura FG-55551, data 2027-01-25, scadenza 2027-02-24, 2 righe, totale imponibile 1885,75 EUR (pagina 2).",
-  "seconds": 17.54,
-  "tokens_in": 3145,
-  "tokens_out": 301,
+  "answer": "Record salvato in /acme/documents/extracts/fg-55551.json: fornitore Officine Galli S.r.l., fattura FG-55551, data 2027-01-25, scadenza 2027-02-24, 2 righe, totale imponibile 1885,75 (pagina 2).",
+  "seconds": 140.21,
+  "tokens_in": 3211,
+  "tokens_out": 300,
   "right": true,
   "missing": []
  },
@@ -88,6 +88,6 @@
     "ran": true
    }
   ],
-  "answer": "Record saved to /acme/documents/extracts/fg-55551.json: supplier Officine Galli S.r.l., invoice FG-55551, date 2027-01-25, due 2027-02-24, 2 lines, net total 1885.75 on page 2."
+  "answer": "Record salvato in /acme/documents/extracts/fg-55551.json: fornitore Officine Galli S.r.l., fattura FG-55551, data 2027-01-25, scadenza 2027-02-24, 2 righe, totale imponibile 1885,75 EUR (pagina 2)."
  }
 }

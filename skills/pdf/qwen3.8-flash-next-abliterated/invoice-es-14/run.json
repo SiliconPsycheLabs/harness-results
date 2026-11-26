@@ -37,10 +37,10 @@
     "ran": true
    }
   ],
-  "answer": "Guardado /acme/documents/extracts/si-16567.json: Suministros Ibarra S.L., factura SI-16567, fecha 2027-01-18, vencimiento 2027-03-04, 1 línea (bridas de acero, 12 x 38,00), base imponible 456,00 EUR en la página 2.",
-  "seconds": 16.69,
-  "tokens_in": 3059,
-  "tokens_out": 287,
+  "answer": "Guardado en /acme/documents/extracts/si-16567.json: Suministros Ibarra S.L., factura SI-16567, fecha 2027-01-18, vencimiento 2027-03-04, 1 línea (bridas de acero, 12 × 38,00), base imponible 456,00 EUR en la página 2.",
+  "seconds": 25.98,
+  "tokens_in": 3125,
+  "tokens_out": 288,
   "right": true,
   "missing": []
  },
@@ -78,6 +78,6 @@
     "ran": true
    }
   ],
-  "answer": "Guardado en /acme/documents/extracts/si-16567.json: Suministros Ibarra S.L., factura SI-16567, fecha 2027-01-18, vencimiento 2027-03-04, 1 línea (bridas de acero, 12 x 38,00), base imponible 456,00 EUR en la página 2."
+  "answer": "Factura SI-16567 de Suministros Ibarra S.L. guardada en /acme/documents/extracts/si-16567.json (base imponible 456,00 EUR en página 2)."
  }
 }

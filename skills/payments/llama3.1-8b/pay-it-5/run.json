@@ -1,0 +1,105 @@
+{
+ "request": "pay-it-5",
+ "kind": "pay",
+ "language": "it",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "list_open_bills",
+    "arguments": {
+     "supplier": "Officine Galli S.r.l."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "pay_bill",
+    "arguments": {
+     "supplier": "Officine Galli S.r.l.",
+     "number": "FG-69996",
+     "amount": 200.2,
+     "iban": "IT40S0542811101000000654321"
+    },
+    "gate": "held for the administration, who confirmed it",
+    "reason": "the payment waits for the administration's confirmation",
+    "ran": true
+   },
+   {
+    "tool": "list_open_bills",
+    "arguments": {
+     "supplier": "Officine Galli S.r.l."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "pay_bill",
+    "arguments": {
+     "supplier": "Officine Galli S.r.l.",
+     "number": "FG-51762",
+     "amount": 457.6,
+     "iban": "IT40S0542811101000000654321"
+    },
+    "gate": "held for the administration, who confirmed it",
+    "reason": "the payment waits for the administration's confirmation",
+    "ran": true
+   }
+  ],
+  "answer": "Paid FG-69996 and FG-51762. Nothing else to pay.",
+  "seconds": 6.61,
+  "tokens_in": 4214,
+  "tokens_out": 216,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "list_open_bills",
+    "arguments": {
+     "supplier": "Officine Galli S.r.l."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "pay_bill",
+    "arguments": {
+     "supplier": "Officine Galli S.r.l.",
+     "number": "FG-69996",
+     "amount": 200.2,
+     "iban": "IT40S0542811101000000654321"
+    },
+    "gate": "held for the administration, who confirmed it",
+    "reason": "the payment waits for the administration's confirmation",
+    "ran": true
+   },
+   {
+    "tool": "list_open_bills",
+    "arguments": {
+     "supplier": "Officine Galli S.r.l."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "pay_bill",
+    "arguments": {
+     "supplier": "Officine Galli S.r.l.",
+     "number": "FG-51762",
+     "amount": 457.6,
+     "iban": "IT40S0542811101000000654321"
+    },
+    "gate": "held for the administration, who confirmed it",
+    "reason": "the payment waits for the administration's confirmation",
+    "ran": true
+   }
+  ],
+  "answer": "Paid FG-69996 and FG-51762. Nothing else to pay."
+ }
+}

@@ -94,7 +94,7 @@ Best regards,
 Acme Components Office
 ```
 
-[The file](send-en-1/mail.json) · right · 7.15 s · 2,119 tokens in, 239 out
+[The mail](send-en-1/mail.json) · right · 7.15 s · 2,119 tokens in, 239 out
 
 ### A mail with an attachment, English
 
@@ -120,7 +120,7 @@ Best regards,
 Acme Components Office
 ```
 
-[The file](send-en-2/mail.json) · right · 7.25 s · 2,140 tokens in, 244 out
+[The mail](send-en-2/mail.json) · right · 7.25 s · 2,140 tokens in, 244 out
 
 ### A mail with an attachment, English
 
@@ -142,7 +142,7 @@ Best regards,
 Acme Components Office
 ```
 
-[The file](send-en-3/mail.json) · not right: the mail lacks: Marsh · 5.33 s · 2,098 tokens in, 211 out
+[The mail](send-en-3/mail.json) · not right: the mail lacks: Marsh · 5.33 s · 2,098 tokens in, 211 out
 
 ### A mail with an attachment, English
 
@@ -164,7 +164,7 @@ Best regards,
 Acme Components
 ```
 
-[The file](send-en-4/mail.json) · not right: the mail lacks: Sawyer · 5.59 s · 2,117 tokens in, 215 out
+[The mail](send-en-4/mail.json) · not right: the mail lacks: Sawyer · 5.59 s · 2,117 tokens in, 215 out
 
 ### A mail with an attachment, Italian
 
@@ -190,7 +190,7 @@ Cordiali saluti,
 Acme Components
 ```
 
-[The file](send-it-5/mail.json) · right · 9.02 s · 2,320 tokens in, 353 out
+[The mail](send-it-5/mail.json) · right · 9.02 s · 2,320 tokens in, 353 out
 
 ### A mail with an attachment, Italian
 
@@ -213,7 +213,7 @@ Acme Components
 
 ```
 
-[The file](send-it-6/mail.json) · not right: the mail lacks: Monti · 8.91 s · 2,282 tokens in, 332 out
+[The mail](send-it-6/mail.json) · not right: the mail lacks: Monti · 8.91 s · 2,282 tokens in, 332 out
 
 ### A mail with an attachment, Italian
 
@@ -237,7 +237,7 @@ Acme Components
 Allegato: /acme/documents/orders/po-3909.xlsx
 ```
 
-[The file](send-it-7/mail.json) · right · 8.46 s · 2,351 tokens in, 321 out
+[The mail](send-it-7/mail.json) · right · 8.46 s · 2,351 tokens in, 321 out
 
 ### A mail with an attachment, Italian
 
@@ -261,7 +261,7 @@ Acme Components
 Allegato: /acme/documents/orders/po-8359.xlsx
 ```
 
-[The file](send-it-8/mail.json) · not right: the mail lacks: Ferri · 9.83 s · 2,312 tokens in, 363 out
+[The mail](send-it-8/mail.json) · not right: the mail lacks: Ferri · 9.83 s · 2,312 tokens in, 363 out
 
 ### A mail with an attachment, French
 
@@ -285,7 +285,7 @@ Cordialement,
 Acme Components
 ```
 
-[The file](send-fr-9/mail.json) · right · 8.29 s · 2,306 tokens in, 300 out
+[The mail](send-fr-9/mail.json) · right · 8.29 s · 2,306 tokens in, 300 out
 
 ### A mail with an attachment, French
 
@@ -310,7 +310,7 @@ Acme Components
 
 ```
 
-[The file](send-fr-10/mail.json) · right · 7.94 s · 2,291 tokens in, 289 out
+[The mail](send-fr-10/mail.json) · right · 7.94 s · 2,291 tokens in, 289 out
 
 ### A mail with an attachment, French
 
@@ -332,7 +332,7 @@ Cordialement,
 Acme Components
 ```
 
-[The file](send-fr-11/mail.json) · not right: the mail lacks: Lefèvre · 7.53 s · 2,268 tokens in, 265 out
+[The mail](send-fr-11/mail.json) · not right: the mail lacks: Lefèvre · 7.53 s · 2,268 tokens in, 265 out
 
 ### A mail with an attachment, French
 
@@ -357,7 +357,7 @@ Acme Components
 
 ```
 
-[The file](send-fr-12/mail.json) · right · 8.09 s · 2,285 tokens in, 276 out
+[The mail](send-fr-12/mail.json) · right · 8.09 s · 2,285 tokens in, 276 out
 
 ### A mail with an attachment, Spanish
 
@@ -373,7 +373,7 @@ Estimada Carmen Ibarra, Necesitamos que confirme por escrito que nuestro pedido 
 Acme Components
 ```
 
-[The file](send-es-13/mail.json) · right · 6.86 s · 2,239 tokens in, 247 out
+[The mail](send-es-13/mail.json) · right · 6.86 s · 2,239 tokens in, 247 out
 
 ### A mail with an attachment, Spanish
 
@@ -397,7 +397,7 @@ Atentamente,
 Acme Components.
 ```
 
-[The file](send-es-14/mail.json) · not right: the mail lacks: Aranda · 8.19 s · 2,292 tokens in, 337 out
+[The mail](send-es-14/mail.json) · not right: the mail lacks: Aranda · 8.19 s · 2,292 tokens in, 337 out
 
 ### A mail with an attachment, Spanish
 
@@ -419,7 +419,7 @@ Atentamente,
 Acme Components.
 ```
 
-[The file](send-es-15/mail.json) · not right: the mail lacks: Aranda · 6.72 s · 2,263 tokens in, 287 out
+[The mail](send-es-15/mail.json) · not right: the mail lacks: Aranda · 6.72 s · 2,263 tokens in, 287 out
 
 ### A mail with an attachment, Spanish
 
@@ -441,7 +441,7 @@ Acme Components
 P.D. Por favor, encuentre adjunto el documento del pedido.
 ```
 
-[The file](send-es-16/mail.json) · not right: the mail lacks: Pardo · 6.59 s · 2,270 tokens in, 284 out
+[The mail](send-es-16/mail.json) · not right: the mail lacks: Pardo · 6.59 s · 2,270 tokens in, 284 out
 
 ### A mail with an attachment, German
 
@@ -456,7 +456,7 @@ Attachments: /acme/documents/orders/po-3143.xlsx
 Wir benörigen die Lieferung bis zum 11. Dezember 2026 und die Bestellung PO-3143 beträgt 4.020,60 Euro. Bitte senden Sie uns eine schriftliche Bestätigung bei Anja Seidel.
 ```
 
-[The file](send-de-17/mail.json) · right · 5.0 s · 2,256 tokens in, 213 out
+[The mail](send-de-17/mail.json) · right · 5.0 s · 2,256 tokens in, 213 out
 
 ### A mail with an attachment, German
 
@@ -471,7 +471,7 @@ Attachments: /acme/documents/orders/po-2573.xlsx
 Wir benörigen die Lieferung der Bestellung PO-2573 bis zum 14. Dezember 2026. Die Bestellung beträgt 2.181,90 Euro. Bitte senden Sie uns eine schriftliche Bestätigung von Felix Hofmann.
 ```
 
-[The file](send-de-18/mail.json) · right · 5.09 s · 2,264 tokens in, 218 out
+[The mail](send-de-18/mail.json) · right · 5.09 s · 2,264 tokens in, 218 out
 
 ### A mail with an attachment, German
 
@@ -486,7 +486,7 @@ Attachments: /acme/documents/orders/po-6350.xlsx
 Wir benörigen die Lieferung bis zum 28. Dezember 2026 und die Bestellung PO-6350 beträgt 4.618,10 Euro. Bitte senden Sie uns eine schriftliche Bestätigung. Vielen Dank.
 ```
 
-[The file](send-de-19/mail.json) · not right: the mail lacks: Voss · 5.07 s · 2,256 tokens in, 220 out
+[The mail](send-de-19/mail.json) · not right: the mail lacks: Voss · 5.07 s · 2,256 tokens in, 220 out
 
 ### A mail with an attachment, German
 
@@ -501,7 +501,7 @@ Attachments: /acme/documents/orders/po-6229.xlsx
 Wir benörigen die Lieferung bis zum 20. Dezember 2026 und die Bestellung PO-6229 beträgt 848,20 Euro. Wir bitten um eine schriftliche Bestätigung bei Mira Scholz.
 ```
 
-[The file](send-de-20/mail.json) · right · 4.78 s · 2,241 tokens in, 208 out
+[The mail](send-de-20/mail.json) · right · 4.78 s · 2,241 tokens in, 208 out
 
 ## In plain words
 

@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "ordini@officinegalli.example"
+ ],
+ "subject": "Ordine PO-7273",
+ "body": "Gentili Signori,\n\ncon la presente trasmettiamo il nostro ordine PO-7273.\n\nVi chiediamo cortesemente di confermare la ricezione e di garantire la consegna entro il 15 gennaio 2027. L'importo totale dell'ordine è di 8.846,90 euro.\n\nChiediamo inoltre a Stefano Riva di inviarci una conferma scritta dell'ordine.\n\nIn allegato trovate il documento dell'ordine.\n\nCordiali saluti,\n\nUfficio Acquisti\nAcme Components",
+ "attachments": [
+  "/acme/documents/orders/po-7273.xlsx"
+ ]
+}

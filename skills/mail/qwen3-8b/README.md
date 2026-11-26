@@ -90,7 +90,7 @@ Kind regards,
 Acme Components
 ```
 
-[The file](send-en-1/mail.json) · not right: the mail lacks: Marsh · 4.75 s · 2,015 tokens in, 184 out
+[The mail](send-en-1/mail.json) · not right: the mail lacks: Marsh · 4.75 s · 2,015 tokens in, 184 out
 
 ### A mail with an attachment, English
 
@@ -116,7 +116,7 @@ Kind regards,
 Acme Components
 ```
 
-[The file](send-en-2/mail.json) · not right: the mail lacks: Sawyer · 4.98 s · 2,030 tokens in, 198 out
+[The mail](send-en-2/mail.json) · not right: the mail lacks: Sawyer · 4.98 s · 2,030 tokens in, 198 out
 
 ### A mail with an attachment, English
 
@@ -136,7 +136,7 @@ Kind regards,
 Acme Components
 ```
 
-[The file](send-en-3/mail.json) · not right: the mail lacks: Marsh · 4.29 s · 2,017 tokens in, 193 out
+[The mail](send-en-3/mail.json) · not right: the mail lacks: Marsh · 4.29 s · 2,017 tokens in, 193 out
 
 ### A mail with an attachment, English
 
@@ -158,7 +158,7 @@ Best regards,
 Acme Components
 ```
 
-[The file](send-en-4/mail.json) · right · 4.42 s · 2,045 tokens in, 200 out
+[The mail](send-en-4/mail.json) · right · 4.42 s · 2,045 tokens in, 200 out
 
 ### A mail with an attachment, Italian
 
@@ -178,7 +178,7 @@ Cordiali saluti,
 Acme Components
 ```
 
-[The file](send-it-5/mail.json) · right · 5.09 s · 2,126 tokens in, 232 out
+[The mail](send-it-5/mail.json) · right · 5.09 s · 2,126 tokens in, 232 out
 
 ### A mail with an attachment, Italian
 
@@ -198,7 +198,7 @@ Cordiali saluti,
 Acme Components
 ```
 
-[The file](send-it-6/mail.json) · right · 4.74 s · 2,114 tokens in, 216 out
+[The mail](send-it-6/mail.json) · right · 4.74 s · 2,114 tokens in, 216 out
 
 ### A mail with an attachment, Italian
 
@@ -222,7 +222,7 @@ Cordiali saluti,
 Acme Components
 ```
 
-[The file](send-it-7/mail.json) · right · 5.83 s · 2,182 tokens in, 269 out
+[The mail](send-it-7/mail.json) · right · 5.83 s · 2,182 tokens in, 269 out
 
 ### A mail with an attachment, Italian
 
@@ -247,7 +247,7 @@ Cordiali saluti,
 [Il vostro nome]
 ```
 
-[The file](send-it-8/mail.json) · right · 6.36 s · 2,174 tokens in, 291 out
+[The mail](send-it-8/mail.json) · right · 6.36 s · 2,174 tokens in, 291 out
 
 ### A mail with an attachment, French
 
@@ -267,7 +267,7 @@ Cordialement,
 L'Équipe Acme Components
 ```
 
-[The file](send-fr-9/mail.json) · right · 4.92 s · 2,101 tokens in, 225 out
+[The mail](send-fr-9/mail.json) · right · 4.92 s · 2,101 tokens in, 225 out
 
 ### A mail with an attachment, French
 
@@ -290,7 +290,7 @@ Cordialement,
 L'Équipe Acme Components
 ```
 
-[The file](send-fr-10/mail.json) · right · 4.95 s · 2,107 tokens in, 225 out
+[The mail](send-fr-10/mail.json) · right · 4.95 s · 2,107 tokens in, 225 out
 
 ### A mail with an attachment, French
 
@@ -310,7 +310,7 @@ Cordialement,
 L'Équipe Acme Components
 ```
 
-[The file](send-fr-11/mail.json) · right · 4.99 s · 2,103 tokens in, 226 out
+[The mail](send-fr-11/mail.json) · right · 4.99 s · 2,103 tokens in, 226 out
 
 ### A mail with an attachment, French
 
@@ -333,7 +333,7 @@ Cordialement,
 L'Office d'Acme Components
 ```
 
-[The file](send-fr-12/mail.json) · right · 4.99 s · 2,104 tokens in, 225 out
+[The mail](send-fr-12/mail.json) · right · 4.99 s · 2,104 tokens in, 225 out
 
 ### A mail with an attachment, Spanish
 
@@ -353,7 +353,7 @@ Atentamente,
 Equipo de Acme Components
 ```
 
-[The file](send-es-13/mail.json) · right · 5.15 s · 2,129 tokens in, 234 out
+[The mail](send-es-13/mail.json) · right · 5.15 s · 2,129 tokens in, 234 out
 
 ### A mail with an attachment, Spanish
 
@@ -373,7 +373,7 @@ Atentamente,
 Equipo de Acme Components
 ```
 
-[The file](send-es-14/mail.json) · right · 4.84 s · 2,110 tokens in, 220 out
+[The mail](send-es-14/mail.json) · right · 4.84 s · 2,110 tokens in, 220 out
 
 ### A mail with an attachment, Spanish
 
@@ -393,7 +393,7 @@ Atentamente,
 Equipo de Acme Components
 ```
 
-[The file](send-es-15/mail.json) · right · 4.83 s · 2,110 tokens in, 220 out
+[The mail](send-es-15/mail.json) · right · 4.83 s · 2,110 tokens in, 220 out
 
 ### A mail with an attachment, Spanish
 
@@ -408,7 +408,7 @@ Attachments: /acme/documents/orders/po-2235.xlsx
 Queremos confirmar nuestro pedido PO-2235. Necesitamos la entrega antes del 5 de enero de 2027 y el pedido asciende a 8.892,30 euros. Por favor, pide a Elena Pardo una confirmación por escrito. Gracias por tu atención.
 ```
 
-[The file](send-es-16/mail.json) · right · 4.74 s · 2,112 tokens in, 216 out
+[The mail](send-es-16/mail.json) · right · 4.74 s · 2,112 tokens in, 216 out
 
 ### A mail with an attachment, German
 
@@ -431,7 +431,7 @@ Mit freundlichen Grüßen,
 Acme Components
 ```
 
-[The file](send-de-17/mail.json) · not right: the mail lacks: Seidel · 5.48 s · 2,167 tokens in, 249 out
+[The mail](send-de-17/mail.json) · not right: the mail lacks: Seidel · 5.48 s · 2,167 tokens in, 249 out
 
 ### A mail with an attachment, German
 
@@ -454,7 +454,7 @@ Mit freundlichen Grüßen,
 Acme Components
 ```
 
-[The file](send-de-18/mail.json) · not right: the mail lacks: Hofmann · 5.64 s · 2,173 tokens in, 258 out
+[The mail](send-de-18/mail.json) · not right: the mail lacks: Hofmann · 5.64 s · 2,173 tokens in, 258 out
 
 ### A mail with an attachment, German
 
@@ -476,7 +476,7 @@ Mit freundlichen Grüßen,
 Ihr Acme Components Team
 ```
 
-[The file](send-de-19/mail.json) · right · 5.54 s · 2,168 tokens in, 253 out
+[The mail](send-de-19/mail.json) · right · 5.54 s · 2,168 tokens in, 253 out
 
 ### A mail with an attachment, German
 
@@ -499,7 +499,7 @@ Mit freundlichen Grüßen,
 Acme Components
 ```
 
-[The file](send-de-20/mail.json) · right · 5.65 s · 2,171 tokens in, 260 out
+[The mail](send-de-20/mail.json) · right · 5.65 s · 2,171 tokens in, 260 out
 
 ## In plain words
 

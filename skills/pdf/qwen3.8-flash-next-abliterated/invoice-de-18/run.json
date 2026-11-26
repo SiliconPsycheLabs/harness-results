@@ -52,10 +52,10 @@
     "ran": true
    }
   ],
-  "answer": "Die Daten der Rechnung LM-1134 von Lindner Maschinenbau AG wurden unter /acme/documents/extracts/lm-1134.json gespeichert.",
-  "seconds": 17.64,
-  "tokens_in": 3294,
-  "tokens_out": 296,
+  "answer": "Die Daten der Rechnung LM-1134 von Lindner Maschinenbau AG wurden unter /acme/documents/extracts/lm-1134.json gespeichert (4 Positionen, Nettosumme 8.136,40 EUR auf Seite 2).",
+  "seconds": 29.34,
+  "tokens_in": 3360,
+  "tokens_out": 319,
   "right": true,
   "missing": []
  },
@@ -108,6 +108,6 @@
     "ran": true
    }
   ],
-  "answer": "Die Daten der Rechnung LM-1134 von Lindner Maschinenbau AG wurden unter /acme/documents/extracts/lm-1134.json gespeichert (4 Positionen, Nettosumme 8.136,40 EUR auf Seite 2)."
+  "answer": "Rechnung LM-1134 von Lindner Maschinenbau AG wurde erfolgreich unter /acme/documents/extracts/lm-1134.json gespeichert."
  }
 }

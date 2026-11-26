@@ -48,8 +48,8 @@
    }
   ],
   "answer": "Saved /acme/documents/extracts/nb-39250.json: Northwind Bearings Ltd, invoice NB-39250, dated 2027-01-05 (due 2027-02-19), 3 lines, net total 2578.10 on page 2.",
-  "seconds": 26.31,
-  "tokens_in": 3145,
+  "seconds": 129.87,
+  "tokens_in": 3211,
   "tokens_out": 309,
   "right": true,
   "missing": []

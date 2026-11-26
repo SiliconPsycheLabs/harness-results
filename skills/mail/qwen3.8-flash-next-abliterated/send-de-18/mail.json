@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "vertrieb@kraemer-werkzeugbau.example"
+ ],
+ "subject": "Bestellung PO-2573",
+ "body": "Sehr geehrte Damen und Herren,\n\nanbei senden wir Ihnen unsere Bestellung PO-2573. Wir benötigen die Lieferung bis zum 14. Dezember 2026. Der Gesamtbetrag der Bestellung beträgt 2.181,90 Euro.\n\nBitte lassen Sie uns eine schriftliche Bestätigung zukommen.\n\nMit freundlichen Grüßen\n\nIhr Team von Acme Components",
+ "attachments": [
+  "/acme/documents/orders/po-2573.xlsx"
+ ]
+}

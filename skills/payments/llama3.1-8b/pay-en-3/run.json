@@ -1,0 +1,87 @@
+{
+ "request": "pay-en-3",
+ "kind": "pay",
+ "language": "en",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "list_open_bills",
+    "arguments": {
+     "supplier": "Northwind Bearings"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "pay_bill",
+    "arguments": {
+     "supplier": "Northwind Bearings Ltd",
+     "number": "NB-44350",
+     "amount": 4535.3,
+     "iban": "GB29NWBK60161331926819"
+    },
+    "gate": "held for the administration, who confirmed it",
+    "reason": "the payment waits for the administration's confirmation",
+    "ran": true
+   },
+   {
+    "tool": "pay_bill",
+    "arguments": {
+     "supplier": "Northwind Bearings Ltd",
+     "number": "NB-59943",
+     "amount": 3121.6,
+     "iban": "GB29NWBK60161331926819"
+    },
+    "gate": "held for the administration, who confirmed it",
+    "reason": "the payment waits for the administration's confirmation",
+    "ran": true
+   }
+  ],
+  "answer": "paid NB-44350 and NB-59943, nothing else to pay",
+  "seconds": 14.13,
+  "tokens_in": 3055,
+  "tokens_out": 172,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "list_open_bills",
+    "arguments": {
+     "supplier": "Northwind Bearings"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "pay_bill",
+    "arguments": {
+     "supplier": "Northwind Bearings Ltd",
+     "number": "NB-44350",
+     "amount": 4535.3,
+     "iban": "GB29NWBK60161331926819"
+    },
+    "gate": "held for the administration, who confirmed it",
+    "reason": "the payment waits for the administration's confirmation",
+    "ran": true
+   },
+   {
+    "tool": "pay_bill",
+    "arguments": {
+     "supplier": "Northwind Bearings Ltd",
+     "number": "NB-59943",
+     "amount": 3121.6,
+     "iban": "GB29NWBK60161331926819"
+    },
+    "gate": "held for the administration, who confirmed it",
+    "reason": "the payment waits for the administration's confirmation",
+    "ran": true
+   }
+  ],
+  "answer": "paid NB-44350 and NB-59943, nothing else to pay"
+ }
+}

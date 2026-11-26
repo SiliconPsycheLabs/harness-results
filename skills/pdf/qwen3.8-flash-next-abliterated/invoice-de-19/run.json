@@ -42,10 +42,10 @@
     "ran": true
    }
   ],
-  "answer": "Die Daten der Rechnung KW-93904 wurden unter /acme/documents/extracts/kw-93904.json gespeichert.",
-  "seconds": 14.07,
-  "tokens_in": 3139,
-  "tokens_out": 241,
+  "answer": "Rechnung KW-93904 von Krämer Werkzeugbau GmbH gespeichert unter /acme/documents/extracts/kw-93904.json (Nettosumme 1.027,85 EUR, Seite 2).",
+  "seconds": 25.0,
+  "tokens_in": 3205,
+  "tokens_out": 264,
   "right": true,
   "missing": []
  },
@@ -88,6 +88,6 @@
     "ran": true
    }
   ],
-  "answer": "Datensatz unter /acme/documents/extracts/kw-93904.json gespeichert: Krämer Werkzeugbau GmbH, Rechnung KW-93904, Datum 2026-12-04, Fällig 2027-01-03, 2 Positionen, Nettosumme 1027,85 EUR auf Seite 2."
+  "answer": "Die Daten der Rechnung KW-93904 wurden unter /acme/documents/extracts/kw-93904.json gespeichert."
  }
 }

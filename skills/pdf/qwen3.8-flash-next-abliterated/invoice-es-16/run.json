@@ -47,10 +47,10 @@
     "ran": true
    }
   ],
-  "answer": "Factura SI-61693 de Suministros Ibarra S.L. guardada en /acme/documents/extracts/si-61693.json (3 líneas, base imponible 5.992,80 EUR en la página 2).",
-  "seconds": 19.49,
-  "tokens_in": 3214,
-  "tokens_out": 298,
+  "answer": "Guardado en /acme/documents/extracts/si-61693.json: Suministros Ibarra S.L., factura SI-61693, fecha 2026-12-24, vencimiento 2027-02-07, 3 líneas, base imponible 5.992,80 EUR (página 2).",
+  "seconds": 29.25,
+  "tokens_in": 3280,
+  "tokens_out": 325,
   "right": true,
   "missing": []
  },
@@ -98,6 +98,6 @@
     "ran": true
    }
   ],
-  "answer": "Factura SI-61693 de Suministros Ibarra S.L. guardada en /acme/documents/extracts/si-61693.json (3 líneas, base imponible 5.992,80 EUR en la página 2)."
+  "answer": "Guardado en /acme/documents/extracts/si-61693.json: Suministros Ibarra S.L., factura SI-61693, fecha 2026-12-24, vencimiento 2027-02-07, 3 líneas, base imponible 5992,80 (página 2)."
  }
 }

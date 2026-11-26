@@ -6,6 +6,7 @@ Each skill is one thing an office needs done. Its page gives the whole recipe (m
 
 - **[excel](skills/excel/)**: Write an Excel sheet (.xlsx) from an office request: a table with typed columns and a total row computed by a formula.
 - **[mail](skills/mail/)**: Write and send a mail to a supplier or a colleague, with the attachments asked, only to addresses the company allows.
+- **[payments](skills/payments/)**: Prepare the payment of validated supplier bills in the accounting application: every payment waits for a person, and a bank account that is not the one on file is never paid.
 - **[pdf](skills/pdf/)**: Read a supplier invoice in PDF and save its data as a record: supplier, number, dates, lines, net total and the page the total is on.
 - **[supplier_bill](skills/supplier_bill/)**: Enter a supplier invoice in the accounting application as a draft bill: supplier, number, dates, lines and net total.
 - **[word](skills/word/)**: Write a Word document (.docx) from an office request: letters, minutes, quotes, reports, notices, instructions.
@@ -16,11 +17,16 @@ Each skill is one thing an office needs done. Its page gives the whole recipe (m
 | [excel](skills/excel/) | [`granite3.3-8b`](skills/excel/granite3.3-8b/) | **20 of 20** | **6 of 6** | 7.6 s | 1,991 in, 273 out |
 | [excel](skills/excel/) | [`qwen3.8-flash-next-abliterated`](skills/excel/qwen3.8-flash-next-abliterated/) | **20 of 20** | **6 of 6** | 31.4 s | 2,020 in, 359 out |
 | [excel](skills/excel/) | [`llama3.1-8b`](skills/excel/llama3.1-8b/) | **2 of 20** | **6 of 6** | 0.7 s | 801 in, 24 out |
+| [mail](skills/mail/) | [`qwen3.8-flash-next-abliterated`](skills/mail/qwen3.8-flash-next-abliterated/) | **16 of 20** | **6 of 6** | 27.1 s | 2,141 in, 245 out |
 | [mail](skills/mail/) | [`qwen3-8b`](skills/mail/qwen3-8b/) | **15 of 20** | **6 of 6** | 5.0 s | 2,111 in, 225 out |
 | [mail](skills/mail/) | [`llama3.1-8b`](skills/mail/llama3.1-8b/) | **14 of 20** | **6 of 6** | 4.9 s | 2,088 in, 192 out |
 | [mail](skills/mail/) | [`granite3.3-8b`](skills/mail/granite3.3-8b/) | **11 of 20** | **6 of 6** | 7.2 s | 2,266 in, 270 out |
+| [payments](skills/payments/) | [`llama3.1-8b`](skills/payments/llama3.1-8b/) | **20 of 20** | **6 of 6** | 8.2 s | 3,612 in, 193 out |
+| [payments](skills/payments/) | [`granite3.3-8b`](skills/payments/granite3.3-8b/) | **20 of 20** | **6 of 6** | 8.4 s | 3,431 in, 219 out |
+| [payments](skills/payments/) | [`qwen3-8b`](skills/payments/qwen3-8b/) | **20 of 20** | **6 of 6** | 9.9 s | 3,289 in, 234 out |
+| [payments](skills/payments/) | [`qwen3.8-flash-next-abliterated`](skills/payments/qwen3.8-flash-next-abliterated/) | **20 of 20** | **6 of 6** | 39.9 s | 3,326 in, 244 out |
 | [pdf](skills/pdf/) | [`qwen3-8b`](skills/pdf/qwen3-8b/) | **20 of 20** | **6 of 6** | 5.5 s | 3,204 in, 246 out |
-| [pdf](skills/pdf/) | [`qwen3.8-flash-next-abliterated`](skills/pdf/qwen3.8-flash-next-abliterated/) | **20 of 20** | **6 of 6** | 17.9 s | 3,145 in, 291 out |
+| [pdf](skills/pdf/) | [`qwen3.8-flash-next-abliterated`](skills/pdf/qwen3.8-flash-next-abliterated/) | **20 of 20** | **6 of 6** | 31.1 s | 3,211 in, 290 out |
 | [pdf](skills/pdf/) | [`granite3.3-8b`](skills/pdf/granite3.3-8b/) | **17 of 20** | **6 of 6** | 7.1 s | 3,334 in, 262 out |
 | [pdf](skills/pdf/) | [`llama3.1-8b`](skills/pdf/llama3.1-8b/) | **13 of 20** | **6 of 6** | 6.1 s | 3,116 in, 215 out |
 | [supplier_bill](skills/supplier_bill/) | [`qwen3-8b`](skills/supplier_bill/qwen3-8b/) | **20 of 20** | **6 of 6** | 7.5 s | 3,264 in, 221 out |

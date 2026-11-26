@@ -42,10 +42,10 @@
     "ran": true
    }
   ],
-  "answer": "Facture F-74795 d'Atelier Dumont SARL enregistrée dans /acme/documents/extracts/f-74795.json (2 lignes, total HT 2 664,30 EUR page 2).",
-  "seconds": 15.98,
-  "tokens_in": 3115,
-  "tokens_out": 264,
+  "answer": "Facture F-74795 (Atelier Dumont SARL) enregistrée dans /acme/documents/extracts/f-74795.json : 2 lignes, total hors taxes 2 664,30 EUR (page 2).",
+  "seconds": 29.11,
+  "tokens_in": 3181,
+  "tokens_out": 267,
   "right": true,
   "missing": []
  },
@@ -88,6 +88,6 @@
     "ran": true
    }
   ],
-  "answer": "Données enregistrées dans /acme/documents/extracts/f-74795.json (fournisseur Atelier Dumont SARL, facture F-74795, total HT 2 664,30 EUR page 2)."
+  "answer": "Facture F-74795 (Atelier Dumont SARL) enregistrée dans /acme/documents/extracts/f-74795.json : 2 lignes, total hors taxes 2 664,30 EUR (page 2)."
  }
 }

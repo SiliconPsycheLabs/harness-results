@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "commerciale@tessiturabellomo.example"
+ ],
+ "subject": "Ordine PO-3909",
+ "body": "Gentili Signori,\n\ncon la presente trasmettiamo il nostro ordine PO-3909.\n\nVi informiamo che la consegna è richiesta entro il 21 gennaio 2027 e che l'ordine ha un valore di 3.511,10 euro.\n\nChiediamo cortesemente a Paolo Greco di inviarci una conferma scritta.\n\nCordiali saluti,\n\nUfficio Acquisti\nAcme Components",
+ "attachments": [
+  "/acme/documents/orders/po-3909.xlsx"
+ ]
+}

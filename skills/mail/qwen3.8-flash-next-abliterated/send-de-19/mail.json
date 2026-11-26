@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "info@lindner-maschinenbau.example"
+ ],
+ "subject": "Bestellung PO-6350",
+ "body": "Sehr geehrte Damen und Herren,\n\nanbei senden wir Ihnen unsere Bestellung PO-6350. Wir benötigen die Lieferung bis zum 28. Dezember 2026. Der Gesamtbetrag der Bestellung beträgt 4.618,10 Euro.\n\nBitte senden Sie uns eine schriftliche Bestätigung zu.\n\nMit freundlichen Grüßen\nIhr Team bei Acme Components",
+ "attachments": [
+  "/acme/documents/orders/po-6350.xlsx"
+ ]
+}

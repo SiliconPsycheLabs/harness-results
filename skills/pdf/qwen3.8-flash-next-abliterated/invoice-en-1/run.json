@@ -37,10 +37,10 @@
     "ran": true
    }
   ],
-  "answer": "Saved /acme/documents/extracts/nb-94581.json: Northwind Bearings Ltd, invoice NB-94581, dated 2026-12-14 (due 2027-02-12), 1 line (tool cabinets, 3 @ 154.05), net total 462.15 on page 2.",
-  "seconds": 23.23,
-  "tokens_in": 3003,
-  "tokens_out": 272,
+  "answer": "Saved /acme/documents/extracts/nb-94581.json: Northwind Bearings Ltd, invoice NB-94581, dated 2026-12-14 (due 2027-02-12), 1 line (tool cabinets, qty 3 @ 154.05), net total 462.15 on page 2.",
+  "seconds": 123.56,
+  "tokens_in": 3069,
+  "tokens_out": 273,
   "right": true,
   "missing": []
  },

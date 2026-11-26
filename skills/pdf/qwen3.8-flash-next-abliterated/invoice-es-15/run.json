@@ -52,10 +52,10 @@
     "ran": true
    }
   ],
-  "answer": "Guardado en /acme/documents/extracts/si-14311.json: Suministros Ibarra S.L., factura SI-14311, fecha 2026-12-08, vencimiento 2027-01-07, 4 líneas, base imponible 1995,20 EUR (página 2).",
-  "seconds": 18.86,
-  "tokens_in": 3266,
-  "tokens_out": 348,
+  "answer": "Factura SI-14311 de Suministros Ibarra S.L. guardada en /acme/documents/extracts/si-14311.json (4 líneas, base imponible 1.995,20 EUR en página 2).",
+  "seconds": 30.88,
+  "tokens_in": 3332,
+  "tokens_out": 321,
   "right": true,
   "missing": []
  },
@@ -108,6 +108,6 @@
     "ran": true
    }
   ],
-  "answer": "Guardado en /acme/documents/extracts/si-14311.json: Suministros Ibarra S.L., factura SI-14311, fecha 2026-12-08, vencimiento 2027-01-07, 4 líneas, base imponible 1995,20 (página 2)."
+  "answer": "Guardado /acme/documents/extracts/si-14311.json: Suministros Ibarra S.L., factura SI-14311, 4 líneas, base imponible 1995,20 EUR (página 2)."
  }
 }

@@ -37,10 +37,10 @@
     "ran": true
    }
   ],
-  "answer": "Salvato /acme/documents/extracts/tb-89196.json: fornitore Tessitura Bellomo S.p.A., fattura TB-89196 del 2026-12-25 (scadenza 2027-01-24), 1 riga (cinghie di trasmissione, 12 x 71,40), totale imponibile 856,80 a pagina 2.",
-  "seconds": 17.05,
-  "tokens_in": 3067,
-  "tokens_out": 288,
+  "answer": "Record salvato in /acme/documents/extracts/tb-89196.json: fornitore Tessitura Bellomo S.p.A., fattura TB-89196, data 2026-12-25, scadenza 2027-01-24, 1 riga (cinghie di trasmissione, 12 x 71,40), totale imponibile 856,80 EUR a pagina 2.",
+  "seconds": 134.89,
+  "tokens_in": 3133,
+  "tokens_out": 289,
   "right": true,
   "missing": []
  },
@@ -78,6 +78,6 @@
     "ran": true
    }
   ],
-  "answer": "Record salvato in /acme/documents/extracts/tb-89196.json: fornitore Tessitura Bellomo S.p.A., fattura TB-89196, data 2026-12-25, scadenza 2027-01-24, 1 riga (cinghie di trasmissione, 12 x 71,40), totale imponibile 856,80 a pagina 2."
+  "answer": "Record saved to /acme/documents/extracts/tb-89196.json"
  }
 }

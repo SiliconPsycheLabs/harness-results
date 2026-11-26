@@ -47,10 +47,10 @@
     "ran": true
    }
   ],
-  "answer": "Saved /acme/documents/extracts/ht-66429.json: Harbor Tools Inc., invoice HT-66429, 3 lines, net total 6821.90 on page 2.",
-  "seconds": 18.8,
-  "tokens_in": 3151,
-  "tokens_out": 282,
+  "answer": "Saved /acme/documents/extracts/ht-66429.json with supplier Harbor Tools Inc., invoice HT-66429, 3 lines, net total 6821.90 on page 2.",
+  "seconds": 137.5,
+  "tokens_in": 3315,
+  "tokens_out": 372,
   "right": true,
   "missing": []
  },
@@ -98,6 +98,6 @@
     "ran": true
    }
   ],
-  "answer": "Saved /acme/documents/extracts/ht-66429.json: Harbor Tools Inc., invoice HT-66429, 3 lines, net total 6821.90 on page 2."
+  "answer": "Saved /acme/documents/extracts/ht-66429.json: Harbor Tools Inc., invoice HT-66429, dated 2027-01-30 (due 2027-03-16), 3 lines, net total 6821.90 on page 2."
  }
 }
