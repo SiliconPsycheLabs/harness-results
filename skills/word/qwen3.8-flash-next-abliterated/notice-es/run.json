@@ -13,18 +13,14 @@
      "blocks": [
       {
        "type": "paragraph",
-       "text": "Estimado equipo:"
-      },
-      {
-       "type": "paragraph",
-       "text": "Os informamos de que el sistema de fichaje cambia el 1 de enero de 2027."
+       "text": "El sistema de fichaje cambia el 1 de enero de 2027."
       },
       {
        "type": "bullets",
        "items": [
-        "Cada empleado recibe una tarjeta nueva.",
-        "Las tarjetas antiguas dejan de funcionar el 15 de enero de 2027.",
-        "Las dudas se envían a rrhh@acme.example."
+        "Cada empleado recibe una tarjeta nueva",
+        "Las tarjetas antiguas dejan de funcionar el 15 de enero de 2027",
+        "Las dudas se envían a rrhh@acme.example"
        ]
       },
       {
@@ -41,10 +37,10 @@
     "ran": true
    }
   ],
-  "answer": "Listo: /acme/documents/avisos/nuevo_fichaje.docx",
-  "seconds": 21.22,
-  "tokens_in": 2101,
-  "tokens_out": 209,
+  "answer": "/acme/documents/avisos/nuevo_fichaje.docx",
+  "seconds": 19.61,
+  "tokens_in": 1833,
+  "tokens_out": 253,
   "right": true,
   "missing": []
  },
@@ -58,18 +54,14 @@
      "blocks": [
       {
        "type": "paragraph",
-       "text": "Estimado equipo:"
-      },
-      {
-       "type": "paragraph",
-       "text": "Os informamos de que el sistema de fichaje cambiará el 1 de enero de 2027. Tenéis en cuenta lo siguiente:"
+       "text": "El sistema de fichaje cambia el 1 de enero de 2027."
       },
       {
        "type": "bullets",
        "items": [
-        "Cada empleado recibe una tarjeta nueva.",
-        "Las tarjetas antiguas dejan de funcionar el 15 de enero de 2027.",
-        "Las dudas se envían a rrhh@acme.example."
+        "Cada empleado recibe una tarjeta nueva",
+        "Las tarjetas antiguas dejan de funcionar el 15 de enero de 2027",
+        "Las dudas se envían a rrhh@acme.example"
        ]
       },
       {

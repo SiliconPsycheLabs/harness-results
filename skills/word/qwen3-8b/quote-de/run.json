@@ -1,0 +1,147 @@
+{
+ "request": "quote-de",
+ "kind": "quote",
+ "language": "de",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/angebote/A-2026-312.docx",
+     "title": "Angebot A-2026-312",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Angebot A-2026-312",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Lindner Maschinenbau AG",
+       "align": "center"
+      },
+      {
+       "type": "paragraph",
+       "text": "Datum: 10. Dezember 2026"
+      },
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Bezeichnung",
+         "Menge",
+         "Einzelpreis",
+         "Gesamt"
+        ],
+        [
+         "Hydraulikschläuche",
+         "30",
+         "28,00 Euro",
+         "840,00 Euro"
+        ],
+        [
+         "Druckregler",
+         "5",
+         "190,00 Euro",
+         "950,00 Euro"
+        ],
+        [
+         "Wartungspauschale",
+         "1",
+         "420,00 Euro",
+         "420,00 Euro"
+        ]
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Gesamtsumme: 2.210,00 Euro netto"
+      },
+      {
+       "type": "paragraph",
+       "text": "Gültigkeit: 14 Tage"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/angebote/A-2026-312.docx",
+  "seconds": 10.21,
+  "tokens_in": 2168,
+  "tokens_out": 337,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/angebote/A-2026-312.docx",
+     "title": "Angebot A-2026-312",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Angebot A-2026-312",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Lindner Maschinenbau AG",
+       "align": "center"
+      },
+      {
+       "type": "paragraph",
+       "text": "Datum: 10. Dezember 2026"
+      },
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Bezeichnung",
+         "Menge",
+         "Einzelpreis",
+         "Gesamt"
+        ],
+        [
+         "Hydraulikschläuche",
+         "30",
+         "28,00 Euro",
+         "840,00 Euro"
+        ],
+        [
+         "Druckregler",
+         "5",
+         "190,00 Euro",
+         "950,00 Euro"
+        ],
+        [
+         "Wartungspauschale",
+         "1",
+         "420,00 Euro",
+         "420,00 Euro"
+        ]
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Gesamtsumme: 2.210,00 Euro netto"
+      },
+      {
+       "type": "paragraph",
+       "text": "Gültigkeit: 14 Tage"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/angebote/A-2026-312.docx"
+ }
+}

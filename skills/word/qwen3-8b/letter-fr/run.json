@@ -1,0 +1,129 @@
+{
+ "request": "letter-fr",
+ "kind": "letter",
+ "language": "fr",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/lettres/relance_dumont.docx",
+     "title": "Relance de la facture F-2026-0932",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Atelier Dumont SARL",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "À l'attention de Mme Claire Dumont",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "5 décembre 2026",
+       "align": "right"
+      },
+      {
+       "type": "paragraph",
+       "text": "Objet : Relance de la facture F-2026-0932",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Madame, Monsieur,",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Nous vous relançons la facture F-2026-0932 d’un montant de 4 860,00 euros, échue le 15 novembre 2026. Nous vous prions de bien vouloir régler ce montant sous 8 jours.",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Dans l’attente de votre règlement, nous vous prions d’agréer, Madame, Monsieur, l’expression de nos salutations distinguées.",
+       "align": "left"
+      },
+      {
+       "type": "signature",
+       "items": [
+        "Luc Moreau",
+        "Responsable Comptabilité Clients"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/lettres/relance_dumont.docx",
+  "seconds": 10.53,
+  "tokens_in": 2039,
+  "tokens_out": 380,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/lettres/relance_dumont.docx",
+     "title": "Relance de la facture F-2026-0932",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Atelier Dumont SARL",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "À l'attention de Mme Claire Dumont",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "5 décembre 2026",
+       "align": "right"
+      },
+      {
+       "type": "paragraph",
+       "text": "Objet : Relance de la facture F-2026-0932",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Madame, Monsieur,",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Nous vous relançons la facture F-2026-0932 d’un montant de 4 860,00 euros, échue le 15 novembre 2026. Nous vous prions de bien vouloir régler ce montant sous 8 jours.",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Dans l’attente de votre règlement, nous vous prions d’agréer, Madame, Monsieur, l’expression de nos salutations distinguées.",
+       "align": "left"
+      },
+      {
+       "type": "signature",
+       "items": [
+        "Luc Moreau",
+        "Responsable Comptabilité Clients"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/lettres/relance_dumont.docx"
+ }
+}

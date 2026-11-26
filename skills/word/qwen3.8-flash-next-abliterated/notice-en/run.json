@@ -18,9 +18,9 @@
       {
        "type": "bullets",
        "items": [
-        "Vending machines stay on.",
-        "The coffee corner on floor 2 stays open.",
-        "Meal vouchers are handed out on 18 December."
+        "Vending machines stay on",
+        "The coffee corner on floor 2 stays open",
+        "Meal vouchers are handed out on 18 December"
        ]
       },
       {
@@ -37,10 +37,10 @@
     "ran": true
    }
   ],
-  "answer": "Done: /acme/documents/notices/canteen_closure.docx",
-  "seconds": 18.0,
-  "tokens_in": 2044,
-  "tokens_out": 177,
+  "answer": "/acme/documents/notices/canteen_closure.docx",
+  "seconds": 12.64,
+  "tokens_in": 1730,
+  "tokens_out": 169,
   "right": true,
   "missing": []
  },
@@ -54,14 +54,14 @@
      "blocks": [
       {
        "type": "paragraph",
-       "text": "The canteen will be closed from 21 December 2026 to 3 January 2027."
+       "text": "The canteen is closed from 21 December 2026 to 3 January 2027."
       },
       {
        "type": "bullets",
        "items": [
-        "Vending machines stay on.",
-        "The coffee corner on floor 2 stays open.",
-        "Meal vouchers are handed out on 18 December."
+        "Vending machines stay on",
+        "The coffee corner on floor 2 stays open",
+        "Meal vouchers are handed out on 18 December"
        ]
       },
       {
@@ -78,6 +78,6 @@
     "ran": true
    }
   ],
-  "answer": "Done: /acme/documents/notices/canteen_closure.docx"
+  "answer": "/acme/documents/notices/canteen_closure.docx"
  }
 }

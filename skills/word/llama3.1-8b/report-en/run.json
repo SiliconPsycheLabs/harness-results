@@ -1,0 +1,113 @@
+{
+ "request": "report-en",
+ "kind": "report",
+ "language": "en",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/reports/production_2026-11.docx",
+     "title": "Production report, November 2026",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Output",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "18,400 pieces were produced in November 2026, exceeding the planned 17,500 pieces.",
+       "align": "left"
+      },
+      {
+       "type": "heading",
+       "text": "Scrap",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "The scrap rate decreased to 2.1 percent in November 2026, down from 2.9 percent in October.",
+       "align": "left"
+      },
+      {
+       "type": "heading",
+       "text": "Actions",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "The cutting tool on press 4 will be replaced by 12 December 2026.",
+       "align": "left"
+      },
+      {
+       "type": "signature",
+       "text": "Anna Keller, Plant Manager"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/reports/production_2026-11.docx",
+  "seconds": 6.78,
+  "tokens_in": 1863,
+  "tokens_out": 264,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/reports/production_2026-11.docx",
+     "title": "Production report, November 2026",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Output",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "18,400 pieces were produced in November 2026, exceeding the planned 17,500 pieces.",
+       "align": "left"
+      },
+      {
+       "type": "heading",
+       "text": "Scrap",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "The scrap rate decreased to 2.1 percent in November 2026, down from 2.9 percent in October.",
+       "align": "left"
+      },
+      {
+       "type": "heading",
+       "text": "Actions",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "The cutting tool on press 4 will be replaced by 12 December 2026.",
+       "align": "left"
+      },
+      {
+       "type": "signature",
+       "text": "Anna Keller, Plant Manager"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/reports/production_2026-11.docx"
+ }
+}

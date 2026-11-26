@@ -50,7 +50,7 @@
       },
       {
        "type": "paragraph",
-       "text": "Grand total: 1,210.00 EUR"
+       "text": "Grand Total: 1,210.00 EUR"
       },
       {
        "type": "paragraph",
@@ -64,9 +64,9 @@
    }
   ],
   "answer": "/acme/documents/quotes/Q-2026-118.docx",
-  "seconds": 23.2,
-  "tokens_in": 2344,
-  "tokens_out": 276,
+  "seconds": 31.88,
+  "tokens_in": 2159,
+  "tokens_out": 407,
   "right": true,
   "missing": []
  },
@@ -117,8 +117,7 @@
       },
       {
        "type": "paragraph",
-       "text": "Grand total: 1,210.00 EUR",
-       "align": "right"
+       "text": "Grand Total: 1,210.00 EUR"
       },
       {
        "type": "paragraph",
@@ -131,6 +130,6 @@
     "ran": true
    }
   ],
-  "answer": "Done — the quote is saved at /acme/documents/quotes/Q-2026-118.docx"
+  "answer": "/acme/documents/quotes/Q-2026-118.docx"
  }
 }

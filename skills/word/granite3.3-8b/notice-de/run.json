@@ -1,0 +1,105 @@
+{
+ "request": "notice-de",
+ "kind": "notice",
+ "language": "de",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/mitteilungen/stromabschaltung_halle1.docx",
+     "title": "Stromabschaltung in Halle 1",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Stromabschaltung in Halle 1",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Am Freitag, 18. Dezember 2026, wird von 12:00 bis 14:00 Uhr der Strom in Halle 1 abgeschaltet.",
+       "align": "left"
+      },
+      {
+       "type": "bullets",
+       "text": "Rechner vorher herunterfahren",
+       "align": "left"
+      },
+      {
+       "type": "bullets",
+       "text": "Kühlräume laufen über das Notstromaggregat",
+       "align": "left"
+      },
+      {
+       "type": "bullets",
+       "text": "die Kantine bleibt geöffnet",
+       "align": "left"
+      },
+      {
+       "type": "signature",
+       "text": "Mira Scholz, Haustechnik",
+       "align": "right"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The document has been successfully saved at /acme/documents/mitteilungen/stromabschaltung_halle1.docx.",
+  "seconds": 8.88,
+  "tokens_in": 2010,
+  "tokens_out": 313,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/mitteilungen/stromabschaltung_halle1.docx",
+     "title": "Stromabschaltung in Halle 1",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Stromabschaltung in Halle 1",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Am Freitag, 18. Dezember 2026, wird von 12:00 bis 14:00 Uhr der Strom in Halle 1 abgeschaltet.",
+       "align": "left"
+      },
+      {
+       "type": "bullets",
+       "text": "Rechner vorher herunterfahren",
+       "align": "left"
+      },
+      {
+       "type": "bullets",
+       "text": "Kühlräume laufen über das Notstromaggregat",
+       "align": "left"
+      },
+      {
+       "type": "bullets",
+       "text": "die Kantine bleibt geöffnet",
+       "align": "left"
+      },
+      {
+       "type": "signature",
+       "text": "Mira Scholz, Haustechnik",
+       "align": "right"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The document has been successfully saved at /acme/documents/mitteilungen/stromabschaltung_halle1.docx."
+ }
+}

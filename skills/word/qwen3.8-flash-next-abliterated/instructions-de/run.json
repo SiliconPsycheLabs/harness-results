@@ -31,10 +31,10 @@
     "ran": true
    }
   ],
-  "answer": "Die Anleitung ist gespeichert unter /acme/documents/anleitungen/notebook_rueckgabe.docx.",
-  "seconds": 15.48,
-  "tokens_in": 2069,
-  "tokens_out": 168,
+  "answer": "/acme/documents/anleitungen/notebook_rueckgabe.docx",
+  "seconds": 16.19,
+  "tokens_in": 1807,
+  "tokens_out": 215,
   "right": true,
   "missing": []
  },
@@ -66,6 +66,6 @@
     "ran": true
    }
   ],
-  "answer": "Die Anleitung ist gespeichert unter /acme/documents/anleitungen/notebook_rueckgabe.docx."
+  "answer": "/acme/documents/anleitungen/notebook_rueckgabe.docx"
  }
 }

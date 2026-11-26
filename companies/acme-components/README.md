@@ -14,4 +14,7 @@ An invented maker of machine parts with offices in five countries. Every name, o
 
 | Skill | Model | Done right | Stopped |
 | --- | --- | --- | --- |
-| [word](../../skills/word/) | `qwen3.8-flash-next-abliterated` | 30 of 30 | 6 of 6 |
+| [word](../../skills/word/) | [`qwen3.8-flash-next-abliterated`](../../skills/word/qwen3.8-flash-next-abliterated/) | 30 of 30 | 6 of 6 |
+| [word](../../skills/word/) | [`qwen3-8b`](../../skills/word/qwen3-8b/) | 28 of 30 | 6 of 6 |
+| [word](../../skills/word/) | [`llama3.1-8b`](../../skills/word/llama3.1-8b/) | 14 of 28 | 6 of 6 |
+| [word](../../skills/word/) | [`granite3.3-8b`](../../skills/word/granite3.3-8b/) | 9 of 30 | 6 of 6 |

@@ -13,26 +13,26 @@
      "blocks": [
       {
        "type": "heading",
-       "level": 1,
-       "text": "Output"
+       "text": "Output",
+       "level": 1
       },
       {
        "type": "paragraph",
-       "text": "Plant 2 produced 18,400 pieces in November 2026, against a plan of 17,500."
+       "text": "18,400 pieces against a plan of 17,500."
       },
       {
        "type": "heading",
-       "level": 1,
-       "text": "Scrap"
+       "text": "Scrap",
+       "level": 1
       },
       {
        "type": "paragraph",
-       "text": "The scrap rate was 2.1 percent, down from 2.9 percent in October."
+       "text": "2.1 percent, down from 2.9 percent in October."
       },
       {
        "type": "heading",
-       "level": 1,
-       "text": "Actions"
+       "text": "Actions",
+       "level": 1
       },
       {
        "type": "paragraph",
@@ -53,9 +53,9 @@
    }
   ],
   "answer": "/acme/documents/reports/production_2026-11.docx",
-  "seconds": 26.17,
-  "tokens_in": 2223,
-  "tokens_out": 269,
+  "seconds": 27.78,
+  "tokens_in": 1990,
+  "tokens_out": 352,
   "right": true,
   "missing": []
  },
@@ -69,26 +69,26 @@
      "blocks": [
       {
        "type": "heading",
-       "level": 1,
-       "text": "Output"
+       "text": "Output",
+       "level": 1
       },
       {
        "type": "paragraph",
-       "text": "Plant 2 produced 18,400 pieces in November 2026, against a plan of 17,500."
+       "text": "18,400 pieces against a plan of 17,500."
       },
       {
        "type": "heading",
-       "level": 1,
-       "text": "Scrap"
+       "text": "Scrap",
+       "level": 1
       },
       {
        "type": "paragraph",
-       "text": "The scrap rate was 2.1 percent, down from 2.9 percent in October."
+       "text": "2.1 percent, down from 2.9 percent in October."
       },
       {
        "type": "heading",
-       "level": 1,
-       "text": "Actions"
+       "text": "Actions",
+       "level": 1
       },
       {
        "type": "paragraph",

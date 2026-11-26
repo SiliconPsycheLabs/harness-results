@@ -1,0 +1,65 @@
+{
+ "request": "instructions-en",
+ "kind": "instructions",
+ "language": "en",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/instructions/company_car_booking.docx",
+     "title": "How to book a company car",
+     "blocks": [
+      {
+       "type": "numbered",
+       "text": "1) Open the booking page on the intranet.\n2) Choose the dates and the car.\n3) Wait for the approval of your manager.\n4) Collect the keys at reception.\n5) Return the car with a full tank.",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Fines are charged to the driver."
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The document has been successfully saved at /acme/documents/instructions/company_car_booking.docx",
+  "seconds": 5.31,
+  "tokens_in": 1765,
+  "tokens_out": 180,
+  "right": false,
+  "missing": [
+   "fewer than 5 numbered items"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/instructions/company_car_booking.docx",
+     "title": "How to book a company car",
+     "blocks": [
+      {
+       "type": "numbered",
+       "text": "1) Open the booking page on the intranet.\n2) Choose the dates and the car.\n3) Wait for the approval of your manager.\n4) Collect the keys at reception.\n5) Return the car with a full tank.",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Fines are charged to the driver."
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The document has been successfully saved at /acme/documents/instructions/company_car_booking.docx"
+ }
+}

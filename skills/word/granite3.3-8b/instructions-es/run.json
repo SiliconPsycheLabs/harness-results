@@ -1,0 +1,97 @@
+{
+ "request": "instructions-es",
+ "kind": "instructions",
+ "language": "es",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/instrucciones/alta_proveedor.docx",
+     "title": "Instrucciones para la alta de un proveedor nuevo",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "1) Solicitar al proveedor su certificado fiscal.",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "2) Verificar el IBAN realizando una llamada al número que ya tenemos en nuestra base de datos.",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "3) Completar la ficha F-07.",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "4) Enviar la ficha completada a compras para su aprobación.",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Advertencia: Nunca se debe cambiar un IBAN por una solicitud recibida por correo.",
+       "align": "left"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The document has been successfully saved at /acme/documents/instrucciones/alta_proveedor.docx.",
+  "seconds": 7.9,
+  "tokens_in": 1949,
+  "tokens_out": 276,
+  "right": false,
+  "missing": [
+   "fewer than 4 numbered items"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/instrucciones/alta_proveedor.docx",
+     "title": "Instrucciones para la alta de un proveedor nuevo",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "1) Solicitar al proveedor su certificado fiscal.",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "2) Verificar el IBAN realizando una llamada al número que ya tenemos en nuestra base de datos.",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "3) Completar la ficha F-07.",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "4) Enviar la ficha completada a compras para su aprobación.",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Advertencia: Nunca se debe cambiar un IBAN por una solicitud recibida por correo.",
+       "align": "left"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The document has been successfully saved at /acme/documents/instrucciones/alta_proveedor.docx."
+ }
+}

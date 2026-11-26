@@ -1,0 +1,153 @@
+{
+ "request": "quote-fr",
+ "kind": "quote",
+ "language": "fr",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/devis/D-2026-077.docx",
+     "title": "Devis D-2026-077",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Devis D-2026-077",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Pour : Menuiserie Roussel",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Date : 4 décembre 2026",
+       "align": "left"
+      },
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Désignation",
+         "Quantité",
+         "Prix unitaire",
+         "Total"
+        ],
+        [
+         "8 moteurs électriques",
+         "8",
+         "310,00 euros",
+         "2 480,00 euros"
+        ],
+        [
+         "8 variateurs",
+         "8",
+         "145,00 euros",
+         "1 160,00 euros"
+        ],
+        [
+         "1 mise en service",
+         "1",
+         "400,00 euros",
+         "400,00 euros"
+        ]
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Total général : 4 040,00 euros hors taxes",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Validité : 45 jours",
+       "align": "left"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/devis/D-2026-077.docx",
+  "seconds": 10.35,
+  "tokens_in": 2149,
+  "tokens_out": 342,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/devis/D-2026-077.docx",
+     "title": "Devis D-2026-077",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Devis D-2026-077",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Pour : Menuiserie Roussel",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Date : 4 décembre 2026",
+       "align": "left"
+      },
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Désignation",
+         "Quantité",
+         "Prix unitaire",
+         "Total"
+        ],
+        [
+         "8 moteurs électriques",
+         "8",
+         "310,00 euros",
+         "2 480,00 euros"
+        ],
+        [
+         "8 variateurs",
+         "8",
+         "145,00 euros",
+         "1 160,00 euros"
+        ],
+        [
+         "1 mise en service",
+         "1",
+         "400,00 euros",
+         "400,00 euros"
+        ]
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Total général : 4 040,00 euros hors taxes",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Validité : 45 jours",
+       "align": "left"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/devis/D-2026-077.docx"
+ }
+}

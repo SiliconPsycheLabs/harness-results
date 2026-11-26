@@ -14,17 +14,16 @@
       {
        "type": "numbered",
        "items": [
-        "Annoncer le visiteur à l'accueil la veille.",
-        "Lui remettre un badge visiteur.",
-        "L'accompagner en permanence dans les ateliers.",
-        "Lui faire porter les lunettes de protection.",
-        "Récupérer le badge à la sortie."
+        "annoncer le visiteur à l'accueil la veille",
+        "lui remettre un badge visiteur",
+        "l'accompagner en permanence dans les ateliers",
+        "lui faire porter les lunettes de protection",
+        "récupérer le badge à la sortie"
        ]
       },
       {
        "type": "paragraph",
-       "text": "Avertissement : aucun visiteur ne reste seul dans les ateliers.",
-       "align": "justify"
+       "text": "Aucun visiteur ne reste seul dans les ateliers."
       }
      ]
     },
@@ -33,10 +32,10 @@
     "ran": true
    }
   ],
-  "answer": "Le document est enregistré : /acme/documents/procedures/accueil_visiteurs.docx",
-  "seconds": 15.65,
-  "tokens_in": 2109,
-  "tokens_out": 183,
+  "answer": "/acme/documents/procedures/accueil_visiteurs.docx",
+  "seconds": 16.95,
+  "tokens_in": 1837,
+  "tokens_out": 214,
   "right": true,
   "missing": []
  },
@@ -51,17 +50,16 @@
       {
        "type": "numbered",
        "items": [
-        "Annoncer le visiteur à l'accueil la veille.",
-        "Lui remettre un badge visiteur.",
-        "L'accompagner en permanence dans les ateliers.",
-        "Lui faire porter les lunettes de protection.",
-        "Récupérer le badge à la sortie."
+        "Annoncer le visiteur à l'accueil la veille",
+        "Lui remettre un badge visiteur",
+        "L'accompagner en permanence dans les ateliers",
+        "Lui faire porter les lunettes de protection",
+        "Récupérer le badge à la sortie"
        ]
       },
       {
        "type": "paragraph",
-       "text": "Avertissement : aucun visiteur ne reste seul dans les ateliers.",
-       "align": "justify"
+       "text": "Aucun visiteur ne reste seul dans les ateliers."
       }
      ]
     },
@@ -70,6 +68,6 @@
     "ran": true
    }
   ],
-  "answer": "Le document est enregistré : /acme/documents/procedures/accueil_visiteurs.docx"
+  "answer": "/acme/documents/procedures/accueil_visiteurs.docx"
  }
 }

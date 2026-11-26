@@ -1,0 +1,107 @@
+{
+ "request": "report-en",
+ "kind": "report",
+ "language": "en",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/reports/production_2026-11.docx",
+     "title": "Production report, November 2026",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Output",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "18,400 pieces against a plan of 17,500."
+      },
+      {
+       "type": "heading",
+       "text": "Scrap",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "2.1 percent, down from 2.9 percent in October."
+      },
+      {
+       "type": "heading",
+       "text": "Actions",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Replace the cutting tool on press 4 by 12 December 2026."
+      },
+      {
+       "type": "signature",
+       "text": "Anna Keller\nPlant Manager"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/reports/production_2026-11.docx",
+  "seconds": 7.22,
+  "tokens_in": 1874,
+  "tokens_out": 245,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/reports/production_2026-11.docx",
+     "title": "Production report, November 2026",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Output",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "18,400 pieces against a plan of 17,500."
+      },
+      {
+       "type": "heading",
+       "text": "Scrap",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "2.1 percent, down from 2.9 percent in October."
+      },
+      {
+       "type": "heading",
+       "text": "Actions",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Replace the cutting tool on press 4 by 12 December 2026."
+      },
+      {
+       "type": "signature",
+       "text": "Anna Keller\nPlant Manager"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/reports/production_2026-11.docx"
+ }
+}

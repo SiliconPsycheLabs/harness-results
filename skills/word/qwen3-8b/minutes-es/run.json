@@ -1,0 +1,109 @@
+{
+ "request": "minutes-es",
+ "kind": "minutes",
+ "language": "es",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/actas/direccion_2026-12-07.docx",
+     "title": "Acta de la reunión de dirección del 7 de diciembre de 2026",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Acta de la reunión de dirección del 7 de diciembre de 2026",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "La reunión de dirección se celebró el 7 de diciembre de 2026, en la sede de la empresa. Asistentes: Andrés Molina, Rosa Vidal, Javier Ortega, Elena Pardo.",
+       "align": "left"
+      },
+      {
+       "type": "bullets",
+       "items": [
+        "Andrés Molina",
+        "Rosa Vidal",
+        "Javier Ortega",
+        "Elena Pardo"
+       ]
+      },
+      {
+       "type": "numbered",
+       "items": [
+        "1) Aprobar el presupuesto de 2027.",
+        "2) Contratar a dos técnicos de mantenimiento.",
+        "3) Cerrar la planta del 24 de diciembre al 6 de enero."
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "La próxima reunión se celebrará el 18 de enero de 2027.",
+       "align": "left"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/actas/direccion_2026-12-07.docx",
+  "seconds": 11.47,
+  "tokens_in": 2069,
+  "tokens_out": 342,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/actas/direccion_2026-12-07.docx",
+     "title": "Acta de la reunión de dirección del 7 de diciembre de 2026",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Acta de la reunión de dirección del 7 de diciembre de 2026",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "La reunión de dirección se celebró el 7 de diciembre de 2026, en la sede de la empresa. Asistentes: Andrés Molina, Rosa Vidal, Javier Ortega, Elena Pardo.",
+       "align": "left"
+      },
+      {
+       "type": "bullets",
+       "items": [
+        "Andrés Molina",
+        "Rosa Vidal",
+        "Javier Ortega",
+        "Elena Pardo"
+       ]
+      },
+      {
+       "type": "numbered",
+       "items": [
+        "1) Aprobar el presupuesto de 2027.",
+        "2) Contratar a dos técnicos de mantenimiento.",
+        "3) Cerrar la planta del 24 de diciembre al 6 de enero."
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "La próxima reunión se celebrará el 18 de enero de 2027.",
+       "align": "left"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/actas/direccion_2026-12-07.docx"
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "request": "instructions-fr",
+ "kind": "instructions",
+ "language": "fr",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/procedures/accueil_visiteurs.docx",
+     "title": "Procédure d'accueil des visiteurs",
+     "blocks": [
+      {
+       "type": "numbered",
+       "items": [
+        "1) Annoncer le visiteur à l'accueil la veille ;",
+        "2) Lui remettre un badge visiteur ;",
+        "3) L'accompagner en permanence dans les ateliers ;",
+        "4) Lui faire porter les lunettes de protection ;",
+        "5) Récupérer le badge à la sortie."
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Avertissement : Aucun visiteur ne reste seul dans les ateliers."
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/procedures/accueil_visiteurs.docx",
+  "seconds": 7.83,
+  "tokens_in": 1850,
+  "tokens_out": 197,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/procedures/accueil_visiteurs.docx",
+     "title": "Procédure d'accueil des visiteurs",
+     "blocks": [
+      {
+       "type": "numbered",
+       "items": [
+        "1) Annoncer le visiteur à l'accueil la veille ;",
+        "2) Lui remettre un badge visiteur ;",
+        "3) L'accompagner en permanence dans les ateliers ;",
+        "4) Lui faire porter les lunettes de protection ;",
+        "5) Récupérer le badge à la sortie."
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Avertissement : Aucun visiteur ne reste seul dans les ateliers."
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/procedures/accueil_visiteurs.docx"
+ }
+}

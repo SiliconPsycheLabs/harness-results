@@ -1,0 +1,75 @@
+{
+ "request": "letter-de",
+ "kind": "letter",
+ "language": "de",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/briefe/reklamation_kraemer.docx",
+     "title": "Reklamation zur Lieferung LS-7730",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Reklamation zur Lieferung LS-7730",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Sehr geehrte Krämer Werkzeugbau GmbH,\n\nam 10. Dezember 2026\n\nSehr geehrter Herr Krämer,\n\nwir schreiben Ihnen im Namen von Acme Components hinsichtlich der kürzlich erfolgten Lieferung der Fräsköpfe LS-7730 eine Reklamation ein.\n\nBei der Auspackung der am 2. Dezember 2026 gelieferten 200 Fräsköpfe stellten wir fest, dass 14 davon beschädigt waren. Wir bitten Sie um Ersatzlieferung der fehlenden und beschädigten Fräsköpfe bis zum 8. Januar 2027.\n\nWir hoffen auf Ihre schnelle und positive Rückmeldung und eine zufriedenstellende Lösung dieses Problems.\n\nMit freundlichen Grüßen,\nSabine Vogt\nLeiterin Qualitätssicherung\nAcme Components"
+      },
+      {
+       "type": "signature",
+       "text": "Sabine Vogt\nLeiterin Qualitätssicherung\nAcme Components",
+       "align": "right"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The letter has been successfully written and saved at /acme/documents/briefe/reklamation_kraemer.docx.",
+  "seconds": 13.21,
+  "tokens_in": 2190,
+  "tokens_out": 457,
+  "right": false,
+  "missing": [
+   "fact lacks: Jonas Krämer"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/briefe/reklamation_kraemer.docx",
+     "title": "Reklamation zur Lieferung LS-7730",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Reklamation zur Lieferung LS-7730",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Sehr geehrte Krämer Werkzeugbau GmbH,\n\nam 10. Dezember 2026\n\nSehr geehrter Herr Krämer,\n\nwir schreiben Ihnen im Namen von Acme Components hinsichtlich der kürzlich erfolgten Lieferung der Fräsköpfe LS-7730 eine Reklamation ein.\n\nBei der Auspackung der am 2. Dezember 2026 gelieferten 200 Fräsköpfe stellten wir fest, dass 14 davon beschädigt waren. Wir bitten Sie um Ersatzlieferung der fehlenden und beschädigten Fräsköpfe bis zum 8. Januar 2027.\n\nWir hoffen auf Ihre schnelle und positive Rückmeldung und eine zufriedenstellende Lösung dieses Problems.\n\nMit freundlichen Grüßen,\nSabine Vogt\nLeiterin Qualitätssicherung\nAcme Components"
+      },
+      {
+       "type": "signature",
+       "text": "Sabine Vogt\nLeiterin Qualitätssicherung\nAcme Components",
+       "align": "right"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The letter has been successfully written and saved at /acme/documents/briefe/reklamation_kraemer.docx."
+ }
+}

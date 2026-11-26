@@ -1,0 +1,67 @@
+{
+ "request": "instructions-de",
+ "kind": "instructions",
+ "language": "de",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/anleitungen/notebook_rueckgabe.docx",
+     "title": "Rückgabe eines defekten Notebooks",
+     "blocks": [
+      {
+       "type": "numbered",
+       "text": "1) Ticket im Helpdesk-Portal übernehmen;\n2) eigene Daten auf dem Netzlaufwerk sichern;\n3) das Gerüt mit Netzteil im Raum 0.14 abgeben;\n4) das Ersatzgerüt quittieren.",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Geräte ohne Ticket werden nicht angenommen.",
+       "align": "left"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The document has been successfully saved at /acme/documents/anleitungen/notebook_rueckgabe.docx.",
+  "seconds": 6.75,
+  "tokens_in": 1912,
+  "tokens_out": 237,
+  "right": false,
+  "missing": [
+   "fewer than 4 numbered items"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/anleitungen/notebook_rueckgabe.docx",
+     "title": "Rückgabe eines defekten Notebooks",
+     "blocks": [
+      {
+       "type": "numbered",
+       "text": "1) Ticket im Helpdesk-Portal übernehmen;\n2) eigene Daten auf dem Netzlaufwerk sichern;\n3) das Gerüt mit Netzteil im Raum 0.14 abgeben;\n4) das Ersatzgerüt quittieren.",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Geräte ohne Ticket werden nicht angenommen.",
+       "align": "left"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The document has been successfully saved at /acme/documents/anleitungen/notebook_rueckgabe.docx."
+ }
+}

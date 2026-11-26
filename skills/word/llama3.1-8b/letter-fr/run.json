@@ -1,0 +1,110 @@
+{
+ "request": "letter-fr",
+ "kind": "letter",
+ "language": "fr",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/lettres/relance_dumont.docx",
+     "title": "Relance de la facture F-2026-0932",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Objet : relance de la facture F-2026-0932",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Madame, Madame Claire Dumont",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Atelier Dumont SARL",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "5 décembre 2026",
+       "align": "left"
+      },
+      {
+       "type": "bullets",
+       "text": "La facture F-2026-0932 d'un montant de 4 860,00 euros, échue le 15 novembre 2026, n'a pas été réglée.",
+       "items": [
+        "Nous vous demandons de régler cette facture sous 8 jours à compter de la date de réception de cette lettre."
+       ]
+      },
+      {
+       "type": "signature",
+       "text": "Luc Moreau, Responsable Comptabilité Clients"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/lettres/relance_dumont.docx",
+  "seconds": 7.41,
+  "tokens_in": 1924,
+  "tokens_out": 293,
+  "right": false,
+  "missing": [
+   "fact lacks: 15 novembre 2026",
+   "amount lacks: 4860.0"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/lettres/relance_dumont.docx",
+     "title": "Relance de la facture F-2026-0932",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Objet : relance de la facture F-2026-0932",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Madame, Madame Claire Dumont",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Atelier Dumont SARL",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "5 décembre 2026",
+       "align": "left"
+      },
+      {
+       "type": "bullets",
+       "text": "La facture F-2026-0932 d'un montant de 4 860,00 euros, échue le 15 novembre 2026, n'a pas été réglée.",
+       "items": [
+        "Nous vous demandons de régler cette facture sous 8 jours à compter de la date de réception de cette lettre."
+       ]
+      },
+      {
+       "type": "signature",
+       "text": "Luc Moreau, Responsable Comptabilité Clients"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/lettres/relance_dumont.docx"
+ }
+}

@@ -18,7 +18,7 @@
       },
       {
        "type": "paragraph",
-       "text": "Nel mese di novembre 2026 gli incassi ammontano a 412.300,00 euro su 455.000,00 euro attesi."
+       "text": "412.300,00 euro su 455.000,00 euro attesi."
       },
       {
        "type": "heading",
@@ -27,7 +27,7 @@
       },
       {
        "type": "paragraph",
-       "text": "Lo scaduto riguarda 9 clienti per un totale di 38.750,00 euro."
+       "text": "9 clienti per 38.750,00 euro."
       },
       {
        "type": "heading",
@@ -36,7 +36,7 @@
       },
       {
        "type": "paragraph",
-       "text": "Invio del secondo sollecito entro il 10 dicembre 2026 ai tre clienti con lo scaduto più alto."
+       "text": "Secondo sollecito entro il 10 dicembre 2026 ai tre clienti con lo scaduto più alto."
       },
       {
        "type": "signature",
@@ -52,10 +52,10 @@
     "ran": true
    }
   ],
-  "answer": "File salvato: /acme/documents/relazioni/incassi_2026-11.docx",
-  "seconds": 29.39,
-  "tokens_in": 2323,
-  "tokens_out": 310,
+  "answer": "/acme/documents/relazioni/incassi_2026-11.docx",
+  "seconds": 26.62,
+  "tokens_in": 2081,
+  "tokens_out": 372,
   "right": true,
   "missing": []
  },
@@ -74,7 +74,7 @@
       },
       {
        "type": "paragraph",
-       "text": "Nel mese di novembre 2026 gli incassi ammontano a 412.300,00 euro su 455.000,00 euro attesi."
+       "text": "412.300,00 euro su 455.000,00 euro attesi."
       },
       {
        "type": "heading",
@@ -83,7 +83,7 @@
       },
       {
        "type": "paragraph",
-       "text": "Lo scaduto riguarda 9 clienti per un totale di 38.750,00 euro."
+       "text": "9 clienti per 38.750,00 euro."
       },
       {
        "type": "heading",
@@ -92,7 +92,7 @@
       },
       {
        "type": "paragraph",
-       "text": "Sarà inviato il secondo sollecito entro il 10 dicembre 2026 ai tre clienti con lo scaduto più alto."
+       "text": "Secondo sollecito entro il 10 dicembre 2026 ai tre clienti con lo scaduto più alto."
       },
       {
        "type": "signature",
@@ -108,6 +108,6 @@
     "ran": true
    }
   ],
-  "answer": "File salvato: /acme/documents/relazioni/incassi_2026-11.docx"
+  "answer": "/acme/documents/relazioni/incassi_2026-11.docx"
  }
 }

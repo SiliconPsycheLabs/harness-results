@@ -13,7 +13,7 @@
      "blocks": [
       {
        "type": "paragraph",
-       "text": "Acme Components\nQualitätssicherung",
+       "text": "Acme Components\n/acme/documents",
        "align": "left"
       },
       {
@@ -24,12 +24,12 @@
       {
        "type": "paragraph",
        "text": "10. Dezember 2026",
-       "align": "right"
+       "align": "left"
       },
       {
        "type": "heading",
-       "level": 1,
-       "text": "Reklamation zur Lieferung LS-7730"
+       "text": "Reklamation zur Lieferung LS-7730",
+       "level": 1
       },
       {
        "type": "paragraph",
@@ -38,12 +38,12 @@
       },
       {
        "type": "paragraph",
-       "text": "bei der Eingangskontrolle Ihrer Lieferung LS-7730 haben wir festgestellt, dass von 200 gelieferten Fräsköpfen 14 beschädigt waren. Wir bitten Sie daher, uns die beschädigten Fräsköpfe bis zum 8. Januar 2027 ersatzweise nachzuliefern.",
+       "text": "bei der Überprüfung der Lieferung LS-7730 haben wir festgestellt, dass von den 200 gelieferten Fräsköpfen 14 beschädigt waren.",
        "align": "justify"
       },
       {
        "type": "paragraph",
-       "text": "Für Rückfragen stehen wir Ihnen gerne zur Verfügung.",
+       "text": "Wir bitten Sie daher, uns die beschädigten Fräsköpfe bis zum 8. Januar 2027 zu ersetzen.",
        "align": "justify"
       },
       {
@@ -65,10 +65,10 @@
     "ran": true
    }
   ],
-  "answer": "Der Brief ist gespeichert unter /acme/documents/briefe/reklamation_kraemer.docx",
-  "seconds": 31.26,
-  "tokens_in": 2333,
-  "tokens_out": 389,
+  "answer": "/acme/documents/briefe/reklamation_kraemer.docx",
+  "seconds": 37.73,
+  "tokens_in": 2135,
+  "tokens_out": 501,
   "right": true,
   "missing": []
  },
@@ -82,40 +82,43 @@
      "blocks": [
       {
        "type": "paragraph",
-       "text": "Acme Components GmbH"
+       "text": "Acme Components\n/acme/documents",
+       "align": "left"
       },
       {
        "type": "paragraph",
-       "text": "Krämer Werkzeugbau GmbH\nz. Hd. Herrn Jonas Krämer"
+       "text": "Krämer Werkzeugbau GmbH\nz. Hd. Herrn Jonas Krämer",
+       "align": "left"
       },
       {
        "type": "paragraph",
-       "text": "10. Dezember 2026"
+       "text": "10. Dezember 2026",
+       "align": "right"
       },
       {
        "type": "heading",
-       "level": 1,
-       "text": "Reklamation zur Lieferung LS-7730"
+       "text": "Reklamation zur Lieferung LS-7730",
+       "level": 1
       },
       {
        "type": "paragraph",
-       "text": "Sehr geehrter Herr Krämer,"
+       "text": "Sehr geehrter Herr Krämer,",
+       "align": "left"
       },
       {
        "type": "paragraph",
-       "text": "bei der Eingangskontrolle Ihrer Lieferung LS-7730 haben wir festgestellt, dass von 200 gelieferten Fräsköpfen 14 beschädigt waren. Die Beschädigungen betreffen insbesondere die Schneidkanten bzw. die Oberflächen und machen die betroffenen Fräsköpfe in der vorgesehenen Anwendung unbrauchbar."
+       "text": "bei der Überprüfung der Lieferung LS-7730 haben wir festgestellt, dass von den 200 gelieferten Fräsköpfen 14 beschädigt waren.",
+       "align": "justify"
       },
       {
        "type": "paragraph",
-       "text": "Wir bitten Sie daher, uns die 14 beschädigten Fräsköpfe bis zum 8. Januar 2027 ersatzweise nachzuliefern. Die mangelhaften Teile halten wir für Sie zur Abholung bereit; selbstverständlich stellen wir Ihnen auf Wunsch gerne Fotos und das Prüfprotokoll zur Verfügung."
+       "text": "Wir bitten Sie, uns die beschädigten Teile bis zum 8. Januar 2027 zu ersetzen.",
+       "align": "justify"
       },
       {
        "type": "paragraph",
-       "text": "Wir bitten um kurze Bestätigung des Termins und sehen einer Klärung in beiderseitigem Interesse entgegen."
-      },
-      {
-       "type": "paragraph",
-       "text": "Mit freundlichen Grüßen"
+       "text": "Mit freundlichen Grüßen",
+       "align": "left"
       },
       {
        "type": "signature",
@@ -131,6 +134,6 @@
     "ran": true
    }
   ],
-  "answer": "Der Brief ist gespeichert unter /acme/documents/briefe/reklamation_kraemer.docx"
+  "answer": "/acme/documents/briefe/reklamation_kraemer.docx"
  }
 }

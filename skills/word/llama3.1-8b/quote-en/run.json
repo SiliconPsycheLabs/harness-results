@@ -1,0 +1,209 @@
+{
+ "request": "quote-en",
+ "kind": "quote",
+ "language": "en",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/quotes/Q-2026-118.docx",
+     "title": "Quote Q-2026-118",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Quote Q-2026-118",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Date: 2 December 2026",
+       "align": "left"
+      },
+      {
+       "type": "bullets",
+       "text": "Items: 40 steel brackets at 12.50 EUR each, total 500.00 EUR",
+       "items": [
+        "40 steel brackets at 12.50 EUR each",
+        "Total: 500.00 EUR"
+       ]
+      },
+      {
+       "type": "bullets",
+       "text": "Items: 10 mounting kits at 35.00 EUR each, total 350.00 EUR",
+       "items": [
+        "10 mounting kits at 35.00 EUR each",
+        "Total: 350.00 EUR"
+       ]
+      },
+      {
+       "type": "bullets",
+       "text": "Items: 2 calibration services at 180.00 EUR each, total 360.00 EUR",
+       "items": [
+        "2 calibration services at 180.00 EUR each",
+        "Total: 360.00 EUR"
+       ]
+      },
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Item",
+         "Quantity",
+         "Unit price",
+         "Total"
+        ],
+        [
+         "Steel Brackets",
+         "40",
+         "12.50 EUR",
+         "500.00 EUR"
+        ],
+        [
+         "Mounting Kits",
+         "10",
+         "35.00 EUR",
+         "350.00 EUR"
+        ],
+        [
+         "Calibration Services",
+         "2",
+         "180.00 EUR",
+         "360.00 EUR"
+        ]
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Grand Total: 1,210.00 EUR",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "This quote is valid for 30 days.",
+       "align": "left"
+      },
+      {
+       "type": "signature",
+       "text": "John Doe, Sales Representative",
+       "items": [
+        "John Doe",
+        "Sales Representative"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/quotes/Q-2026-118.docx",
+  "seconds": 11.53,
+  "tokens_in": 2133,
+  "tokens_out": 460,
+  "right": false,
+  "missing": [
+   "fact lacks: Harbor Tools Inc."
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/quotes/Q-2026-118.docx",
+     "title": "Quote Q-2026-118",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Quote Q-2026-118",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Date: 2 December 2026",
+       "align": "left"
+      },
+      {
+       "type": "bullets",
+       "text": "Items: 40 steel brackets at 12.50 EUR each, total 500.00 EUR",
+       "items": [
+        "40 steel brackets at 12.50 EUR each",
+        "Total: 500.00 EUR"
+       ]
+      },
+      {
+       "type": "bullets",
+       "text": "Items: 10 mounting kits at 35.00 EUR each, total 350.00 EUR",
+       "items": [
+        "10 mounting kits at 35.00 EUR each",
+        "Total: 350.00 EUR"
+       ]
+      },
+      {
+       "type": "bullets",
+       "text": "Items: 2 calibration services at 180.00 EUR each, total 360.00 EUR",
+       "items": [
+        "2 calibration services at 180.00 EUR each",
+        "Total: 360.00 EUR"
+       ]
+      },
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Item",
+         "Quantity",
+         "Unit price",
+         "Total"
+        ],
+        [
+         "Steel Brackets",
+         "40",
+         "12.50 EUR",
+         "500.00 EUR"
+        ],
+        [
+         "Mounting Kits",
+         "10",
+         "35.00 EUR",
+         "350.00 EUR"
+        ],
+        [
+         "Calibration Services",
+         "2",
+         "180.00 EUR",
+         "360.00 EUR"
+        ]
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Grand Total: 1,210.00 EUR",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "This quote is valid for 30 days.",
+       "align": "left"
+      },
+      {
+       "type": "signature",
+       "text": "John Doe, Sales Representative",
+       "items": [
+        "John Doe",
+        "Sales Representative"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/quotes/Q-2026-118.docx"
+ }
+}

@@ -18,7 +18,7 @@
       },
       {
        "type": "paragraph",
-       "text": "Zum 30. November 2026 befinden sich 4.280 Artikel im Lager. Der Gesamtwert des Bestands beträgt 612.400,00 Euro."
+       "text": "4.280 Artikel im Wert von 612.400,00 Euro."
       },
       {
        "type": "heading",
@@ -27,7 +27,7 @@
       },
       {
        "type": "paragraph",
-       "text": "Bei der Inventur wurden 37 Artikel mit Fehlmengen festgestellt."
+       "text": "37 Artikel mit Fehlmengen bei der Inventur."
       },
       {
        "type": "heading",
@@ -36,7 +36,7 @@
       },
       {
        "type": "paragraph",
-       "text": "Die Nachzählung im Gang C wird bis zum 15. Dezember 2026 durchgeführt."
+       "text": "Nachzählung im Gang C bis zum 15. Dezember 2026."
       },
       {
        "type": "signature",
@@ -52,10 +52,10 @@
     "ran": true
    }
   ],
-  "answer": "Der Bericht liegt unter /acme/documents/berichte/lager_2026-11.docx.",
-  "seconds": 28.85,
-  "tokens_in": 2290,
-  "tokens_out": 298,
+  "answer": "/acme/documents/berichte/lager_2026-11.docx",
+  "seconds": 25.35,
+  "tokens_in": 2047,
+  "tokens_out": 365,
   "right": true,
   "missing": []
  },
@@ -74,7 +74,7 @@
       },
       {
        "type": "paragraph",
-       "text": "Zum 30. November 2026 befinden sich 4.280 Artikel im Wert von 612.400,00 Euro im Lager."
+       "text": "4.280 Artikel im Wert von 612.400,00 Euro."
       },
       {
        "type": "heading",
@@ -83,7 +83,7 @@
       },
       {
        "type": "paragraph",
-       "text": "Bei der Inventur wurden 37 Artikel mit Fehlmengen festgestellt."
+       "text": "37 Artikel mit Fehlmengen bei der Inventur."
       },
       {
        "type": "heading",
@@ -92,7 +92,7 @@
       },
       {
        "type": "paragraph",
-       "text": "Die Nachzählung im Gang C wird bis zum 15. Dezember 2026 durchgeführt."
+       "text": "Nachzählung im Gang C bis zum 15. Dezember 2026."
       },
       {
        "type": "signature",
@@ -108,6 +108,6 @@
     "ran": true
    }
   ],
-  "answer": "Der Bericht ist gespeichert unter /acme/documents/berichte/lager_2026-11.docx"
+  "answer": "/acme/documents/berichte/lager_2026-11.docx"
  }
 }

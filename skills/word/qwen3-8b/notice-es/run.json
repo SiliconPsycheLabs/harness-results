@@ -1,0 +1,83 @@
+{
+ "request": "notice-es",
+ "kind": "notice",
+ "language": "es",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/avisos/nuevo_fichaje.docx",
+     "title": "Nuevo sistema de fichaje",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "El sistema de fichaje cambia el 1 de enero de 2027."
+      },
+      {
+       "type": "bullets",
+       "items": [
+        "Cada empleado recibe una tarjeta nueva",
+        "Las tarjetas antiguas dejan de funcionar el 15 de enero de 2027",
+        "Las dudas se envían a rrhh@acme.example"
+       ]
+      },
+      {
+       "type": "signature",
+       "items": [
+        "Rosa Vidal",
+        "Recursos Humanos"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/avisos/nuevo_fichaje.docx",
+  "seconds": 6.06,
+  "tokens_in": 1799,
+  "tokens_out": 192,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/avisos/nuevo_fichaje.docx",
+     "title": "Nuevo sistema de fichaje",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "El sistema de fichaje cambia el 1 de enero de 2027."
+      },
+      {
+       "type": "bullets",
+       "items": [
+        "Cada empleado recibe una tarjeta nueva",
+        "Las tarjetas antiguas dejan de funcionar el 15 de enero de 2027",
+        "Las dudas se envían a rrhh@acme.example"
+       ]
+      },
+      {
+       "type": "signature",
+       "items": [
+        "Rosa Vidal",
+        "Recursos Humanos"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/avisos/nuevo_fichaje.docx"
+ }
+}

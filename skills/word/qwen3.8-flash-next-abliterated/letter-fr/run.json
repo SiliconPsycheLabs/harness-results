@@ -13,43 +13,48 @@
      "blocks": [
       {
        "type": "paragraph",
-       "text": "Acme Components"
+       "text": "Acme Components",
+       "align": "left"
       },
       {
        "type": "paragraph",
-       "text": "Le 5 décembre 2026"
+       "text": "5 décembre 2026",
+       "align": "right"
       },
       {
        "type": "paragraph",
-       "text": "Atelier Dumont SARL"
+       "text": "Atelier Dumont SARL",
+       "align": "left"
       },
       {
        "type": "paragraph",
-       "text": "À l'attention de Mme Claire Dumont"
+       "text": "À l'attention de Mme Claire Dumont",
+       "align": "left"
       },
       {
        "type": "paragraph",
-       "text": "Objet : relance de la facture F-2026-0932 d'un montant de 4 860,00 euros, échue le 15 novembre 2026"
+       "text": "Objet : relance de la facture F-2026-0932 d'un montant de 4 860,00 euros, échue le 15 novembre 2026",
+       "align": "left"
       },
       {
        "type": "paragraph",
-       "text": "Madame Dumont,"
+       "text": "Madame,",
+       "align": "left"
       },
       {
        "type": "paragraph",
-       "text": "Sauf erreur ou omission de notre part, la facture F-2026-0932, d'un montant de 4 860,00 euros, arrivée à échéance le 15 novembre 2026, demeure à ce jour impayée."
+       "text": "Sauf erreur ou omission de notre part, nous constatons que la facture F-2026-0932, d'un montant de 4 860,00 euros, échue le 15 novembre 2026, demeure impayée à ce jour.",
+       "align": "justify"
       },
       {
        "type": "paragraph",
-       "text": "Nous vous prions de bien vouloir procéder au règlement de cette somme sous 8 jours à compter de la réception du présent courrier."
+       "text": "Nous vous prions de bien vouloir procéder au règlement de cette somme sous 8 jours.",
+       "align": "justify"
       },
       {
        "type": "paragraph",
-       "text": "Si votre règlement est déjà parti ou si un acompte a été convenu, merci de ne pas tenir compte de cette relance et de nous en informer."
-      },
-      {
-       "type": "paragraph",
-       "text": "Nous restons à votre disposition pour tout renseignement complémentaire et vous prions d'agréer, Madame Dumont, l'expression de nos salutations distinguées."
+       "text": "Dans l'attente de votre règlement, nous vous prions d'agréer, Madame, l'expression de nos salutations distinguées.",
+       "align": "justify"
       },
       {
        "type": "signature",
@@ -65,10 +70,10 @@
     "ran": true
    }
   ],
-  "answer": "Le fichier est enregistré : /acme/documents/lettres/relance_dumont.docx",
-  "seconds": 421.83,
-  "tokens_in": 2417,
-  "tokens_out": 462,
+  "answer": "/acme/documents/lettres/relance_dumont.docx",
+  "seconds": 45.39,
+  "tokens_in": 2242,
+  "tokens_out": 590,
   "right": true,
   "missing": []
  },
@@ -87,18 +92,18 @@
       },
       {
        "type": "paragraph",
-       "text": "Atelier Dumont SARL",
+       "text": "5 décembre 2026",
        "align": "right"
+      },
+      {
+       "type": "paragraph",
+       "text": "Atelier Dumont SARL",
+       "align": "left"
       },
       {
        "type": "paragraph",
        "text": "À l'attention de Mme Claire Dumont",
-       "align": "right"
-      },
-      {
-       "type": "paragraph",
-       "text": "Le 5 décembre 2026",
-       "align": "right"
+       "align": "left"
       },
       {
        "type": "paragraph",
@@ -107,27 +112,22 @@
       },
       {
        "type": "paragraph",
-       "text": "Madame Dumont,",
+       "text": "Madame,",
        "align": "left"
       },
       {
        "type": "paragraph",
-       "text": "Sauf erreur ou omission de notre part, la facture F-2026-0932, d'un montant de 4 860,00 euros, échue le 15 novembre 2026, demeure à ce jour impayée dans nos écritures.",
+       "text": "Sauf erreur ou omission de notre part, la facture F-2026-0932, d'un montant de 4 860,00 euros, est échue depuis le 15 novembre 2026 et demeure impayée à ce jour.",
        "align": "justify"
       },
       {
        "type": "paragraph",
-       "text": "Nous vous prions de bien vouloir procéder au règlement de ladite facture sous 8 jours à compter de la réception du présent courrier.",
+       "text": "Nous vous remercions de bien vouloir procéder à son règlement sous 8 jours.",
        "align": "justify"
       },
       {
        "type": "paragraph",
-       "text": "Si votre règlement a déjà été effectué entre-temps, nous vous remercions de ne pas tenir compte de cette relance. Pour toute question ou en cas de difficulté, nous restons à votre entière disposition.",
-       "align": "justify"
-      },
-      {
-       "type": "paragraph",
-       "text": "Nous vous prions d'agréer, Madame Dumont, l'expression de nos salutations distinguées.",
+       "text": "Dans l'attente de votre règlement, nous vous prions d'agréer, Madame, l'expression de nos salutations distinguées.",
        "align": "justify"
       },
       {
@@ -144,6 +144,6 @@
     "ran": true
    }
   ],
-  "answer": "Le document a été enregistré : /acme/documents/lettres/relance_dumont.docx"
+  "answer": "/acme/documents/lettres/relance_dumont.docx"
  }
 }

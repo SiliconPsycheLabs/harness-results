@@ -13,13 +13,8 @@
      "blocks": [
       {
        "type": "heading",
-       "text": "Verbale del comitato sicurezza del 3 dicembre 2026",
-       "level": 1
-      },
-      {
-       "type": "heading",
        "text": "Presenti",
-       "level": 2
+       "level": 1
       },
       {
        "type": "bullets",
@@ -32,24 +27,24 @@
       {
        "type": "heading",
        "text": "Decisioni",
-       "level": 2
+       "level": 1
       },
       {
        "type": "numbered",
        "items": [
-        "Nuova segnaletica nel magazzino B entro il 20 dicembre 2026",
-        "Corso antincendio per 12 addetti a gennaio",
+        "nuova segnaletica nel magazzino B entro il 20 dicembre 2026",
+        "corso antincendio per 12 addetti a gennaio",
         "Stefano Riva aggiorna il registro degli infortuni"
        ]
       },
       {
        "type": "heading",
        "text": "Prossima riunione",
-       "level": 2
+       "level": 1
       },
       {
        "type": "paragraph",
-       "text": "La prossima riunione si terrà il 14 gennaio 2027."
+       "text": "14 gennaio 2027"
       }
      ]
     },
@@ -58,10 +53,10 @@
     "ran": true
    }
   ],
-  "answer": "Fatto: /acme/documents/verbali/sicurezza_2026-12-03.docx",
-  "seconds": 27.93,
-  "tokens_in": 2323,
-  "tokens_out": 321,
+  "answer": "/acme/documents/verbali/sicurezza_2026-12-03.docx",
+  "seconds": 29.44,
+  "tokens_in": 2071,
+  "tokens_out": 381,
   "right": true,
   "missing": []
  },
@@ -75,15 +70,6 @@
      "blocks": [
       {
        "type": "heading",
-       "text": "Verbale del comitato sicurezza del 3 dicembre 2026",
-       "level": 1
-      },
-      {
-       "type": "paragraph",
-       "text": "Verbale della riunione del comitato sicurezza tenutasi il 3 dicembre 2026."
-      },
-      {
-       "type": "heading",
        "text": "Presenti",
        "level": 2
       },
@@ -103,8 +89,8 @@
       {
        "type": "numbered",
        "items": [
-        "Nuova segnaletica nel magazzino B entro il 20 dicembre 2026",
-        "Corso antincendio per 12 addetti a gennaio",
+        "nuova segnaletica nel magazzino B entro il 20 dicembre 2026",
+        "corso antincendio per 12 addetti a gennaio",
         "Stefano Riva aggiorna il registro degli infortuni"
        ]
       },
@@ -115,7 +101,7 @@
       },
       {
        "type": "paragraph",
-       "text": "La prossima riunione si terrà il 14 gennaio 2027."
+       "text": "14 gennaio 2027"
       }
      ]
     },
@@ -124,6 +110,6 @@
     "ran": true
    }
   ],
-  "answer": "Fatto: /acme/documents/verbali/sicurezza_2026-12-03.docx"
+  "answer": "/acme/documents/verbali/sicurezza_2026-12-03.docx"
  }
 }

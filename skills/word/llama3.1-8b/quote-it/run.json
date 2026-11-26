@@ -1,0 +1,145 @@
+{
+ "request": "quote-it",
+ "kind": "quote",
+ "language": "it",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/preventivi/preventivo_2026_204.docx",
+     "title": "Preventivo n. 2026/204",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "Prepariamo il preventivo n. 2026/204 per Officine Galli S.r.l., con data 3 dicembre 2026."
+      },
+      {
+       "type": "bullets",
+       "text": "Voci:",
+       "items": [
+        "25 valvole a sfera a 48,00 euro l'una, totale 1.200,00 euro",
+        "100 guarnizioni a 2,40 euro l'una, totale 240,00 euro",
+        "1 installazione a 650,00 euro, totale 650,00 euro"
+       ]
+      },
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Descrizione",
+         "Quantità",
+         "Prezzo unitario",
+         "Totale"
+        ],
+        [
+         "Valvole a sfera",
+         "25",
+         "48,00",
+         "1.200,00"
+        ],
+        [
+         "Guarnizioni",
+         "100",
+         "2,40",
+         "240,00"
+        ],
+        [
+         "Installazione",
+         "1",
+         "650,00",
+         "650,00"
+        ]
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Il totale complessivo è di 2.090,00 euro IVA esclusa. Il preventivo è valido per 60 giorni."
+      },
+      {
+       "type": "signature",
+       "text": "Sottoscritto, [nome], [ruolo]"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "//acme/documents/preventivi/preventivo_2026_204.docx",
+  "seconds": 9.33,
+  "tokens_in": 2154,
+  "tokens_out": 373,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/preventivi/preventivo_2026_204.docx",
+     "title": "Preventivo n. 2026/204",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "Prepariamo il preventivo n. 2026/204 per Officine Galli S.r.l., con data 3 dicembre 2026."
+      },
+      {
+       "type": "bullets",
+       "text": "Voci:",
+       "items": [
+        "25 valvole a sfera a 48,00 euro l'una, totale 1.200,00 euro",
+        "100 guarnizioni a 2,40 euro l'una, totale 240,00 euro",
+        "1 installazione a 650,00 euro, totale 650,00 euro"
+       ]
+      },
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Descrizione",
+         "Quantità",
+         "Prezzo unitario",
+         "Totale"
+        ],
+        [
+         "Valvole a sfera",
+         "25",
+         "48,00",
+         "1.200,00"
+        ],
+        [
+         "Guarnizioni",
+         "100",
+         "2,40",
+         "240,00"
+        ],
+        [
+         "Installazione",
+         "1",
+         "650,00",
+         "650,00"
+        ]
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Totale complessivo: 2.090,00 euro IVA esclusa. Validità 60 giorni."
+      },
+      {
+       "type": "signature",
+       "text": "Sottoscritto, [nome], [ruolo]"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "//acme/documents/preventivi/preventivo_2026_204.docx"
+ }
+}

@@ -13,43 +13,31 @@
      "blocks": [
       {
        "type": "paragraph",
-       "text": "Suministros Ibarra S.L.",
-       "align": "left"
+       "text": "Suministros Ibarra S.L.\nA la atención de la Sra. Carmen Ibarra"
       },
       {
        "type": "paragraph",
-       "text": "A la atención de la Sra. Carmen Ibarra",
-       "align": "left"
+       "text": "9 de diciembre de 2026"
       },
       {
        "type": "paragraph",
-       "text": "9 de diciembre de 2026",
-       "align": "right"
+       "text": "Asunto: cambio de dirección de entrega"
       },
       {
        "type": "paragraph",
-       "text": "Asunto: cambio de dirección de entrega",
-       "align": "left"
+       "text": "Estimada Sra. Ibarra:"
       },
       {
        "type": "paragraph",
-       "text": "Estimada Sra. Ibarra:",
-       "align": "left"
+       "text": "Le informamos de que, a partir del 1 de enero de 2027, las entregas se harán en Calle del Puerto 14, 46024 Valencia."
       },
       {
        "type": "paragraph",
-       "text": "Le comunicamos que, a partir del 1 de enero de 2027, las entregas se realizarán en la siguiente dirección: Calle del Puerto 14, 46024 Valencia.",
-       "align": "justify"
+       "text": "Quedamos a su disposición para cualquier aclaración."
       },
       {
        "type": "paragraph",
-       "text": "Le rogamos que actualice sus registros y dirija los envíos a esta nueva dirección a partir de la fecha indicada. Quedamos a su disposición para cualquier aclaración.",
-       "align": "justify"
-      },
-      {
-       "type": "paragraph",
-       "text": "Atentamente,",
-       "align": "left"
+       "text": "Atentamente,"
       },
       {
        "type": "signature",
@@ -65,10 +53,10 @@
     "ran": true
    }
   ],
-  "answer": "Guardada en /acme/documents/cartas/cambio_direccion_ibarra.docx",
-  "seconds": 31.51,
-  "tokens_in": 2288,
-  "tokens_out": 370,
+  "answer": "/acme/documents/cartas/cambio_direccion_ibarra.docx",
+  "seconds": 30.12,
+  "tokens_in": 1997,
+  "tokens_out": 384,
   "right": true,
   "missing": []
  },
@@ -82,15 +70,11 @@
      "blocks": [
       {
        "type": "paragraph",
+       "text": "Suministros Ibarra S.L.\nA la atención de la Sra. Carmen Ibarra"
+      },
+      {
+       "type": "paragraph",
        "text": "9 de diciembre de 2026"
-      },
-      {
-       "type": "paragraph",
-       "text": "Suministros Ibarra S.L."
-      },
-      {
-       "type": "paragraph",
-       "text": "A la atención de la Sra. Carmen Ibarra"
       },
       {
        "type": "paragraph",
@@ -102,15 +86,15 @@
       },
       {
        "type": "paragraph",
-       "text": "Le comunicamos que, a partir del 1 de enero de 2027, las entregas se realizarán en la siguiente dirección: Calle del Puerto 14, 46024 Valencia."
+       "text": "Le comunicamos que, a partir del 1 de enero de 2027, las entregas se realizarán en la nueva dirección: Calle del Puerto 14, 46024 Valencia."
       },
       {
        "type": "paragraph",
-       "text": "Le rogamos que actualice sus registros y dirija a partir de esa fecha todos los envíos a la nueva dirección indicada. Quedamos a su disposición para cualquier aclaración."
+       "text": "Quedamos a su disposición para cualquier aclaración."
       },
       {
        "type": "paragraph",
-       "text": "Reciba un cordial saludo."
+       "text": "Un cordial saludo,"
       },
       {
        "type": "signature",
@@ -126,6 +110,6 @@
     "ran": true
    }
   ],
-  "answer": "Guardada en /acme/documents/cartas/cambio_direccion_ibarra.docx"
+  "answer": "/acme/documents/cartas/cambio_direccion_ibarra.docx"
  }
 }

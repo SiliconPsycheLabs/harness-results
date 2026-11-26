@@ -1,0 +1,111 @@
+{
+ "request": "instructions-it",
+ "kind": "instructions",
+ "language": "it",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/istruzioni/rimborso_trasferta.docx",
+     "title": "Come chiedere il rimborso di una trasferta",
+     "blocks": [
+      {
+       "type": "heading",
+       "level": 1,
+       "align": "left",
+       "items": [
+        "Come chiedere il rimborso di una trasferta"
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Per richiedere il rimborso delle spese sostenute per un viaggio di lavoro, segui questi passaggi:"
+      },
+      {
+       "type": "numbered",
+       "items": [
+        "Compila il modulo R12 entro 10 giorni dal rientro.",
+        "Allega le ricevute originali.",
+        "Fai firmare il modulo dal tuo responsabile.",
+        "Consegna il modulo all'ufficio amministrazione."
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Avvertenza: le spese senza ricevuta non sono idonee al rimborso."
+      },
+      {
+       "type": "heading",
+       "level": 2,
+       "align": "left",
+       "items": [
+        "Avvertenza"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Il documento è stato salvato con successo in /acme/documents/istruzioni/rimborso_trasferta.docx",
+  "seconds": 9.14,
+  "tokens_in": 2021,
+  "tokens_out": 328,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/istruzioni/rimborso_trasferta.docx",
+     "title": "Come chiedere il rimborso di una trasferta",
+     "blocks": [
+      {
+       "type": "heading",
+       "level": 1,
+       "align": "left",
+       "items": [
+        "Come chiedere il rimborso di una trasferta"
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Per richiedere il rimborso delle spese sostenute per un viaggio di lavoro, segui questi passaggi:"
+      },
+      {
+       "type": "numbered",
+       "items": [
+        "Compila il modulo R12 entro 10 giorni dal rientro.",
+        "Allega le ricevute originali.",
+        "Fai firmare il modulo dal tuo responsabile.",
+        "Consegna il modulo all'ufficio amministrazione."
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Avvertenza: le spese senza ricevuta non sono idonee al rimborso."
+      },
+      {
+       "type": "heading",
+       "level": 2,
+       "align": "left",
+       "items": [
+        "Avvertenza"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Il documento è stato salvato con successo in /acme/documents/istruzioni/rimborso_trasferta.docx"
+ }
+}

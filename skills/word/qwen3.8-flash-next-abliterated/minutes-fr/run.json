@@ -14,7 +14,7 @@
       {
        "type": "heading",
        "text": "Présents",
-       "level": 2
+       "level": 1
       },
       {
        "type": "bullets",
@@ -27,24 +27,24 @@
       {
        "type": "heading",
        "text": "Décisions",
-       "level": 2
+       "level": 1
       },
       {
        "type": "numbered",
        "items": [
-        "Hausse des tarifs de 3 % au 1er février 2027.",
-        "Inès Garnier prépare l'offre pour le client Sodirel.",
-        "Salon de Lyon confirmé du 9 au 11 mars 2027."
+        "hausse des tarifs de 3 % au 1er février 2027",
+        "Inès Garnier prépare l'offre pour le client Sodirel",
+        "salon de Lyon confirmé du 9 au 11 mars 2027"
        ]
       },
       {
        "type": "heading",
        "text": "Prochaine réunion",
-       "level": 2
+       "level": 1
       },
       {
        "type": "paragraph",
-       "text": "8 janvier 2027."
+       "text": "8 janvier 2027"
       }
      ]
     },
@@ -53,10 +53,10 @@
     "ran": true
    }
   ],
-  "answer": "Le document est enregistré : /acme/documents/comptes_rendus/commercial_2026-12-04.docx",
-  "seconds": 26.61,
-  "tokens_in": 2317,
-  "tokens_out": 291,
+  "answer": "/acme/documents/comptes_rendus/commercial_2026-12-04.docx",
+  "seconds": 29.35,
+  "tokens_in": 2105,
+  "tokens_out": 389,
   "right": true,
   "missing": []
  },
@@ -70,13 +70,8 @@
      "blocks": [
       {
        "type": "heading",
-       "level": 1,
-       "text": "Compte rendu de la réunion commerciale du 4 décembre 2026"
-      },
-      {
-       "type": "heading",
-       "level": 2,
-       "text": "Présents"
+       "text": "Présents",
+       "level": 1
       },
       {
        "type": "bullets",
@@ -88,25 +83,25 @@
       },
       {
        "type": "heading",
-       "level": 2,
-       "text": "Décisions"
+       "text": "Décisions",
+       "level": 1
       },
       {
        "type": "numbered",
        "items": [
-        "Hausse des tarifs de 3 % au 1er février 2027.",
-        "Inès Garnier prépare l'offre pour le client Sodirel.",
-        "Salon de Lyon confirmé du 9 au 11 mars 2027."
+        "hausse des tarifs de 3 % au 1er février 2027",
+        "Inès Garnier prépare l'offre pour le client Sodirel",
+        "salon de Lyon confirmé du 9 au 11 mars 2027"
        ]
       },
       {
        "type": "heading",
-       "level": 2,
-       "text": "Prochaine réunion"
+       "text": "Prochaine réunion",
+       "level": 1
       },
       {
        "type": "paragraph",
-       "text": "Prochaine réunion : 8 janvier 2027."
+       "text": "8 janvier 2027"
       }
      ]
     },
@@ -115,6 +110,6 @@
     "ran": true
    }
   ],
-  "answer": "Le document est enregistré : /acme/documents/comptes_rendus/commercial_2026-12-04.docx"
+  "answer": "/acme/documents/comptes_rendus/commercial_2026-12-04.docx"
  }
 }

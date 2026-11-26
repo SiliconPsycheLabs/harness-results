@@ -1,0 +1,117 @@
+{
+ "request": "minutes-de",
+ "kind": "minutes",
+ "language": "de",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/protokolle/it_2026-12-08.docx",
+     "title": "Protokoll der IT-Besprechung vom 8. Dezember 2026.",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Protokoll der IT-Besprechung vom 8. Dezember 2026.",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Anwesend: Sabine Vogt, Jan Petersen, Mira Scholz.",
+       "align": "left"
+      },
+      {
+       "type": "bullets",
+       "text": "1) Umstellung des Mailservers am 19. Dezember 2026;",
+       "align": "left"
+      },
+      {
+       "type": "bullets",
+       "text": "2) Jan Petersen erneuert 15 Notebooks bis Ende Januar;",
+       "align": "left"
+      },
+      {
+       "type": "bullets",
+       "text": "3) Passwortwechsel für alle Konten bis 31. Dezember 2026.",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Nächste Besprechung: 12. Januar 2027.",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Die Anwesenden als Aufzählung: Sabine Vogt, Jan Petersen, Mira Scholz.",
+       "align": "left"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Das Protokoll der IT-Besprechung vom 8. Dezember 2026 wurde erfolgreich unter /acme/documents/protokolle/it_2026-12-08.docx gespeichert.",
+  "seconds": 12.61,
+  "tokens_in": 2213,
+  "tokens_out": 431,
+  "right": false,
+  "missing": [
+   "fewer than 3 numbered items"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/protokolle/it_2026-12-08.docx",
+     "title": "Protokoll der IT-Besprechung vom 8. Dezember 2026",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Protokoll der IT-Besprechung vom 8. Dezember 2026",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Anwesend: Sabine Vogt, Jan Petersen, Mira Scholz.",
+       "align": "left"
+      },
+      {
+       "type": "bullets",
+       "text": "1) Umstellung des Mailservers am 19. Dezember 2026",
+       "align": "left"
+      },
+      {
+       "type": "bullets",
+       "text": "2) Jan Petersen erneuert 15 Notebooks bis Ende Januar",
+       "align": "left"
+      },
+      {
+       "type": "bullets",
+       "text": "3) Passwortwechsel für alle Konten bis 31. Dezember 2026",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Nächste Besprechung: 12. Januar 2027.",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Die Anwesenden als Aufzählung: Sabine Vogt, Jan Petersen, Mira Scholz.",
+       "align": "left"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Das Protokoll der IT-Besprechung vom 8. Dezember 2026 wurde erfolgreich unter /acme/documents/protokolle/it_2026-12-08.docx gespeichert."
+ }
+}

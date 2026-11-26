@@ -1,0 +1,104 @@
+{
+ "request": "notice-it",
+ "kind": "notice",
+ "language": "it",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/avvisi/parcheggio_nord.docx",
+     "title": "Chiusura del parcheggio nord",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Chiusura del parcheggio nord",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Lunedè 14 dicembre 2026 il parcheggio nord sarà chiuso per lavori dalle 7:00 alle 18:00.",
+       "align": "left"
+      },
+      {
+       "type": "bullets",
+       "text": "Usare il parcheggio sud",
+       "items": [
+        "L'ingresso merci rimane aperto."
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Le navette partono ogni 15 minuti dalla portineria.",
+       "align": "left"
+      },
+      {
+       "type": "signature",
+       "text": "Stefano Riva\nServizi Generali",
+       "align": "right"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The document has been successfully saved at /acme/documents/avvisi/parcheggio_nord.docx",
+  "seconds": 8.56,
+  "tokens_in": 1983,
+  "tokens_out": 302,
+  "right": false,
+  "missing": [
+   "fewer than 3 bullet items"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/avvisi/parcheggio_nord.docx",
+     "title": "Chiusura del parcheggio nord",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Chiusura del parcheggio nord",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Lunedè 14 dicembre 2026 il parcheggio nord sarà chiuso per lavori dalle 7:00 alle 18:00.",
+       "align": "left"
+      },
+      {
+       "type": "bullets",
+       "text": "Usare il parcheggio sud;",
+       "align": "left"
+      },
+      {
+       "type": "bullets",
+       "text": "L'ingresso merci rimane aperto;",
+       "align": "left"
+      },
+      {
+       "type": "bullets",
+       "text": "Le navette partono ogni 15 minuti dalla portineria.",
+       "align": "left"
+      },
+      {
+       "type": "signature",
+       "text": "Stefano Riva\nServizi Generali",
+       "align": "right"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The document has been successfully saved at /acme/documents/avvisi/parcheggio_nord.docx"
+ }
+}

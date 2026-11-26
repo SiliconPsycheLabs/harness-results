@@ -1,0 +1,141 @@
+{
+ "request": "quote-it",
+ "kind": "quote",
+ "language": "it",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/preventivi/preventivo_2026_204.docx",
+     "title": "Preventivo n. 2026/204",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Preventivo n. 2026/204",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Data: 3 dicembre 2026",
+       "align": "center"
+      },
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Descrizione",
+         "Quantità",
+         "Prezzo unitario",
+         "Totale"
+        ],
+        [
+         "Valvole a sfera",
+         "25",
+         "48,00 euro",
+         "1.200,00 euro"
+        ],
+        [
+         "Guarnizioni",
+         "100",
+         "2,40 euro",
+         "240,00 euro"
+        ],
+        [
+         "Installazione",
+         "1",
+         "650,00 euro",
+         "650,00 euro"
+        ]
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Il presente preventivo ha validità di 60 giorni dalla data di emissione. Totale complessivo: 2.090,00 euro IVA esclusa."
+      },
+      {
+       "type": "signature",
+       "text": "Acme Components"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Il documento è stato salvato con successo in /acme/documents/preventivi/preventivo_2026_204.docx",
+  "seconds": 10.82,
+  "tokens_in": 2257,
+  "tokens_out": 365,
+  "right": false,
+  "missing": [
+   "fact lacks: Officine Galli"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/preventivi/preventivo_2026_204.docx",
+     "title": "Preventivo n. 2026/204",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Preventivo n. 2026/204",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Data: 3 dicembre 2026",
+       "align": "center"
+      },
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Descrizione",
+         "Quantità",
+         "Prezzo unitario",
+         "Totale"
+        ],
+        [
+         "Valvole a sfera",
+         "25",
+         "48,00 euro",
+         "1.200,00 euro"
+        ],
+        [
+         "Guarnizioni",
+         "100",
+         "2,40 euro",
+         "240,00 euro"
+        ],
+        [
+         "Installazione",
+         "1",
+         "650,00 euro",
+         "650,00 euro"
+        ]
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Il presente preventivo ha validità di 60 giorni dalla data di emissione. Totale complessivo: 2.090,00 euro IVA esclusa."
+      },
+      {
+       "type": "signature",
+       "text": "Acme Components"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Il documento è stato salvato con successo in /acme/documents/preventivi/preventivo_2026_204.docx"
+ }
+}

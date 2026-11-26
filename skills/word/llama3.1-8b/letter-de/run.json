@@ -1,0 +1,113 @@
+{
+ "request": "letter-de",
+ "kind": "letter",
+ "language": "de",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/briefe/reklamation_kraemer.docx",
+     "title": "Reklamation zur Lieferung LS-7730",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Reklamation zur Lieferung LS-7730",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "An die Krämer Werkzeugbau GmbH",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Zu Händen von Herrn Jonas Krämer",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Datum: 10. Dezember 2026",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Betreff: Reklamation zur Lieferung LS-7730",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Von 200 gelieferten Fräsköpfen waren 14 beschädigt; wir bitten um Ersatzlieferung bis zum 8. Januar 2027.",
+       "align": "left"
+      },
+      {
+       "type": "signature",
+       "text": "Sabine Vogt, Leiterin Qualitätssicherung"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/briefe/reklamation_kraemer.docx",
+  "seconds": 7.85,
+  "tokens_in": 1952,
+  "tokens_out": 305,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/briefe/reklamation_kraemer.docx",
+     "title": "Reklamation zur Lieferung LS-7730",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Reklamation zur Lieferung LS-7730",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "An die Krämer Werkzeugbau GmbH",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Zu Händen von Herrn Jonas Krämer",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Datum: 10. Dezember 2026",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Betreff: Reklamation zur Lieferung LS-7730",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Von 200 gelieferten Fräsköpfen waren 14 beschädigt; wir bitten um Ersatzlieferung bis zum 8. Januar 2027.",
+       "align": "left"
+      },
+      {
+       "type": "signature",
+       "text": "Sabine Vogt, Leiterin Qualitätssicherung"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/briefe/reklamation_kraemer.docx"
+ }
+}

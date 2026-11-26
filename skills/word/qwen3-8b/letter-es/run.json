@@ -1,0 +1,129 @@
+{
+ "request": "letter-es",
+ "kind": "letter",
+ "language": "es",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/cartas/cambio_direccion_ibarra.docx",
+     "title": "Cambio de dirección de entrega",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Suministros Ibarra S.L.",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Atención a la Sra. Carmen Ibarra",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Fecha: 9 de diciembre de 2026",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Asunto: Cambio de dirección de entrega",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Estimada Sra. Ibarra:",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Le informamos que, a partir del 1 de enero de 2027, las entregas se realizarán en la siguiente dirección: Calle del Puerto 14, 46024 Valencia.",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Quedamos a su disposición para cualquier consulta o aclaración.",
+       "align": "left"
+      },
+      {
+       "type": "signature",
+       "items": [
+        "Andrés Molina",
+        "Jefe de Logística"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/cartas/cambio_direccion_ibarra.docx",
+  "seconds": 8.97,
+  "tokens_in": 1947,
+  "tokens_out": 328,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/cartas/cambio_direccion_ibarra.docx",
+     "title": "Cambio de dirección de entrega",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Suministros Ibarra S.L.",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Atención a la Sra. Carmen Ibarra",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Fecha: 9 de diciembre de 2026",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Asunto: Cambio de dirección de entrega",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Estimada Sra. Ibarra:",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Le informamos que, a partir del 1 de enero de 2027, las entregas se realizarán en la siguiente dirección: Calle del Puerto 14, 46024 Valencia.",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Quedamos a su disposición para cualquier consulta o aclaración.",
+       "align": "left"
+      },
+      {
+       "type": "signature",
+       "items": [
+        "Andrés Molina",
+        "Jefe de Logística"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/cartas/cambio_direccion_ibarra.docx"
+ }
+}

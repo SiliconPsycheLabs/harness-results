@@ -13,11 +13,13 @@
      "blocks": [
       {
        "type": "paragraph",
-       "text": "Spett.le Officine Galli S.r.l."
+       "text": "Spett.le Officine Galli S.r.l.",
+       "align": "left"
       },
       {
        "type": "paragraph",
-       "text": "Data: 3 dicembre 2026"
+       "text": "Data: 3 dicembre 2026",
+       "align": "left"
       },
       {
        "type": "table",
@@ -51,11 +53,12 @@
       {
        "type": "paragraph",
        "text": "Totale complessivo: 2.090,00 euro IVA esclusa",
-       "align": "right"
+       "align": "left"
       },
       {
        "type": "paragraph",
-       "text": "Validità del preventivo: 60 giorni"
+       "text": "Validità: 60 giorni",
+       "align": "left"
       }
      ]
     },
@@ -64,10 +67,10 @@
     "ran": true
    }
   ],
-  "answer": "File salvato in /acme/documents/preventivi/preventivo_2026_204.docx",
-  "seconds": 27.48,
-  "tokens_in": 2438,
-  "tokens_out": 313,
+  "answer": "/acme/documents/preventivi/preventivo_2026_204.docx",
+  "seconds": 35.41,
+  "tokens_in": 2277,
+  "tokens_out": 463,
   "right": true,
   "missing": []
  },
@@ -80,11 +83,6 @@
      "title": "Preventivo n. 2026/204",
      "blocks": [
       {
-       "type": "heading",
-       "text": "Preventivo n. 2026/204",
-       "level": 1
-      },
-      {
        "type": "paragraph",
        "text": "Spett.le Officine Galli S.r.l."
       },
@@ -123,12 +121,11 @@
       },
       {
        "type": "paragraph",
-       "text": "Totale complessivo: 2.090,00 euro IVA esclusa",
-       "align": "right"
+       "text": "Totale complessivo: 2.090,00 euro IVA esclusa"
       },
       {
        "type": "paragraph",
-       "text": "Validità del preventivo: 60 giorni"
+       "text": "Validità: 60 giorni"
       }
      ]
     },
@@ -137,6 +134,6 @@
     "ran": true
    }
   ],
-  "answer": "Preventivo scritto in /acme/documents/preventivi/preventivo_2026_204.docx"
+  "answer": "/acme/documents/preventivi/preventivo_2026_204.docx"
  }
 }

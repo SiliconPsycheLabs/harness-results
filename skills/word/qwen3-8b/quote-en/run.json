@@ -1,0 +1,138 @@
+{
+ "request": "quote-en",
+ "kind": "quote",
+ "language": "en",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/quotes/Q-2026-118.docx",
+     "title": "Quote Q-2026-118",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Quote Q-2026-118",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Harbor Tools Inc.",
+       "align": "center"
+      },
+      {
+       "type": "paragraph",
+       "text": "Dated: 2 December 2026"
+      },
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Item",
+         "Quantity",
+         "Unit price",
+         "Total"
+        ],
+        [
+         "40 steel brackets",
+         "40",
+         "12.50 EUR",
+         "500.00 EUR"
+        ],
+        [
+         "10 mounting kits",
+         "10",
+         "35.00 EUR",
+         "350.00 EUR"
+        ],
+        [
+         "2 calibration services",
+         "2",
+         "180.00 EUR",
+         "360.00 EUR"
+        ]
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Grand Total: 1,210.00 EUR"
+      },
+      {
+       "type": "paragraph",
+       "text": "This quote is valid for 30 days."
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/quotes/Q-2026-118.docx",
+  "seconds": 9.4,
+  "tokens_in": 2051,
+  "tokens_out": 308,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/quotes/Q-2026-118.docx",
+     "title": "Quote Q-2026-118",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Quote Q-2026-118",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "For Harbor Tools Inc., dated 2 December 2026."
+      },
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Item",
+         "Quantity",
+         "Unit price",
+         "Total"
+        ],
+        [
+         "steel brackets",
+         "40",
+         "12.50 EUR",
+         "500.00 EUR"
+        ],
+        [
+         "mounting kits",
+         "10",
+         "35.00 EUR",
+         "350.00 EUR"
+        ],
+        [
+         "calibration services",
+         "2",
+         "180.00 EUR",
+         "360.00 EUR"
+        ]
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Grand total: 1,210.00 EUR. This quote is valid for 30 days."
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/quotes/Q-2026-118.docx"
+ }
+}

@@ -13,48 +13,48 @@
      "blocks": [
       {
        "type": "paragraph",
-       "text": "Acme Components"
+       "text": "Northwind Bearings Ltd",
+       "align": "left"
       },
       {
        "type": "paragraph",
-       "text": "3 December 2026"
+       "text": "Attention: Ms Helen Marsh",
+       "align": "left"
       },
       {
        "type": "paragraph",
-       "text": "Northwind Bearings Ltd"
-      },
-      {
-       "type": "paragraph",
-       "text": "Attention: Ms Helen Marsh"
+       "text": "3 December 2026",
+       "align": "left"
       },
       {
        "type": "heading",
-       "text": "Delayed delivery of order PO-4471",
-       "level": 1
+       "text": "Subject: delayed delivery of order PO-4471",
+       "level": 2
       },
       {
        "type": "paragraph",
-       "text": "Dear Ms Marsh,"
+       "text": "Dear Ms Marsh,",
+       "align": "left"
       },
       {
        "type": "paragraph",
-       "text": "We write with reference to order PO-4471, placed with your company. The 600 bearings covered by this order were due for delivery on 20 November 2026 and, as at the date of this letter, have still not been received."
+       "text": "We are writing to inform you that the 600 bearings under order PO-4471 were due on 20 November 2026 but have not yet been delivered.",
+       "align": "justify"
       },
       {
        "type": "paragraph",
-       "text": "We therefore ask you to confirm to us in writing, within 5 working days of the date of this letter, a new delivery date for the outstanding goods."
+       "text": "We ask that you provide a new delivery date in writing within 5 working days.",
+       "align": "justify"
       },
       {
        "type": "paragraph",
-       "text": "Please note that we reserve the right to apply the penalty provided for in clause 9 of our terms."
+       "text": "Please note that we reserve the right to apply the penalty of clause 9.",
+       "align": "justify"
       },
       {
        "type": "paragraph",
-       "text": "We look forward to hearing from you."
-      },
-      {
-       "type": "paragraph",
-       "text": "Yours sincerely,"
+       "text": "Yours sincerely,",
+       "align": "left"
       },
       {
        "type": "signature",
@@ -71,9 +71,9 @@
    }
   ],
   "answer": "/acme/documents/letters/northwind_po4471.docx",
-  "seconds": 417.32,
-  "tokens_in": 2351,
-  "tokens_out": 394,
+  "seconds": 39.63,
+  "tokens_in": 2157,
+  "tokens_out": 509,
   "right": true,
   "missing": []
  },
@@ -87,48 +87,48 @@
      "blocks": [
       {
        "type": "paragraph",
-       "text": "Acme Components"
+       "text": "Northwind Bearings Ltd",
+       "align": "left"
       },
       {
        "type": "paragraph",
-       "text": "3 December 2026"
+       "text": "Attn: Ms Helen Marsh",
+       "align": "left"
       },
       {
        "type": "paragraph",
-       "text": "Northwind Bearings Ltd"
-      },
-      {
-       "type": "paragraph",
-       "text": "Attention: Ms Helen Marsh"
+       "text": "3 December 2026",
+       "align": "left"
       },
       {
        "type": "heading",
-       "text": "Delayed delivery of order PO-4471",
-       "level": 1
+       "text": "Subject: Delayed delivery of order PO-4471",
+       "level": 2
       },
       {
        "type": "paragraph",
-       "text": "Dear Ms Marsh,"
+       "text": "Dear Ms Marsh,",
+       "align": "left"
       },
       {
        "type": "paragraph",
-       "text": "We write with regard to order PO-4471, under which 600 bearings were due to be delivered to us on 20 November 2026. As at the date of this letter, the goods have still not been received."
+       "text": "We are writing to inform you that the 600 bearings under order PO-4471 were due on 20 November 2026 but have not yet been delivered.",
+       "align": "justify"
       },
       {
        "type": "paragraph",
-       "text": "We therefore ask you to confirm to us in writing, within 5 working days of the date of this letter, a new delivery date for the outstanding 600 bearings."
+       "text": "We ask that you provide a new delivery date in writing within 5 working days.",
+       "align": "justify"
       },
       {
        "type": "paragraph",
-       "text": "Please note that we reserve the right to apply the penalty provided for in clause 9 of our agreement."
+       "text": "Please note that we reserve the right to apply the penalty of clause 9.",
+       "align": "justify"
       },
       {
        "type": "paragraph",
-       "text": "We look forward to hearing from you."
-      },
-      {
-       "type": "paragraph",
-       "text": "Yours sincerely,"
+       "text": "Yours sincerely,",
+       "align": "left"
       },
       {
        "type": "signature",

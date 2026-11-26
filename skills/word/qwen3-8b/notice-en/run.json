@@ -1,0 +1,83 @@
+{
+ "request": "notice-en",
+ "kind": "notice",
+ "language": "en",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/notices/canteen_closure.docx",
+     "title": "Canteen closure over the holidays",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "The canteen is closed from 21 December 2026 to 3 January 2027."
+      },
+      {
+       "type": "bullets",
+       "items": [
+        "Vending machines stay on",
+        "The coffee corner on floor 2 stays open",
+        "Meal vouchers are handed out on 18 December"
+       ]
+      },
+      {
+       "type": "signature",
+       "items": [
+        "Lucia Marin",
+        "HR"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/notices/canteen_closure.docx",
+  "seconds": 6.19,
+  "tokens_in": 1714,
+  "tokens_out": 169,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/notices/canteen_closure.docx",
+     "title": "Canteen closure over the holidays",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "The canteen is closed from 21 December 2026 to 3 January 2027."
+      },
+      {
+       "type": "bullets",
+       "items": [
+        "Vending machines stay on",
+        "The coffee corner on floor 2 stays open",
+        "Meal vouchers are handed out on 18 December"
+       ]
+      },
+      {
+       "type": "signature",
+       "items": [
+        "Lucia Marin",
+        "HR"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/notices/canteen_closure.docx"
+ }
+}

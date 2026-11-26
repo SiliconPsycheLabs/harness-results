@@ -1,0 +1,104 @@
+{
+ "request": "instructions-es",
+ "kind": "instructions",
+ "language": "es",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/instrucciones/alta_proveedor.docx",
+     "title": "Alta de un proveedor nuevo",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Instrucciones para dar de alta a un proveedor nuevo",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Para dar de alta a un proveedor nuevo, se deben seguir los siguientes pasos:",
+       "align": "left"
+      },
+      {
+       "type": "bullets",
+       "text": "1. Pedir al proveedor el certificado fiscal.",
+       "items": [
+        "2. Comprobar el IBAN con una llamada al número que ya tenemos.",
+        "3. Rellenar la ficha F-07.",
+        "4. Enviar la ficha a compras para su aprobación."
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Es importante tener en cuenta que nunca se cambia un IBAN por una petición recibida por correo.",
+       "align": "left"
+      },
+      {
+       "type": "signature",
+       "text": "Atentamente, [Tu nombre]"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/instrucciones/alta_proveedor.docx",
+  "seconds": 6.59,
+  "tokens_in": 1913,
+  "tokens_out": 274,
+  "right": false,
+  "missing": [
+   "fact lacks: certificado fiscal",
+   "fewer than 4 numbered items"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/instrucciones/alta_proveedor.docx",
+     "title": "Alta de un proveedor nuevo",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Instrucciones para dar de alta a un proveedor nuevo",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Para dar de alta a un proveedor nuevo, se deben seguir los siguientes pasos:",
+       "align": "left"
+      },
+      {
+       "type": "bullets",
+       "text": "1. Pedir al proveedor el certificado fiscal.",
+       "items": [
+        "2. Comprobar el IBAN con una llamada al número que ya tenemos.",
+        "3. Rellenar la ficha F-07.",
+        "4. Enviar la ficha a compras para su aprobación."
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Es importante tener en cuenta que nunca se cambia un IBAN por una petición recibida por correo.",
+       "align": "left"
+      },
+      {
+       "type": "signature",
+       "text": "Atentamente, [Tu nombre]"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/instrucciones/alta_proveedor.docx"
+ }
+}

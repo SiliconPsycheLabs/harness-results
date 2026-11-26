@@ -1,0 +1,103 @@
+{
+ "request": "minutes-en",
+ "kind": "minutes",
+ "language": "en",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/minutes/production_2026-12-02.docx",
+     "title": "Production meeting minutes, 2 December 2026",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Production meeting minutes, 2 December 2026",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Present: Paolo Ferri, Anna Keller, Tom Reyes, Lucia Marin.",
+       "align": "left"
+      },
+      {
+       "type": "heading",
+       "text": "Decisions",
+       "level": 2
+      },
+      {
+       "type": "numbered",
+       "items": [
+        "1) line 3 stops on 14 December for maintenance;",
+        "2) the second shift starts on 11 January 2027;",
+        "3) Tom Reyes orders the spare motor by 5 December."
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Next meeting: 16 December 2026.",
+       "align": "left"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/minutes/production_2026-12-02.docx",
+  "seconds": 7.23,
+  "tokens_in": 1916,
+  "tokens_out": 263,
+  "right": false,
+  "missing": [
+   "fewer than 4 bullet items"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/minutes/production_2026-12-02.docx",
+     "title": "Production meeting minutes, 2 December 2026",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Production meeting minutes, 2 December 2026",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Present: Paolo Ferri, Anna Keller, Tom Reyes, Lucia Marin.",
+       "align": "left"
+      },
+      {
+       "type": "heading",
+       "text": "Decisions",
+       "level": 2
+      },
+      {
+       "type": "numbered",
+       "items": [
+        "1) line 3 stops on 14 December for maintenance;",
+        "2) the second shift starts on 11 January 2027;",
+        "3) Tom Reyes orders the spare motor by 5 December."
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Next meeting: 16 December 2026.",
+       "align": "left"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/minutes/production_2026-12-02.docx"
+ }
+}

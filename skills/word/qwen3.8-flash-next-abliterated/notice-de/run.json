@@ -12,26 +12,15 @@
      "title": "Stromabschaltung in Halle 1",
      "blocks": [
       {
-       "type": "heading",
-       "text": "Stromabschaltung in Halle 1",
-       "level": 1
-      },
-      {
        "type": "paragraph",
-       "text": "Interne Mitteilung",
-       "align": "left"
-      },
-      {
-       "type": "paragraph",
-       "text": "Am Freitag, 18. Dezember 2026, wird von 12:00 bis 14:00 Uhr der Strom in Halle 1 abgeschaltet.",
-       "align": "justify"
+       "text": "Am Freitag, 18. Dezember 2026, wird von 12:00 bis 14:00 Uhr der Strom in Halle 1 abgeschaltet."
       },
       {
        "type": "bullets",
        "items": [
         "Rechner vorher herunterfahren",
         "Kühlräume laufen über das Notstromaggregat",
-        "Die Kantine bleibt geöffnet"
+        "die Kantine bleibt geöffnet"
        ]
       },
       {
@@ -48,10 +37,10 @@
     "ran": true
    }
   ],
-  "answer": "Die Mitteilung ist gespeichert unter /acme/documents/mitteilungen/stromabschaltung_halle1.docx",
-  "seconds": 24.05,
-  "tokens_in": 2168,
-  "tokens_out": 254,
+  "answer": "/acme/documents/mitteilungen/stromabschaltung_halle1.docx",
+  "seconds": 20.16,
+  "tokens_in": 1870,
+  "tokens_out": 266,
   "right": true,
   "missing": []
  },
@@ -65,11 +54,6 @@
      "blocks": [
       {
        "type": "paragraph",
-       "text": "Interne Mitteilung",
-       "align": "left"
-      },
-      {
-       "type": "paragraph",
        "text": "Am Freitag, 18. Dezember 2026, wird von 12:00 bis 14:00 Uhr der Strom in Halle 1 abgeschaltet."
       },
       {
@@ -77,7 +61,7 @@
        "items": [
         "Rechner vorher herunterfahren",
         "Kühlräume laufen über das Notstromaggregat",
-        "Die Kantine bleibt geöffnet"
+        "die Kantine bleibt geöffnet"
        ]
       },
       {
@@ -94,6 +78,6 @@
     "ran": true
    }
   ],
-  "answer": "Die Mitteilung ist gespeichert unter /acme/documents/mitteilungen/stromabschaltung_halle1.docx"
+  "answer": "/acme/documents/mitteilungen/stromabschaltung_halle1.docx"
  }
 }

@@ -1,0 +1,113 @@
+{
+ "request": "letter-it",
+ "kind": "letter",
+ "language": "it",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/lettere/disdetta_bellomo.docx",
+     "title": "Disdetta del contratto di manutenzione n. 218/2024",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Disdetta del contratto di manutenzione n. 218/2024",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Tessitura Bellomo S.p.A., Via dei Tessitori, 123 - 45678 Ravenna (RA), Italia.",
+       "align": "center"
+      },
+      {
+       "type": "paragraph",
+       "text": "Attenzione del Dott. Marco Bellomo"
+      },
+      {
+       "type": "paragraph",
+       "text": "Ravenna, 4 dicembre 2026"
+      },
+      {
+       "type": "paragraph",
+       "text": "Gentile Dott. Bellomo,"
+      },
+      {
+       "type": "paragraph",
+       "text": "Somma la presente per comunicare la disdetta del contratto di manutenzione n. 218/2024, in scadenza il 31 gennaio 2027. Non intendemo rinnovare tale contratto."
+      },
+      {
+       "type": "paragraph",
+       "text": "La preghiamo di confermare ricevuto questo documento."
+      },
+      {
+       "type": "signature",
+       "text": "Giulia Conti\nDirettrice Amministrativa"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Lettera scritta con successo e salvata in /acme/documents/lettere/disdetta_bellomo.docx",
+  "seconds": 11.85,
+  "tokens_in": 2153,
+  "tokens_out": 410,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/lettere/disdetta_bellomo.docx",
+     "title": "Disdetta del contratto di manutenzione n. 218/2024",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Disdetta del contratto di manutenzione n. 218/2024",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Tessitura Bellomo S.p.A., Via dei Tessitori, 123 - 45678 Ravenna (RA), Italia.",
+       "align": "center"
+      },
+      {
+       "type": "paragraph",
+       "text": "Attenzione del Dott. Marco Bellomo"
+      },
+      {
+       "type": "paragraph",
+       "text": "Ravenna, 4 dicembre 2026"
+      },
+      {
+       "type": "paragraph",
+       "text": "Gentile Dott. Bellomo,"
+      },
+      {
+       "type": "paragraph",
+       "text": "Somma la presente per comunicare la disdetta del contratto di manutenzione n. 218/2024, in scadenza il 31 gennaio 2027. Non intendemo rinnovare tale contratto."
+      },
+      {
+       "type": "paragraph",
+       "text": "La preghiamo di confermare ricevuto questo documento."
+      },
+      {
+       "type": "signature",
+       "text": "Giulia Conti\nDirettrice Amministrativa"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Lettera scritta con successo e salvata in /acme/documents/lettere/disdetta_bellomo.docx"
+ }
+}

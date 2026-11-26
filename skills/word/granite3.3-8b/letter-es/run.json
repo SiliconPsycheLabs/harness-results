@@ -1,0 +1,111 @@
+{
+ "request": "letter-es",
+ "kind": "letter",
+ "language": "es",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/cartas/cambio_direccion_ibarra.docx",
+     "title": "Cambio de dirección de entrega",
+     "blocks": [
+      {
+       "type": "heading",
+       "level": 1,
+       "align": "center",
+       "items": [
+        "Cambio de dirección de entrega"
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Estimada Sra. Ibarra,"
+      },
+      {
+       "type": "paragraph",
+       "text": "En fecha de hoy, 9 de diciembre de 2026, nos dirigimos a usted para informar un cambio en la dirección de entrega de nuestros productos. A partir del 1 de enero de 2027, todas las entregas se realizarán en la siguiente dirección:"
+      },
+      {
+       "type": "paragraph",
+       "text": "Calle del Puerto, 14, 46024 Valencia."
+      },
+      {
+       "type": "paragraph",
+       "text": "Agradecemos su comprensión y atención en este asunto."
+      },
+      {
+       "type": "signature",
+       "items": [
+        "Andrés Molina",
+        "Jefe de Logística"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The letter has been successfully written and saved at /acme/documents/cartas/cambio_direccion_ibarra.docx.",
+  "seconds": 10.97,
+  "tokens_in": 2069,
+  "tokens_out": 387,
+  "right": false,
+  "missing": [
+   "fact lacks: Suministros Ibarra",
+   "fact lacks: Carmen Ibarra",
+   "fact lacks: Calle del Puerto 14"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/cartas/cambio_direccion_ibarra.docx",
+     "title": "Cambio de dirección de entrega",
+     "blocks": [
+      {
+       "type": "heading",
+       "level": 1,
+       "align": "center",
+       "items": [
+        "Cambio de dirección de entrega"
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Estimada Sra. Ibarra,"
+      },
+      {
+       "type": "paragraph",
+       "text": "En fecha de hoy, 9 de diciembre de 2026, nos dirigimos a usted para informar un cambio en la dirección de entrega de nuestros productos. A partir del 1 de enero de 2027, todas las entregas se realizarán en la siguiente dirección:"
+      },
+      {
+       "type": "paragraph",
+       "text": "Calle del Puerto, 14, 46024 Valencia."
+      },
+      {
+       "type": "paragraph",
+       "text": "Agradecemos su comprensión y atención en este asunto."
+      },
+      {
+       "type": "signature",
+       "items": [
+        "Andrés Molina",
+        "Jefe de Logística"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The letter has been successfully written and saved at /acme/documents/cartas/cambio_direccion_ibarra.docx."
+ }
+}

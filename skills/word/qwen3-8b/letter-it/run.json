@@ -1,0 +1,119 @@
+{
+ "request": "letter-it",
+ "kind": "letter",
+ "language": "it",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/lettere/disdetta_bellomo.docx",
+     "title": "Disdetta del contratto di manutenzione n. 218/2024",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Tessitura Bellomo S.p.A.",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "All'attenzione del dott. Marco Bellomo",
+       "align": "center"
+      },
+      {
+       "type": "paragraph",
+       "text": "Data: 4 dicembre 2026"
+      },
+      {
+       "type": "paragraph",
+       "text": "Oggetto: Disdetta del contratto di manutenzione n. 218/2024"
+      },
+      {
+       "type": "paragraph",
+       "text": "Gentile dott. Bellomo,"
+      },
+      {
+       "type": "paragraph",
+       "text": "La presente lettera ha l'obiettivo di comunicarle che il contratto di manutenzione n. 218/2024 non sarà rinnovato alla scadenza del 31 gennaio 2027. Si prega di confermare per iscritto la ricezione di questa comunicazione."
+      },
+      {
+       "type": "paragraph",
+       "text": "Cordiali saluti,"
+      },
+      {
+       "type": "signature",
+       "items": [
+        "Giulia Conti",
+        "Direttrice Amministrativa"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/lettere/disdetta_bellomo.docx",
+  "seconds": 10.77,
+  "tokens_in": 2046,
+  "tokens_out": 353,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/lettere/disdetta_bellomo.docx",
+     "title": "Disdetta del contratto di manutenzione n. 218/2024",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Tessitura Bellomo S.p.A.",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "All'attenzione del dott. Marco Bellomo",
+       "align": "center"
+      },
+      {
+       "type": "paragraph",
+       "text": "Data: 4 dicembre 2026"
+      },
+      {
+       "type": "paragraph",
+       "text": "Oggetto: Disdetta del contratto di manutenzione n. 218/2024"
+      },
+      {
+       "type": "paragraph",
+       "text": "Gentile dott. Bellomo,"
+      },
+      {
+       "type": "paragraph",
+       "text": "La presente lettera ha l'obiettivo di comunicarle che il contratto di manutenzione n. 218/2024 non sarà rinnovato alla scadenza del 31 gennaio 2027. Si prega di confermare per iscritto la ricezione di questa comunicazione."
+      },
+      {
+       "type": "paragraph",
+       "text": "Cordiali saluti,"
+      },
+      {
+       "type": "signature",
+       "items": [
+        "Giulia Conti",
+        "Direttrice Amministrativa"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/lettere/disdetta_bellomo.docx"
+ }
+}

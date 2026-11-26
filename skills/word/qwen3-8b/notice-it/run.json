@@ -1,0 +1,83 @@
+{
+ "request": "notice-it",
+ "kind": "notice",
+ "language": "it",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/avvisi/parcheggio_nord.docx",
+     "title": "Chiusura del parcheggio nord",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "Lunedì 14 dicembre 2026 il parcheggio nord è chiuso per lavori dalle 7:00 alle 18:00."
+      },
+      {
+       "type": "bullets",
+       "items": [
+        "Usare il parcheggio sud",
+        "L'ingresso merci resta aperto",
+        "Le navette partono ogni 15 minuti dalla portineria"
+       ]
+      },
+      {
+       "type": "signature",
+       "items": [
+        "Stefano Riva",
+        "Servizi Generali"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/avvisi/parcheggio_nord.docx",
+  "seconds": 7.24,
+  "tokens_in": 1829,
+  "tokens_out": 204,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/avvisi/parcheggio_nord.docx",
+     "title": "Chiusura del parcheggio nord",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "Lunedì 14 dicembre 2026 il parcheggio nord è chiuso per lavori dalle 7:00 alle 18:00."
+      },
+      {
+       "type": "bullets",
+       "items": [
+        "Usare il parcheggio sud",
+        "L'ingresso merci resta aperto",
+        "Le navette partono ogni 15 minuti dalla portineria"
+       ]
+      },
+      {
+       "type": "signature",
+       "items": [
+        "Stefano Riva",
+        "Servizi Generali"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/avvisi/parcheggio_nord.docx"
+ }
+}

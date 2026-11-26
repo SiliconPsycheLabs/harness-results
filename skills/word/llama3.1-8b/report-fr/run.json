@@ -1,0 +1,113 @@
+{
+ "request": "report-fr",
+ "kind": "report",
+ "language": "fr",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/rapports/reclamations_2026-11.docx",
+     "title": "Rapport sur les réclamations clients, novembre 2026",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Volume",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "37 réclamations ont été enregistrées en novembre 2026, contre 52 en octobre.",
+       "align": "left"
+      },
+      {
+       "type": "heading",
+       "text": "Causes",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Les causes des réclamations sont les suivantes : 21 retards de livraison, 9 défauts démballage, 7 erreurs de facturation.",
+       "align": "left"
+      },
+      {
+       "type": "heading",
+       "text": "Mesures",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Une mesure a été prise pour réduire les réclamations : un nouveau transporteur sera utilisé pour la région Sud à partir du 4 janvier 2027.",
+       "align": "left"
+      },
+      {
+       "type": "signature",
+       "text": "Inès Garnier, Responsable Service Clients"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "//acme/documents/rapports/reclamations_2026-11.docx",
+  "seconds": 9.94,
+  "tokens_in": 2058,
+  "tokens_out": 383,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/rapports/reclamations_2026-11.docx",
+     "title": "Rapport sur les réclamations clients, novembre 2026",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Volume",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "37 réclamations ont été enregistrées en novembre 2026, contre 52 en octobre.",
+       "align": "left"
+      },
+      {
+       "type": "heading",
+       "text": "Causes",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Les causes des réclamations sont les suivantes : 21 retards de livraison, 9 défauts démballage, 7 erreurs de facturation.",
+       "align": "left"
+      },
+      {
+       "type": "heading",
+       "text": "Mesures",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Une mesure a été prise pour réduire les réclamations : un nouveau transporteur sera utilisé pour la région Sud à partir du 4 janvier 2027.",
+       "align": "left"
+      },
+      {
+       "type": "signature",
+       "text": "Inès Garnier, Responsable Service Clients"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "//acme/documents/rapports/reclamations_2026-11.docx"
+ }
+}

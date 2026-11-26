@@ -1,0 +1,106 @@
+{
+ "request": "letter-en",
+ "kind": "letter",
+ "language": "en",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/letters/northwind_po4471.docx",
+     "title": "Delayed delivery of order PO-4471",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Delayed delivery of order PO-4471",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Dear Ms Helen Marsh,",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "We are writing to inform you that the delivery of order PO-4471 has been delayed. As per our agreement, 600 bearings were due on 20 November 2026.",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "We kindly request that you provide us with a new delivery date in writing within 5 working days.",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Please be advised that we reserve the right to apply the penalty of clause 9 if the new delivery date is not met.",
+       "align": "left"
+      },
+      {
+       "type": "signature",
+       "text": "Sincerely,\nPaolo Ferri\nPurchasing Manager"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/letters/northwind_po4471.docx",
+  "seconds": 8.03,
+  "tokens_in": 1886,
+  "tokens_out": 279,
+  "right": false,
+  "missing": [
+   "fact lacks: Northwind Bearings Ltd",
+   "fact lacks: 3 December 2026"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/letters/northwind_po4471.docx",
+     "title": "Delayed delivery of order PO-4471",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Delayed delivery of order PO-4471",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Dear Ms Helen Marsh,",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "We are writing to inform you that the delivery of order PO-4471 has been delayed. As per our agreement, 600 bearings were due on 20 November 2026.",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "We kindly request that you provide us with a new delivery date in writing within 5 working days.",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Please be advised that we reserve the right to apply the penalty of clause 9 if the new delivery date is not met.",
+       "align": "left"
+      },
+      {
+       "type": "signature",
+       "text": "Sincerely,\nPaolo Ferri\nPurchasing Manager"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/letters/northwind_po4471.docx"
+ }
+}

@@ -1,0 +1,147 @@
+{
+ "request": "minutes-fr",
+ "kind": "minutes",
+ "language": "fr",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/comptes_rendus/commercial_2026-12-04.docx",
+     "title": "Compte rendu de la réunion commerciale du 4 décembre 2026",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Compte rendu de la réunion commerciale du 4 décembre 2026",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Présents : Luc Moreau, Inès Garnier, Paul Lefèvre.",
+       "align": "left"
+      },
+      {
+       "type": "bullets",
+       "items": [
+        "Luc Moreau",
+        "Inès Garnier",
+        "Paul Lefèvre"
+       ]
+      },
+      {
+       "type": "heading",
+       "text": "Décisions",
+       "level": 1
+      },
+      {
+       "type": "numbered",
+       "items": [
+        "1) Hausse des tarifs de 3 % au 1er février 2027",
+        "2) Inès Garnier prépare l'offre pour le client Sodirel",
+        "3) Salon de Lyon confirmé du 9 au 11 mars 2027"
+       ]
+      },
+      {
+       "type": "heading",
+       "text": "Prochaine réunion",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "8 janvier 2027.",
+       "align": "left"
+      },
+      {
+       "type": "bullets",
+       "items": [
+        "8 janvier 2027"
+       ]
+      },
+      {
+       "type": "signature",
+       "text": "Luc Moreau, Président"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "//acme/documents/comptes_rendus/commercial_2026-12-04.docx",
+  "seconds": 10.37,
+  "tokens_in": 2165,
+  "tokens_out": 438,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/comptes_rendus/commercial_2026-12-04.docx",
+     "title": "Compte rendu de la réunion commerciale du 4 décembre 2026",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Compte rendu de la réunion commerciale du 4 décembre 2026",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Présents : Luc Moreau, Inès Garnier, Paul Lefèvre.",
+       "align": "left"
+      },
+      {
+       "type": "bullets",
+       "items": [
+        "Luc Moreau",
+        "Inès Garnier",
+        "Paul Lefèvre"
+       ]
+      },
+      {
+       "type": "heading",
+       "text": "Décisions",
+       "level": 1
+      },
+      {
+       "type": "numbered",
+       "items": [
+        "1) Hausse des tarifs de 3 % au 1er février 2027",
+        "2) Inès Garnier prépare l'offre pour le client Sodirel",
+        "3) Salon de Lyon confirmé du 9 au 11 mars 2027"
+       ]
+      },
+      {
+       "type": "heading",
+       "text": "Prochaine réunion",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "8 janvier 2027.",
+       "align": "left"
+      },
+      {
+       "type": "bullets",
+       "items": [
+        "8 janvier 2027"
+       ]
+      },
+      {
+       "type": "signature",
+       "text": "Luc Moreau, Président"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "//acme/documents/comptes_rendus/commercial_2026-12-04.docx"
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "request": "instructions-it",
+ "kind": "instructions",
+ "language": "it",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/istruzioni/rimborso_trasferta.docx",
+     "title": "Come chiedere il rimborso di una trasferta",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "Come chiedere il rimborso di una trasferta",
+       "align": "center"
+      },
+      {
+       "type": "paragraph",
+       "text": "Passi numerati: 1) compilare il modulo R12 entro 10 giorni dal rientro; 2) allegare le ricevute originali; 3) farlo firmare dal responsabile; 4) consegnarlo all'ufficio amministrazione."
+      },
+      {
+       "type": "paragraph",
+       "text": "Avvertenza: le spese senza ricevuta non sono rimborsate."
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/istruzioni/rimborso_trasferta.docx",
+  "seconds": 8.43,
+  "tokens_in": 1878,
+  "tokens_out": 225,
+  "right": false,
+  "missing": [
+   "fewer than 4 numbered items"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/istruzioni/rimborso_trasferta.docx",
+     "title": "Come chiedere il rimborso di una trasferta",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "Come chiedere il rimborso di una trasferta",
+       "align": "center"
+      },
+      {
+       "type": "paragraph",
+       "text": "Passi numerati: 1) compilare il modulo R12 entro 10 giorni dal rientro; 2) allegare le ricevute originali; 3) farlo firmare dal responsabile; 4) consegnarlo all'ufficio amministrazione."
+      },
+      {
+       "type": "paragraph",
+       "text": "Avvertenza: le spese senza ricevuta non sono rimborsate."
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/istruzioni/rimborso_trasferta.docx"
+ }
+}

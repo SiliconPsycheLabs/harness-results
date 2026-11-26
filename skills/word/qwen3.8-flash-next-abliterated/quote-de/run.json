@@ -20,11 +20,6 @@
        "text": "Datum: 10. Dezember 2026"
       },
       {
-       "type": "heading",
-       "text": "Positionen",
-       "level": 2
-      },
-      {
        "type": "table",
        "rows": [
         [
@@ -55,12 +50,11 @@
       },
       {
        "type": "paragraph",
-       "text": "Gesamtsumme: 2.210,00 Euro netto",
-       "align": "right"
+       "text": "Gesamtsumme: 2.210,00 Euro netto"
       },
       {
        "type": "paragraph",
-       "text": "Dieses Angebot ist gültig für 14 Tage."
+       "text": "Gültigkeit: 14 Tage"
       }
      ]
     },
@@ -69,10 +63,10 @@
     "ran": true
    }
   ],
-  "answer": "Das Angebot ist gespeichert unter /acme/documents/angebote/A-2026-312.docx",
-  "seconds": 31.05,
-  "tokens_in": 2443,
-  "tokens_out": 331,
+  "answer": "/acme/documents/angebote/A-2026-312.docx",
+  "seconds": 29.87,
+  "tokens_in": 2230,
+  "tokens_out": 428,
   "right": true,
   "missing": []
  },
@@ -93,11 +87,6 @@
        "text": "Datum: 10. Dezember 2026"
       },
       {
-       "type": "heading",
-       "text": "Positionen",
-       "level": 2
-      },
-      {
        "type": "table",
        "rows": [
         [
@@ -128,12 +117,11 @@
       },
       {
        "type": "paragraph",
-       "text": "Gesamtsumme: 2.210,00 Euro netto",
-       "align": "right"
+       "text": "Gesamtsumme: 2.210,00 Euro netto"
       },
       {
        "type": "paragraph",
-       "text": "Dieses Angebot ist gültig für 14 Tage."
+       "text": "Gültigkeit: 14 Tage"
       }
      ]
     },
@@ -142,6 +130,6 @@
     "ran": true
    }
   ],
-  "answer": "Das Angebot ist gespeichert unter /acme/documents/angebote/A-2026-312.docx."
+  "answer": "/acme/documents/angebote/A-2026-312.docx"
  }
 }

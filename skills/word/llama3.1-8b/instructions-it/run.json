@@ -1,0 +1,147 @@
+{
+ "request": "instructions-it",
+ "kind": "instructions",
+ "language": "it",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/istruzioni/rimborso_trasferta.docx",
+     "title": "Come chiedere il rimborso di una trasferta",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Come chiedere il rimborso di una trasferta",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Ecco i passi da seguire per chiedere il rimborso di una trasferta:",
+       "align": "left"
+      },
+      {
+       "type": "numbered",
+       "text": "1. Compilare il modulo R12 entro 10 giorni dal rientro",
+       "items": [
+        "Compilare il modulo R12 con i dati richiesti"
+       ]
+      },
+      {
+       "type": "numbered",
+       "text": "2. Allegare le ricevute originali",
+       "items": [
+        "Allegare le ricevute originali relative alle spese sostenute"
+       ]
+      },
+      {
+       "type": "numbered",
+       "text": "3. Farlo firmare dal responsabile",
+       "items": [
+        "Fare firmare il modulo dal responsabile di settore"
+       ]
+      },
+      {
+       "type": "numbered",
+       "text": "4. Consegnaarlo all'ufficio amministrazione",
+       "items": [
+        "Consegnare il modulo all'ufficio amministrazione"
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Attenzione: le spese senza ricevuta non sono rimborsate. È importante allegare le ricevute originali per garantire il rimborso.",
+       "align": "left"
+      },
+      {
+       "type": "signature",
+       "text": "Spero che queste istruzioni siano state utili. Se hai altre domande, non esitare a contattare l'ufficio amministrazione.",
+       "items": [
+        "Spero che queste istruzioni siano state utili. Se hai altre domande, non esitare a contattare l'ufficio amministrazione."
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "//acme/documents/istruzioni/rimborso_trasferta.docx",
+  "seconds": 11.87,
+  "tokens_in": 2133,
+  "tokens_out": 482,
+  "right": false,
+  "missing": [
+   "fact lacks: 10 giorni"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/istruzioni/rimborso_trasferta.docx",
+     "title": "Come chiedere il rimborso di una trasferta",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Come chiedere il rimborso di una trasferta",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Ecco i passi da seguire per chiedere il rimborso di una trasferta:",
+       "align": "left"
+      },
+      {
+       "type": "numbered",
+       "text": "1. Compilare il modulo R12 entro 10 giorni dal rientro",
+       "items": [
+        "Compilare il modulo R12 con i dati richiesti"
+       ]
+      },
+      {
+       "type": "numbered",
+       "text": "2. Allegare le ricevute originali",
+       "items": [
+        "Allegare le ricevute originali relative alle spese sostenute"
+       ]
+      },
+      {
+       "type": "numbered",
+       "text": "3. Farlo firmare dal responsabile",
+       "items": [
+        "Fare firmare il modulo dal responsabile di settore"
+       ]
+      },
+      {
+       "type": "numbered",
+       "text": "4. Consegnaarlo all'ufficio amministrazione",
+       "items": [
+        "Consegnare il modulo all'ufficio amministrazione"
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Attenzione: le spese senza ricevuta non sono rimborsate. È importante allegare le ricevute originali per garantire il rimborso.",
+       "align": "left"
+      },
+      {
+       "type": "signature",
+       "text": "Spero che queste istruzioni siano state utili. Se hai altre domande, non esitare a contattare l'ufficio amministrazione.",
+       "items": [
+        "Spero che queste istruzioni siano state utili. Se hai altre domande, non esitare a contattare l'ufficio amministrazione."
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "//acme/documents/istruzioni/rimborso_trasferta.docx"
+ }
+}

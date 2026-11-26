@@ -1,0 +1,107 @@
+{
+ "request": "report-de",
+ "kind": "report",
+ "language": "de",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/berichte/lager_2026-11.docx",
+     "title": "Lagerbericht zum 30. November 2026",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Bestand",
+       "level": 2
+      },
+      {
+       "type": "paragraph",
+       "text": "Stand 30. November 2026 beträgt der Lagerbestand 4.280 Artikel im Wert von 612.400,00 Euro."
+      },
+      {
+       "type": "heading",
+       "text": "Abweichungen",
+       "level": 2
+      },
+      {
+       "type": "paragraph",
+       "text": "Bei der Inventur wurden 37 Artikel mit Fehlmengen festgestellt."
+      },
+      {
+       "type": "heading",
+       "text": "Maßnahmen",
+       "level": 2
+      },
+      {
+       "type": "paragraph",
+       "text": "Die fehlenden Artikel werden bis zum 15. Dezember 2026 im Gang C nachgezählt."
+      },
+      {
+       "type": "signature",
+       "text": "Jan Petersen, Lagerleiter"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Der Lagerbericht zum 30. November 2026 wurde erfolgreich unter /acme/documents/berichte/lager_2026-11.docx gespeichert.",
+  "seconds": 9.29,
+  "tokens_in": 2088,
+  "tokens_out": 340,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/berichte/lager_2026-11.docx",
+     "title": "Lagerbericht zum 30. November 2026",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Bestand",
+       "level": 2
+      },
+      {
+       "type": "paragraph",
+       "text": "Stand 30. November 2026 beträgt der Lagerbestand 4.280 Artikel im Wert von 612.400,00 Euro."
+      },
+      {
+       "type": "heading",
+       "text": "Abweichungen",
+       "level": 2
+      },
+      {
+       "type": "paragraph",
+       "text": "Bei der Inventur wurden 37 Artikel mit Fehlmengen festgestellt."
+      },
+      {
+       "type": "heading",
+       "text": "Maßnahmen",
+       "level": 2
+      },
+      {
+       "type": "paragraph",
+       "text": "Die fehlenden Artikel werden bis zum 15. Dezember 2026 im Gang C nachgezählt."
+      },
+      {
+       "type": "signature",
+       "text": "Jan Petersen, Lagerleiter"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Der Lagerbericht zum 30. November 2026 wurde erfolgreich unter /acme/documents/berichte/lager_2026-11.docx gespeichert."
+ }
+}

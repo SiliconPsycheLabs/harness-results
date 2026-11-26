@@ -12,17 +12,8 @@
      "title": "Exercice d'évacuation du 17 décembre 2026",
      "blocks": [
       {
-       "type": "heading",
-       "level": 1,
-       "text": "Exercice d'évacuation du 17 décembre 2026"
-      },
-      {
        "type": "paragraph",
-       "text": "Note interne"
-      },
-      {
-       "type": "paragraph",
-       "text": "Un exercice d'évacuation se déroulera le jeudi 17 décembre 2026 à 10 h 30. Merci de respecter les consignes suivantes :"
+       "text": "Un exercice d'évacuation aura lieu le jeudi 17 décembre 2026 à 10 h 30."
       },
       {
        "type": "bullets",
@@ -46,10 +37,10 @@
     "ran": true
    }
   ],
-  "answer": "Note enregistrée : /acme/documents/notes/exercice_evacuation.docx",
-  "seconds": 25.2,
-  "tokens_in": 2174,
-  "tokens_out": 261,
+  "answer": "/acme/documents/notes/exercice_evacuation.docx",
+  "seconds": 19.72,
+  "tokens_in": 1871,
+  "tokens_out": 262,
   "right": true,
   "missing": []
  },
@@ -62,17 +53,8 @@
      "title": "Exercice d'évacuation du 17 décembre 2026",
      "blocks": [
       {
-       "type": "heading",
-       "level": 1,
-       "text": "Exercice d'évacuation du 17 décembre 2026"
-      },
-      {
        "type": "paragraph",
-       "text": "Note interne"
-      },
-      {
-       "type": "paragraph",
-       "text": "Un exercice d'évacuation se déroulera le jeudi 17 décembre 2026 à 10 h 30. Merci de respecter les consignes suivantes :"
+       "text": "Un exercice d'évacuation aura lieu le jeudi 17 décembre 2026 à 10 h 30."
       },
       {
        "type": "bullets",
@@ -96,6 +78,6 @@
     "ran": true
    }
   ],
-  "answer": "Note enregistrée dans /acme/documents/notes/exercice_evacuation.docx"
+  "answer": "/acme/documents/notes/exercice_evacuation.docx"
  }
 }

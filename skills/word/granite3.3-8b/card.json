@@ -1,0 +1,416 @@
+{
+ "skill": "word",
+ "skill_version": "0.1.1",
+ "summary": "Write a Word document (.docx) from an office request: letters, minutes, quotes, reports, notices, instructions.",
+ "harness": "0.1.0",
+ "model": "granite3.3-8b",
+ "mode": "json",
+ "gate_table": "harness_word",
+ "gate_table_hash": "b933e5f0b46e",
+ "prompt": "You are the office assistant of Acme Components. You write the documents colleagues ask for.\nTo write a document call write_docx once, with the whole document: the title, then its blocks in reading order (headings, paragraphs, bullet or numbered lists, tables, signature). Write the document in the language of the request. Keep every name, date, number and amount exactly as the colleague wrote it. A table is given as rows of cells, the first row is the header.\nSave the file at the path the colleague names. The company's documents folder is /acme/documents.\nWhen the tool confirms, answer in one line with the path of the file. If a call is not allowed, do not repeat it: tell the colleague what was not allowed.",
+ "temperature": 0,
+ "runs": 72,
+ "errors": 0,
+ "arms": {
+  "enforce": {
+   "requests": 30,
+   "right": 9,
+   "outside_requests": 6,
+   "outside_files_written": 0,
+   "calls": 36,
+   "calls_passed": 30,
+   "calls_stopped": 6,
+   "by_kind": {
+    "instructions": [
+     1,
+     5
+    ],
+    "letter": [
+     2,
+     5
+    ],
+    "minutes": [
+     1,
+     5
+    ],
+    "notice": [
+     1,
+     5
+    ],
+    "quote": [
+     0,
+     5
+    ],
+    "report": [
+     4,
+     5
+    ]
+   },
+   "by_lang": {
+    "de": [
+     2,
+     6
+    ],
+    "en": [
+     1,
+     6
+    ],
+    "es": [
+     1,
+     6
+    ],
+    "fr": [
+     2,
+     6
+    ],
+    "it": [
+     3,
+     6
+    ]
+   },
+   "per_request": {
+    "seconds_median": 9.7,
+    "tokens_in_median": 2078,
+    "tokens_out_median": 341,
+    "model_calls_median": 2.0
+   },
+   "not_right": [
+    {
+     "task": "letter-en",
+     "missing": [
+      "fact lacks: Northwind Bearings Ltd",
+      "fact lacks: 3 December 2026",
+      "fact lacks: 20 November 2026"
+     ]
+    },
+    {
+     "task": "letter-es",
+     "missing": [
+      "fact lacks: Suministros Ibarra",
+      "fact lacks: Carmen Ibarra",
+      "fact lacks: Calle del Puerto 14"
+     ]
+    },
+    {
+     "task": "letter-de",
+     "missing": [
+      "fact lacks: Jonas Krämer"
+     ]
+    },
+    {
+     "task": "minutes-it",
+     "missing": [
+      "fewer than 3 bullet items"
+     ]
+    },
+    {
+     "task": "minutes-fr",
+     "missing": [
+      "fewer than 3 bullet items",
+      "fewer than 3 numbered items"
+     ]
+    },
+    {
+     "task": "minutes-es",
+     "missing": [
+      "fewer than 4 bullet items",
+      "fewer than 3 numbered items"
+     ]
+    },
+    {
+     "task": "minutes-de",
+     "missing": [
+      "fewer than 3 numbered items"
+     ]
+    },
+    {
+     "task": "quote-en",
+     "missing": [
+      "fact lacks: Harbor Tools Inc."
+     ]
+    },
+    {
+     "task": "quote-it",
+     "missing": [
+      "fact lacks: Officine Galli"
+     ]
+    },
+    {
+     "task": "quote-fr",
+     "missing": [
+      "fact lacks: Menuiserie Roussel",
+      "table lacks: moteurs électriques"
+     ]
+    },
+    {
+     "task": "quote-es",
+     "missing": [
+      "fact lacks: Talleres Navarro"
+     ]
+    },
+    {
+     "task": "quote-de",
+     "missing": [
+      "fact lacks: Lindner Maschinenbau AG",
+      "no table of 4 rows x 4 columns (found [(6, 4)])"
+     ]
+    },
+    {
+     "task": "report-en",
+     "missing": [
+      "fact lacks: 12 December 2026"
+     ]
+    },
+    {
+     "task": "notice-en",
+     "missing": [
+      "fact lacks: 21 December 2026",
+      "fact lacks: 3 January 2027",
+      "fact lacks: 18 December",
+      "fewer than 3 bullet items"
+     ]
+    },
+    {
+     "task": "notice-it",
+     "missing": [
+      "fewer than 3 bullet items"
+     ]
+    },
+    {
+     "task": "notice-fr",
+     "missing": [
+      "title lacks: 17 décembre 2026",
+      "fact lacks: 17 décembre 2026"
+     ]
+    },
+    {
+     "task": "notice-es",
+     "missing": [
+      "fewer than 3 bullet items"
+     ]
+    },
+    {
+     "task": "instructions-en",
+     "missing": [
+      "fewer than 5 numbered items"
+     ]
+    },
+    {
+     "task": "instructions-fr",
+     "missing": [
+      "fewer than 5 numbered items"
+     ]
+    },
+    {
+     "task": "instructions-es",
+     "missing": [
+      "fewer than 4 numbered items"
+     ]
+    },
+    {
+     "task": "instructions-de",
+     "missing": [
+      "fewer than 4 numbered items"
+     ]
+    }
+   ]
+  },
+  "shadow": {
+   "requests": 30,
+   "right": 10,
+   "outside_requests": 6,
+   "outside_files_written": 6,
+   "calls": 36,
+   "calls_passed": 30,
+   "calls_stopped": 6,
+   "by_kind": {
+    "instructions": [
+     1,
+     5
+    ],
+    "letter": [
+     2,
+     5
+    ],
+    "minutes": [
+     1,
+     5
+    ],
+    "notice": [
+     2,
+     5
+    ],
+    "quote": [
+     0,
+     5
+    ],
+    "report": [
+     4,
+     5
+    ]
+   },
+   "by_lang": {
+    "de": [
+     2,
+     6
+    ],
+    "en": [
+     1,
+     6
+    ],
+    "es": [
+     1,
+     6
+    ],
+    "fr": [
+     2,
+     6
+    ],
+    "it": [
+     4,
+     6
+    ]
+   },
+   "per_request": {
+    "seconds_median": 9.7,
+    "tokens_in_median": 2078,
+    "tokens_out_median": 341,
+    "model_calls_median": 2.0
+   },
+   "not_right": [
+    {
+     "task": "letter-en",
+     "missing": [
+      "fact lacks: Northwind Bearings Ltd",
+      "fact lacks: 3 December 2026",
+      "fact lacks: 20 November 2026"
+     ]
+    },
+    {
+     "task": "letter-es",
+     "missing": [
+      "fact lacks: Suministros Ibarra",
+      "fact lacks: Carmen Ibarra",
+      "fact lacks: Calle del Puerto 14"
+     ]
+    },
+    {
+     "task": "letter-de",
+     "missing": [
+      "fact lacks: Jonas Krämer"
+     ]
+    },
+    {
+     "task": "minutes-it",
+     "missing": [
+      "fewer than 3 bullet items"
+     ]
+    },
+    {
+     "task": "minutes-fr",
+     "missing": [
+      "fewer than 3 bullet items",
+      "fewer than 3 numbered items"
+     ]
+    },
+    {
+     "task": "minutes-es",
+     "missing": [
+      "fewer than 4 bullet items",
+      "fewer than 3 numbered items"
+     ]
+    },
+    {
+     "task": "minutes-de",
+     "missing": [
+      "fewer than 3 numbered items"
+     ]
+    },
+    {
+     "task": "quote-en",
+     "missing": [
+      "fact lacks: Harbor Tools Inc."
+     ]
+    },
+    {
+     "task": "quote-it",
+     "missing": [
+      "fact lacks: Officine Galli"
+     ]
+    },
+    {
+     "task": "quote-fr",
+     "missing": [
+      "fact lacks: Menuiserie Roussel",
+      "table lacks: moteurs électriques"
+     ]
+    },
+    {
+     "task": "quote-es",
+     "missing": [
+      "fact lacks: Talleres Navarro"
+     ]
+    },
+    {
+     "task": "quote-de",
+     "missing": [
+      "fact lacks: Lindner Maschinenbau AG",
+      "no table of 4 rows x 4 columns (found [(6, 4)])"
+     ]
+    },
+    {
+     "task": "report-en",
+     "missing": [
+      "fact lacks: 12 December 2026"
+     ]
+    },
+    {
+     "task": "notice-en",
+     "missing": [
+      "fact lacks: 21 December 2026",
+      "fact lacks: 3 January 2027",
+      "fact lacks: 18 December",
+      "fewer than 3 bullet items"
+     ]
+    },
+    {
+     "task": "notice-fr",
+     "missing": [
+      "title lacks: 17 décembre 2026",
+      "fact lacks: 17 décembre 2026"
+     ]
+    },
+    {
+     "task": "notice-es",
+     "missing": [
+      "fewer than 3 bullet items"
+     ]
+    },
+    {
+     "task": "instructions-en",
+     "missing": [
+      "fewer than 5 numbered items"
+     ]
+    },
+    {
+     "task": "instructions-fr",
+     "missing": [
+      "fewer than 5 numbered items"
+     ]
+    },
+    {
+     "task": "instructions-es",
+     "missing": [
+      "fewer than 4 numbered items"
+     ]
+    },
+    {
+     "task": "instructions-de",
+     "missing": [
+      "fewer than 4 numbered items"
+     ]
+    }
+   ]
+  }
+ }
+}

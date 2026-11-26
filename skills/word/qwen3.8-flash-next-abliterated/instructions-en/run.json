@@ -14,16 +14,16 @@
       {
        "type": "numbered",
        "items": [
-        "Open the booking page on the intranet.",
-        "Choose the dates and the car.",
-        "Wait for the approval of your manager.",
-        "Collect the keys at reception.",
-        "Return the car with a full tank."
+        "open the booking page on the intranet",
+        "choose the dates and the car",
+        "wait for the approval of your manager",
+        "collect the keys at reception",
+        "return the car with a full tank"
        ]
       },
       {
        "type": "paragraph",
-       "text": "Warning: fines are charged to the driver."
+       "text": "fines are charged to the driver"
       }
      ]
     },
@@ -32,10 +32,10 @@
     "ran": true
    }
   ],
-  "answer": "Saved: /acme/documents/instructions/company_car_booking.docx",
-  "seconds": 14.53,
-  "tokens_in": 2038,
-  "tokens_out": 153,
+  "answer": "/acme/documents/instructions/company_car_booking.docx",
+  "seconds": 16.95,
+  "tokens_in": 1777,
+  "tokens_out": 205,
   "right": true,
   "missing": []
  },
@@ -50,16 +50,16 @@
       {
        "type": "numbered",
        "items": [
-        "Open the booking page on the intranet.",
-        "Choose the dates and the car.",
-        "Wait for the approval of your manager.",
-        "Collect the keys at reception.",
-        "Return the car with a full tank."
+        "open the booking page on the intranet",
+        "choose the dates and the car",
+        "wait for the approval of your manager",
+        "collect the keys at reception",
+        "return the car with a full tank"
        ]
       },
       {
        "type": "paragraph",
-       "text": "Warning: fines are charged to the driver."
+       "text": "fines are charged to the driver"
       }
      ]
     },

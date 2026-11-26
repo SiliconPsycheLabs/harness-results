@@ -1,0 +1,115 @@
+{
+ "request": "notice-en",
+ "kind": "notice",
+ "language": "en",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/notices/canteen_closure.docx",
+     "title": "Canteen closure over the holidays",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Canteen closure over the holidays",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "The canteen will be closed from 21 December 2026 to 3 January 2027.",
+       "align": "left"
+      },
+      {
+       "type": "bullets",
+       "text": "Vending machines will remain operational.",
+       "items": [
+        "Vending machines will remain operational."
+       ]
+      },
+      {
+       "type": "bullets",
+       "text": "The coffee corner on floor 2 will stay open.",
+       "items": [
+        "The coffee corner on floor 2 will stay open."
+       ]
+      },
+      {
+       "type": "bullets",
+       "text": "Meal vouchers will be handed out on 18 December.",
+       "items": [
+        "Meal vouchers will be handed out on 18 December."
+       ]
+      },
+      {
+       "type": "signature",
+       "text": "Lucia Marin, HR"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/notices/canteen_closure.docx",
+  "seconds": 7.07,
+  "tokens_in": 1793,
+  "tokens_out": 258,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/notices/canteen_closure.docx",
+     "title": "Canteen closure over the holidays",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Canteen closure over the holidays",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "The canteen will be closed from 21 December 2026 to 3 January 2027.",
+       "align": "left"
+      },
+      {
+       "type": "bullets",
+       "text": "Vending machines will remain operational.",
+       "items": [
+        "Vending machines will remain operational."
+       ]
+      },
+      {
+       "type": "bullets",
+       "text": "The coffee corner on floor 2 will stay open.",
+       "items": [
+        "The coffee corner on floor 2 will stay open."
+       ]
+      },
+      {
+       "type": "bullets",
+       "text": "Meal vouchers will be handed out on 18 December.",
+       "items": [
+        "Meal vouchers will be handed out on 18 December."
+       ]
+      },
+      {
+       "type": "signature",
+       "text": "Lucia Marin, HR\n18 December 2026"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/notices/canteen_closure.docx"
+ }
+}

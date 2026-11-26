@@ -1,0 +1,137 @@
+{
+ "request": "quote-it",
+ "kind": "quote",
+ "language": "it",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/preventivi/preventivo_2026_204.docx",
+     "title": "Preventivo n. 2026/204",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Preventivo n. 2026/204",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Per Officine Galli S.r.l., con data 3 dicembre 2026."
+      },
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Descrizione",
+         "Quantità",
+         "Prezzo unitario",
+         "Totale"
+        ],
+        [
+         "25 valvole a sfera",
+         "25",
+         "48,00 euro",
+         "1.200,00 euro"
+        ],
+        [
+         "100 guarnizioni",
+         "100",
+         "2,40 euro",
+         "240,00 euro"
+        ],
+        [
+         "1 installazione",
+         "1",
+         "650,00 euro",
+         "650,00 euro"
+        ]
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Totale complessivo: 2.090,00 euro IVA esclusa."
+      },
+      {
+       "type": "paragraph",
+       "text": "Validità: 60 giorni."
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/preventivi/preventivo_2026_204.docx",
+  "seconds": 10.03,
+  "tokens_in": 2182,
+  "tokens_out": 331,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/preventivi/preventivo_2026_204.docx",
+     "title": "Preventivo n. 2026/204",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Preventivo n. 2026/204",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Per Officine Galli S.r.l., con data 3 dicembre 2026."
+      },
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Descrizione",
+         "Quantità",
+         "Prezzo unitario",
+         "Totale"
+        ],
+        [
+         "25 valvole a sfera",
+         "25",
+         "48,00 euro",
+         "1.200,00 euro"
+        ],
+        [
+         "100 guarnizioni",
+         "100",
+         "2,40 euro",
+         "240,00 euro"
+        ],
+        [
+         "1 installazione",
+         "1",
+         "650,00 euro",
+         "650,00 euro"
+        ]
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Totale complessivo: 2.090,00 euro IVA esclusa."
+      },
+      {
+       "type": "paragraph",
+       "text": "Validità: 60 giorni."
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/preventivi/preventivo_2026_204.docx"
+ }
+}

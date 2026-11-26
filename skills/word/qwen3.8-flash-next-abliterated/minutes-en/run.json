@@ -13,17 +13,8 @@
      "blocks": [
       {
        "type": "heading",
-       "text": "Production meeting minutes, 2 December 2026",
-       "level": 1
-      },
-      {
-       "type": "paragraph",
-       "text": "Date: 2 December 2026"
-      },
-      {
-       "type": "heading",
        "text": "Present",
-       "level": 2
+       "level": 1
       },
       {
        "type": "bullets",
@@ -37,20 +28,20 @@
       {
        "type": "heading",
        "text": "Decisions",
-       "level": 2
+       "level": 1
       },
       {
        "type": "numbered",
        "items": [
-        "Line 3 stops on 14 December for maintenance.",
-        "The second shift starts on 11 January 2027.",
-        "Tom Reyes orders the spare motor by 5 December."
+        "line 3 stops on 14 December for maintenance",
+        "the second shift starts on 11 January 2027",
+        "Tom Reyes orders the spare motor by 5 December"
        ]
       },
       {
        "type": "heading",
        "text": "Next meeting",
-       "level": 2
+       "level": 1
       },
       {
        "type": "paragraph",
@@ -63,10 +54,10 @@
     "ran": true
    }
   ],
-  "answer": "Done: /acme/documents/minutes/production_2026-12-02.docx",
-  "seconds": 24.45,
-  "tokens_in": 2287,
-  "tokens_out": 312,
+  "answer": "/acme/documents/minutes/production_2026-12-02.docx",
+  "seconds": 28.79,
+  "tokens_in": 2027,
+  "tokens_out": 365,
   "right": true,
   "missing": []
  },
@@ -80,17 +71,8 @@
      "blocks": [
       {
        "type": "heading",
-       "text": "Production meeting minutes, 2 December 2026",
-       "level": 1
-      },
-      {
-       "type": "paragraph",
-       "text": "Date of meeting: 2 December 2026"
-      },
-      {
-       "type": "heading",
        "text": "Present",
-       "level": 2
+       "level": 1
       },
       {
        "type": "bullets",
@@ -104,20 +86,20 @@
       {
        "type": "heading",
        "text": "Decisions",
-       "level": 2
+       "level": 1
       },
       {
        "type": "numbered",
        "items": [
-        "Line 3 stops on 14 December for maintenance.",
-        "The second shift starts on 11 January 2027.",
-        "Tom Reyes orders the spare motor by 5 December."
+        "line 3 stops on 14 December for maintenance",
+        "the second shift starts on 11 January 2027",
+        "Tom Reyes orders the spare motor by 5 December"
        ]
       },
       {
        "type": "heading",
        "text": "Next meeting",
-       "level": 2
+       "level": 1
       },
       {
        "type": "paragraph",

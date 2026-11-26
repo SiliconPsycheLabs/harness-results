@@ -18,7 +18,7 @@
       },
       {
        "type": "paragraph",
-       "text": "El consumo de energía de la planta en noviembre de 2026 ha sido de 186.000 kWh, un 4 por ciento menos que en octubre."
+       "text": "186.000 kWh, un 4 por ciento menos que en octubre."
       },
       {
        "type": "heading",
@@ -27,7 +27,7 @@
       },
       {
        "type": "paragraph",
-       "text": "El coste de la energía consumida en noviembre de 2026 ha sido de 31.620,00 euros."
+       "text": "31.620,00 euros."
       },
       {
        "type": "heading",
@@ -52,10 +52,10 @@
     "ran": true
    }
   ],
-  "answer": "Guardado en /acme/documents/informes/energia_2026-11.docx",
-  "seconds": 29.28,
-  "tokens_in": 2299,
-  "tokens_out": 307,
+  "answer": "/acme/documents/informes/energia_2026-11.docx",
+  "seconds": 24.39,
+  "tokens_in": 2046,
+  "tokens_out": 366,
   "right": true,
   "missing": []
  },
@@ -74,7 +74,7 @@
       },
       {
        "type": "paragraph",
-       "text": "El consumo de energía de la planta en noviembre de 2026 fue de 186.000 kWh, un 4 por ciento menos que en octubre."
+       "text": "186.000 kWh, un 4 por ciento menos que en octubre."
       },
       {
        "type": "heading",
@@ -83,7 +83,7 @@
       },
       {
        "type": "paragraph",
-       "text": "El coste de la energía consumida ascendió a 31.620,00 euros."
+       "text": "31.620,00 euros."
       },
       {
        "type": "heading",

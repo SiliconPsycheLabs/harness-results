@@ -1,0 +1,129 @@
+{
+ "request": "report-fr",
+ "kind": "report",
+ "language": "fr",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/rapports/reclamations_2026-11.docx",
+     "title": "Rapport sur les réclamations clients, novembre 2026",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Volume",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Le mois de novembre 2026 a enregistré 37 réclamations clients, contre 52 en octobre. Cela représente une baisse de 28,85 % par rapport au mois précédent."
+      },
+      {
+       "type": "heading",
+       "text": "Causes",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Les causes principales des réclamations en novembre 2026 sont les suivantes :"
+      },
+      {
+       "type": "bullets",
+       "items": [
+        "21 retards de livraison",
+        "9 défauts d'emballage",
+        "7 erreurs de facturation"
+       ]
+      },
+      {
+       "type": "heading",
+       "text": "Mesures",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Pour améliorer la satisfaction client, une mesure a été prise : le nouveau transporteur sera mis en place pour la région Sud à partir du 4 janvier 2027."
+      },
+      {
+       "type": "signature",
+       "items": [
+        "Inès Garnier",
+        "Responsable Service Clients"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/rapports/reclamations_2026-11.docx",
+  "seconds": 10.59,
+  "tokens_in": 2055,
+  "tokens_out": 358,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/rapports/reclamations_2026-11.docx",
+     "title": "Rapport sur les réclamations clients, novembre 2026",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Volume",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Le mois de novembre 2026 a enregistré 37 réclamations clients, contre 52 en octobre. Cela représente une baisse de 28,85 % par rapport au mois précédent."
+      },
+      {
+       "type": "heading",
+       "text": "Causes",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Les principales causes des réclamations clients en novembre 2026 sont les suivantes :"
+      },
+      {
+       "type": "bullets",
+       "items": [
+        "21 retards de livraison",
+        "9 défauts d'emballage",
+        "7 erreurs de facturation"
+       ]
+      },
+      {
+       "type": "heading",
+       "text": "Mesures",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Pour améliorer la satisfaction client, une nouvelle mesure a été mise en place : le changement de transporteur pour la région Sud à partir du 4 janvier 2027."
+      },
+      {
+       "type": "signature",
+       "items": [
+        "Inès Garnier",
+        "Responsable Service Clients"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/rapports/reclamations_2026-11.docx"
+ }
+}

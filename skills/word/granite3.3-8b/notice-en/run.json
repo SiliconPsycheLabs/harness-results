@@ -1,0 +1,106 @@
+{
+ "request": "notice-en",
+ "kind": "notice",
+ "language": "en",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/notices/canteen_closure.docx",
+     "title": "Canteen closure over the holidays",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Canteen Closure Notice",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Please note the following canteen schedule changes over the holiday season:"
+      },
+      {
+       "type": "bullets",
+       "text": "Vending machines will remain operational",
+       "items": [
+        "Vending machines will remain operational for your convenience."
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "The coffee corner on floor 2 will stay open."
+      },
+      {
+       "type": "paragraph",
+       "text": "Meal vouchers will be distributed on December 18."
+      },
+      {
+       "type": "signature",
+       "text": "Lucia Marin\nHR Manager"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The document has been successfully saved at /acme/documents/notices/canteen_closure.docx.",
+  "seconds": 6.47,
+  "tokens_in": 1802,
+  "tokens_out": 229,
+  "right": false,
+  "missing": [
+   "fact lacks: 21 December 2026",
+   "fact lacks: 3 January 2027",
+   "fact lacks: 18 December",
+   "fewer than 3 bullet items"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/notices/canteen_closure.docx",
+     "title": "Canteen closure over the holidays",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Canteen Closure Notice",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Please note the following canteen schedule changes over the holiday season:"
+      },
+      {
+       "type": "bullets",
+       "text": "Vending machines will remain operational",
+       "items": [
+        "Vending machines will remain operational for your convenience."
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "The coffee corner on floor 2 will stay open."
+      },
+      {
+       "type": "paragraph",
+       "text": "Meal vouchers will be distributed on December 18."
+      },
+      {
+       "type": "signature",
+       "text": "Lucia Marin\nHR Manager"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The document has been successfully saved at /acme/documents/notices/canteen_closure.docx."
+ }
+}

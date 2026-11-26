@@ -1,0 +1,91 @@
+{
+ "request": "notice-fr",
+ "kind": "notice",
+ "language": "fr",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/notes/exercice_evacuation.docx",
+     "title": "Exercice d'evacuation du 17 décembre 2026",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Exercice d'evacuation du 17 décembre 2026",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Exercice d'evacuation le jeudi 17 décembre 2026 à 10 h 30.",
+       "align": "left"
+      },
+      {
+       "type": "bullets",
+       "text": "Quitter le bâtiment par l'escalier le plus proche.",
+       "items": [
+        "Ne pas utiliser les ascenseurs.",
+        "Rejoindre le point de rassemblement du parking B."
+       ]
+      },
+      {
+       "type": "signature",
+       "text": "Paul Lefèvre, Responsable Sécurité"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "//acme/documents/notes/exercice_evacuation.docx",
+  "seconds": 7.42,
+  "tokens_in": 1892,
+  "tokens_out": 279,
+  "right": false,
+  "missing": [
+   "fewer than 3 bullet items"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/notes/exercice_evacuation.docx",
+     "title": "Exercice d'evacuation du 17 décembre 2026",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Exercice d'evacuation du 17 décembre 2026",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Exercice d'évacuation le jeudi 17 décembre 2026 à 10 h 30.",
+       "align": "left"
+      },
+      {
+       "type": "bullets",
+       "text": "Quitter le bâtiment par l'escalier le plus proche",
+       "items": [
+        "Ne pas utiliser les ascenseurs",
+        "Rejoindre le point de rassemblement du parking B"
+       ]
+      },
+      {
+       "type": "signature",
+       "text": "Paul Lefèvre, Responsable Sécurité"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "//acme/documents/notes/exercice_evacuation.docx"
+ }
+}

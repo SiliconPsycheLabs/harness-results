@@ -1,0 +1,62 @@
+{
+ "request": "instructions-de",
+ "kind": "instructions",
+ "language": "de",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/anleitungen/notebook_rueckgabe.docx",
+     "title": "Rückgabe eines defekten Notebooks",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Rückgabe eines defekten Notebooks",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Bitte folge diesen Schritten, um ein defektes Notebook zurückzugeben.",
+       "align": "left"
+      },
+      {
+       "type": "numbered",
+       "text": "1) Ticket im Helpdesk-Portal öffnen;",
+       "items": [
+        "2) eigene Daten auf dem Netzlaufwerk sichern;",
+        "3) das Gerät mit Netzteil im Raum 0.14 abgeben;",
+        "4) das Ersatzgerät quittieren."
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Hinweis: Geräte ohne Ticket werden nicht angenommen.",
+       "align": "left"
+      },
+      {
+       "type": "signature",
+       "text": "Ihr Team, Acme Components"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "//acme/documents/anleitungen/notebook_rueckgabe.docx",
+  "seconds": 7.1,
+  "tokens_in": 1911,
+  "tokens_out": 286,
+  "right": false,
+  "missing": [
+   "fewer than 4 numbered items"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": ""
+ }
+}

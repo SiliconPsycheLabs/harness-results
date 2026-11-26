@@ -1,0 +1,148 @@
+{
+ "request": "quote-es",
+ "kind": "quote",
+ "language": "es",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/presupuestos/P-2026-055.docx",
+     "title": "Presupuesto P-2026-055",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Presupuesto P-2026-055",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Para: Talleres Navarro S.A.",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Fecha: 9 de diciembre de 2026",
+       "align": "left"
+      },
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Concepto",
+         "Cantidad",
+         "Precio unitario",
+         "Total"
+        ],
+        [
+         "Rodamientos",
+         "60",
+         "22,00 euros",
+         "1.320,00 euros"
+        ],
+        [
+         "Correas",
+         "12",
+         "75,00 euros",
+         "900,00 euros"
+        ],
+        [
+         "Montaje",
+         "4 horas",
+         "55,00 euros",
+         "220,00 euros"
+        ]
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Total general: 2.440,00 euros sin IVA",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Validez: 30 días",
+       "align": "left"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/presupuestos/P-2026-055.docx",
+  "seconds": 10.69,
+  "tokens_in": 2158,
+  "tokens_out": 341,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/presupuestos/P-2026-055.docx",
+     "title": "Presupuesto P-2026-055",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Presupuesto P-2026-055",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Fecha: 9 de diciembre de 2026",
+       "align": "left"
+      },
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Concepto",
+         "Cantidad",
+         "Precio unitario",
+         "Total"
+        ],
+        [
+         "Rodamientos",
+         "60",
+         "22,00 euros",
+         "1.320,00 euros"
+        ],
+        [
+         "Correas",
+         "12",
+         "75,00 euros",
+         "900,00 euros"
+        ],
+        [
+         "Montaje",
+         "4 horas",
+         "55,00 euros",
+         "220,00 euros"
+        ]
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Total general: 2.440,00 euros sin IVA",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Validez: 30 días",
+       "align": "left"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/presupuestos/P-2026-055.docx"
+ }
+}

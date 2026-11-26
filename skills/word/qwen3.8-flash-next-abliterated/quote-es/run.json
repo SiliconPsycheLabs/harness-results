@@ -20,9 +20,71 @@
        "text": "Fecha: 9 de diciembre de 2026"
       },
       {
+       "type": "table",
+       "rows": [
+        [
+         "Concepto",
+         "Cantidad",
+         "Precio unitario",
+         "Total"
+        ],
+        [
+         "Rodamientos",
+         "60",
+         "22,00 euros",
+         "1.320,00 euros"
+        ],
+        [
+         "Correas",
+         "12",
+         "75,00 euros",
+         "900,00 euros"
+        ],
+        [
+         "Horas de montaje",
+         "4",
+         "55,00 euros",
+         "220,00 euros"
+        ]
+       ]
+      },
+      {
        "type": "paragraph",
-       "text": "Presupuesto P-2026-055",
-       "align": "center"
+       "text": "Total general: 2.440,00 euros sin IVA"
+      },
+      {
+       "type": "paragraph",
+       "text": "Validez: 30 días"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/presupuestos/P-2026-055.docx",
+  "seconds": 29.32,
+  "tokens_in": 2221,
+  "tokens_out": 421,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/presupuestos/P-2026-055.docx",
+     "title": "Presupuesto P-2026-055",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "Cliente: Talleres Navarro S.A."
+      },
+      {
+       "type": "paragraph",
+       "text": "Fecha: 9 de diciembre de 2026"
       },
       {
        "type": "table",
@@ -55,12 +117,11 @@
       },
       {
        "type": "paragraph",
-       "text": "Total general: 2.440,00 euros sin IVA",
-       "align": "right"
+       "text": "Total general: 2.440,00 euros sin IVA"
       },
       {
        "type": "paragraph",
-       "text": "Validez de la oferta: 30 días."
+       "text": "Validez: 30 días"
       }
      ]
     },
@@ -69,78 +130,6 @@
     "ran": true
    }
   ],
-  "answer": "Presupuesto guardado en /acme/documents/presupuestos/P-2026-055.docx",
-  "seconds": 30.87,
-  "tokens_in": 2445,
-  "tokens_out": 336,
-  "right": true,
-  "missing": []
- },
- "gate_only_watching": {
-  "calls": [
-   {
-    "tool": "write_docx",
-    "arguments": {
-     "path": "/acme/documents/presupuestos/P-2026-055.docx",
-     "title": "Presupuesto P-2026-055",
-     "blocks": [
-      {
-       "type": "paragraph",
-       "text": "Cliente: Talleres Navarro S.A."
-      },
-      {
-       "type": "paragraph",
-       "text": "Fecha: 9 de diciembre de 2026"
-      },
-      {
-       "type": "heading",
-       "text": "Partidas",
-       "level": 2
-      },
-      {
-       "type": "table",
-       "rows": [
-        [
-         "Concepto",
-         "Cantidad",
-         "Precio unitario",
-         "Total"
-        ],
-        [
-         "Rodamientos",
-         "60",
-         "22,00 euros",
-         "1.320,00 euros"
-        ],
-        [
-         "Correas",
-         "12",
-         "75,00 euros",
-         "900,00 euros"
-        ],
-        [
-         "Montaje",
-         "4 horas",
-         "55,00 euros",
-         "220,00 euros"
-        ]
-       ]
-      },
-      {
-       "type": "paragraph",
-       "text": "Total general: 2.440,00 euros sin IVA."
-      },
-      {
-       "type": "paragraph",
-       "text": "Validez del presupuesto: 30 días."
-      }
-     ]
-    },
-    "gate": "passed",
-    "reason": "",
-    "ran": true
-   }
-  ],
-  "answer": "Documento guardado en /acme/documents/presupuestos/P-2026-055.docx"
+  "answer": "/acme/documents/presupuestos/P-2026-055.docx"
  }
 }

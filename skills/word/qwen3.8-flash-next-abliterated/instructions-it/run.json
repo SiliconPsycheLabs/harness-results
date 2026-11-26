@@ -14,16 +14,15 @@
       {
        "type": "numbered",
        "items": [
-        "Compilare il modulo R12 entro 10 giorni dal rientro.",
-        "Allegare le ricevute originali.",
-        "Farlo firmare dal responsabile.",
-        "Consegnarlo all'ufficio amministrazione."
+        "compilare il modulo R12 entro 10 giorni dal rientro",
+        "allegare le ricevute originali",
+        "farlo firmare dal responsabile",
+        "consegnarlo all'ufficio amministrazione"
        ]
       },
       {
        "type": "paragraph",
-       "text": "Avvertenza: le spese senza ricevuta non sono rimborsate.",
-       "align": "justify"
+       "text": "Le spese senza ricevuta non sono rimborsate."
       }
      ]
     },
@@ -32,10 +31,10 @@
     "ran": true
    }
   ],
-  "answer": "File salvato in /acme/documents/istruzioni/rimborso_trasferta.docx",
-  "seconds": 17.15,
-  "tokens_in": 2111,
-  "tokens_out": 186,
+  "answer": "/acme/documents/istruzioni/rimborso_trasferta.docx",
+  "seconds": 20.05,
+  "tokens_in": 1839,
+  "tokens_out": 218,
   "right": true,
   "missing": []
  },
@@ -48,27 +47,17 @@
      "title": "Come chiedere il rimborso di una trasferta",
      "blocks": [
       {
-       "type": "heading",
-       "text": "Come chiedere il rimborso di una trasferta",
-       "level": 1
-      },
-      {
-       "type": "paragraph",
-       "text": "Per richiedere il rimborso di una trasferta è necessario seguire i seguenti passi, in ordine:"
-      },
-      {
        "type": "numbered",
        "items": [
-        "Compilare il modulo R12 entro 10 giorni dal rientro.",
-        "Allegare le ricevute originali.",
-        "Far firmare il modulo dal responsabile.",
-        "Consegnarlo all'ufficio amministrazione."
+        "Compilare il modulo R12 entro 10 giorni dal rientro",
+        "Allegare le ricevute originali",
+        "Farlo firmare dal responsabile",
+        "Consegnarlo all'ufficio amministrazione"
        ]
       },
       {
        "type": "paragraph",
-       "text": "Avvertenza: le spese senza ricevuta non sono rimborsate.",
-       "align": "justify"
+       "text": "Le spese senza ricevuta non sono rimborsate."
       }
      ]
     },
@@ -77,6 +66,6 @@
     "ran": true
    }
   ],
-  "answer": "File salvato in /acme/documents/istruzioni/rimborso_trasferta.docx"
+  "answer": "/acme/documents/istruzioni/rimborso_trasferta.docx"
  }
 }

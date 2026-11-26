@@ -1,0 +1,203 @@
+{
+ "request": "quote-fr",
+ "kind": "quote",
+ "language": "fr",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/devis/D-2026-077.docx",
+     "title": "Devis D-2026-077",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Devis D-2026-077",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Prépare pour Menuiserie Roussel, daté du 4 décembre 2026.",
+       "align": "left"
+      },
+      {
+       "type": "bullets",
+       "text": "8 moteurs électriques  310,00 euros pièce, total 2 480,00 euros",
+       "items": [
+        "8 moteurs électriques  310,00 euros pièce, total 2 480,00 euros"
+       ]
+      },
+      {
+       "type": "bullets",
+       "text": "8 variateurs  145,00 euros pièce, total 1 160,00 euros",
+       "items": [
+        "8 variateurs  145,00 euros pièce, total 1 160,00 euros"
+       ]
+      },
+      {
+       "type": "bullets",
+       "text": "1 mise en service  400,00 euros, total 400,00 euros",
+       "items": [
+        "1 mise en service  400,00 euros, total 400,00 euros"
+       ]
+      },
+      {
+       "type": "table",
+       "text": "Désignation, Quantité, Prix unitaire, Total",
+       "rows": [
+        [
+         "Désignation",
+         "Quantité",
+         "Prix unitaire",
+         "Total"
+        ],
+        [
+         "8 moteurs électriques",
+         "8",
+         " 310,00",
+         "2 480,00"
+        ],
+        [
+         "8 variateurs",
+         "8",
+         " 145,00",
+         "1 160,00"
+        ],
+        [
+         "1 mise en service",
+         "1",
+         " 400,00",
+         "400,00"
+        ]
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Total général : 4 040,00 euros hors taxes.",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Validité de 45 jours.",
+       "align": "left"
+      },
+      {
+       "type": "signature",
+       "text": "Signature",
+       "items": [
+        "Signature",
+        "Nom",
+        "Rôle"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "//acme/documents/devis/D-2026-077.docx",
+  "seconds": 15.02,
+  "tokens_in": 2348,
+  "tokens_out": 605,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/devis/D-2026-077.docx",
+     "title": "Devis D-2026-077",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Devis D-2026-077",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Prépare pour Menuiserie Roussel, daté du 4 décembre 2026.",
+       "align": "left"
+      },
+      {
+       "type": "bullets",
+       "text": "8 moteurs électriques  310,00 euros pièce, total 2 480,00 euros",
+       "items": [
+        "8 moteurs électriques  310,00 euros pièce, total 2 480,00 euros"
+       ]
+      },
+      {
+       "type": "bullets",
+       "text": "8 variateurs  145,00 euros pièce, total 1 160,00 euros",
+       "items": [
+        "8 variateurs  145,00 euros pièce, total 1 160,00 euros"
+       ]
+      },
+      {
+       "type": "bullets",
+       "text": "1 mise en service  400,00 euros, total 400,00 euros",
+       "items": [
+        "1 mise en service  400,00 euros, total 400,00 euros"
+       ]
+      },
+      {
+       "type": "table",
+       "text": "Désignation | Quantité | Prix unitaire | Total\n−−−−−−\nMoteurs électriques | 8 | 310,00 € | 2 480,00 €\nVariateurs | 8 | 145,00 € | 1 160,00 €\nMise en service | 1 | 400,00 € | 400,00 €",
+       "rows": [
+        [
+         "Désignation",
+         "Quantité",
+         "Prix unitaire",
+         "Total"
+        ],
+        [
+         "Moteurs électriques",
+         "8",
+         "310,00 €",
+         "2 480,00 €"
+        ],
+        [
+         "Variateurs",
+         "8",
+         "145,00 €",
+         "1 160,00 €"
+        ],
+        [
+         "Mise en service",
+         "1",
+         "400,00 €",
+         "400,00 €"
+        ]
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Total général : 4 040,00 € hors taxes",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Validité de 45 jours",
+       "align": "left"
+      },
+      {
+       "type": "signature",
+       "text": "Signature",
+       "items": [
+        "Signature"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "//acme/documents/devis/D-2026-077.docx"
+ }
+}

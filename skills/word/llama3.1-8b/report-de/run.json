@@ -1,0 +1,117 @@
+{
+ "request": "report-de",
+ "kind": "report",
+ "language": "de",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/berichte/lager_2026-11.docx",
+     "title": "Lagerbericht zum 30. November 2026",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Bestand",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Der aktuelle Lagerbestand zum 30. November 2026 umfasst 4.280 Artikel im Wert von 612.400,00 Euro.",
+       "align": "left"
+      },
+      {
+       "type": "heading",
+       "text": "Abweichungen",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Während der Inventur wurden 37 Artikel mit Fehlmengen festgestellt.",
+       "align": "left"
+      },
+      {
+       "type": "heading",
+       "text": "Maßnahmen",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Um die Abweichungen zu korrigieren, wird eine Nachzählung im Gang C durchgeführt. Die Nachzählung soll bis zum 15. Dezember 2026 abgeschlossen sein.",
+       "align": "left"
+      },
+      {
+       "type": "signature",
+       "text": "Jan Petersen, Lagerleiter\n\n"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/berichte/lager_2026-11.docx",
+  "seconds": 8.68,
+  "tokens_in": 1993,
+  "tokens_out": 314,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/berichte/lager_2026-11.docx",
+     "title": "Lagerbericht zum 30. November 2026",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Bestand",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Der aktuelle Lagerbestand zum 30. November 2026 umfasst 4.280 Artikel im Wert von 612.400,00 Euro.",
+       "align": "left"
+      },
+      {
+       "type": "heading",
+       "text": "Abweichungen",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Während der Inventur wurden 37 Artikel mit Fehlmengen festgestellt.",
+       "align": "left"
+      },
+      {
+       "type": "heading",
+       "text": "Maßnahmen",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Um die Abweichungen zu korrigieren, wird eine Nachzählung im Gang C durchgeführt, die bis zum 15. Dezember 2026 andauern wird.",
+       "align": "left"
+      },
+      {
+       "type": "signature",
+       "text": "Jan Petersen, Lagerleiter\n\n",
+       "items": [
+        "Jan Petersen",
+        "Lagerleiter"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "//acme/documents/berichte/lager_2026-11.docx"
+ }
+}

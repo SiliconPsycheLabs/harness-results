@@ -18,7 +18,7 @@
       },
       {
        "type": "paragraph",
-       "text": "37 réclamations ont été enregistrées en novembre 2026, contre 52 en octobre."
+       "text": "37 réclamations, contre 52 en octobre."
       },
       {
        "type": "heading",
@@ -27,15 +27,7 @@
       },
       {
        "type": "paragraph",
-       "text": "Répartition des réclamations par cause :"
-      },
-      {
-       "type": "bullets",
-       "items": [
-        "21 retards de livraison",
-        "9 défauts d'emballage",
-        "7 erreurs de facturation"
-       ]
+       "text": "21 retards de livraison, 9 défauts d'emballage, 7 erreurs de facturation."
       },
       {
        "type": "heading",
@@ -44,7 +36,7 @@
       },
       {
        "type": "paragraph",
-       "text": "Mise en place d'un nouveau transporteur pour la région Sud à partir du 4 janvier 2027."
+       "text": "nouveau transporteur pour la région Sud à partir du 4 janvier 2027."
       },
       {
        "type": "signature",
@@ -61,9 +53,9 @@
    }
   ],
   "answer": "/acme/documents/rapports/reclamations_2026-11.docx",
-  "seconds": 29.04,
-  "tokens_in": 2289,
-  "tokens_out": 303,
+  "seconds": 26.86,
+  "tokens_in": 2038,
+  "tokens_out": 368,
   "right": true,
   "missing": []
  },
@@ -77,30 +69,34 @@
      "blocks": [
       {
        "type": "heading",
-       "level": 1,
-       "text": "Volume"
+       "text": "Volume",
+       "level": 1
       },
       {
        "type": "paragraph",
-       "text": "37 réclamations ont été enregistrées en novembre 2026, contre 52 en octobre."
+       "text": "37 réclamations, contre 52 en octobre."
       },
       {
        "type": "heading",
-       "level": 1,
-       "text": "Causes"
+       "text": "Causes",
+       "level": 1
       },
       {
-       "type": "paragraph",
-       "text": "Répartition des réclamations : 21 retards de livraison, 9 défauts d'emballage, 7 erreurs de facturation."
+       "type": "bullets",
+       "items": [
+        "21 retards de livraison",
+        "9 défauts d'emballage",
+        "7 erreurs de facturation"
+       ]
       },
       {
        "type": "heading",
-       "level": 1,
-       "text": "Mesures"
+       "text": "Mesures",
+       "level": 1
       },
       {
        "type": "paragraph",
-       "text": "Mise en place d'un nouveau transporteur pour la région Sud à partir du 4 janvier 2027."
+       "text": "Nouveau transporteur pour la région Sud à partir du 4 janvier 2027."
       },
       {
        "type": "signature",

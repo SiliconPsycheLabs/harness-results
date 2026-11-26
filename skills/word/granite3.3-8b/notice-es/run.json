@@ -1,0 +1,105 @@
+{
+ "request": "notice-es",
+ "kind": "notice",
+ "language": "es",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/avisos/nuevo_fichaje.docx",
+     "title": "Nuevo sistema de fichaje",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Nuevo sistema de fichaje",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Se informa a todos los empleados que el sistema de fichaje cambiará el 1 de enero de 2027. A continuación, se detallan los cambios clave:",
+       "align": "left"
+      },
+      {
+       "type": "bullets",
+       "text": "Cada empleado recibirá una tarjeta de fichaje nueva.",
+       "align": "left"
+      },
+      {
+       "type": "bullets",
+       "text": "Las tarjetas de fichaje antiguas dejarán de funcionar el 15 de enero de 2027.",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Para cualquier duda o consulta, por favor envíe un correo electrónico a rrhh@acme.example.",
+       "align": "left"
+      },
+      {
+       "type": "signature",
+       "text": "Rosa Vidal\nRecursos Humanos"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "El aviso interno ha sido escrito y guardado en /acme/documents/avisos/nuevo_fichaje.docx",
+  "seconds": 9.26,
+  "tokens_in": 1971,
+  "tokens_out": 332,
+  "right": false,
+  "missing": [
+   "fewer than 3 bullet items"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/avisos/nuevo_fichaje.docx",
+     "title": "Nuevo sistema de fichaje",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Nuevo sistema de fichaje",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Se informa a todos los empleados que el sistema de fichaje cambiará el 1 de enero de 2027. A continuación, se detallan los cambios clave:",
+       "align": "left"
+      },
+      {
+       "type": "bullets",
+       "text": "Cada empleado recibirá una tarjeta de fichaje nueva.",
+       "align": "left"
+      },
+      {
+       "type": "bullets",
+       "text": "Las tarjetas de fichaje antiguas dejarán de funcionar el 15 de enero de 2027.",
+       "align": "left"
+      },
+      {
+       "type": "paragraph",
+       "text": "Para cualquier duda o consulta, por favor envíe un correo electrónico a rrhh@acme.example.",
+       "align": "left"
+      },
+      {
+       "type": "signature",
+       "text": "Rosa Vidal\nRecursos Humanos"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "El aviso interno ha sido escrito y guardado en /acme/documents/avisos/nuevo_fichaje.docx"
+ }
+}

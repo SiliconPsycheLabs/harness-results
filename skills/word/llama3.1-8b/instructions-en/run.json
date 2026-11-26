@@ -1,0 +1,21 @@
+{
+ "request": "instructions-en",
+ "kind": "instructions",
+ "language": "en",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "",
+  "seconds": 100.35,
+  "tokens_in": 777,
+  "tokens_out": 4000,
+  "right": false,
+  "missing": [
+   "no file at the path asked"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": ""
+ }
+}

@@ -13,22 +13,14 @@
      "blocks": [
       {
        "type": "paragraph",
-       "text": "Avviso interno"
-      },
-      {
-       "type": "paragraph",
-       "text": "Si comunica che lunedì 14 dicembre 2026 il parcheggio nord sarà chiuso per lavori dalle 7:00 alle 18:00."
-      },
-      {
-       "type": "paragraph",
-       "text": "Si prega di:"
+       "text": "Lunedì 14 dicembre 2026 il parcheggio nord è chiuso per lavori dalle 7:00 alle 18:00."
       },
       {
        "type": "bullets",
        "items": [
-        "utilizzare il parcheggio sud;",
-        "considerare che l'ingresso merci resta aperto;",
-        "utilizzare le navette, che partono ogni 15 minuti dalla portineria."
+        "Usare il parcheggio sud",
+        "L'ingresso merci resta aperto",
+        "Le navette partono ogni 15 minuti dalla portineria"
        ]
       },
       {
@@ -46,9 +38,9 @@
    }
   ],
   "answer": "/acme/documents/avvisi/parcheggio_nord.docx",
-  "seconds": 21.98,
-  "tokens_in": 2125,
-  "tokens_out": 229,
+  "seconds": 18.34,
+  "tokens_in": 1841,
+  "tokens_out": 261,
   "right": true,
   "missing": []
  },
@@ -62,22 +54,14 @@
      "blocks": [
       {
        "type": "paragraph",
-       "text": "Avviso interno"
-      },
-      {
-       "type": "paragraph",
-       "text": "Si comunica che lunedì 14 dicembre 2026 il parcheggio nord sarà chiuso per lavori dalle 7:00 alle 18:00."
-      },
-      {
-       "type": "paragraph",
-       "text": "Si prega di:"
+       "text": "Lunedì 14 dicembre 2026 il parcheggio nord è chiuso per lavori dalle 7:00 alle 18:00."
       },
       {
        "type": "bullets",
        "items": [
-        "utilizzare il parcheggio sud;",
-        "considerare che l'ingresso merci resta aperto;",
-        "utilizzare le navette, che partono ogni 15 minuti dalla portineria."
+        "usare il parcheggio sud",
+        "l'ingresso merci resta aperto",
+        "le navette partono ogni 15 minuti dalla portineria"
        ]
       },
       {

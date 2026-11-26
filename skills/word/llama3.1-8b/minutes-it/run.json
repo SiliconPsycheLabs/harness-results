@@ -1,0 +1,152 @@
+{
+ "request": "minutes-it",
+ "kind": "minutes",
+ "language": "it",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/verbali/sicurezza_2026-12-03.docx",
+     "title": "Verbale del comitato sicurezza del 3 dicembre 2026",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Verbale del comitato sicurezza del 3 dicembre 2026",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Presenti: ",
+       "align": "left"
+      },
+      {
+       "type": "bullets",
+       "text": "Giulia Conti",
+       "items": [
+        "Stefano Riva",
+        "Marta Leone"
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Decisioni:",
+       "align": "left"
+      },
+      {
+       "type": "numbered",
+       "text": "Decisioni in elenco numerato:",
+       "items": [
+        "1) nuova segnaletica nel magazzino B entro il 20 dicembre 2026;",
+        "2) corso antincendio per 12 addetti a gennaio;",
+        "3) Stefano Riva aggiorna il registro degli infortuni."
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Prossima riunione: 14 gennaio 2027.",
+       "align": "left"
+      },
+      {
+       "type": "signature",
+       "text": "Giulia Conti, Presidente del comitato sicurezza",
+       "items": [
+        "Stefano Riva, Membro del comitato sicurezza",
+        "Marta Leone, Membro del comitato sicurezza"
+       ]
+      },
+      {
+       "type": "signature",
+       "text": "Data: 3 dicembre 2026",
+       "items": []
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/verbali/sicurezza_2026-12-03.docx",
+  "seconds": 9.62,
+  "tokens_in": 2123,
+  "tokens_out": 404,
+  "right": false,
+  "missing": [
+   "fact lacks: Giulia Conti",
+   "fewer than 3 bullet items"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/verbali/sicurezza_2026-12-03.docx",
+     "title": "Verbale del comitato sicurezza del 3 dicembre 2026",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "Verbale del comitato sicurezza del 3 dicembre 2026",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Presenti: ",
+       "align": "left"
+      },
+      {
+       "type": "bullets",
+       "text": "• Giulia Conti",
+       "items": [
+        "• Giulia Conti",
+        "• Stefano Riva",
+        "• Marta Leone"
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Decisioni: ",
+       "align": "left"
+      },
+      {
+       "type": "numbered",
+       "text": "Decisioni in elenco numerato:",
+       "items": [
+        "1) nuova segnaletica nel magazzino B entro il 20 dicembre 2026;",
+        "2) corso antincendio per 12 addetti a gennaio;",
+        "3) Stefano Riva aggiorna il registro degli infortuni."
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Prossima riunione: ",
+       "align": "left"
+      },
+      {
+       "type": "bullets",
+       "text": "14 gennaio 2027",
+       "items": [
+        "14 gennaio 2027"
+       ]
+      },
+      {
+       "type": "signature",
+       "text": "I presenti in elenco puntato.",
+       "items": [
+        "• Giulia Conti",
+        "• Stefano Riva",
+        "• Marta Leone"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/verbali/sicurezza_2026-12-03.docx"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "request": "instructions-de",
+ "kind": "instructions",
+ "language": "de",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/anleitungen/notebook_rueckgabe.docx",
+     "title": "Rückgabe eines defekten Notebooks",
+     "blocks": [
+      {
+       "type": "numbered",
+       "items": [
+        "1) Ticket im Helpdesk-Portal öffnen",
+        "2) eigene Daten auf dem Netzlaufwerk sichern",
+        "3) das Gerät mit Netzteil im Raum 0.14 abgeben",
+        "4) das Ersatzgerät quittieren"
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Geräte ohne Ticket werden nicht angenommen."
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/anleitungen/notebook_rueckgabe.docx",
+  "seconds": 5.36,
+  "tokens_in": 1799,
+  "tokens_out": 174,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/anleitungen/notebook_rueckgabe.docx",
+     "title": "Rückgabe eines defekten Notebooks",
+     "blocks": [
+      {
+       "type": "numbered",
+       "items": [
+        "1) Ticket im Helpdesk-Portal öffnen",
+        "2) eigene Daten auf dem Netzlaufwerk sichern",
+        "3) das Gerät mit Netzteil im Raum 0.14 abgeben",
+        "4) das Ersatzgerät quittieren"
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Geräte ohne Ticket werden nicht angenommen."
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/anleitungen/notebook_rueckgabe.docx"
+ }
+}

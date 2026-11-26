@@ -1,0 +1,145 @@
+{
+ "request": "instructions-fr",
+ "kind": "instructions",
+ "language": "fr",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/procedures/accueil_visiteurs.docx",
+     "title": "Procédure d'accueil des visiteurs",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "1",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Annoncer le visiteur à l'accueil la veille."
+      },
+      {
+       "type": "heading",
+       "text": "2",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Lui remettre un badge visiteur."
+      },
+      {
+       "type": "heading",
+       "text": "3",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "L'accompagner en permanence dans les ateliers."
+      },
+      {
+       "type": "heading",
+       "text": "4",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Lui faire porter les lunettes de protection."
+      },
+      {
+       "type": "heading",
+       "text": "5",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Récupérer le badge à la sortie."
+      },
+      {
+       "type": "paragraph",
+       "text": "Aucun visiteur ne reste seul dans les ateliers."
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The document has been successfully created and saved at /acme/documents/procedures/accueil_visiteurs.docx.",
+  "seconds": 10.03,
+  "tokens_in": 2099,
+  "tokens_out": 371,
+  "right": false,
+  "missing": [
+   "fewer than 5 numbered items"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/procedures/accueil_visiteurs.docx",
+     "title": "Procédure d'accueil des visiteurs",
+     "blocks": [
+      {
+       "type": "heading",
+       "text": "1",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Annoncer le visiteur à l'accueil la veille."
+      },
+      {
+       "type": "heading",
+       "text": "2",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Lui remettre un badge visiteur."
+      },
+      {
+       "type": "heading",
+       "text": "3",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "L'accompagner en permanence dans les ateliers."
+      },
+      {
+       "type": "heading",
+       "text": "4",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Lui faire porter les lunettes de protection."
+      },
+      {
+       "type": "heading",
+       "text": "5",
+       "level": 1
+      },
+      {
+       "type": "paragraph",
+       "text": "Récupérer le badge à la sortie."
+      },
+      {
+       "type": "paragraph",
+       "text": "Aucun visiteur ne reste seul dans les ateliers."
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The document has been successfully created and saved at /acme/documents/procedures/accueil_visiteurs.docx."
+ }
+}

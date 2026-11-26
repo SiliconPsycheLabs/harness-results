@@ -13,7 +13,7 @@
      "blocks": [
       {
        "type": "paragraph",
-       "text": "Acme Components",
+       "text": "Tessitura Bellomo S.p.A.\nAll'attenzione del dott. Marco Bellomo",
        "align": "left"
       },
       {
@@ -23,32 +23,27 @@
       },
       {
        "type": "paragraph",
-       "text": "Tessitura Bellomo S.p.A.\nAll'attenzione del dott. Marco Bellomo",
-       "align": "left"
-      },
-      {
-       "type": "paragraph",
        "text": "Oggetto: disdetta del contratto di manutenzione n. 218/2024",
        "align": "left"
       },
       {
        "type": "paragraph",
-       "text": "Egregio dott. Bellomo,",
+       "text": "Gentile Dott. Bellomo,",
        "align": "left"
       },
       {
        "type": "paragraph",
-       "text": "con la presente comunichiamo che il contratto di manutenzione n. 218/2024 non sarà rinnovato alla scadenza del 31 gennaio 2027. Il contratto cesserà pertanto i propri effetti a tale data.",
+       "text": "con la presente comunichiamo che il contratto di manutenzione n. 218/2024 non sarà rinnovato alla scadenza del 31 gennaio 2027.",
        "align": "justify"
       },
       {
        "type": "paragraph",
-       "text": "La preghiamo di voler confermare per iscritto il ricevimento della presente comunicazione.",
+       "text": "La preghiamo di inviarci conferma scritta di ricevimento della presente comunicazione.",
        "align": "justify"
       },
       {
        "type": "paragraph",
-       "text": "Distinti saluti.",
+       "text": "Cordiali saluti,",
        "align": "left"
       },
       {
@@ -65,10 +60,10 @@
     "ran": true
    }
   ],
-  "answer": "Lettera salvata in /acme/documents/lettere/disdetta_bellomo.docx",
-  "seconds": 417.36,
-  "tokens_in": 2335,
-  "tokens_out": 387,
+  "answer": "/acme/documents/lettere/disdetta_bellomo.docx",
+  "seconds": 34.99,
+  "tokens_in": 2111,
+  "tokens_out": 466,
   "right": true,
   "missing": []
  },
@@ -82,7 +77,7 @@
      "blocks": [
       {
        "type": "paragraph",
-       "text": "Acme Components",
+       "text": "Tessitura Bellomo S.p.A.\nAll'attenzione del dott. Marco Bellomo",
        "align": "left"
       },
       {
@@ -92,17 +87,12 @@
       },
       {
        "type": "paragraph",
-       "text": "Tessitura Bellomo S.p.A.\nAll'attenzione del dott. Marco Bellomo",
-       "align": "left"
-      },
-      {
-       "type": "paragraph",
        "text": "Oggetto: disdetta del contratto di manutenzione n. 218/2024",
        "align": "left"
       },
       {
        "type": "paragraph",
-       "text": "Egregio dott. Bellomo,",
+       "text": "Gentile Dott. Bellomo,",
        "align": "left"
       },
       {
@@ -112,12 +102,12 @@
       },
       {
        "type": "paragraph",
-       "text": "La preghiamo di voler confermare per iscritto il ricevimento della presente comunicazione.",
+       "text": "La preghiamo di inviarci conferma scritta di ricevimento della presente comunicazione.",
        "align": "justify"
       },
       {
        "type": "paragraph",
-       "text": "Cordiali saluti.",
+       "text": "Cordiali saluti,",
        "align": "left"
       },
       {
@@ -134,6 +124,6 @@
     "ran": true
    }
   ],
-  "answer": "Lettera salvata in /acme/documents/lettere/disdetta_bellomo.docx"
+  "answer": "/acme/documents/lettere/disdetta_bellomo.docx"
  }
 }

@@ -1,0 +1,123 @@
+{
+ "request": "quote-es",
+ "kind": "quote",
+ "language": "es",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/presupuestos/P-2026-055.docx",
+     "title": "Presupuesto P-2026-055",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "Presupuesto P-2026-055 para Talleres Navarro S.A., con fecha 9 de diciembre de 2026."
+      },
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Concepto",
+         "Cantidad",
+         "Precio unitario",
+         "Total"
+        ],
+        [
+         "60 rodamientos",
+         "1.320,00 euros",
+         "60 x 22,00 euros",
+         "1.320,00 euros"
+        ],
+        [
+         "12 correas",
+         "900,00 euros",
+         "12 x 75,00 euros",
+         "900,00 euros"
+        ],
+        [
+         "4 horas de montaje",
+         "220,00 euros",
+         "4 x 55,00 euros",
+         "220,00 euros"
+        ]
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Total general: 2.440,00 euros sin IVA. Valido durante 30 días."
+      },
+      {
+       "type": "signature",
+       "text": "Firma: \nNombre: \nRol: "
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "//acme/documents/presupuestos/P-2026-055.docx",
+  "seconds": 7.42,
+  "tokens_in": 2037,
+  "tokens_out": 288,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/presupuestos/P-2026-055.docx",
+     "title": "Presupuesto P-2026-055",
+     "blocks": [
+      {
+       "type": "paragraph",
+       "text": "Presupuesto P-2026-055 para Talleres Navarro S.A., con fecha 9 de diciembre de 2026."
+      },
+      {
+       "type": "table",
+       "rows": [
+        [
+         "Concepto",
+         "Cantidad",
+         "Precio unitario",
+         "Total"
+        ],
+        [
+         "60 rodamientos",
+         "1.320,00 euros",
+         "22,00 euros",
+         "1.320,00 euros"
+        ],
+        [
+         "12 correas",
+         "900,00 euros",
+         "75,00 euros",
+         "900,00 euros"
+        ],
+        [
+         "4 horas de montaje",
+         "220,00 euros",
+         "55,00 euros",
+         "220,00 euros"
+        ]
+       ]
+      },
+      {
+       "type": "paragraph",
+       "text": "Total general: 2.440,00 euros sin IVA. Valido durante 30 días."
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "//acme/documents/presupuestos/P-2026-055.docx"
+ }
+}

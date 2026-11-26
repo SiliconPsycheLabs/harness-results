@@ -14,16 +14,15 @@
       {
        "type": "numbered",
        "items": [
-        "Pedir al proveedor el certificado fiscal.",
-        "Comprobar el IBAN con una llamada al número que ya tenemos.",
-        "Rellenar la ficha F-07.",
-        "Enviar la ficha a compras para su aprobación."
+        "pedir al proveedor el certificado fiscal",
+        "comprobar el IBAN con una llamada al número que ya tenemos",
+        "rellenar la ficha F-07",
+        "enviar la ficha a compras para su aprobación"
        ]
       },
       {
        "type": "paragraph",
-       "text": "Advertencia: nunca se cambia un IBAN por una petición recibida por correo.",
-       "align": "justify"
+       "text": "nunca se cambia un IBAN por una petición recibida por correo"
       }
      ]
     },
@@ -32,10 +31,10 @@
     "ran": true
    }
   ],
-  "answer": "Listo: /acme/documents/instrucciones/alta_proveedor.docx",
-  "seconds": 18.5,
-  "tokens_in": 2093,
-  "tokens_out": 177,
+  "answer": "/acme/documents/instrucciones/alta_proveedor.docx",
+  "seconds": 18.59,
+  "tokens_in": 1823,
+  "tokens_out": 219,
   "right": true,
   "missing": []
  },
@@ -50,16 +49,15 @@
       {
        "type": "numbered",
        "items": [
-        "Pedir al proveedor el certificado fiscal.",
-        "Comprobar el IBAN con una llamada al número que ya tenemos.",
-        "Rellenar la ficha F-07.",
-        "Enviar la ficha a compras para su aprobación."
+        "pedir al proveedor el certificado fiscal",
+        "comprobar el IBAN con una llamada al número que ya tenemos",
+        "rellenar la ficha F-07",
+        "enviar la ficha a compras para su aprobación"
        ]
       },
       {
        "type": "paragraph",
-       "text": "Advertencia: nunca se cambia un IBAN por una petición recibida por correo.",
-       "align": "justify"
+       "text": "nunca se cambia un IBAN por una petición recibida por correo"
       }
      ]
     },
@@ -68,6 +66,6 @@
     "ran": true
    }
   ],
-  "answer": "Listo: /acme/documents/instrucciones/alta_proveedor.docx"
+  "answer": "/acme/documents/instrucciones/alta_proveedor.docx"
  }
 }

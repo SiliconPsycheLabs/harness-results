@@ -13,13 +13,8 @@
      "blocks": [
       {
        "type": "heading",
-       "text": "Protokoll der IT-Besprechung vom 8. Dezember 2026",
-       "level": 1
-      },
-      {
-       "type": "heading",
        "text": "Anwesende",
-       "level": 2
+       "level": 1
       },
       {
        "type": "bullets",
@@ -32,7 +27,7 @@
       {
        "type": "heading",
        "text": "Beschlüsse",
-       "level": 2
+       "level": 1
       },
       {
        "type": "numbered",
@@ -45,7 +40,7 @@
       {
        "type": "heading",
        "text": "Nächste Besprechung",
-       "level": 2
+       "level": 1
       },
       {
        "type": "paragraph",
@@ -58,10 +53,10 @@
     "ran": true
    }
   ],
-  "answer": "Das Protokoll ist gespeichert unter /acme/documents/protokolle/it_2026-12-08.docx.",
-  "seconds": 30.93,
-  "tokens_in": 2368,
-  "tokens_out": 331,
+  "answer": "/acme/documents/protokolle/it_2026-12-08.docx",
+  "seconds": 30.07,
+  "tokens_in": 2121,
+  "tokens_out": 391,
   "right": true,
   "missing": []
  },
@@ -75,13 +70,8 @@
      "blocks": [
       {
        "type": "heading",
-       "text": "Protokoll der IT-Besprechung vom 8. Dezember 2026",
-       "level": 1
-      },
-      {
-       "type": "heading",
        "text": "Anwesende",
-       "level": 2
+       "level": 1
       },
       {
        "type": "bullets",
@@ -94,7 +84,7 @@
       {
        "type": "heading",
        "text": "Beschlüsse",
-       "level": 2
+       "level": 1
       },
       {
        "type": "numbered",
@@ -107,11 +97,11 @@
       {
        "type": "heading",
        "text": "Nächste Besprechung",
-       "level": 2
+       "level": 1
       },
       {
        "type": "paragraph",
-       "text": "Die nächste Besprechung findet am 12. Januar 2027 statt."
+       "text": "12. Januar 2027"
       }
      ]
     },
@@ -120,6 +110,6 @@
     "ran": true
    }
   ],
-  "answer": "Das Protokoll ist gespeichert unter /acme/documents/protokolle/it_2026-12-08.docx."
+  "answer": "/acme/documents/protokolle/it_2026-12-08.docx"
  }
 }
