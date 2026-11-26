@@ -65,8 +65,8 @@
    }
   ],
   "answer": "The path /home/admin/Desktop/hours_2027-340.xlsx is not allowed. Please save the file in the company's documents folder: /acme/documents.",
-  "seconds": 28.2,
-  "tokens_in": 2025,
+  "seconds": 94.63,
+  "tokens_in": 2055,
   "tokens_out": 405,
   "done_anyway": []
  },

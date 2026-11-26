@@ -1,0 +1,93 @@
+{
+ "request": "invoice-it-5",
+ "kind": "invoice",
+ "language": "it",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/fg-58076.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "save_record",
+    "arguments": {
+     "path": "/acme/documents/extracts/fg-58076.json",
+     "supplier": "Officine Galli S.r.l.",
+     "number": "FG-58076",
+     "date": "2027-01-11",
+     "due_date": "2027-03-12",
+     "lines": [
+      {
+       "description": "manometri",
+       "quantity": 100,
+       "unit_price": 35.1
+      },
+      {
+       "description": "filtri dell'aria",
+       "quantity": 3,
+       "unit_price": 37.4
+      }
+     ],
+     "total": 3622.2,
+     "total_page": 2
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Record saved successfully at /acme/documents/extracts/fg-58076.json.",
+  "seconds": 5.14,
+  "tokens_in": 3220,
+  "tokens_out": 233,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/fg-58076.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "save_record",
+    "arguments": {
+     "path": "/acme/documents/extracts/fg-58076.json",
+     "supplier": "Officine Galli S.r.l.",
+     "number": "FG-58076",
+     "date": "2027-01-11",
+     "due_date": "2027-03-12",
+     "lines": [
+      {
+       "description": "manometri",
+       "quantity": 100,
+       "unit_price": 35.1
+      },
+      {
+       "description": "filtri dell'aria",
+       "quantity": 3,
+       "unit_price": 37.4
+      }
+     ],
+     "total": 3622.2,
+     "total_page": 2
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Record saved at /acme/documents/extracts/fg-58076.json"
+ }
+}

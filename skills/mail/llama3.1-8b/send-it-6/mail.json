@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "ordini@officinegalli.example"
+ ],
+ "subject": "Ordine PO-4726",
+ "body": "Gentile Officine Galli S.r.l.,\n\ncon riferimento all'ordine PO-4726, ci preghiamo di confermare la consegna entro il 18 gennaio 2027. L'importo totale dell'ordine è di 651,40 euro. Ci sarebbe gradita una conferma scritta da parte della Sua azienda.\n\nCordiali saluti,\nSara Monti\nAcme Components\n\nAllegato: /acme/documents/orders/po-4726.xlsx",
+ "attachments": [
+  "/acme/documents/orders/po-4726.xlsx"
+ ]
+}

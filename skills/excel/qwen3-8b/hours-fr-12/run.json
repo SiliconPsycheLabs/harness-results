@@ -1,0 +1,125 @@
+{
+ "request": "hours-fr-12",
+ "kind": "hours",
+ "language": "fr",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_xlsx",
+    "arguments": {
+     "path": "/acme/documents/sheets/hours_2027-306.xlsx",
+     "sheet": "2027-306",
+     "columns": [
+      {
+       "name": "Nom",
+       "type": "text"
+      },
+      {
+       "name": "Heures",
+       "type": "number"
+      },
+      {
+       "name": "Taux horaire",
+       "type": "number"
+      },
+      {
+       "name": "Montant",
+       "type": "number"
+      }
+     ],
+     "rows": [
+      [
+       "Julie Renard",
+       "32",
+       "38,50",
+       "1232"
+      ],
+      [
+       "Marc Vasseur",
+       "32",
+       "22,00",
+       "704"
+      ],
+      [
+       "Claire Dumont",
+       "24",
+       "23,50",
+       "564"
+      ]
+     ],
+     "total_columns": [
+      "Heures",
+      "Montant"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/sheets/hours_2027-306.xlsx",
+  "seconds": 4.88,
+  "tokens_in": 1868,
+  "tokens_out": 223,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_xlsx",
+    "arguments": {
+     "path": "/acme/documents/sheets/hours_2027-306.xlsx",
+     "sheet": "2027-306",
+     "columns": [
+      {
+       "name": "Nom",
+       "type": "text"
+      },
+      {
+       "name": "Heures",
+       "type": "number"
+      },
+      {
+       "name": "Taux horaire",
+       "type": "number"
+      },
+      {
+       "name": "Montant",
+       "type": "number"
+      }
+     ],
+     "rows": [
+      [
+       "Julie Renard",
+       "32",
+       "38,50",
+       "1232"
+      ],
+      [
+       "Marc Vasseur",
+       "32",
+       "22,00",
+       "704"
+      ],
+      [
+       "Claire Dumont",
+       "24",
+       "23,50",
+       "564"
+      ]
+     ],
+     "total_columns": [
+      "Heures",
+      "Montant"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/sheets/hours_2027-306.xlsx"
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "ordini@officinegalli.example"
+ ],
+ "subject": "Ordine PO-7273",
+ "body": "Gentile Officine Galli S.r.l.,\n\ncon riferimento all'ordine PO-7273, ci preghiamo di confermare la consegna entro il 15 gennaio 2027. L'importo totale dell'ordine è di 8.846,90 euro. Ci preghiamo di ricevere una conferma scritta da parte di Stefano Riva.\n\nCordiali saluti,\n[Il tuo nome]\nAcme Components",
+ "attachments": [
+  "/acme/documents/orders/po-7273.xlsx"
+ ]
+}

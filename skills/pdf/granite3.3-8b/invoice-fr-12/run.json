@@ -1,0 +1,93 @@
+{
+ "request": "invoice-fr-12",
+ "kind": "invoice",
+ "language": "fr",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/f-90699.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "save_record",
+    "arguments": {
+     "path": "/acme/documents/extracts/f-90699.json",
+     "supplier": "Atelier Dumont SARL",
+     "number": "F-90699",
+     "date": "2027-01-27",
+     "due_date": "2027-03-13",
+     "lines": [
+      {
+       "description": "vannes à bille",
+       "quantity": 25,
+       "unit_price": 52.4
+      },
+      {
+       "description": "flexibles hydrauliques",
+       "quantity": 3,
+       "unit_price": 40.5
+      }
+     ],
+     "total": 1431.5,
+     "total_page": 2
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The data from the invoice has been saved to /acme/documents/extracts/f-90699.json",
+  "seconds": 6.54,
+  "tokens_in": 3334,
+  "tokens_out": 255,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/f-90699.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "save_record",
+    "arguments": {
+     "path": "/acme/documents/extracts/f-90699.json",
+     "supplier": "Atelier Dumont SARL",
+     "number": "F-90699",
+     "date": "2027-01-27",
+     "due_date": "2027-03-13",
+     "lines": [
+      {
+       "description": "vannes à bille",
+       "quantity": 25,
+       "unit_price": 52.4
+      },
+      {
+       "description": "flexibles hydrauliques",
+       "quantity": 3,
+       "unit_price": 40.5
+      }
+     ],
+     "total": 1431.5,
+     "total_page": 2
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The data from the invoice has been saved to /acme/documents/extracts/f-90699.json"
+ }
+}

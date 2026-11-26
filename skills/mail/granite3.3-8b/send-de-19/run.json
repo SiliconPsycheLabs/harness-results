@@ -1,0 +1,73 @@
+{
+ "request": "send-de-19",
+ "kind": "send",
+ "language": "de",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Lindner Maschinenbau AG"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "info@lindner-maschinenbau.example"
+     ],
+     "subject": "Bestellung PO-6350",
+     "body": "Wir benörigen die Lieferung bis zum 28. Dezember 2026 und die Bestellung PO-6350 beträgt 4.618,10 Euro. Bitte senden Sie uns eine schriftliche Bestätigung. Vielen Dank.",
+     "attachments": [
+      "/acme/documents/orders/po-6350.xlsx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Die Bestellung PO-6350 wurde erfolgreich an Lindner Maschinenbau AG gesendet.",
+  "seconds": 5.07,
+  "tokens_in": 2256,
+  "tokens_out": 220,
+  "right": false,
+  "missing": [
+   "the mail lacks: Voss"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Lindner Maschinenbau AG"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "info@lindner-maschinenbau.example"
+     ],
+     "subject": "Bestellung PO-6350",
+     "body": "Wir benörigen die Lieferung bis zum 28. Dezember 2026 und die Bestellung PO-6350 beträgt 4.618,10 Euro. Bitte senden Sie uns eine schriftliche Bestätigung von Tobias Voss.",
+     "attachments": [
+      "/acme/documents/orders/po-6350.xlsx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The mail has been sent to Lindner Maschinenbau AG with the requested information and attachment."
+ }
+}

@@ -1,0 +1,103 @@
+{
+ "request": "invoice-de-17",
+ "kind": "invoice",
+ "language": "de",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/lm-4683.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "save_record",
+    "arguments": {
+     "path": "/acme/documents/extracts/lm-4683.json",
+     "supplier": "Lindner Maschinenbau AG",
+     "number": "LM-4683",
+     "date": "2027-01-21",
+     "due_date": "2027-03-22",
+     "lines": [
+      {
+       "description": "Bohrer",
+       "quantity": 60,
+       "unit_price": 5.6
+      },
+      {
+       "description": "Manometer",
+       "quantity": 10,
+       "unit_price": 62.1
+      },
+      {
+       "description": "Fräsköpfe",
+       "quantity": 40,
+       "unit_price": 130.65
+      }
+     ],
+     "total": 6183,
+     "total_page": 2
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The data from the invoice has been saved at /acme/documents/extracts/lm-4683.json.",
+  "seconds": 7.16,
+  "tokens_in": 3402,
+  "tokens_out": 274,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/lm-4683.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "save_record",
+    "arguments": {
+     "path": "/acme/documents/extracts/lm-4683.json",
+     "supplier": "Lindner Maschinenbau AG",
+     "number": "LM-4683",
+     "date": "2027-01-21",
+     "due_date": "2027-03-22",
+     "lines": [
+      {
+       "description": "Bohrer",
+       "quantity": 60,
+       "unit_price": 5.6
+      },
+      {
+       "description": "Manometer",
+       "quantity": 10,
+       "unit_price": 62.1
+      },
+      {
+       "description": "Fräsköpfe",
+       "quantity": 40,
+       "unit_price": 130.65
+      }
+     ],
+     "total": 6183,
+     "total_page": 2
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The data from the invoice has been saved at /acme/documents/extracts/lm-4683.json."
+ }
+}

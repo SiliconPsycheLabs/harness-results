@@ -1,0 +1,95 @@
+{
+ "request": "invoice-it-6",
+ "kind": "invoice",
+ "language": "it",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/fg-28909.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "save_record",
+    "arguments": {
+     "path": "/acme/documents/extracts/fg-28909.json",
+     "supplier": "Officine Galli S.r.l.",
+     "number": "FG-28909",
+     "date": "2027-01-13",
+     "due_date": "2027-02-12",
+     "lines": [
+      {
+       "description": "valvole a sfera",
+       "quantity": 1,
+       "unit_price": 49.55
+      },
+      {
+       "description": "valvole a sfera",
+       "quantity": 0,
+       "unit_price": 0
+      }
+     ],
+     "total": 49.55,
+     "total_page": 2
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Fattura registrata con successo.",
+  "seconds": 5.81,
+  "tokens_in": 3102,
+  "tokens_out": 201,
+  "right": false,
+  "missing": [
+   "2 lines, not 1"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/fg-28909.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "save_record",
+    "arguments": {
+     "path": "/acme/documents/extracts/fg-28909.json",
+     "supplier": "Officine Galli S.r.l.",
+     "number": "FG-28909",
+     "date": "2027-01-13",
+     "due_date": "2027-02-12",
+     "lines": [
+      {
+       "description": "valvole a sfera",
+       "quantity": 1,
+       "unit_price": 49.55
+      },
+      {
+       "description": "valvole a sfera",
+       "quantity": 0,
+       "unit_price": 0
+      }
+     ],
+     "total": 49.55,
+     "total_page": 2
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Fattura registrata con successo."
+ }
+}

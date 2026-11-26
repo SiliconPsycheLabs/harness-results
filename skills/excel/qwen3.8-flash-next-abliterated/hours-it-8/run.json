@@ -59,8 +59,8 @@
    }
   ],
   "answer": "/acme/documents/sheets/hours_2026-386.xlsx",
-  "seconds": 27.98,
-  "tokens_in": 1965,
+  "seconds": 25.32,
+  "tokens_in": 1995,
   "tokens_out": 359,
   "right": true,
   "missing": []

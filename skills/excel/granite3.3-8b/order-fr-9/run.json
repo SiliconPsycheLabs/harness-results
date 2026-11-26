@@ -1,0 +1,151 @@
+{
+ "request": "order-fr-9",
+ "kind": "order",
+ "language": "fr",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_xlsx",
+    "arguments": {
+     "path": "/acme/documents/sheets/order_2027-132.xlsx",
+     "sheet": "2027-132",
+     "columns": [
+      {
+       "name": "Article",
+       "type": "text"
+      },
+      {
+       "name": "Quantité",
+       "type": "number"
+      },
+      {
+       "name": "Prix unitaire",
+       "type": "number"
+      },
+      {
+       "name": "Total",
+       "type": "number"
+      }
+     ],
+     "rows": [
+      [
+       "gants de protection",
+       "40",
+       "4,50",
+       "180,00"
+      ],
+      [
+       "poulies",
+       "5",
+       "56,85",
+       "284,25"
+      ],
+      [
+       "courroies",
+       "20",
+       "22,65",
+       "453,00"
+      ],
+      [
+       "manomètres",
+       "40",
+       "51,05",
+       "2042,00"
+      ],
+      [
+       "forets",
+       "20",
+       "9,20",
+       "184,00"
+      ]
+     ],
+     "total_columns": [
+      "Quantité",
+      "Prix unitaire",
+      "Total"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The Excel file has been successfully created at /acme/documents/sheets/order_2027-132.xlsx.",
+  "seconds": 7.95,
+  "tokens_in": 2037,
+  "tokens_out": 291,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_xlsx",
+    "arguments": {
+     "path": "/acme/documents/sheets/order_2027-132.xlsx",
+     "sheet": "2027-132",
+     "columns": [
+      {
+       "name": "Article",
+       "type": "text"
+      },
+      {
+       "name": "Quantité",
+       "type": "number"
+      },
+      {
+       "name": "Prix unitaire",
+       "type": "number"
+      },
+      {
+       "name": "Total",
+       "type": "number"
+      }
+     ],
+     "rows": [
+      [
+       "gants de protection",
+       "40",
+       "4,50",
+       "180,00"
+      ],
+      [
+       "poulies",
+       "5",
+       "56,85",
+       "284,25"
+      ],
+      [
+       "courroies",
+       "20",
+       "22,65",
+       "453,00"
+      ],
+      [
+       "manomètres",
+       "40",
+       "51,05",
+       "2042,00"
+      ],
+      [
+       "forets",
+       "20",
+       "9,20",
+       "184,00"
+      ]
+     ],
+     "total_columns": [
+      "Quantité",
+      "Prix unitaire",
+      "Total"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The Excel file has been successfully created at /acme/documents/sheets/order_2027-132.xlsx."
+ }
+}

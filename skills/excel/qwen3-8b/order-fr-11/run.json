@@ -1,0 +1,123 @@
+{
+ "request": "order-fr-11",
+ "kind": "order",
+ "language": "fr",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_xlsx",
+    "arguments": {
+     "path": "/acme/documents/sheets/order_2026-338.xlsx",
+     "sheet": "2026-338",
+     "columns": [
+      {
+       "name": "Article",
+       "type": "text"
+      },
+      {
+       "name": "Quantité",
+       "type": "number"
+      },
+      {
+       "name": "Prix unitaire",
+       "type": "number"
+      },
+      {
+       "name": "Total",
+       "type": "number"
+      }
+     ],
+     "rows": [
+      [
+       "courroies",
+       "50",
+       "31,50",
+       "1 575,00"
+      ],
+      [
+       "manomètres",
+       "5",
+       "36,50",
+       "182,50"
+      ],
+      [
+       "forets",
+       "40",
+       "9,20",
+       "368,00"
+      ]
+     ],
+     "total_columns": [
+      "Total"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/sheets/order_2026-338.xlsx",
+  "seconds": 4.78,
+  "tokens_in": 1836,
+  "tokens_out": 219,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_xlsx",
+    "arguments": {
+     "path": "/acme/documents/sheets/order_2026-338.xlsx",
+     "sheet": "2026-338",
+     "columns": [
+      {
+       "name": "Article",
+       "type": "text"
+      },
+      {
+       "name": "Quantité",
+       "type": "number"
+      },
+      {
+       "name": "Prix unitaire",
+       "type": "number"
+      },
+      {
+       "name": "Total",
+       "type": "number"
+      }
+     ],
+     "rows": [
+      [
+       "courroies",
+       "50",
+       "31,50",
+       "1 575,00"
+      ],
+      [
+       "manomètres",
+       "5",
+       "36,50",
+       "182,50"
+      ],
+      [
+       "forets",
+       "40",
+       "9,20",
+       "368,00"
+      ]
+     ],
+     "total_columns": [
+      "Total"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/sheets/order_2026-338.xlsx"
+ }
+}

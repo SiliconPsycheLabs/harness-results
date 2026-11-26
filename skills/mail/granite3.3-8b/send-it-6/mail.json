@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "ordini@officinegalli.example"
+ ],
+ "subject": "Ordine PO-4726",
+ "body": "Gentile Officine Galli S.r.l.,\n\nStiamo scrivendo per confermare il nostro ordine con il numero PO-4726. Richiediamo la consegna entro il 18 gennaio 2027 e l'ordine ha un valore di 651,40 euro.\n\nSaremmo grati se potessi inviare una conferma scritta di ricezione di questo messaggio. Attendiamo con ansia la tua risposta.\n\nCordiali saluti,\nAcme Components\n",
+ "attachments": [
+  "/acme/documents/orders/po-4726.xlsx"
+ ]
+}

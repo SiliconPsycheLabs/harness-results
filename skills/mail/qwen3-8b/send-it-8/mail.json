@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "commerciale@tessiturabellomo.example"
+ ],
+ "subject": "Ordine PO-8359",
+ "body": "Gentile Tessitura Bellomo,\n\nCi scusiamo per il disturbo, ma vorremmo informarvi che abbiamo inviato il nostro ordine PO-8359. Ci serve la consegna entro il 5 dicembre 2026 e l'ordine vale 2.722,20 euro.\n\nVi chiediamo gentilmente di inviarci una conferma scritta da parte di Luca Ferri.\n\nGrazie per l'attenzione e per la vostra collaborazione.\n\nCordiali saluti,\n\n[Il vostro nome]",
+ "attachments": [
+  "/acme/documents/orders/po-8359.xlsx"
+ ]
+}

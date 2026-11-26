@@ -1,0 +1,20 @@
+{
+ "supplier": "Krämer Werkzeugbau GmbH",
+ "number": "KW-93904",
+ "date": "2026-12-04",
+ "due_date": "2027-01-03",
+ "lines": [
+  {
+   "description": "Manometer",
+   "quantity": 8,
+   "unit_price": 35.35
+  },
+  {
+   "description": "Linearführungen",
+   "quantity": 3,
+   "unit_price": 248.35
+  }
+ ],
+ "total": 1027.85,
+ "total_page": 2
+}

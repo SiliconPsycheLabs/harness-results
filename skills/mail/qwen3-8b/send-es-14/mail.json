@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "ventas@suministrosibarra.example"
+ ],
+ "subject": "Pedido PO-4627",
+ "body": "Estimados,\n\nNuestro pedido PO-4627 requiere una entrega antes del 22 de enero de 2027 y asciende a 6.124,40 euros. Por favor, pide a Luis Aranda una confirmación por escrito.\n\nAtentamente,\nEquipo de Acme Components",
+ "attachments": [
+  "/acme/documents/orders/po-4627.xlsx"
+ ]
+}

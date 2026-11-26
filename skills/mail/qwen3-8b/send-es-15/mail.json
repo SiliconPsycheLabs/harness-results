@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "ventas@suministrosibarra.example"
+ ],
+ "subject": "Pedido PO-1374",
+ "body": "Estimados,\n\nNuestro pedido PO-1374 requiere una entrega antes del 15 de diciembre de 2026 y asciende a 2.429,30 euros. Por favor, pide a Luis Aranda una confirmación por escrito.\n\nAtentamente,\nEquipo de Acme Components",
+ "attachments": [
+  "/acme/documents/orders/po-1374.xlsx"
+ ]
+}

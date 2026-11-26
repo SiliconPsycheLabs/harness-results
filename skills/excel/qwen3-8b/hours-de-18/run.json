@@ -1,0 +1,125 @@
+{
+ "request": "hours-de-18",
+ "kind": "hours",
+ "language": "de",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_xlsx",
+    "arguments": {
+     "path": "/acme/documents/sheets/hours_2027-725.xlsx",
+     "sheet": "2027-725",
+     "columns": [
+      {
+       "name": "Name",
+       "type": "text"
+      },
+      {
+       "name": "Stunden",
+       "type": "number"
+      },
+      {
+       "name": "Stundensatz",
+       "type": "number"
+      },
+      {
+       "name": "Betrag",
+       "type": "number"
+      }
+     ],
+     "rows": [
+      [
+       "Sabine Vogt",
+       "32",
+       "31,00",
+       "992,00"
+      ],
+      [
+       "Jan Petersen",
+       "40",
+       "28,50",
+       "1140,00"
+      ],
+      [
+       "Felix Hofmann",
+       "40",
+       "34,50",
+       "1380,00"
+      ]
+     ],
+     "total_columns": [
+      "Stunden",
+      "Betrag"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/sheets/hours_2027-725.xlsx",
+  "seconds": 5.15,
+  "tokens_in": 1879,
+  "tokens_out": 232,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_xlsx",
+    "arguments": {
+     "path": "/acme/documents/sheets/hours_2027-725.xlsx",
+     "sheet": "2027-725",
+     "columns": [
+      {
+       "name": "Name",
+       "type": "text"
+      },
+      {
+       "name": "Stunden",
+       "type": "number"
+      },
+      {
+       "name": "Stundensatz",
+       "type": "number"
+      },
+      {
+       "name": "Betrag",
+       "type": "number"
+      }
+     ],
+     "rows": [
+      [
+       "Sabine Vogt",
+       "32",
+       "31,00",
+       "992,00"
+      ],
+      [
+       "Jan Petersen",
+       "40",
+       "28,50",
+       "1140,00"
+      ],
+      [
+       "Felix Hofmann",
+       "40",
+       "34,50",
+       "1380,00"
+      ]
+     ],
+     "total_columns": [
+      "Stunden",
+      "Betrag"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/sheets/hours_2027-725.xlsx"
+ }
+}

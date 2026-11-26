@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "info@lindner-maschinenbau.example"
+ ],
+ "subject": "Bestellung PO-6229",
+ "body": "Wir benörigen die Lieferung bis zum 20. Dezember 2026 und die Bestellung PO-6229 beträgt 848,20 Euro. Wir bitten um eine schriftliche Bestätigung bei Mira Scholz.",
+ "attachments": [
+  "/acme/documents/orders/po-6229.xlsx"
+ ]
+}

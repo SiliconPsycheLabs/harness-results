@@ -1,0 +1,135 @@
+{
+ "request": "order-de-17",
+ "kind": "order",
+ "language": "de",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_xlsx",
+    "arguments": {
+     "path": "/acme/documents/sheets/order_2027-189.xlsx",
+     "sheet": "2027-189",
+     "columns": [
+      {
+       "name": "Artikel",
+       "type": "text"
+      },
+      {
+       "name": "Menge",
+       "type": "number"
+      },
+      {
+       "name": "Einzelpreis",
+       "type": "number"
+      },
+      {
+       "name": "Gesamt",
+       "type": "number"
+      }
+     ],
+     "rows": [
+      [
+       "Hydraulikschläuche",
+       "10",
+       "21,95",
+       "219,50"
+      ],
+      [
+       "Spannfutter",
+       "20",
+       "198,25",
+       "3.965,00"
+      ],
+      [
+       "Fräsköpfe",
+       "25",
+       "117,10",
+       "2.927,50"
+      ],
+      [
+       "Bohrer",
+       "5",
+       "10,15",
+       "50,75"
+      ]
+     ],
+     "total_columns": [
+      "Gesamt"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The spreadsheet has been successfully created and saved at /acme/documents/sheets/order_2027-189.xlsx.",
+  "seconds": 7.56,
+  "tokens_in": 2018,
+  "tokens_out": 277,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_xlsx",
+    "arguments": {
+     "path": "/acme/documents/sheets/order_2027-189.xlsx",
+     "sheet": "2027-189",
+     "columns": [
+      {
+       "name": "Artikel",
+       "type": "text"
+      },
+      {
+       "name": "Menge",
+       "type": "number"
+      },
+      {
+       "name": "Einzelpreis",
+       "type": "number"
+      },
+      {
+       "name": "Gesamt",
+       "type": "number"
+      }
+     ],
+     "rows": [
+      [
+       "Hydraulikschläuche",
+       "10",
+       "21,95",
+       "219,50"
+      ],
+      [
+       "Spannfutter",
+       "20",
+       "198,25",
+       "3.965,00"
+      ],
+      [
+       "Fräsköpfe",
+       "25",
+       "117,10",
+       "2.927,50"
+      ],
+      [
+       "Bohrer",
+       "5",
+       "10,15",
+       "50,75"
+      ]
+     ],
+     "total_columns": [
+      "Gesamt"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The spreadsheet has been successfully created and saved at /acme/documents/sheets/order_2027-189.xlsx."
+ }
+}

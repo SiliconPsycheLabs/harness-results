@@ -1,0 +1,71 @@
+{
+ "request": "send-it-5",
+ "kind": "send",
+ "language": "it",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Officine Galli S.r.l."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "ordini@officinegalli.example"
+     ],
+     "subject": "Ordine PO-7273",
+     "body": "Gentile Officine Galli S.r.l.,\n\nCi serve la consegna entro il 15 gennaio 2027 e l'ordine vale 8.846,90 euro. Chiediamo a Stefano Riva una conferma scritta.\n\nCordiali saluti,\nAcme Components",
+     "attachments": [
+      "/acme/documents/orders/po-7273.xlsx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "La mail con l'ordine PO-7273 è stata inviata a Officine Galli S.r.l. con l'allegato /acme/documents/orders/po-7273.xlsx.",
+  "seconds": 5.09,
+  "tokens_in": 2126,
+  "tokens_out": 232,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Officine Galli S.r.l."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "ordini@officinegalli.example"
+     ],
+     "subject": "Ordine PO-7273",
+     "body": "Gentile Officine Galli S.r.l.,\n\nCi scriviamo per informarvi che abbiamo inviato il nostro ordine PO-7273. La consegna è necessaria entro il 15 gennaio 2027 e l'ordine ha un valore di 8.846,90 euro.\n\nVi chiediamo gentilmente di inviarci una conferma scritta da parte di Stefano Riva.\n\nCordiali saluti,\n\nAcme Components",
+     "attachments": [
+      "/acme/documents/orders/po-7273.xlsx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "La mail con l'ordine PO-7273 è stata inviata a Officine Galli S.r.l. con l'allegato /acme/documents/orders/po-7273.xlsx."
+ }
+}

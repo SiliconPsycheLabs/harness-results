@@ -1,0 +1,103 @@
+{
+ "request": "invoice-en-2",
+ "kind": "invoice",
+ "language": "en",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/nb-39250.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "save_record",
+    "arguments": {
+     "path": "/acme/documents/extracts/nb-39250.json",
+     "supplier": "Northwind Bearings Ltd",
+     "number": "NB-39250",
+     "date": "2027-01-05",
+     "due_date": "2027-02-19",
+     "lines": [
+      {
+       "description": "tool cabinets",
+       "quantity": 12,
+       "unit_price": 200.75
+      },
+      {
+       "description": "hacksaw blades",
+       "quantity": 5,
+       "unit_price": 2.65
+      },
+      {
+       "description": "socket sets",
+       "quantity": 3,
+       "unit_price": 51.95
+      }
+     ],
+     "total": 2578.1,
+     "total_page": 2
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "saved /acme/documents/extracts/nb-39250.json (3 lines)",
+  "seconds": 6.75,
+  "tokens_in": 3081,
+  "tokens_out": 224,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/nb-39250.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "save_record",
+    "arguments": {
+     "path": "/acme/documents/extracts/nb-39250.json",
+     "supplier": "Northwind Bearings Ltd",
+     "number": "NB-39250",
+     "date": "2027-01-05",
+     "due_date": "2027-02-19",
+     "lines": [
+      {
+       "description": "tool cabinets",
+       "quantity": 12,
+       "unit_price": 200.75
+      },
+      {
+       "description": "hacksaw blades",
+       "quantity": 5,
+       "unit_price": 2.65
+      },
+      {
+       "description": "socket sets",
+       "quantity": 3,
+       "unit_price": 51.95
+      }
+     ],
+     "total": 2578.1,
+     "total_page": 2
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "saved /acme/documents/extracts/nb-39250.json (3 lines)"
+ }
+}

@@ -1,0 +1,125 @@
+{
+ "request": "hours-it-6",
+ "kind": "hours",
+ "language": "it",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_xlsx",
+    "arguments": {
+     "path": "/acme/documents/sheets/hours_2026-726.xlsx",
+     "sheet": "2026-726",
+     "columns": [
+      {
+       "name": "Nome",
+       "type": "text"
+      },
+      {
+       "name": "Ore",
+       "type": "number"
+      },
+      {
+       "name": "Tariffa oraria",
+       "type": "number"
+      },
+      {
+       "name": "Importo",
+       "type": "number"
+      }
+     ],
+     "rows": [
+      [
+       "Stefano Riva",
+       "20",
+       "39,50",
+       "790,00"
+      ],
+      [
+       "Marco Bellomo",
+       "32",
+       "32,50",
+       "1040"
+      ],
+      [
+       "Sara Monti",
+       "40",
+       "42,00",
+       "1680"
+      ]
+     ],
+     "total_columns": [
+      "Ore",
+      "Importo"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/sheets/hours_2026-726.xlsx",
+  "seconds": 5.04,
+  "tokens_in": 1873,
+  "tokens_out": 228,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_xlsx",
+    "arguments": {
+     "path": "/acme/documents/sheets/hours_2026-726.xlsx",
+     "sheet": "2026-726",
+     "columns": [
+      {
+       "name": "Nome",
+       "type": "text"
+      },
+      {
+       "name": "Ore",
+       "type": "number"
+      },
+      {
+       "name": "Tariffa oraria",
+       "type": "number"
+      },
+      {
+       "name": "Importo",
+       "type": "number"
+      }
+     ],
+     "rows": [
+      [
+       "Stefano Riva",
+       "20",
+       "39,50",
+       "790,00"
+      ],
+      [
+       "Marco Bellomo",
+       "32",
+       "32,50",
+       "1040"
+      ],
+      [
+       "Sara Monti",
+       "40",
+       "42,00",
+       "1680"
+      ]
+     ],
+     "total_columns": [
+      "Ore",
+      "Importo"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/sheets/hours_2026-726.xlsx"
+ }
+}

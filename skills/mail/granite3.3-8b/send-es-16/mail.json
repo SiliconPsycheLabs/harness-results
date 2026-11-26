@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "ventas@suministrosibarra.example"
+ ],
+ "subject": "Pedido PO-2235",
+ "body": "Estimado Suministros Ibarra S.L.,\n\nNecesitamos solicitar una confirmación por escrito de nuestro pedido PO-2235. El pedido asciende a 8.892,30 euros y requiere entrega antes del 5 de enero de 2027. Agradecemos su atención a este asunto urgente.\n\nAtentamente,\nAcme Components\n\nP.D. Por favor, encuentre adjunto el documento del pedido.",
+ "attachments": [
+  "/acme/documents/orders/po-2235.xlsx"
+ ]
+}

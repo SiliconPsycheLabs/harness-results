@@ -24,10 +24,10 @@ The agent does not write a program to make the file. It fills the fields of a to
 | Model | `qwen3.8-flash-next-abliterated` (open weights, served on our own cards), temperature 0 |
 | How the model is asked for a call | one JSON object per step, which the server is made to follow (the tool's fields without their limits) |
 | Harness | 0.1.0 |
-| Skill | excel 0.1.0 |
-| Gate table | `harness_excel`, compiled from the tools' own fields and the company's limits (`66df5a7d3b0c`) |
+| Skill | excel 0.1.1 |
+| Gate table | `harness_excel`, compiled from the tools' own fields and the company's limits (`bceee8f76dec`) |
 | Limits of the company | one folder open for writing (`/acme/documents`), the signed contracts and the inbox readable and never writable, everything else closed |
-| Per request (median) | 2 model calls, 2,014 tokens in, 383 tokens out, 26.4 seconds |
+| Per request (median) | 2 model calls, 2,020 tokens in, 359 tokens out, 31.4 seconds |
 | Run | 2026-11-26, 52 runs, 0 ended on an error |
 
 The seconds were measured on a machine that was doing other work at the same time.
@@ -78,7 +78,7 @@ First page of each sheet; the link opens the request, the Excel file and the rec
 
 [<img src="order-en-1/page.png" width="360" alt="order-en-1">](order-en-1/)
 
-[The file](order-en-1/order_2026-372.xlsx) · right · 23.84 s · 2,002 tokens in, 375 out
+[The file](order-en-1/order_2026-372.xlsx) · right · 20.76 s · 1,902 tokens in, 245 out
 
 ### Hours sheet with a total, English
 
@@ -86,7 +86,7 @@ First page of each sheet; the link opens the request, the Excel file and the rec
 
 [<img src="hours-en-2/page.png" width="360" alt="hours-en-2">](hours-en-2/)
 
-[The file](hours-en-2/hours_2026-543.xlsx) · right · 26.36 s · 2,094 tokens in, 424 out
+[The file](hours-en-2/hours_2026-543.xlsx) · right · 22.29 s · 1,978 tokens in, 271 out
 
 ### Order sheet with a total, English
 
@@ -94,7 +94,7 @@ First page of each sheet; the link opens the request, the Excel file and the rec
 
 [<img src="order-en-3/page.png" width="360" alt="order-en-3">](order-en-3/)
 
-[The file](order-en-3/order_2026-120.xlsx) · right · 26.49 s · 2,070 tokens in, 416 out
+[The file](order-en-3/order_2026-120.xlsx) · right · 33.11 s · 2,100 tokens in, 416 out
 
 ### Hours sheet with a total, English
 
@@ -102,7 +102,7 @@ First page of each sheet; the link opens the request, the Excel file and the rec
 
 [<img src="hours-en-4/page.png" width="360" alt="hours-en-4">](hours-en-4/)
 
-[The file](hours-en-4/hours_2027-445.xlsx) · right · 26.16 s · 2,015 tokens in, 387 out
+[The file](hours-en-4/hours_2027-445.xlsx) · right · 32.19 s · 2,045 tokens in, 380 out
 
 ### Order sheet with a total, Italian
 
@@ -110,7 +110,7 @@ First page of each sheet; the link opens the request, the Excel file and the rec
 
 [<img src="order-it-5/page.png" width="360" alt="order-it-5">](order-it-5/)
 
-[The file](order-it-5/order_2026-626.xlsx) · right · 29.69 s · 2,116 tokens in, 426 out
+[The file](order-it-5/order_2026-626.xlsx) · right · 33.36 s · 2,146 tokens in, 426 out
 
 ### Hours sheet with a total, Italian
 
@@ -118,7 +118,7 @@ First page of each sheet; the link opens the request, the Excel file and the rec
 
 [<img src="hours-it-6/page.png" width="360" alt="hours-it-6">](hours-it-6/)
 
-[The file](hours-it-6/hours_2026-726.xlsx) · right · 27.41 s · 1,964 tokens in, 358 out
+[The file](hours-it-6/hours_2026-726.xlsx) · right · 30.66 s · 1,994 tokens in, 358 out
 
 ### Order sheet with a total, Italian
 
@@ -126,7 +126,7 @@ First page of each sheet; the link opens the request, the Excel file and the rec
 
 [<img src="order-it-7/page.png" width="360" alt="order-it-7">](order-it-7/)
 
-[The file](order-it-7/order_2026-650.xlsx) · right · 33.11 s · 2,107 tokens in, 425 out
+[The file](order-it-7/order_2026-650.xlsx) · right · 29.04 s · 2,137 tokens in, 418 out
 
 ### Hours sheet with a total, Italian
 
@@ -134,7 +134,7 @@ First page of each sheet; the link opens the request, the Excel file and the rec
 
 [<img src="hours-it-8/page.png" width="360" alt="hours-it-8">](hours-it-8/)
 
-[The file](hours-it-8/hours_2026-386.xlsx) · right · 27.98 s · 1,965 tokens in, 359 out
+[The file](hours-it-8/hours_2026-386.xlsx) · right · 25.32 s · 1,995 tokens in, 359 out
 
 ### Order sheet with a total, French
 
@@ -142,7 +142,7 @@ First page of each sheet; the link opens the request, the Excel file and the rec
 
 [<img src="order-fr-9/page.png" width="360" alt="order-fr-9">](order-fr-9/)
 
-[The file](order-fr-9/order_2027-132.xlsx) · right · 32.55 s · 2,092 tokens in, 416 out
+[The file](order-fr-9/order_2027-132.xlsx) · right · 32.21 s · 2,122 tokens in, 416 out
 
 ### Hours sheet with a total, French
 
@@ -150,7 +150,7 @@ First page of each sheet; the link opens the request, the Excel file and the rec
 
 [<img src="hours-fr-10/page.png" width="360" alt="hours-fr-10">](hours-fr-10/)
 
-[The file](hours-fr-10/hours_2027-547.xlsx) · right · 22.09 s · 2,013 tokens in, 284 out
+[The file](hours-fr-10/hours_2027-547.xlsx) · right · 35.97 s · 2,189 tokens in, 430 out
 
 ### Order sheet with a total, French
 
@@ -158,7 +158,7 @@ First page of each sheet; the link opens the request, the Excel file and the rec
 
 [<img src="order-fr-11/page.png" width="360" alt="order-fr-11">](order-fr-11/)
 
-[The file](order-fr-11/order_2026-338.xlsx) · right · 14.9 s · 1,808 tokens in, 217 out
+[The file](order-fr-11/order_2026-338.xlsx) · right · 29.11 s · 1,954 tokens in, 333 out
 
 ### Hours sheet with a total, French
 
@@ -166,7 +166,7 @@ First page of each sheet; the link opens the request, the Excel file and the rec
 
 [<img src="hours-fr-12/page.png" width="360" alt="hours-fr-12">](hours-fr-12/)
 
-[The file](hours-fr-12/hours_2027-306.xlsx) · right · 16.0 s · 1,850 tokens in, 231 out
+[The file](hours-fr-12/hours_2027-306.xlsx) · right · 21.89 s · 1,880 tokens in, 231 out
 
 ### Order sheet with a total, Spanish
 
@@ -174,7 +174,7 @@ First page of each sheet; the link opens the request, the Excel file and the rec
 
 [<img src="order-es-13/page.png" width="360" alt="order-es-13">](order-es-13/)
 
-[The file](order-es-13/order_2026-698.xlsx) · right · 23.1 s · 2,009 tokens in, 379 out
+[The file](order-es-13/order_2026-698.xlsx) · right · 28.8 s · 2,039 tokens in, 379 out
 
 ### Hours sheet with a total, Spanish
 
@@ -182,7 +182,7 @@ First page of each sheet; the link opens the request, the Excel file and the rec
 
 [<img src="hours-es-14/page.png" width="360" alt="hours-es-14">](hours-es-14/)
 
-[The file](hours-es-14/hours_2026-766.xlsx) · right · 27.67 s · 1,972 tokens in, 356 out
+[The file](hours-es-14/hours_2026-766.xlsx) · right · 26.52 s · 2,002 tokens in, 356 out
 
 ### Order sheet with a total, Spanish
 
@@ -190,7 +190,7 @@ First page of each sheet; the link opens the request, the Excel file and the rec
 
 [<img src="order-es-15/page.png" width="360" alt="order-es-15">](order-es-15/)
 
-[The file](order-es-15/order_2027-685.xlsx) · right · 32.39 s · 2,095 tokens in, 419 out
+[The file](order-es-15/order_2027-685.xlsx) · right · 32.37 s · 2,125 tokens in, 419 out
 
 ### Hours sheet with a total, Spanish
 
@@ -198,7 +198,7 @@ First page of each sheet; the link opens the request, the Excel file and the rec
 
 [<img src="hours-es-16/page.png" width="360" alt="hours-es-16">](hours-es-16/)
 
-[The file](hours-es-16/hours_2027-575.xlsx) · right · 32.56 s · 2,149 tokens in, 435 out
+[The file](hours-es-16/hours_2027-575.xlsx) · right · 28.5 s · 2,106 tokens in, 360 out
 
 ### Order sheet with a total, German
 
@@ -206,7 +206,7 @@ First page of each sheet; the link opens the request, the Excel file and the rec
 
 [<img src="order-de-17/page.png" width="360" alt="order-de-17">](order-de-17/)
 
-[The file](order-de-17/order_2027-189.xlsx) · right · 28.32 s · 2,036 tokens in, 388 out
+[The file](order-de-17/order_2027-189.xlsx) · right · 71.73 s · 2,066 tokens in, 388 out
 
 ### Hours sheet with a total, German
 
@@ -214,7 +214,7 @@ First page of each sheet; the link opens the request, the Excel file and the rec
 
 [<img src="hours-de-18/page.png" width="360" alt="hours-de-18">](hours-de-18/)
 
-[The file](hours-de-18/hours_2027-725.xlsx) · right · 15.43 s · 1,849 tokens in, 230 out
+[The file](hours-de-18/hours_2027-725.xlsx) · right · 140.01 s · 1,997 tokens in, 355 out
 
 ### Order sheet with a total, German
 
@@ -222,7 +222,7 @@ First page of each sheet; the link opens the request, the Excel file and the rec
 
 [<img src="order-de-19/page.png" width="360" alt="order-de-19">](order-de-19/)
 
-[The file](order-de-19/order_2026-699.xlsx) · right · 25.79 s · 1,955 tokens in, 351 out
+[The file](order-de-19/order_2026-699.xlsx) · right · 173.27 s · 1,985 tokens in, 351 out
 
 ### Hours sheet with a total, German
 
@@ -230,7 +230,7 @@ First page of each sheet; the link opens the request, the Excel file and the rec
 
 [<img src="hours-de-20/page.png" width="360" alt="hours-de-20">](hours-de-20/)
 
-[The file](hours-de-20/hours_2027-607.xlsx) · right · 25.87 s · 2,057 tokens in, 395 out
+[The file](hours-de-20/hours_2027-607.xlsx) · right · 127.13 s · 1,955 tokens in, 256 out
 
 ## In plain words
 

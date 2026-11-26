@@ -1,0 +1,115 @@
+{
+ "request": "invoice-de-18",
+ "kind": "invoice",
+ "language": "de",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/lm-1134.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "save_record",
+    "arguments": {
+     "path": "/acme/documents/extracts/lm-1134.json",
+     "supplier": "Lindner Maschinenbau AG",
+     "number": "LM-1134",
+     "date": "2026-12-25",
+     "due_date": "2027-01-24",
+     "lines": [
+      {
+       "description": "Linearöhrungen",
+       "quantity": 20,
+       "unit_price": 194.05
+      },
+      {
+       "description": "Druckregler",
+       "quantity": 12,
+       "unit_price": 212.25
+      },
+      {
+       "description": "Arbeitshandschuhe",
+       "quantity": 4,
+       "unit_price": 4.6
+      },
+      {
+       "description": "Luftfilter",
+       "quantity": 50,
+       "unit_price": 33.8
+      }
+     ],
+     "total": 8136.4,
+     "total_page": 2
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Die Lieferantenrechnung wurde erfolgreich gespeichert.",
+  "seconds": 6.38,
+  "tokens_in": 3282,
+  "tokens_out": 255,
+  "right": false,
+  "missing": [
+   "no line Linearführung: 20 x 194.05"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/lm-1134.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "save_record",
+    "arguments": {
+     "path": "/acme/documents/extracts/lm-1134.json",
+     "supplier": "Lindner Maschinenbau AG",
+     "number": "LM-1134",
+     "date": "2026-12-25",
+     "due_date": "2027-01-24",
+     "lines": [
+      {
+       "description": "Linearöhrungen",
+       "quantity": 20,
+       "unit_price": 194.05
+      },
+      {
+       "description": "Druckregler",
+       "quantity": 12,
+       "unit_price": 212.25
+      },
+      {
+       "description": "Arbeitshandschuhe",
+       "quantity": 4,
+       "unit_price": 4.6
+      },
+      {
+       "description": "Luftfilter",
+       "quantity": 50,
+       "unit_price": 33.8
+      }
+     ],
+     "total": 8136.4,
+     "total_page": 2
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Die Lieferantenrechnung wurde erfolgreich gespeichert."
+ }
+}

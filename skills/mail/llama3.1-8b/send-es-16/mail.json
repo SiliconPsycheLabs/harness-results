@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "ventas@suministrosibarra.example"
+ ],
+ "subject": "Pedido PO-2235",
+ "body": "Estimados, necesitamos la entrega del pedido PO-2235 antes del 5 de enero de 2027. El monto total asciende a 8.892,30 euros. Por favor, confirmen por escrito con Elena Pardo. Atentamente, [Su nombre].",
+ "attachments": [
+  "/acme/documents/orders/po-2235.xlsx"
+ ]
+}

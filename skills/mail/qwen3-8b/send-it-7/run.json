@@ -1,0 +1,71 @@
+{
+ "request": "send-it-7",
+ "kind": "send",
+ "language": "it",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Tessitura Bellomo S.p.A."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "commerciale@tessiturabellomo.example"
+     ],
+     "subject": "Ordine PO-3909",
+     "body": "Gentile Tessitura Bellomo S.p.A.,\n\nCi scusiamo per il disturbo, ma vorremmo informarvi che abbiamo inviato il nostro ordine PO-3909. Ci serve la consegna entro il 21 gennaio 2027 e l'ordine vale 3.511,10 euro.\n\nChiediamo a Paolo Greco una conferma scritta.\n\nGrazie per l'attenzione.\n\nCordiali saluti,\nAcme Components",
+     "attachments": [
+      "/acme/documents/orders/po-3909.xlsx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "La mail è stata inviata a Tessitura Bellomo S.p.A. con l'ordine PO-3909 e l'allegato relativo.",
+  "seconds": 5.83,
+  "tokens_in": 2182,
+  "tokens_out": 269,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Tessitura Bellomo S.p.A."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "commerciale@tessiturabellomo.example"
+     ],
+     "subject": "Ordine PO-3909",
+     "body": "Gentile Tessitura Bellomo S.p.A.,\n\nCi serve la consegna entro il 21 gennaio 2027 e l'ordine vale 3.511,10 euro. Chiediamo a Paolo Greco una conferma scritta.\n\nCordiali saluti,\nAcme Components",
+     "attachments": [
+      "/acme/documents/orders/po-3909.xlsx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "La mail è stata inviata a Tessitura Bellomo S.p.A. con l'ordine PO-3909 e l'allegato relativo."
+ }
+}

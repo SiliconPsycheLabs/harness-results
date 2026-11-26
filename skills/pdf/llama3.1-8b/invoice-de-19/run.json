@@ -1,0 +1,96 @@
+{
+ "request": "invoice-de-19",
+ "kind": "invoice",
+ "language": "de",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/kw-93904.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "save_record",
+    "arguments": {
+     "path": "/acme/documents/extracts/kw-93904.json",
+     "supplier": "Krämer Werkzeugbau GmbH",
+     "number": "KW-93904",
+     "date": "2026-12-04",
+     "due_date": "2027-01-03",
+     "lines": [
+      {
+       "description": "Ümannometer",
+       "quantity": 8,
+       "unit_price": 35.35
+      },
+      {
+       "description": "Linearföhrungen",
+       "quantity": 3,
+       "unit_price": 248.35
+      }
+     ],
+     "total": 1027.85,
+     "total_page": 2
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Daten erfolgreich extrahiert und gespeichert.",
+  "seconds": 5.25,
+  "tokens_in": 3148,
+  "tokens_out": 209,
+  "right": false,
+  "missing": [
+   "no line Manometer: 8 x 35.35",
+   "no line Linearführung: 3 x 248.35"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/kw-93904.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "save_record",
+    "arguments": {
+     "path": "/acme/documents/extracts/kw-93904.json",
+     "supplier": "Krämer Werkzeugbau GmbH",
+     "number": "KW-93904",
+     "date": "2026-12-04",
+     "due_date": "2027-01-03",
+     "lines": [
+      {
+       "description": "Ümannometer",
+       "quantity": 8,
+       "unit_price": 35.35
+      },
+      {
+       "description": "Linearföhrungen",
+       "quantity": 3,
+       "unit_price": 248.35
+      }
+     ],
+     "total": 1027.85,
+     "total_page": 2
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Daten erfolgreich extrahiert und gespeichert."
+ }
+}

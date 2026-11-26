@@ -1,0 +1,20 @@
+{
+ "supplier": "Officine Galli S.r.l.",
+ "number": "FG-55551",
+ "date": "2027-01-25",
+ "due_date": "2027-02-24",
+ "lines": [
+  {
+   "description": "cinghie di trasmissione",
+   "quantity": 40,
+   "unit_price": 23.55
+  },
+  {
+   "description": "flange in acciaio",
+   "quantity": 25,
+   "unit_price": 37.75
+  }
+ ],
+ "total": 1885.75,
+ "total_page": 2
+}

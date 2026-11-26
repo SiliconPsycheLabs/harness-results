@@ -1,0 +1,21 @@
+{
+ "request": "hours-de-18",
+ "kind": "hours",
+ "language": "de",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "/acme/documents/sheets/hours_2027-725.xlsx",
+  "seconds": 0.74,
+  "tokens_in": 790,
+  "tokens_out": 25,
+  "right": false,
+  "missing": [
+   "no file at the path asked"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "/acme/documents/sheets/hours_2027-725.xlsx"
+ }
+}

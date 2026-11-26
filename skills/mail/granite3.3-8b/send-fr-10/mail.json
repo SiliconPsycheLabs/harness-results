@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "contact@atelier-dumont.example"
+ ],
+ "subject": "Commande PO-3430",
+ "body": "Cher Atelier Dumont SARL,\n\nNous vous confirmons notre commande PO-3430. Nous vous demandons de bien vouloir nous livrer avant le 8 janvier 2027. Le montant total de cette commande s'élève à 8 432,90 euros.\n\nPour Paul Lefèvre, nous vous prions de lui demander une confirmation écrite de ce courriel.\n\nMerci d'avance pour votre attention.\n\nCordialement,\nAcme Components\n",
+ "attachments": [
+  "/acme/documents/orders/po-3430.xlsx"
+ ]
+}

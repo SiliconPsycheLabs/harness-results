@@ -7,6 +7,7 @@ An invented maker of machine parts with offices in five countries. Every name, o
 | Skill | Where it works | The company's limits |
 | --- | --- | --- |
 | [excel](../../skills/excel/) | the company file tree | one folder open for writing (`/acme/documents`), the signed contracts and the inbox readable and never writable, everything else closed |
+| [mail](../../skills/mail/) | the company file tree | mail goes only to company addresses and to the addresses of the contacts register; attachments come only from the documents folder |
 | [pdf](../../skills/pdf/) | the company file tree | the inbox and the signed contracts readable, one folder open for writing (`/acme/documents`), everything else (payroll, finance) neither readable nor writable |
 | [supplier_bill](../../skills/supplier_bill/) | a real accounting application (Odoo 17) | a new supplier is added to the register by purchasing, never by the agent; a supplier's bank account is changed by the administration, never by the agent; a bill above 5,000 euros is entered by the administration; the supplier of a bill is one of the register |
 | [word](../../skills/word/) | the company file tree | one folder open for writing (`/acme/documents`), the signed contracts readable and never writable, everything else closed |
@@ -15,8 +16,17 @@ An invented maker of machine parts with offices in five countries. Every name, o
 
 | Skill | Model | Done right | Stopped |
 | --- | --- | --- | --- |
+| [excel](../../skills/excel/) | [`qwen3-8b`](../../skills/excel/qwen3-8b/) | 20 of 20 | 6 of 6 |
+| [excel](../../skills/excel/) | [`granite3.3-8b`](../../skills/excel/granite3.3-8b/) | 20 of 20 | 6 of 6 |
 | [excel](../../skills/excel/) | [`qwen3.8-flash-next-abliterated`](../../skills/excel/qwen3.8-flash-next-abliterated/) | 20 of 20 | 6 of 6 |
+| [excel](../../skills/excel/) | [`llama3.1-8b`](../../skills/excel/llama3.1-8b/) | 2 of 20 | 6 of 6 |
+| [mail](../../skills/mail/) | [`qwen3-8b`](../../skills/mail/qwen3-8b/) | 15 of 20 | 6 of 6 |
+| [mail](../../skills/mail/) | [`llama3.1-8b`](../../skills/mail/llama3.1-8b/) | 14 of 20 | 6 of 6 |
+| [mail](../../skills/mail/) | [`granite3.3-8b`](../../skills/mail/granite3.3-8b/) | 11 of 20 | 6 of 6 |
+| [pdf](../../skills/pdf/) | [`qwen3-8b`](../../skills/pdf/qwen3-8b/) | 20 of 20 | 6 of 6 |
 | [pdf](../../skills/pdf/) | [`qwen3.8-flash-next-abliterated`](../../skills/pdf/qwen3.8-flash-next-abliterated/) | 20 of 20 | 6 of 6 |
+| [pdf](../../skills/pdf/) | [`granite3.3-8b`](../../skills/pdf/granite3.3-8b/) | 17 of 20 | 6 of 6 |
+| [pdf](../../skills/pdf/) | [`llama3.1-8b`](../../skills/pdf/llama3.1-8b/) | 13 of 20 | 6 of 6 |
 | [supplier_bill](../../skills/supplier_bill/) | [`qwen3-8b`](../../skills/supplier_bill/qwen3-8b/) | 20 of 20 | 6 of 6 |
 | [supplier_bill](../../skills/supplier_bill/) | [`qwen3.8-flash-next-abliterated`](../../skills/supplier_bill/qwen3.8-flash-next-abliterated/) | 20 of 20 | 6 of 6 |
 | [supplier_bill](../../skills/supplier_bill/) | [`llama3.1-8b`](../../skills/supplier_bill/llama3.1-8b/) | 19 of 20 | 6 of 6 |

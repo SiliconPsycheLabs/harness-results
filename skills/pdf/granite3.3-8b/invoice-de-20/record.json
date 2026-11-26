@@ -1,0 +1,30 @@
+{
+ "supplier": "Krämer Werkzeugbau GmbH",
+ "number": "KW-34438",
+ "date": "2027-01-03",
+ "due_date": "2027-02-17",
+ "lines": [
+  {
+   "description": "Kugellager",
+   "quantity": 4,
+   "unit_price": 6.75
+  },
+  {
+   "description": "Hydraulikschlauch",
+   "quantity": 4,
+   "unit_price": 20.8
+  },
+  {
+   "description": "Bohrer",
+   "quantity": 10,
+   "unit_price": 5.45
+  },
+  {
+   "description": "Linearführungen",
+   "quantity": 25,
+   "unit_price": 216.1
+  }
+ ],
+ "total": 5567.2,
+ "total_page": 2
+}

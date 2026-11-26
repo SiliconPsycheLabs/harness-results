@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "ventas@suministrosibarra.example"
+ ],
+ "subject": "Pedido PO-4627",
+ "body": "Estimado equipo de Suministros Ibarra S.L.,\n\nLes informamos que hemos emitido un pedido con referencia PO-4627. Necesitamos que la entrega se realice antes del 22 de enero de 2027. El valor total del pedido es de 6.124,40 euros.\n\nPor favor, confirme por escrito recibiendo este correo electrónico que han recibido y comprendido la información anterior.\n\nAdjuntamos el documento del pedido para su referencia: /acme/documents/orders/po-4627.xlsx.\n\nAtentamente,\nAcme Components.",
+ "attachments": [
+  "/acme/documents/orders/po-4627.xlsx"
+ ]
+}

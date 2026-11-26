@@ -1,0 +1,20 @@
+{
+ "supplier": "Suministros Ibarra S.L.",
+ "number": "SI-16567",
+ "date": "2027-01-18",
+ "due_date": "2027-03-04",
+ "lines": [
+  {
+   "description": "bridas de acero",
+   "quantity": 12,
+   "unit_price": 38.0
+  },
+  {
+   "description": "bridas de acero",
+   "quantity": 0,
+   "unit_price": 0.0
+  }
+ ],
+ "total": 456.0,
+ "total_page": 2
+}

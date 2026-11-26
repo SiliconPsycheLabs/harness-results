@@ -1,0 +1,73 @@
+{
+ "request": "send-it-8",
+ "kind": "send",
+ "language": "it",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Tessitura Bellomo"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "commerciale@tessiturabellomo.example"
+     ],
+     "subject": "Ordine PO-8359",
+     "body": "Gentile Tessitura Bellomo S.p.A.,\n\nStiamo scrivendo per confermare il nostro ordine PO-8359. Richiediamo la consegna entro il 5 dicembre 2026. L'ordine ha un valore di 2.722,20 euro.\n\nSaremmo grati se potessi inviarci una conferma scritta. Alleghiamo l'allegato richiesto.\n\nCordiali saluti,\nAcme Components\n\nAllegato: /acme/documents/orders/po-8359.xlsx",
+     "attachments": [
+      "/acme/documents/orders/po-8359.xlsx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "L'ordine PO-8359 è stato inviato a Tessitura Bellomo S.p.A. con una conferma richiesta entro il 5 dicembre 2026 per un importo di 2.722,20 euro. L'allegato po-8359.xlsx è stato incluso.",
+  "seconds": 9.83,
+  "tokens_in": 2312,
+  "tokens_out": 363,
+  "right": false,
+  "missing": [
+   "the mail lacks: Ferri"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Tessitura Bellomo"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "commerciale@tessiturabellomo.example"
+     ],
+     "subject": "Ordine PO-8359",
+     "body": "Gentile Tessitura Bellomo S.p.A.,\n\nStiamo scrivendo per confermare il nostro ordine PO-8359. Richiediamo la consegna entro il 5 dicembre 2026. L'ordine ha un valore di 2.722,20 euro.\n\nSaremmo grati se potesse fornirci una conferma scritta da Luca Ferri.\n\nAllegato: /acme/documents/orders/po-8359.xlsx",
+     "attachments": [
+      "/acme/documents/orders/po-8359.xlsx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "L'ordine PO-8359 è stato inviato a Tessitura Bellomo S.p.A. con una richiesta di conferma scritta da Luca Ferri entro il 5 dicembre 2026. L'ordine ha un valore di 2.722,20 euro e l'allegato po-8359.xlsx è stato incluso."
+ }
+}

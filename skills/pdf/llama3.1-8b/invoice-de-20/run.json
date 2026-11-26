@@ -1,0 +1,115 @@
+{
+ "request": "invoice-de-20",
+ "kind": "invoice",
+ "language": "de",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/kw-34438.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "save_record",
+    "arguments": {
+     "path": "/acme/documents/extracts/kw-34438.json",
+     "supplier": "Krämer Werkzeugbau GmbH",
+     "number": "KW-34438",
+     "date": "2027-01-03",
+     "due_date": "2027-02-17",
+     "lines": [
+      {
+       "description": "ÄKugellager",
+       "quantity": 4,
+       "unit_price": 6.75
+      },
+      {
+       "description": "ÄHydraulikschläuche",
+       "quantity": 4,
+       "unit_price": 20.8
+      },
+      {
+       "description": "ÄBohrer",
+       "quantity": 10,
+       "unit_price": 5.45
+      },
+      {
+       "description": "ÄLinearföhrungen",
+       "quantity": 25,
+       "unit_price": 216.1
+      }
+     ],
+     "total": 5567.2,
+     "total_page": 2
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Daten erfolgreich extrahiert und gespeichert.",
+  "seconds": 6.91,
+  "tokens_in": 3297,
+  "tokens_out": 276,
+  "right": false,
+  "missing": [
+   "no line Linearführung: 25 x 216.10"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/kw-34438.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "save_record",
+    "arguments": {
+     "path": "/acme/documents/extracts/kw-34438.json",
+     "supplier": "Krämer Werkzeugbau GmbH",
+     "number": "KW-34438",
+     "date": "2027-01-03",
+     "due_date": "2027-02-17",
+     "lines": [
+      {
+       "description": "Kugellager",
+       "quantity": 4,
+       "unit_price": 6.75
+      },
+      {
+       "description": "Hydraulikschläuche",
+       "quantity": 4,
+       "unit_price": 20.8
+      },
+      {
+       "description": "Bohrer",
+       "quantity": 10,
+       "unit_price": 5.45
+      },
+      {
+       "description": "Linearföhrungen",
+       "quantity": 25,
+       "unit_price": 216.1
+      }
+     ],
+     "total": 5567.2,
+     "total_page": 2
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Daten erfolgreich extrahiert und gespeichert."
+ }
+}

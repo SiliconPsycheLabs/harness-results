@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "contact@atelier-dumont.example"
+ ],
+ "subject": "Commande PO-6101",
+ "body": "Bonjour,\n\nNous vous envoyons notre commande PO-6101. Nous vous demandons une livraison avant le 2 janvier 2027, et la commande s'élève à 7 145,20 euros. Veuillez demander à Julie Renard de nous fournir une confirmation écrite.\n\nCordialement,\nL'Équipe Acme Components",
+ "attachments": [
+  "/acme/documents/orders/po-6101.xlsx"
+ ]
+}

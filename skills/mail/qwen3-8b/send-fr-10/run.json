@@ -1,0 +1,71 @@
+{
+ "request": "send-fr-10",
+ "kind": "send",
+ "language": "fr",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Atelier Dumont SARL"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "contact@atelier-dumont.example"
+     ],
+     "subject": "Commande PO-3430",
+     "body": "Bonjour,\n\nNous vous envoyons notre commande PO-3430. Nous vous demandons une livraison avant le 8 janvier 2027, et la commande s'élève à 8 432,90 euros.\n\nVeuillez confirmer par écrit à Paul Lefèvre.\n\nCordialement,\n\nL'Équipe Acme Components",
+     "attachments": [
+      "/acme/documents/orders/po-3430.xlsx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Le courriel a été envoyé à Atelier Dumont SARL avec la pièce jointe /acme/documents/orders/po-3430.xlsx.",
+  "seconds": 4.95,
+  "tokens_in": 2107,
+  "tokens_out": 225,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Atelier Dumont SARL"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "contact@atelier-dumont.example"
+     ],
+     "subject": "Commande PO-3430",
+     "body": "Bonjour,\n\nNous vous envoyons notre commande PO-3430. Nous vous demandons une livraison avant le 8 janvier 2027, et la commande s'élève à 8 432,90 euros. Veuillez demander à Paul Lefèvre de nous fournir une confirmation écrite.\n\nCordialement,\nL'Équipe Acme Components",
+     "attachments": [
+      "/acme/documents/orders/po-3430.xlsx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Le courriel a été envoyé à Atelier Dumont SARL avec la pièce jointe /acme/documents/orders/po-3430.xlsx."
+ }
+}

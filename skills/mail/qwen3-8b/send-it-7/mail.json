@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "commerciale@tessiturabellomo.example"
+ ],
+ "subject": "Ordine PO-3909",
+ "body": "Gentile Tessitura Bellomo S.p.A.,\n\nCi scusiamo per il disturbo, ma vorremmo informarvi che abbiamo inviato il nostro ordine PO-3909. Ci serve la consegna entro il 21 gennaio 2027 e l'ordine vale 3.511,10 euro.\n\nChiediamo a Paolo Greco una conferma scritta.\n\nGrazie per l'attenzione.\n\nCordiali saluti,\nAcme Components",
+ "attachments": [
+  "/acme/documents/orders/po-3909.xlsx"
+ ]
+}

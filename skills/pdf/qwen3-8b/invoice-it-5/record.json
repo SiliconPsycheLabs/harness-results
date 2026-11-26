@@ -1,0 +1,20 @@
+{
+ "supplier": "Officine Galli S.r.l.",
+ "number": "FG-58076",
+ "date": "2027-01-11",
+ "due_date": "2027-03-12",
+ "lines": [
+  {
+   "description": "manometri",
+   "quantity": 100,
+   "unit_price": 35.1
+  },
+  {
+   "description": "filtri dell'aria",
+   "quantity": 3,
+   "unit_price": 37.4
+  }
+ ],
+ "total": 3622.2,
+ "total_page": 2
+}

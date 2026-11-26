@@ -1,0 +1,73 @@
+{
+ "request": "send-en-3",
+ "kind": "send",
+ "language": "en",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Harbor Tools"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "sales@harbortools.example"
+     ],
+     "subject": "Order PO-9851",
+     "body": "Dear Harbor Tools Inc.,\n\nWe are writing to confirm our order, PO-9851, which is worth 4,172.60 EUR. We need delivery by 29 December 2026. Please confirm this order in writing.\n\nKind regards,\nAcme Components",
+     "attachments": [
+      "/acme/documents/orders/po-9851.xlsx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The mail with the order PO-9851 has been sent to Harbor Tools Inc. with the attached file.",
+  "seconds": 4.29,
+  "tokens_in": 2017,
+  "tokens_out": 193,
+  "right": false,
+  "missing": [
+   "the mail lacks: Marsh"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Harbor Tools"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "sales@harbortools.example"
+     ],
+     "subject": "Order PO-9851",
+     "body": "Dear Harbor Tools Inc.,\n\nWe are writing to confirm our order, PO-9851, which is worth 4,172.60 EUR. We need delivery by 29 December 2026. Please confirm this order in writing.\n\nKind regards,\nAcme Components",
+     "attachments": [
+      "/acme/documents/orders/po-9851.xlsx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The mail with the order PO-9851 has been sent to Harbor Tools Inc. with the attached file."
+ }
+}

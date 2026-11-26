@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "sales@harbortools.example"
+ ],
+ "subject": "Order PO-8388",
+ "body": "Dear Harbor Tools Inc.,\n\nWe are writing to confirm our order PO-8388. We require delivery by 23 December 2026. The total value of the order is 3,751.20 EUR. Please confirm in writing that you have received this order.\n\nThank you for your cooperation.\n\nSincerely,\nAcme Components\n\n",
+ "attachments": [
+  "/acme/documents/orders/po-8388.xlsx"
+ ]
+}

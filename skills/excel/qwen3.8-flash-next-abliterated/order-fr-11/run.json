@@ -58,9 +58,9 @@
    }
   ],
   "answer": "/acme/documents/sheets/order_2026-338.xlsx",
-  "seconds": 14.9,
-  "tokens_in": 1808,
-  "tokens_out": 217,
+  "seconds": 29.11,
+  "tokens_in": 1954,
+  "tokens_out": 333,
   "right": true,
   "missing": []
  },

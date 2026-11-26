@@ -1,0 +1,73 @@
+{
+ "request": "send-en-3",
+ "kind": "send",
+ "language": "en",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Harbor Tools"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "sales@harbortools.example"
+     ],
+     "subject": "Order PO-9851",
+     "body": "Dear Harbor Tools Inc.,\n\nWe are writing to confirm our order PO-9851. We require delivery by 29 December 2026. The order is valued at 4,172.60 EUR.\n\nPlease confirm this information in writing. We have attached the order details for your reference.\n\nBest regards,\nAcme Components Office",
+     "attachments": [
+      "/acme/documents/orders/po-9851.xlsx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The mail has been sent to Harbor Tools Inc. with the requested details and attachment.",
+  "seconds": 5.33,
+  "tokens_in": 2098,
+  "tokens_out": 211,
+  "right": false,
+  "missing": [
+   "the mail lacks: Marsh"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Harbor Tools"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "sales@harbortools.example"
+     ],
+     "subject": "Order PO-9851",
+     "body": "Dear Harbor Tools Inc.,\n\nWe are writing to confirm our order PO-9851. We require delivery by 29 December 2026. The order is valued at 4,172.60 EUR.\n\nPlease confirm this information in writing. We have attached the order details for your reference.\n\nBest regards,\nAcme Components Office",
+     "attachments": [
+      "/acme/documents/orders/po-9851.xlsx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The mail has been sent to Harbor Tools Inc. with the requested details and attachment."
+ }
+}

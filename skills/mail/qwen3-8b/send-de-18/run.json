@@ -1,0 +1,73 @@
+{
+ "request": "send-de-18",
+ "kind": "send",
+ "language": "de",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Krämer Werkzeugbau GmbH"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "vertrieb@kraemer-werkzeugbau.example"
+     ],
+     "subject": "Bestellung PO-2573",
+     "body": "Sehr geehrte Damen und Herren,\n\nwir senden Ihnen unsere Bestellung PO-2573 an. Die Lieferung ist bis zum 14. Dezember 2026 erforderlich, und die Bestellung beträgt 2.181,90 Euro. Bitte senden Sie uns eine schriftliche Bestätigung.\n\nVielen Dank im Voraus.\n\nMit freundlichen Grüßen,\n\nAcme Components",
+     "attachments": [
+      "/acme/documents/orders/po-2573.xlsx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Die E-Mail mit der Bestellung PO-2573 wurde an Krämer Werkzeugbau GmbH gesendet. Anhang: /acme/documents/orders/po-2573.xlsx.",
+  "seconds": 5.64,
+  "tokens_in": 2173,
+  "tokens_out": 258,
+  "right": false,
+  "missing": [
+   "the mail lacks: Hofmann"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Krämer Werkzeugbau GmbH"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "vertrieb@kraemer-werkzeugbau.example"
+     ],
+     "subject": "Bestellung PO-2573",
+     "body": "Sehr geehrte Damen und Herren,\n\nwir senden Ihnen unsere Bestellung PO-2573 an. Die Lieferung ist bis zum 14. Dezember 2026 erforderlich, und die Bestellung beträgt 2.181,90 Euro. Bitte senden Sie uns eine schriftliche Bestätigung.\n\nVielen Dank im Voraus.\n\nMit freundlichen Grüßen,\n\nAcme Components",
+     "attachments": [
+      "/acme/documents/orders/po-2573.xlsx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Die E-Mail mit der Bestellung PO-2573 wurde an Krämer Werkzeugbau GmbH gesendet. Anhang: /acme/documents/orders/po-2573.xlsx."
+ }
+}

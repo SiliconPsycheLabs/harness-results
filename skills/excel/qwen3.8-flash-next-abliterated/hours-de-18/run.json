@@ -59,9 +59,9 @@
    }
   ],
   "answer": "/acme/documents/sheets/hours_2027-725.xlsx",
-  "seconds": 15.43,
-  "tokens_in": 1849,
-  "tokens_out": 230,
+  "seconds": 140.01,
+  "tokens_in": 1997,
+  "tokens_out": 355,
   "right": true,
   "missing": []
  },

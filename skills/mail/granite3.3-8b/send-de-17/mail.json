@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "vertrieb@kraemer-werkzeugbau.example"
+ ],
+ "subject": "Bestellung PO-3143",
+ "body": "Wir benörigen die Lieferung bis zum 11. Dezember 2026 und die Bestellung PO-3143 beträgt 4.020,60 Euro. Bitte senden Sie uns eine schriftliche Bestätigung bei Anja Seidel.",
+ "attachments": [
+  "/acme/documents/orders/po-3143.xlsx"
+ ]
+}

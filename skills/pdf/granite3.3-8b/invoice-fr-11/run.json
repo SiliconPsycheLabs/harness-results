@@ -1,0 +1,93 @@
+{
+ "request": "invoice-fr-11",
+ "kind": "invoice",
+ "language": "fr",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/f-97736.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "save_record",
+    "arguments": {
+     "path": "/acme/documents/extracts/f-97736.json",
+     "supplier": "Atelier Dumont SARL",
+     "number": "F-97736",
+     "date": "2027-01-04",
+     "due_date": "2027-02-18",
+     "lines": [
+      {
+       "description": "gants de protection",
+       "quantity": 30,
+       "unit_price": 8.4
+      },
+      {
+       "description": "courroies",
+       "quantity": 5,
+       "unit_price": 29.9
+      }
+     ],
+     "total": 401.5,
+     "total_page": 2
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The data from the invoice has been saved to /acme/documents/extracts/f-97736.json",
+  "seconds": 6.85,
+  "tokens_in": 3304,
+  "tokens_out": 243,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/f-97736.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "save_record",
+    "arguments": {
+     "path": "/acme/documents/extracts/f-97736.json",
+     "supplier": "Atelier Dumont SARL",
+     "number": "F-97736",
+     "date": "2027-01-04",
+     "due_date": "2027-02-18",
+     "lines": [
+      {
+       "description": "gants de protection",
+       "quantity": 30,
+       "unit_price": 8.4
+      },
+      {
+       "description": "courroies",
+       "quantity": 5,
+       "unit_price": 29.9
+      }
+     ],
+     "total": 401.5,
+     "total_page": 2
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The data from the invoice has been saved to /acme/documents/extracts/f-97736.json"
+ }
+}

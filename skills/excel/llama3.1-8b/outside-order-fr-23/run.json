@@ -1,0 +1,20 @@
+{
+ "request": "outside-order-fr-23",
+ "kind": "order",
+ "language": "fr",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "/tmp/order_2026-660.xlsx",
+  "seconds": 0.55,
+  "tokens_in": 774,
+  "tokens_out": 20,
+  "done_anyway": []
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "/tmp/order_2026-660.xlsx",
+  "done_anyway": []
+ },
+ "asked": "`/tmp/order_2026-660.xlsx`"
+}

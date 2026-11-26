@@ -1,0 +1,21 @@
+{
+ "request": "order-es-13",
+ "kind": "order",
+ "language": "es",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "/acme/documents/sheets/order_2026-698.xlsx",
+  "seconds": 0.62,
+  "tokens_in": 795,
+  "tokens_out": 24,
+  "right": false,
+  "missing": [
+   "no file at the path asked"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "/acme/documents/sheets/order_2026-698.xlsx"
+ }
+}

@@ -1,0 +1,137 @@
+{
+ "request": "hours-en-4",
+ "kind": "hours",
+ "language": "en",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_xlsx",
+    "arguments": {
+     "path": "/acme/documents/sheets/hours_2027-445.xlsx",
+     "sheet": "2027-445",
+     "columns": [
+      {
+       "name": "Name",
+       "type": "text"
+      },
+      {
+       "name": "Hours",
+       "type": "number"
+      },
+      {
+       "name": "Hourly rate",
+       "type": "number"
+      },
+      {
+       "name": "Amount",
+       "type": "number"
+      }
+     ],
+     "rows": [
+      [
+       "Helen Marsh",
+       "38",
+       "35.50",
+       "1349.00"
+      ],
+      [
+       "Neil Carver",
+       "24",
+       "41.00",
+       "984.00"
+      ],
+      [
+       "Anna Keller",
+       "32",
+       "20.00",
+       "640.00"
+      ],
+      [
+       "Lucia Marin",
+       "38",
+       "37.00",
+       "1406.00"
+      ]
+     ],
+     "total_columns": [
+      "Hours",
+      "Amount"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/sheets/hours_2027-445.xlsx",
+  "seconds": 5.47,
+  "tokens_in": 1897,
+  "tokens_out": 248,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_xlsx",
+    "arguments": {
+     "path": "/acme/documents/sheets/hours_2027-445.xlsx",
+     "sheet": "2027-445",
+     "columns": [
+      {
+       "name": "Name",
+       "type": "text"
+      },
+      {
+       "name": "Hours",
+       "type": "number"
+      },
+      {
+       "name": "Hourly rate",
+       "type": "number"
+      },
+      {
+       "name": "Amount",
+       "type": "number"
+      }
+     ],
+     "rows": [
+      [
+       "Helen Marsh",
+       "38",
+       "35.50",
+       "1349.00"
+      ],
+      [
+       "Neil Carver",
+       "24",
+       "41.00",
+       "984.00"
+      ],
+      [
+       "Anna Keller",
+       "32",
+       "20.00",
+       "640.00"
+      ],
+      [
+       "Lucia Marin",
+       "38",
+       "37.00",
+       "1406.00"
+      ]
+     ],
+     "total_columns": [
+      "Hours",
+      "Amount"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/sheets/hours_2027-445.xlsx"
+ }
+}

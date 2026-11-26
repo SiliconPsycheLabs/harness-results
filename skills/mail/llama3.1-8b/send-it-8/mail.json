@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "commerciale@tessiturabellomo.example"
+ ],
+ "subject": "Ordine PO-8359",
+ "body": "Gentile Tessitura Bellomo S.p.A.,\n\ncon riferimento all'ordine PO-8359, ci preghiamo di confermare la consegna entro il 5 dicembre 2026. L'importo totale dell'ordine è di 2.722,20 euro. Per favore, si prega di confermare la presente richiesta per iscritto. Cordiali saluti, Luca Ferri.\n\nAllegato: /acme/documents/orders/po-8359.xlsx",
+ "attachments": [
+  "/acme/documents/orders/po-8359.xlsx"
+ ]
+}

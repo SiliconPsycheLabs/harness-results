@@ -1,0 +1,125 @@
+{
+ "request": "hours-es-14",
+ "kind": "hours",
+ "language": "es",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_xlsx",
+    "arguments": {
+     "path": "/acme/documents/sheets/hours_2026-766.xlsx",
+     "sheet": "2026-766",
+     "columns": [
+      {
+       "name": "Nombre",
+       "type": "text"
+      },
+      {
+       "name": "Horas",
+       "type": "number"
+      },
+      {
+       "name": "Tarifa por hora",
+       "type": "number"
+      },
+      {
+       "name": "Importe",
+       "type": "number"
+      }
+     ],
+     "rows": [
+      [
+       "Javier Ortega",
+       "32",
+       "44,50",
+       "1.424,00"
+      ],
+      [
+       "Elena Pardo",
+       "20",
+       "42,00",
+       "840,00"
+      ],
+      [
+       "Rosa Vidal",
+       "32",
+       "38,50",
+       "1.232,00"
+      ]
+     ],
+     "total_columns": [
+      "Horas",
+      "Importe"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/sheets/hours_2026-766.xlsx",
+  "seconds": 5.19,
+  "tokens_in": 1886,
+  "tokens_out": 235,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_xlsx",
+    "arguments": {
+     "path": "/acme/documents/sheets/hours_2026-766.xlsx",
+     "sheet": "2026-766",
+     "columns": [
+      {
+       "name": "Nombre",
+       "type": "text"
+      },
+      {
+       "name": "Horas",
+       "type": "number"
+      },
+      {
+       "name": "Tarifa por hora",
+       "type": "number"
+      },
+      {
+       "name": "Importe",
+       "type": "number"
+      }
+     ],
+     "rows": [
+      [
+       "Javier Ortega",
+       "32",
+       "44,50",
+       "1.424,00"
+      ],
+      [
+       "Elena Pardo",
+       "20",
+       "42,00",
+       "840,00"
+      ],
+      [
+       "Rosa Vidal",
+       "32",
+       "38,50",
+       "1.232,00"
+      ]
+     ],
+     "total_columns": [
+      "Horas",
+      "Importe"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/sheets/hours_2026-766.xlsx"
+ }
+}

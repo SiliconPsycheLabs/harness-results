@@ -1,0 +1,21 @@
+{
+ "request": "order-fr-11",
+ "kind": "order",
+ "language": "fr",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "/acme/documents/sheets/order_2026-338.xlsx",
+  "seconds": 0.58,
+  "tokens_in": 777,
+  "tokens_out": 24,
+  "right": false,
+  "missing": [
+   "no file at the path asked"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "/acme/documents/sheets/order_2026-338.xlsx"
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "request": "send-it-6",
+ "kind": "send",
+ "language": "it",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Officine Galli S.r.l."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "ordini@officinegalli.example"
+     ],
+     "subject": "Ordine PO-4726",
+     "body": "Gentile Officine Galli S.r.l.,\n\nStiamo scrivendo per confermare il nostro ordine con il numero PO-4726. Richiediamo la consegna entro il 18 gennaio 2027 e l'ordine ha un valore di 651,40 euro.\n\nSaremmo grati se potessi inviare una conferma scritta di ricezione di questo messaggio. Attendiamo con ansia la tua risposta.\n\nCordiali saluti,\nAcme Components\n",
+     "attachments": [
+      "/acme/documents/orders/po-4726.xlsx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "L'ordine PO-4726 è stato inviato con successo a Officine Galli S.r.l. con una richiesta di conferma scritta entro il 18 gennaio 2027 e l'allegato po-4726.xlsx.",
+  "seconds": 8.91,
+  "tokens_in": 2282,
+  "tokens_out": 332,
+  "right": false,
+  "missing": [
+   "the mail lacks: Monti"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Officine Galli S.r.l."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "ordini@officinegalli.example"
+     ],
+     "subject": "Ordine PO-4726",
+     "body": "Gentile Officine Galli S.r.l.,\n\nStiamo scrivendo per confermare il nostro ordine PO-4726. Richiediamo la consegna entro il 18 gennaio 2027 e l'ordine ha un valore di 651,40 euro.\n\nSaremmo grati se Sara Monti potesse fornirci una conferma scritta di ricezione di questo messaggio. Allegiamo l'allegato poco sopra.\n\nCordiali saluti,\nAcme Components",
+     "attachments": [
+      "/acme/documents/orders/po-4726.xlsx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "L'ordine PO-4726 è stato inviato con successo a Officine Galli S.r.l. con una richiesta di consegna entro il 18 gennaio 2027 e un valore di 651,40 euro. Sara Monti è stata chiesta una conferma scritta. L'allegato poco sopra è stato allegato."
+ }
+}

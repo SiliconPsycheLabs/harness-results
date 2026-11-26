@@ -1,0 +1,20 @@
+{
+ "supplier": "Tessitura Bellomo S.p.A.",
+ "number": "TB-89196",
+ "date": "2026-12-25",
+ "due_date": "2027-01-24",
+ "lines": [
+  {
+   "description": "cinghie di trasmissione",
+   "quantity": 12,
+   "unit_price": 71.4
+  },
+  {
+   "description": "Totale imponibile",
+   "quantity": 1,
+   "unit_price": 856.8
+  }
+ ],
+ "total": 856.8,
+ "total_page": 2
+}

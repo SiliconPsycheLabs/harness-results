@@ -1,0 +1,95 @@
+{
+ "request": "invoice-en-1",
+ "kind": "invoice",
+ "language": "en",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/nb-94581.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "save_record",
+    "arguments": {
+     "path": "/acme/documents/extracts/nb-94581.json",
+     "supplier": "Northwind Bearings Ltd",
+     "number": "NB-94581",
+     "date": "2026-12-14",
+     "due_date": "2027-02-12",
+     "lines": [
+      {
+       "description": "tool cabinets",
+       "quantity": 3,
+       "unit_price": 154.05
+      },
+      {
+       "description": "tool cabinets",
+       "quantity": 3,
+       "unit_price": 154.05
+      }
+     ],
+     "total": 462.15,
+     "total_page": 2
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "saved /acme/documents/extracts/nb-94581.json (2 lines)",
+  "seconds": 6.1,
+  "tokens_in": 2980,
+  "tokens_out": 199,
+  "right": false,
+  "missing": [
+   "2 lines, not 1"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/nb-94581.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "save_record",
+    "arguments": {
+     "path": "/acme/documents/extracts/nb-94581.json",
+     "supplier": "Northwind Bearings Ltd",
+     "number": "NB-94581",
+     "date": "2026-12-14",
+     "due_date": "2027-02-12",
+     "lines": [
+      {
+       "description": "tool cabinets",
+       "quantity": 3,
+       "unit_price": 154.05
+      },
+      {
+       "description": "tool cabinets",
+       "quantity": 3,
+       "unit_price": 154.05
+      }
+     ],
+     "total": 462.15,
+     "total_page": 2
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "saved /acme/documents/extracts/nb-94581.json (2 lines)"
+ }
+}

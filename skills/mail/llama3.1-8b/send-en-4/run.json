@@ -1,0 +1,73 @@
+{
+ "request": "send-en-4",
+ "kind": "send",
+ "language": "en",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Northwind Bearings Ltd"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "orders@northwind-bearings.example"
+     ],
+     "subject": "Order PO-5201",
+     "body": "Dear Northwind Bearings Ltd,\\n\\nWe need delivery of our order PO-5201 by 24 January 2027. The order is worth 5,035.80 EUR.\\n\\nPlease confirm in writing.\\n\\nBest regards,\\nAcme Components",
+     "attachments": [
+      "/acme/documents/orders/po-5201.xlsx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Order PO-5201 sent to Northwind Bearings Ltd.",
+  "seconds": 4.32,
+  "tokens_in": 2001,
+  "tokens_out": 173,
+  "right": false,
+  "missing": [
+   "the mail lacks: Sawyer"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Northwind Bearings Ltd"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "orders@northwind-bearings.example"
+     ],
+     "subject": "Order PO-5201",
+     "body": "Dear Northwind Bearings Ltd,\\n\\nWe need delivery of our order PO-5201 by 24 January 2027. The order is worth 5,035.80 EUR.\\n\\nPlease confirm in writing.\\n\\nBest regards,\\nAcme Components",
+     "attachments": [
+      "/acme/documents/orders/po-5201.xlsx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Order PO-5201 sent to Northwind Bearings Ltd."
+ }
+}

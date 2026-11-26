@@ -1,0 +1,71 @@
+{
+ "request": "send-fr-12",
+ "kind": "send",
+ "language": "fr",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Atelier Dumont SARL"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "contact@atelier-dumont.example"
+     ],
+     "subject": "Commande PO-3267",
+     "body": "Bonjour, nous vous confirmons notre commande PO-3267. Nous avons besoin de la livraison avant le 13 décembre 2026. La commande s'élève à 1 230,50 euros. Nous vous attendons une confirmation écrite de la part de Julie Renard. Merci de votre compréhension.",
+     "attachments": [
+      "/acme/documents/orders/po-3267.xlsx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "La commande PO-3267 a été envoyée à Atelier Dumont SARL.",
+  "seconds": 4.62,
+  "tokens_in": 2069,
+  "tokens_out": 190,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Atelier Dumont SARL"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "contact@atelier-dumont.example"
+     ],
+     "subject": "Commande PO-3267",
+     "body": "Bonjour, nous vous confirmons notre commande PO-3267. Nous avons besoin de la livraison avant le 13 décembre 2026. La commande s'élève à 1 230,50 euros. Nous vous attendons une confirmation écrite de la part de Julie Renard. Merci de votre compréhension.",
+     "attachments": [
+      "/acme/documents/orders/po-3267.xlsx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "La commande PO-3267 a été envoyée à Atelier Dumont SARL."
+ }
+}

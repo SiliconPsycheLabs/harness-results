@@ -1,0 +1,103 @@
+{
+ "request": "invoice-fr-9",
+ "kind": "invoice",
+ "language": "fr",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/f-26881.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "save_record",
+    "arguments": {
+     "path": "/acme/documents/extracts/f-26881.json",
+     "supplier": "Atelier Dumont SARL",
+     "number": "F-26881",
+     "date": "2026-12-17",
+     "due_date": "2027-02-15",
+     "lines": [
+      {
+       "description": "courroies",
+       "quantity": 8,
+       "unit_price": 24.8
+      },
+      {
+       "description": "manomètres",
+       "quantity": 5,
+       "unit_price": 64.35
+      },
+      {
+       "description": "réducteurs",
+       "quantity": 8,
+       "unit_price": 407.45
+      }
+     ],
+     "total": 3779.75,
+     "total_page": 2
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "La facture a été enregistrée avec succès dans /acme/documents/extracts/f-26881.json.",
+  "seconds": 5.77,
+  "tokens_in": 3238,
+  "tokens_out": 260,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/f-26881.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "save_record",
+    "arguments": {
+     "path": "/acme/documents/extracts/f-26881.json",
+     "supplier": "Atelier Dumont SARL",
+     "number": "F-26881",
+     "date": "2026-12-17",
+     "due_date": "2027-02-15",
+     "lines": [
+      {
+       "description": "courroies",
+       "quantity": 8,
+       "unit_price": 24.8
+      },
+      {
+       "description": "manomètres",
+       "quantity": 5,
+       "unit_price": 64.35
+      },
+      {
+       "description": "réducteurs",
+       "quantity": 8,
+       "unit_price": 407.45
+      }
+     ],
+     "total": 3779.75,
+     "total_page": 2
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "La facture a été enregistrée avec succès dans /acme/documents/extracts/f-26881.json."
+ }
+}

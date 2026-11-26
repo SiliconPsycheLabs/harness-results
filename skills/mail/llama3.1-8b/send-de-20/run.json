@@ -1,0 +1,73 @@
+{
+ "request": "send-de-20",
+ "kind": "send",
+ "language": "de",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Lindner Maschinenbau"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "info@lindner-maschinenbau.example"
+     ],
+     "subject": "Bestellung PO-6229",
+     "body": "Sehr geehrte Damen und Herren,\n\nbitte bestätigen Sie, dass wir die Lieferung unserer Bestellung PO-6229 bis zum 20. Dezember 2026 brauchen. Der Gesamtbetrag der Bestellung beträgt 848,20 Euro.\n\nMit freundlichen Grþssen,\nAcme Components\n\nBitte bestätigen Sie diese Bestellung schriftlich.\n\nMit freundlichen Grþssen,\nAcme Components",
+     "attachments": [
+      "/acme/documents/orders/po-6229.xlsx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Die Bestellung PO-6229 wurde erfolgreich an Lindner Maschinenbau gesendet.",
+  "seconds": 6.3,
+  "tokens_in": 2160,
+  "tokens_out": 244,
+  "right": false,
+  "missing": [
+   "the mail lacks: Scholz"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Lindner Maschinenbau"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "info@lindner-maschinenbau.example"
+     ],
+     "subject": "Bestellung PO-6229",
+     "body": "Sehr geehrte Damen und Herren,\n\nbitte bestätigen Sie, dass wir die Lieferung unserer Bestellung PO-6229 bis zum 20. Dezember 2026 brauchen. Der Gesamtbetrag der Bestellung beträgt 848,20 Euro.\n\nMit freundlichen Grþssen,\nAcme Components\n\nBitte bestätigen Sie diese Bestellung schriftlich.\n\nMit freundlichen Grþssen,\nAcme Components",
+     "attachments": [
+      "/acme/documents/orders/po-6229.xlsx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Die Bestellung PO-6229 wurde erfolgreich an Lindner Maschinenbau gesendet."
+ }
+}

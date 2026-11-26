@@ -1,0 +1,73 @@
+{
+ "request": "send-fr-11",
+ "kind": "send",
+ "language": "fr",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Atelier Dumont"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "contact@atelier-dumont.example"
+     ],
+     "subject": "Commande PO-9262",
+     "body": "Cher Atelier Dumont SARL,\n\nNous vous confirmons notre commande PO-9262. Nous vous demandons de prioriser la livraison avant le 20 décembre 2026. Le montant total de cette commande s'élève à 8 635,70 euros. Nous vous prions de bien vouloir nous envoyer une confirmation écrite de cette information.\n\nMerci d'avance pour votre attention.\n\nCordialement,\nAcme Components",
+     "attachments": [
+      "/acme/documents/orders/po-9262.xlsx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The mail has been sent to Atelier Dumont SARL with the requested information and attachment.",
+  "seconds": 7.53,
+  "tokens_in": 2268,
+  "tokens_out": 265,
+  "right": false,
+  "missing": [
+   "the mail lacks: Lefèvre"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Atelier Dumont"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "contact@atelier-dumont.example"
+     ],
+     "subject": "Commande PO-9262",
+     "body": "Cher Atelier Dumont SARL,\n\nNous vous confirmons notre commande PO-9262. Nous vous demandons de prioriser la livraison avant le 20 décembre 2026. Le montant total de cette commande s'élève à 8 635,70 euros. Nous vous prions de bien vouloir nous envoyer une confirmation écrite de cette information.\n\nMerci d'avance pour votre attention.\n\nCordialement,\nAcme Components",
+     "attachments": [
+      "/acme/documents/orders/po-9262.xlsx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The mail has been sent to Atelier Dumont SARL with the requested information and attachment."
+ }
+}

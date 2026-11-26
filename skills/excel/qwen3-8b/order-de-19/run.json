@@ -1,0 +1,123 @@
+{
+ "request": "order-de-19",
+ "kind": "order",
+ "language": "de",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_xlsx",
+    "arguments": {
+     "path": "/acme/documents/sheets/order_2026-699.xlsx",
+     "sheet": "2026-699",
+     "columns": [
+      {
+       "name": "Artikel",
+       "type": "text"
+      },
+      {
+       "name": "Menge",
+       "type": "number"
+      },
+      {
+       "name": "Einzelpreis",
+       "type": "number"
+      },
+      {
+       "name": "Gesamt",
+       "type": "number"
+      }
+     ],
+     "rows": [
+      [
+       "Stahlflansche",
+       "50",
+       "28,45",
+       "1.422,50"
+      ],
+      [
+       "Fräsköpfe",
+       "12",
+       "127,55",
+       "1.530,60"
+      ],
+      [
+       "Spannfutter",
+       "2",
+       "220,10",
+       "440,20"
+      ]
+     ],
+     "total_columns": [
+      "Gesamt"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/sheets/order_2026-699.xlsx",
+  "seconds": 5.15,
+  "tokens_in": 1885,
+  "tokens_out": 236,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_xlsx",
+    "arguments": {
+     "path": "/acme/documents/sheets/order_2026-699.xlsx",
+     "sheet": "2026-699",
+     "columns": [
+      {
+       "name": "Artikel",
+       "type": "text"
+      },
+      {
+       "name": "Menge",
+       "type": "number"
+      },
+      {
+       "name": "Einzelpreis",
+       "type": "number"
+      },
+      {
+       "name": "Gesamt",
+       "type": "number"
+      }
+     ],
+     "rows": [
+      [
+       "Stahlflansche",
+       "50",
+       "28,45",
+       "1.422,50"
+      ],
+      [
+       "Fräsköpfe",
+       "12",
+       "127,55",
+       "1.530,60"
+      ],
+      [
+       "Spannfutter",
+       "2",
+       "220,10",
+       "440,20"
+      ]
+     ],
+     "total_columns": [
+      "Gesamt"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/sheets/order_2026-699.xlsx"
+ }
+}

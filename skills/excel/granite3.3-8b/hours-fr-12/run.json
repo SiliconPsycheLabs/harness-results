@@ -1,0 +1,125 @@
+{
+ "request": "hours-fr-12",
+ "kind": "hours",
+ "language": "fr",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_xlsx",
+    "arguments": {
+     "path": "/acme/documents/sheets/hours_2027-306.xlsx",
+     "sheet": "2027-306",
+     "columns": [
+      {
+       "name": "Nom",
+       "type": "text"
+      },
+      {
+       "name": "Heures",
+       "type": "number"
+      },
+      {
+       "name": "Taux horaire",
+       "type": "number"
+      },
+      {
+       "name": "Montant",
+       "type": "number"
+      }
+     ],
+     "rows": [
+      [
+       "Julie Renard",
+       "32",
+       "38,50",
+       "1232,00"
+      ],
+      [
+       "Marc Vasseur",
+       "32",
+       "22,00",
+       "704,00"
+      ],
+      [
+       "Claire Dumont",
+       "24",
+       "23,50",
+       "564,00"
+      ]
+     ],
+     "total_columns": [
+      "Heures",
+      "Montant"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The spreadsheet has been successfully created and saved at /acme/documents/sheets/hours_2027-306.xlsx.",
+  "seconds": 6.89,
+  "tokens_in": 1936,
+  "tokens_out": 247,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_xlsx",
+    "arguments": {
+     "path": "/acme/documents/sheets/hours_2027-306.xlsx",
+     "sheet": "2027-306",
+     "columns": [
+      {
+       "name": "Nom",
+       "type": "text"
+      },
+      {
+       "name": "Heures",
+       "type": "number"
+      },
+      {
+       "name": "Taux horaire",
+       "type": "number"
+      },
+      {
+       "name": "Montant",
+       "type": "number"
+      }
+     ],
+     "rows": [
+      [
+       "Julie Renard",
+       "32",
+       "38,50",
+       "1232,00"
+      ],
+      [
+       "Marc Vasseur",
+       "32",
+       "22,00",
+       "704,00"
+      ],
+      [
+       "Claire Dumont",
+       "24",
+       "23,50",
+       "564,00"
+      ]
+     ],
+     "total_columns": [
+      "Heures",
+      "Montant"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The spreadsheet has been successfully created and saved at /acme/documents/sheets/hours_2027-306.xlsx."
+ }
+}

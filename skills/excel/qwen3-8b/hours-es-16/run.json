@@ -1,0 +1,149 @@
+{
+ "request": "hours-es-16",
+ "kind": "hours",
+ "language": "es",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_xlsx",
+    "arguments": {
+     "path": "/acme/documents/sheets/hours_2027-575.xlsx",
+     "sheet": "2027-575",
+     "columns": [
+      {
+       "name": "Nombre",
+       "type": "text"
+      },
+      {
+       "name": "Horas",
+       "type": "number"
+      },
+      {
+       "name": "Tarifa por hora",
+       "type": "number"
+      },
+      {
+       "name": "Importe",
+       "type": "number"
+      }
+     ],
+     "rows": [
+      [
+       "Luis Aranda",
+       "38",
+       "41,50",
+       "1577,00"
+      ],
+      [
+       "Javier Ortega",
+       "24",
+       "45,00",
+       "1080,00"
+      ],
+      [
+       "Andrés Molina",
+       "38",
+       "44,00",
+       "1672,00"
+      ],
+      [
+       "Marta Navas",
+       "24",
+       "42,00",
+       "1008,00"
+      ],
+      [
+       "Rosa Vidal",
+       "24",
+       "27,00",
+       "648,00"
+      ]
+     ],
+     "total_columns": [
+      "Horas",
+      "Importe"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/sheets/hours_2027-575.xlsx",
+  "seconds": 6.24,
+  "tokens_in": 2040,
+  "tokens_out": 285,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_xlsx",
+    "arguments": {
+     "path": "/acme/documents/sheets/hours_2027-575.xlsx",
+     "sheet": "2027-575",
+     "columns": [
+      {
+       "name": "Nombre",
+       "type": "text"
+      },
+      {
+       "name": "Horas",
+       "type": "number"
+      },
+      {
+       "name": "Tarifa por hora",
+       "type": "number"
+      },
+      {
+       "name": "Importe",
+       "type": "number"
+      }
+     ],
+     "rows": [
+      [
+       "Luis Aranda",
+       "38",
+       "41,50",
+       "1577,00"
+      ],
+      [
+       "Javier Ortega",
+       "24",
+       "45,00",
+       "1080,00"
+      ],
+      [
+       "Andrés Molina",
+       "38",
+       "44,00",
+       "1672,00"
+      ],
+      [
+       "Marta Navas",
+       "24",
+       "42,00",
+       "1008,00"
+      ],
+      [
+       "Rosa Vidal",
+       "24",
+       "27,00",
+       "648,00"
+      ]
+     ],
+     "total_columns": [
+      "Horas",
+      "Importe"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/sheets/hours_2027-575.xlsx"
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "request": "hours-it-8",
+ "kind": "hours",
+ "language": "it",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "/acme/documents/sheets/hours_2026-386.xlsx",
+  "seconds": 0.63,
+  "tokens_in": 790,
+  "tokens_out": 25,
+  "right": false,
+  "missing": [
+   "no file at the path asked"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "/acme/documents/sheets/hours_2026-386.xlsx"
+ }
+}

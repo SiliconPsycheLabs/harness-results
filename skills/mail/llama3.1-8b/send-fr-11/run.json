@@ -1,0 +1,71 @@
+{
+ "request": "send-fr-11",
+ "kind": "send",
+ "language": "fr",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Atelier Dumont"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "contact@atelier-dumont.example"
+     ],
+     "subject": "Commande PO-9262",
+     "body": "Bonjour, nous vous confirmons notre commande PO-9262. Nous avons besoin de la livraison avant le 20 décembre 2026. La commande s'élève à 8 635,70 euros. Nous vous demandons à Paul Lefèvre de nous confirmer par écrit. Merci de votre compréhension.",
+     "attachments": [
+      "/acme/documents/orders/po-9262.xlsx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Commande PO-9262 envoyée à Atelier Dumont avec succès.",
+  "seconds": 4.62,
+  "tokens_in": 2067,
+  "tokens_out": 188,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Atelier Dumont"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "contact@atelier-dumont.example"
+     ],
+     "subject": "Commande PO-9262",
+     "body": "Bonjour, nous vous confirmons notre commande PO-9262. Nous avons besoin de la livraison avant le 20 décembre 2026. La commande s’élève à 8 635,70 euros. Nous vous demandons à Paul Lefèvre de nous confirmer par écrit. Merci de votre compréhension.",
+     "attachments": [
+      "/acme/documents/orders/po-9262.xlsx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Commande PO-9262 envoyée à Atelier Dumont avec succès."
+ }
+}

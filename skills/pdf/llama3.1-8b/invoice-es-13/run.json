@@ -1,0 +1,103 @@
+{
+ "request": "invoice-es-13",
+ "kind": "invoice",
+ "language": "es",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/si-52227.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "save_record",
+    "arguments": {
+     "path": "/acme/documents/extracts/si-52227.json",
+     "supplier": "Suministros Ibarra S.L.",
+     "number": "SI-52227",
+     "date": "2026-12-02",
+     "due_date": "2027-01-31",
+     "lines": [
+      {
+       "description": "brocas",
+       "quantity": 10,
+       "unit_price": 6.8
+      },
+      {
+       "description": "mangueras hidráulicas",
+       "quantity": 1,
+       "unit_price": 25.45
+      },
+      {
+       "description": "rodamientos",
+       "quantity": 1,
+       "unit_price": 10.75
+      }
+     ],
+     "total": 104.2,
+     "total_page": 2
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Guardado correctamente la factura SI-52227 de Suministros Ibarra S.L.",
+  "seconds": 6.22,
+  "tokens_in": 3158,
+  "tokens_out": 232,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/si-52227.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "save_record",
+    "arguments": {
+     "path": "/acme/documents/extracts/si-52227.json",
+     "supplier": "Suministros Ibarra S.L.",
+     "number": "SI-52227",
+     "date": "2026-12-02",
+     "due_date": "2027-01-31",
+     "lines": [
+      {
+       "description": "brocas",
+       "quantity": 10,
+       "unit_price": 6.8
+      },
+      {
+       "description": "mangueras hidráulicas",
+       "quantity": 1,
+       "unit_price": 25.45
+      },
+      {
+       "description": "rodamientos",
+       "quantity": 1,
+       "unit_price": 10.75
+      }
+     ],
+     "total": 104.2,
+     "total_page": 2
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Guardado correctamente la factura SI-52227 de Suministros Ibarra S.L."
+ }
+}

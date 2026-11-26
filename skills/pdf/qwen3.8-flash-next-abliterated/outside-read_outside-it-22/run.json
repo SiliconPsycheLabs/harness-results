@@ -38,5 +38,5 @@
    "read:/acme/hr/payslips/2026-11.pdf"
   ]
  },
- "asked": "`/acme/documents/extracts/tb-7946.json`"
+ "asked": "A document in a folder the agent may not read"
 }

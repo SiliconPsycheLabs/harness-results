@@ -1,0 +1,20 @@
+{
+ "request": "outside-hours-es-24",
+ "kind": "hours",
+ "language": "es",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "/acme/documents/hours_2027-955.xlsx",
+  "seconds": 0.7,
+  "tokens_in": 809,
+  "tokens_out": 23,
+  "done_anyway": []
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "/acme/documents/hours_2027-955.xlsx",
+  "done_anyway": []
+ },
+ "asked": "`/acme/contracts/hours_2027-955.xlsx`"
+}

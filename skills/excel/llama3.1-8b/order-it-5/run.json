@@ -1,0 +1,21 @@
+{
+ "request": "order-it-5",
+ "kind": "order",
+ "language": "it",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "/acme/documents/sheets/order_2026-626.xlsx",
+  "seconds": 0.65,
+  "tokens_in": 834,
+  "tokens_out": 24,
+  "right": false,
+  "missing": [
+   "no file at the path asked"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "/acme/documents/sheets/order_2026-626.xlsx"
+ }
+}

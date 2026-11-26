@@ -1,0 +1,21 @@
+{
+ "request": "order-de-17",
+ "kind": "order",
+ "language": "de",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "/acme/documents/sheets/order_2027-189.xlsx",
+  "seconds": 0.64,
+  "tokens_in": 807,
+  "tokens_out": 24,
+  "right": false,
+  "missing": [
+   "no file at the path asked"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "/acme/documents/sheets/order_2027-189.xlsx"
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "supplier": "Atelier Dumont SARL",
+ "number": "F-74795",
+ "date": "2026-12-08",
+ "due_date": "2027-01-22",
+ "lines": [
+  {
+   "description": "variateurs",
+   "quantity": 12,
+   "unit_price": 185.35
+  },
+  {
+   "description": "poulies",
+   "quantity": 6,
+   "unit_price": 73.35
+  }
+ ],
+ "total": 2664.3,
+ "total_page": 2
+}

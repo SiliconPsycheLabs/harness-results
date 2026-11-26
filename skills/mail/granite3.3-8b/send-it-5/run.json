@@ -1,0 +1,71 @@
+{
+ "request": "send-it-5",
+ "kind": "send",
+ "language": "it",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Officine Galli S.r.l."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "ordini@officinegalli.example"
+     ],
+     "subject": "Ordine PO-7273",
+     "body": "Gentile Officine Galli S.r.l.,\n\nStiamo inviando questo messaggio per confermare il nostro ordine con il numero PO-7273. Richiediamo la consegna entro il 15 gennaio 2027 e l'ordine ha un valore di 8.846,90 euro.\n\nPer favore, chiediamo a Stefano Riva di fornirci una conferma scritta di questo ordine.\n\nAllegato: /acme/documents/orders/po-7273.xlsx\n\nGrazie per la vostra attenzione.\n\nCordiali saluti,\nAcme Components",
+     "attachments": [
+      "/acme/documents/orders/po-7273.xlsx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "L'ordine PO-7273 è stato inviato con successo a Officine Galli S.r.l. con una richiesta di conferma scritta da Stefano Riva e l'allegato po-7273.xlsx.",
+  "seconds": 9.02,
+  "tokens_in": 2320,
+  "tokens_out": 353,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Officine Galli S.r.l."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "ordini@officinegalli.example"
+     ],
+     "subject": "Ordine PO-7273",
+     "body": "Gentile Officine Galli S.r.l.,\n\nStiamo inviando questo messaggio per confermare il nostro ordine con il numero PO-7273. Richiediamo la consegna entro il 15 gennaio 2027 e l'ordine ha un valore di 8.846,90 euro.\n\nPer favore, chiediamo a Stefano Riva di fornirci una conferma scritta di questo ordine.\n\nAllegato: /acme/documents/orders/po-7273.xlsx\n\nGrazie per la vostra attenzione.\n\nCordiali saluti,\nAcme Components",
+     "attachments": [
+      "/acme/documents/orders/po-7273.xlsx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "L'ordine PO-7273 è stato inviato con successo a Officine Galli S.r.l. con una richiesta di conferma scritta da Stefano Riva e l'allegato po-7273.xlsx."
+ }
+}

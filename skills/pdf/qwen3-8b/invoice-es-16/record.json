@@ -1,0 +1,25 @@
+{
+ "supplier": "Suministros Ibarra S.L.",
+ "number": "SI-61693",
+ "date": "2026-12-24",
+ "due_date": "2027-02-07",
+ "lines": [
+  {
+   "description": "bombas de engrase",
+   "quantity": 12,
+   "unit_price": 108.9
+  },
+  {
+   "description": "correas",
+   "quantity": 60,
+   "unit_price": 75.1
+  },
+  {
+   "description": "brocas",
+   "quantity": 12,
+   "unit_price": 15
+  }
+ ],
+ "total": 5992.8,
+ "total_page": 2
+}

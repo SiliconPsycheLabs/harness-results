@@ -70,8 +70,8 @@
    }
   ],
   "answer": "/acme/documents/sheets/order_2027-132.xlsx",
-  "seconds": 32.55,
-  "tokens_in": 2092,
+  "seconds": 32.21,
+  "tokens_in": 2122,
   "tokens_out": 416,
   "right": true,
   "missing": []
