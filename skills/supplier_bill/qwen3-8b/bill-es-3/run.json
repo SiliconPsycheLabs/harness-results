@@ -1,0 +1,79 @@
+{
+ "request": "bill-es-3",
+ "kind": "bill",
+ "language": "es",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Suministros Ibarra S.L."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Suministros Ibarra S.L.",
+     "number": "SI-3358",
+     "date": "2026-12-11",
+     "due_date": "2027-01-10",
+     "lines": [
+      {
+       "description": "Bombas de engrase",
+       "quantity": 18,
+       "unit_price": 96.5
+      }
+     ],
+     "total": 1737
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "La factura ha sido registrada como borrador. Está lista para ser validada.",
+  "seconds": 20.25,
+  "tokens_in": 3189,
+  "tokens_out": 172,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Suministros Ibarra S.L."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Suministros Ibarra S.L.",
+     "number": "SI-3358",
+     "date": "2026-12-11",
+     "due_date": "2027-01-10",
+     "lines": [
+      {
+       "description": "Bombas de engrase",
+       "quantity": 18,
+       "unit_price": 96.5
+      }
+     ],
+     "total": 1737
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "La factura ha sido registrada como borrador. Está lista para ser validada."
+ }
+}

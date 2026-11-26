@@ -1,0 +1,79 @@
+{
+ "request": "bill-it-3",
+ "kind": "bill",
+ "language": "it",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Officine Galli S.r.l."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Officine Galli S.r.l.",
+     "number": "FG-0467",
+     "date": "2026-12-10",
+     "due_date": "2027-01-09",
+     "lines": [
+      {
+       "description": "12 riduttori di pressione a 187,50 euro l'uno",
+       "quantity": 12,
+       "unit_price": 187.5
+      }
+     ],
+     "total": 2250.0
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Inserito come fattura in bozza 1: Officine Galli S.r.l., fattura FG-0467, totale netto 2250,00 EUR, in attesa di validazione.",
+  "seconds": 5.58,
+  "tokens_in": 3130,
+  "tokens_out": 198,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Officine Galli S.r.l."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Officine Galli S.r.l.",
+     "number": "FG-0467",
+     "date": "2026-12-10",
+     "due_date": "2027-01-09",
+     "lines": [
+      {
+       "description": "12 riduttori di pressione a 187,50 euro l'uno",
+       "quantity": 12,
+       "unit_price": 187.5
+      }
+     ],
+     "total": 2250.0
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Inserito come fattura in bozza 1: Officine Galli S.r.l., fattura FG-0467, totale netto 2250,00 EUR, in attesa di validazione."
+ }
+}

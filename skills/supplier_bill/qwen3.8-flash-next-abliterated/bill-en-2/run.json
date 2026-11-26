@@ -1,0 +1,99 @@
+{
+ "request": "bill-en-2",
+ "kind": "bill",
+ "language": "en",
+ "model": "qwen3.8-flash-next-abliterated",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Harbor Tools"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Harbor Tools Inc.",
+     "number": "HT-9907",
+     "date": "2026-12-03",
+     "due_date": "2027-01-02",
+     "lines": [
+      {
+       "description": "Torque wrenches",
+       "quantity": 25,
+       "unit_price": 64.0
+      },
+      {
+       "description": "Socket sets",
+       "quantity": 10,
+       "unit_price": 38.5
+      },
+      {
+       "description": "Delivery charge",
+       "quantity": 1,
+       "unit_price": 45.0
+      }
+     ],
+     "total": 2030.0
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Invoice HT-9907 from Harbor Tools Inc. entered as draft bill 1, waiting for validation.",
+  "seconds": 25.97,
+  "tokens_in": 3240,
+  "tokens_out": 216,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Harbor Tools"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Harbor Tools Inc.",
+     "number": "HT-9907",
+     "date": "2026-12-03",
+     "due_date": "2027-01-02",
+     "lines": [
+      {
+       "description": "Torque wrenches",
+       "quantity": 25,
+       "unit_price": 64.0
+      },
+      {
+       "description": "Socket sets",
+       "quantity": 10,
+       "unit_price": 38.5
+      },
+      {
+       "description": "Delivery charge",
+       "quantity": 1,
+       "unit_price": 45.0
+      }
+     ],
+     "total": 2030.0
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Invoice HT-9907 from Harbor Tools Inc. entered as draft bill 1, waiting for validation."
+ }
+}

@@ -1,0 +1,99 @@
+{
+ "request": "bill-es-4",
+ "kind": "bill",
+ "language": "es",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Ibarra"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Suministros Ibarra S.L.",
+     "number": "SI-3371",
+     "date": "2026-12-17",
+     "due_date": "2027-01-16",
+     "lines": [
+      {
+       "description": "filtros de aire",
+       "quantity": 35,
+       "unit_price": 28.4
+      },
+      {
+       "description": "manómetros",
+       "quantity": 10,
+       "unit_price": 51
+      },
+      {
+       "description": "montaje",
+       "quantity": 3,
+       "unit_price": 55
+      }
+     ],
+     "total": 1669
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "entered as draft bill 1: Suministros Ibarra S.L., invoice SI-3371, net total 1669.00 EUR, waiting for validation",
+  "seconds": 5.16,
+  "tokens_in": 3173,
+  "tokens_out": 212,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Ibarra"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Suministros Ibarra S.L.",
+     "number": "SI-3371",
+     "date": "2026-12-17",
+     "due_date": "2027-01-16",
+     "lines": [
+      {
+       "description": "filtros de aire",
+       "quantity": 35,
+       "unit_price": 28.4
+      },
+      {
+       "description": "manómetros",
+       "quantity": 10,
+       "unit_price": 51
+      },
+      {
+       "description": "montaje",
+       "quantity": 3,
+       "unit_price": 55
+      }
+     ],
+     "total": 1669
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "entered as draft bill 1: Suministros Ibarra S.L., invoice SI-3371, net total 1669.00 EUR, waiting for validation"
+ }
+}

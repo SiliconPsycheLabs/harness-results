@@ -1,0 +1,89 @@
+{
+ "request": "bill-es-1",
+ "kind": "bill",
+ "language": "es",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Suministros Ibarra S.L."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Suministros Ibarra S.L.",
+     "number": "SI-3310",
+     "date": "2026-12-02",
+     "due_date": "2027-01-01",
+     "lines": [
+      {
+       "description": "rodamientos",
+       "quantity": 60,
+       "unit_price": 22
+      },
+      {
+       "description": "correas",
+       "quantity": 12,
+       "unit_price": 75
+      }
+     ],
+     "total": 2220
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Factura registrada como borrador. Suministros Ibarra S.L., factura SI-3310, total neto 2220,00 EUR, esperando validación.",
+  "seconds": 10.04,
+  "tokens_in": 3261,
+  "tokens_out": 217,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Suministros Ibarra S.L."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Suministros Ibarra S.L.",
+     "number": "SI-3310",
+     "date": "2026-12-02",
+     "due_date": "2027-01-01",
+     "lines": [
+      {
+       "description": "rodamientos",
+       "quantity": 60,
+       "unit_price": 22
+      },
+      {
+       "description": "correas",
+       "quantity": 12,
+       "unit_price": 75
+      }
+     ],
+     "total": 2220
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Factura registrada como borrador. Suministros Ibarra S.L., factura SI-3310, total neto 2220,00 EUR, esperando validación."
+ }
+}

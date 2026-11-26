@@ -1,0 +1,79 @@
+{
+ "request": "bill-it-3",
+ "kind": "bill",
+ "language": "it",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Officine Galli S.r.l."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Officine Galli S.r.l.",
+     "number": "FG-0467",
+     "date": "2026-12-10",
+     "due_date": "2027-01-09",
+     "lines": [
+      {
+       "description": "12 riduttori di pressione",
+       "quantity": 12,
+       "unit_price": 187.5
+      }
+     ],
+     "total": 2250
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Invoice FG-0467 from Officine Galli S.r.l. has been entered as a draft bill with a net total of 2250.00 EUR. It is now waiting for validation.",
+  "seconds": 6.86,
+  "tokens_in": 3206,
+  "tokens_out": 203,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Officine Galli S.r.l."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Officine Galli S.r.l.",
+     "number": "FG-0467",
+     "date": "2026-12-10",
+     "due_date": "2027-01-09",
+     "lines": [
+      {
+       "description": "12 riduttori di pressione",
+       "quantity": 12,
+       "unit_price": 187.5
+      }
+     ],
+     "total": 2250
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Invoice FG-0467 from Officine Galli S.r.l. has been entered as a draft bill with a net total of 2250.00 EUR. It is now waiting for validation."
+ }
+}

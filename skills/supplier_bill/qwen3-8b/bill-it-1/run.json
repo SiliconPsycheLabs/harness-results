@@ -1,0 +1,89 @@
+{
+ "request": "bill-it-1",
+ "kind": "bill",
+ "language": "it",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Tessitura Bellomo S.p.A."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Tessitura Bellomo S.p.A.",
+     "number": "1184/2026",
+     "date": "2026-12-02",
+     "due_date": "2027-01-31",
+     "lines": [
+      {
+       "description": "300 metri di tessuto tecnico",
+       "quantity": 300,
+       "unit_price": 6.4
+      },
+      {
+       "description": "20 rotoli di nastro di rinforzo",
+       "quantity": 20,
+       "unit_price": 12
+      }
+     ],
+     "total": 2160
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Fattura registrata come bozza. Attendere la validazione.",
+  "seconds": 6.02,
+  "tokens_in": 3336,
+  "tokens_out": 209,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Tessitura Bellomo S.p.A."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Tessitura Bellomo S.p.A.",
+     "number": "1184/2026",
+     "date": "2026-12-02",
+     "due_date": "2027-01-31",
+     "lines": [
+      {
+       "description": "300 metri di tessuto tecnico",
+       "quantity": 300,
+       "unit_price": 6.4
+      },
+      {
+       "description": "20 rotoli di nastro di rinforzo",
+       "quantity": 20,
+       "unit_price": 12
+      }
+     ],
+     "total": 2160
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Fattura registrata come bozza. Attendere la validazione."
+ }
+}

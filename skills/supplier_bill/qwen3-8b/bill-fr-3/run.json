@@ -1,0 +1,79 @@
+{
+ "request": "bill-fr-3",
+ "kind": "bill",
+ "language": "fr",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Atelier Dumont SARL"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Atelier Dumont SARL",
+     "number": "F-2026-0968",
+     "date": "2026-12-12",
+     "due_date": "2027-01-11",
+     "lines": [
+      {
+       "description": "roulements coniques",
+       "quantity": 45,
+       "unit_price": 27.6
+      }
+     ],
+     "total": 1242
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Invoice entered as draft bill 1: Atelier Dumont SARL, invoice F-2026-0968, net total 1242.00 EUR, waiting for validation.",
+  "seconds": 6.44,
+  "tokens_in": 3187,
+  "tokens_out": 198,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Atelier Dumont SARL"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Atelier Dumont SARL",
+     "number": "F-2026-0968",
+     "date": "2026-12-12",
+     "due_date": "2027-01-11",
+     "lines": [
+      {
+       "description": "roulements coniques",
+       "quantity": 45,
+       "unit_price": 27.6
+      }
+     ],
+     "total": 1242
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Invoice entered as draft bill 1: Atelier Dumont SARL, invoice F-2026-0968, net total 1242.00 EUR, waiting for validation."
+ }
+}

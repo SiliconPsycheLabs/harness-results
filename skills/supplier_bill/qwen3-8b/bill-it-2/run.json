@@ -1,0 +1,99 @@
+{
+ "request": "bill-it-2",
+ "kind": "bill",
+ "language": "it",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Officine Galli"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Officine Galli S.r.l.",
+     "number": "FG-0452",
+     "date": "2026-12-04",
+     "due_date": "2027-01-03",
+     "lines": [
+      {
+       "description": "valvole a sfera",
+       "quantity": 25,
+       "unit_price": 48
+      },
+      {
+       "description": "guarnizioni",
+       "quantity": 100,
+       "unit_price": 2.4
+      },
+      {
+       "description": "trasporto",
+       "quantity": 1,
+       "unit_price": 60
+      }
+     ],
+     "total": 1500
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Fattura inserita come bozza: Officine Galli S.r.l., numero FG-0452, totale netto 1500,00 EUR, in attesa di validazione.",
+  "seconds": 7.53,
+  "tokens_in": 3266,
+  "tokens_out": 241,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Officine Galli"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Officine Galli S.r.l.",
+     "number": "FG-0452",
+     "date": "2026-12-04",
+     "due_date": "2027-01-03",
+     "lines": [
+      {
+       "description": "valvole a sfera",
+       "quantity": 25,
+       "unit_price": 48
+      },
+      {
+       "description": "guarnizioni",
+       "quantity": 100,
+       "unit_price": 2.4
+      },
+      {
+       "description": "trasporto",
+       "quantity": 1,
+       "unit_price": 60
+      }
+     ],
+     "total": 1500
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Fattura inserita come bozza: Officine Galli S.r.l., numero FG-0452, totale netto 1500,00 EUR, in attesa di validazione."
+ }
+}

@@ -1,0 +1,99 @@
+{
+ "request": "bill-fr-2",
+ "kind": "bill",
+ "language": "fr",
+ "model": "qwen3.8-flash-next-abliterated",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Atelier Dumont"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Atelier Dumont SARL",
+     "number": "F-2026-0951",
+     "date": "2026-12-08",
+     "due_date": "2027-01-07",
+     "lines": [
+      {
+       "description": "Courroies",
+       "quantity": 30,
+       "unit_price": 21.5
+      },
+      {
+       "description": "Poulies",
+       "quantity": 6,
+       "unit_price": 84.0
+      },
+      {
+       "description": "Forfait de port",
+       "quantity": 1,
+       "unit_price": 39.0
+      }
+     ],
+     "total": 1188.0
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Facture F-2026-0951 de l'Atelier Dumont SARL enregistrée en brouillon (total HT 1 188,00 €), en attente de validation.",
+  "seconds": 21.43,
+  "tokens_in": 3307,
+  "tokens_out": 250,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Atelier Dumont"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Atelier Dumont SARL",
+     "number": "F-2026-0951",
+     "date": "2026-12-08",
+     "due_date": "2027-01-07",
+     "lines": [
+      {
+       "description": "Courroies",
+       "quantity": 30,
+       "unit_price": 21.5
+      },
+      {
+       "description": "Poulies",
+       "quantity": 6,
+       "unit_price": 84.0
+      },
+      {
+       "description": "Forfait de port",
+       "quantity": 1,
+       "unit_price": 39.0
+      }
+     ],
+     "total": 1188.0
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Facture F-2026-0951 de l'Atelier Dumont SARL enregistrée en brouillon (total HT 1 188,00 €), en attente de validation."
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "request": "bill-de-1",
+ "kind": "bill",
+ "language": "de",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Krämer Werkzeugbau GmbH"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Krämer Werkzeugbau GmbH",
+     "number": "KW-5511",
+     "date": "2026-12-03",
+     "due_date": "2027-01-02",
+     "lines": [
+      {
+       "description": "Fräsköpfe",
+       "quantity": 12,
+       "unit_price": 140.0
+      },
+      {
+       "description": "Wendeschneidplatten",
+       "quantity": 30,
+       "unit_price": 9.5
+      }
+     ],
+     "total": 1965.0
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "entered as draft bill 1: Krämer Werkzeugbau GmbH, invoice KW-5511, net total 1965.00 EUR, waiting for validation",
+  "seconds": 5.56,
+  "tokens_in": 3213,
+  "tokens_out": 213,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Krämer Werkzeugbau GmbH"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Krämer Werkzeugbau GmbH",
+     "number": "KW-5511",
+     "date": "2026-12-03",
+     "due_date": "2027-01-02",
+     "lines": [
+      {
+       "description": "Fräsköpfe",
+       "quantity": 12,
+       "unit_price": 140.0
+      },
+      {
+       "description": "Wendeschneidplatten",
+       "quantity": 30,
+       "unit_price": 9.5
+      }
+     ],
+     "total": 1965.0
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "entered as draft bill 1: Krämer Werkzeugbau GmbH, invoice KW-5511, net total 1965.00 EUR, waiting for validation"
+ }
+}

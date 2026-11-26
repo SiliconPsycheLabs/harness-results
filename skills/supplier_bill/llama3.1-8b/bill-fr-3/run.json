@@ -1,0 +1,79 @@
+{
+ "request": "bill-fr-3",
+ "kind": "bill",
+ "language": "fr",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Atelier Dumont SARL"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Atelier Dumont SARL",
+     "number": "F-2026-0968",
+     "date": "2026-12-12",
+     "due_date": "2027-01-11",
+     "lines": [
+      {
+       "description": "45 roulements coniques",
+       "quantity": 45,
+       "unit_price": 27.6
+      }
+     ],
+     "total": 1242.0
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "entered as draft bill 1: Atelier Dumont SARL, invoice F-2026-0968, net total 1242.00 EUR, waiting for validation",
+  "seconds": 6.74,
+  "tokens_in": 3101,
+  "tokens_out": 176,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Atelier Dumont SARL"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Atelier Dumont SARL",
+     "number": "F-2026-0968",
+     "date": "2026-12-12",
+     "due_date": "2027-01-11",
+     "lines": [
+      {
+       "description": "45 roulements coniques",
+       "quantity": 45,
+       "unit_price": 27.6
+      }
+     ],
+     "total": 1242.0
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "entered as draft bill 1: Atelier Dumont SARL, invoice F-2026-0968, net total 1242.00 EUR, waiting for validation"
+ }
+}

@@ -1,0 +1,99 @@
+{
+ "request": "bill-it-4",
+ "kind": "bill",
+ "language": "it",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Tessitura Bellomo"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Tessitura Bellomo S.p.A.",
+     "number": "1201/2026",
+     "date": "2026-12-15",
+     "lines": [
+      {
+       "description": "150 metri di feltro industriale",
+       "quantity": 150,
+       "unit_price": 9.8
+      },
+      {
+       "description": "40 bobine di filo",
+       "quantity": 40,
+       "unit_price": 7.25
+      },
+      {
+       "description": "2 campionature",
+       "quantity": 2,
+       "unit_price": 55.0
+      }
+     ],
+     "total": 1870
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The invoice from Tessitura Bellomo S.p.A. has been entered as draft bill number 1. It's awaiting validation.",
+  "seconds": 6.03,
+  "tokens_in": 3497,
+  "tokens_out": 241,
+  "right": false,
+  "missing": [
+   "due date is 2026-11-26, not 2027-02-14"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Tessitura Bellomo"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Tessitura Bellomo S.p.A.",
+     "number": "1201/2026",
+     "date": "2026-12-15",
+     "lines": [
+      {
+       "description": "150 metri di feltro industriale",
+       "quantity": 150,
+       "unit_price": 9.8
+      },
+      {
+       "description": "40 bobine di filo",
+       "quantity": 40,
+       "unit_price": 7.25
+      },
+      {
+       "description": "2 campionature",
+       "quantity": 2,
+       "unit_price": 55.0
+      }
+     ],
+     "total": 1870
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The invoice from Tessitura Bellomo S.p.A. has been entered as draft bill number 1. It's awaiting validation."
+ }
+}

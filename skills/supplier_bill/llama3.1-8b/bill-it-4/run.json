@@ -1,0 +1,99 @@
+{
+ "request": "bill-it-4",
+ "kind": "bill",
+ "language": "it",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Tessitura Bellomo"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Tessitura Bellomo S.p.A.",
+     "number": "1201/2026",
+     "date": "2026-12-15",
+     "due_date": "2027-02-14",
+     "lines": [
+      {
+       "description": "150 metri di feltro industriale",
+       "quantity": 150,
+       "unit_price": 9.8
+      },
+      {
+       "description": "40 bobine di filo",
+       "quantity": 40,
+       "unit_price": 7.25
+      },
+      {
+       "description": "2 campionature",
+       "quantity": 2,
+       "unit_price": 55
+      }
+     ],
+     "total": 1870.0
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "fattura registrata con successo, aspettando validazione",
+  "seconds": 21.73,
+  "tokens_in": 3223,
+  "tokens_out": 206,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Tessitura Bellomo"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Tessitura Bellomo S.p.A.",
+     "number": "1201/2026",
+     "date": "2026-12-15",
+     "due_date": "2027-02-14",
+     "lines": [
+      {
+       "description": "150 metri di feltro industriale",
+       "quantity": 150,
+       "unit_price": 9.8
+      },
+      {
+       "description": "40 bobine di filo",
+       "quantity": 40,
+       "unit_price": 7.25
+      },
+      {
+       "description": "2 campionature",
+       "quantity": 2,
+       "unit_price": 55
+      }
+     ],
+     "total": 1870.0
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "fattura registrata con successo, aspettando validazione"
+ }
+}

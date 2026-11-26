@@ -1,0 +1,99 @@
+{
+ "request": "bill-de-4",
+ "kind": "bill",
+ "language": "de",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Krämer"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Krämer Werkzeugbau GmbH",
+     "number": "KW-5548",
+     "date": "2026-12-18",
+     "due_date": "2027-01-17",
+     "lines": [
+      {
+       "description": "Spannfutter",
+       "quantity": 6,
+       "unit_price": 265
+      },
+      {
+       "description": "Bohrer",
+       "quantity": 40,
+       "unit_price": 7.8
+      },
+      {
+       "description": "Einweisung",
+       "quantity": 2,
+       "unit_price": 90
+      }
+     ],
+     "total": 2082
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Rechnung von Krämer Werkzeugbau GmbH mit der Nummer KW-5548 wurde als Entwurf eingetragen. Nettosumme: 2082,00 EUR. Warte auf Validierung.",
+  "seconds": 7.4,
+  "tokens_in": 3262,
+  "tokens_out": 242,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Krämer"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Krämer Werkzeugbau GmbH",
+     "number": "KW-5548",
+     "date": "2026-12-18",
+     "due_date": "2027-01-17",
+     "lines": [
+      {
+       "description": "Spannfutter",
+       "quantity": 6,
+       "unit_price": 265
+      },
+      {
+       "description": "Bohrer",
+       "quantity": 40,
+       "unit_price": 7.8
+      },
+      {
+       "description": "Einweisung",
+       "quantity": 2,
+       "unit_price": 90
+      }
+     ],
+     "total": 2082
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Rechnung von Krämer Werkzeugbau GmbH mit der Nummer KW-5548 wurde als Entwurf eingetragen. Nettosumme: 2082,00 EUR. Warte auf Validierung."
+ }
+}

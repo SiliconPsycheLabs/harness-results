@@ -1,0 +1,99 @@
+{
+ "request": "bill-en-4",
+ "kind": "bill",
+ "language": "en",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Harbor Tools Inc."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Harbor Tools Inc.",
+     "number": "HT-9931",
+     "date": "2026-12-11",
+     "due_date": "2027-01-10",
+     "lines": [
+      {
+       "description": "bench vices",
+       "quantity": 8,
+       "unit_price": 112.5
+      },
+      {
+       "description": "hacksaw blades",
+       "quantity": 60,
+       "unit_price": 3.2
+      },
+      {
+       "description": "tool cabinets",
+       "quantity": 4,
+       "unit_price": 235
+      }
+     ],
+     "total": 2032
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Invoice HT-9931 from Harbor Tools Inc. has been entered as a draft bill with a net total of 2032.00 EUR. It is now waiting for validation.",
+  "seconds": 10.03,
+  "tokens_in": 3223,
+  "tokens_out": 233,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Harbor Tools Inc."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Harbor Tools Inc.",
+     "number": "HT-9931",
+     "date": "2026-12-11",
+     "due_date": "2027-01-10",
+     "lines": [
+      {
+       "description": "bench vices",
+       "quantity": 8,
+       "unit_price": 112.5
+      },
+      {
+       "description": "hacksaw blades",
+       "quantity": 60,
+       "unit_price": 3.2
+      },
+      {
+       "description": "tool cabinets",
+       "quantity": 4,
+       "unit_price": 235
+      }
+     ],
+     "total": 2032
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Invoice HT-9931 from Harbor Tools Inc. has been entered as a draft bill with a net total of 2032.00 EUR. It is now waiting for validation."
+ }
+}

@@ -1,0 +1,99 @@
+{
+ "request": "bill-es-4",
+ "kind": "bill",
+ "language": "es",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Ibarra"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Suministros Ibarra S.L.",
+     "number": "SI-3371",
+     "date": "2026-12-17",
+     "due_date": "2027-01-16",
+     "lines": [
+      {
+       "description": "35 filtros de aire",
+       "quantity": 35,
+       "unit_price": 28.4
+      },
+      {
+       "description": "10 manómetros",
+       "quantity": 10,
+       "unit_price": 51
+      },
+      {
+       "description": "3 horas de montaje",
+       "quantity": 3,
+       "unit_price": 55
+      }
+     ],
+     "total": 1669
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Factura registrada como borrador: Suministros Ibarra S.L., número SI-3371, total neto 1669,00 EUR, esperando validación.",
+  "seconds": 7.33,
+  "tokens_in": 3278,
+  "tokens_out": 243,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Ibarra"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Suministros Ibarra S.L.",
+     "number": "SI-3371",
+     "date": "2026-12-17",
+     "due_date": "2027-01-16",
+     "lines": [
+      {
+       "description": "35 filtros de aire",
+       "quantity": 35,
+       "unit_price": 28.4
+      },
+      {
+       "description": "10 manómetros",
+       "quantity": 10,
+       "unit_price": 51
+      },
+      {
+       "description": "3 horas de montaje",
+       "quantity": 3,
+       "unit_price": 55
+      }
+     ],
+     "total": 1669
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Factura registrada como borrador: Suministros Ibarra S.L., número SI-3371, total neto 1669,00 EUR, esperando validación."
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "request": "bill-fr-1",
+ "kind": "bill",
+ "language": "fr",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Atelier Dumont SARL"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Atelier Dumont SARL",
+     "number": "F-2026-0932",
+     "date": "2026-12-03",
+     "due_date": "2027-01-02",
+     "lines": [
+      {
+       "description": "8 moteurs électriques",
+       "quantity": 8,
+       "unit_price": 310.0
+      },
+      {
+       "description": "8 variateurs",
+       "quantity": 8,
+       "unit_price": 145.0
+      }
+     ],
+     "total": 3640.0
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "entered as draft bill 1: Atelier Dumont SARL, invoice F-2026-0932, net total 3640.00 EUR, waiting for validation",
+  "seconds": 5.96,
+  "tokens_in": 3176,
+  "tokens_out": 200,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Atelier Dumont SARL"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Atelier Dumont SARL",
+     "number": "F-2026-0932",
+     "date": "2026-12-03",
+     "due_date": "2027-01-02",
+     "lines": [
+      {
+       "description": "8 moteurs électriques",
+       "quantity": 8,
+       "unit_price": 310.0
+      },
+      {
+       "description": "8 variateurs",
+       "quantity": 8,
+       "unit_price": 145.0
+      }
+     ],
+     "total": 3640.0
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "entered as draft bill 1: Atelier Dumont SARL, invoice F-2026-0932, net total 3640.00 EUR, waiting for validation"
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "request": "bill-fr-1",
+ "kind": "bill",
+ "language": "fr",
+ "model": "qwen3.8-flash-next-abliterated",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Atelier Dumont"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Atelier Dumont SARL",
+     "number": "F-2026-0932",
+     "date": "2026-12-03",
+     "due_date": "2027-01-02",
+     "lines": [
+      {
+       "description": "Moteurs électriques",
+       "quantity": 8,
+       "unit_price": 310.0
+      },
+      {
+       "description": "Variateurs",
+       "quantity": 8,
+       "unit_price": 145.0
+      }
+     ],
+     "total": 3640.0
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Facture F-2026-0932 d'Atelier Dumont SARL saisie en brouillon (total 3 640,00 €), en attente de validation.",
+  "seconds": 17.62,
+  "tokens_in": 3265,
+  "tokens_out": 224,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Atelier Dumont"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Atelier Dumont SARL",
+     "number": "F-2026-0932",
+     "date": "2026-12-03",
+     "due_date": "2027-01-02",
+     "lines": [
+      {
+       "description": "Moteurs électriques",
+       "quantity": 8,
+       "unit_price": 310.0
+      },
+      {
+       "description": "Variateurs",
+       "quantity": 8,
+       "unit_price": 145.0
+      }
+     ],
+     "total": 3640.0
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Facture F-2026-0932 d'Atelier Dumont SARL saisie en brouillon (total 3 640,00 €), en attente de validation."
+ }
+}

@@ -1,0 +1,99 @@
+{
+ "request": "bill-es-2",
+ "kind": "bill",
+ "language": "es",
+ "model": "qwen3.8-flash-next-abliterated",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Suministros Ibarra"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Suministros Ibarra S.L.",
+     "number": "SI-3342",
+     "date": "2026-12-09",
+     "due_date": "2027-01-08",
+     "lines": [
+      {
+       "description": "Tornillos de anclaje",
+       "quantity": 200,
+       "unit_price": 1.85
+      },
+      {
+       "description": "Juntas tóricas",
+       "quantity": 15,
+       "unit_price": 4.2
+      },
+      {
+       "description": "Porte",
+       "quantity": 1,
+       "unit_price": 47.0
+      }
+     ],
+     "total": 480.0
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Factura SI-3342 de Suministros Ibarra S.L. introducida como borrador (total 480,00 €), pendiente de validación.",
+  "seconds": 30.67,
+  "tokens_in": 3308,
+  "tokens_out": 245,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Suministros Ibarra"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Suministros Ibarra S.L.",
+     "number": "SI-3342",
+     "date": "2026-12-09",
+     "due_date": "2027-01-08",
+     "lines": [
+      {
+       "description": "Tornillos de anclaje",
+       "quantity": 200,
+       "unit_price": 1.85
+      },
+      {
+       "description": "Juntas tóricas",
+       "quantity": 15,
+       "unit_price": 4.2
+      },
+      {
+       "description": "Porte",
+       "quantity": 1,
+       "unit_price": 47.0
+      }
+     ],
+     "total": 480.0
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Factura SI-3342 de Suministros Ibarra S.L. introducida como borrador (total 480,00 EUR), pendiente de validación."
+ }
+}

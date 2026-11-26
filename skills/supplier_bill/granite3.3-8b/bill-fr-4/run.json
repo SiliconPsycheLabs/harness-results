@@ -1,0 +1,99 @@
+{
+ "request": "bill-fr-4",
+ "kind": "bill",
+ "language": "fr",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Dumont"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Atelier Dumont SARL",
+     "number": "F-2026-0977",
+     "date": "2026-12-16",
+     "lines": [
+      {
+       "description": "4 réducteurs",
+       "quantity": 4,
+       "unit_price": 420
+      },
+      {
+       "description": "16 accouplements",
+       "quantity": 16,
+       "unit_price": 36.25
+      },
+      {
+       "description": "2 heures de mise en service",
+       "quantity": 2,
+       "unit_price": 85
+      }
+     ],
+     "total": 2430
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The invoice has been entered as draft bill 1. It is awaiting validation.",
+  "seconds": 5.3,
+  "tokens_in": 3439,
+  "tokens_out": 216,
+  "right": false,
+  "missing": [
+   "due date is 2026-11-26, not 2027-01-15"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Dumont"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Atelier Dumont SARL",
+     "number": "F-2026-0977",
+     "date": "2026-12-16",
+     "lines": [
+      {
+       "description": "4 réducteurs",
+       "quantity": 4,
+       "unit_price": 420
+      },
+      {
+       "description": "16 accouplements",
+       "quantity": 16,
+       "unit_price": 36.25
+      },
+      {
+       "description": "2 heures de mise en service",
+       "quantity": 2,
+       "unit_price": 85
+      }
+     ],
+     "total": 2430
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The invoice has been entered as draft bill 1. It's waiting for validation."
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "request": "bill-en-3",
+ "kind": "bill",
+ "language": "en",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Northwind Bearings Ltd."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Northwind Bearings Ltd",
+     "number": "NB-20455",
+     "date": "1926-12-09",
+     "due_date": "1927-01-08",
+     "lines": [
+      {
+       "description": "1,200 needle bearings",
+       "quantity": 1200,
+       "unit_price": 1.35
+      }
+     ],
+     "total": 1620
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The invoice has been entered as draft bill 1. It's waiting for validation.",
+  "seconds": 5.32,
+  "tokens_in": 3237,
+  "tokens_out": 177,
+  "right": false,
+  "missing": [
+   "date is 1926-12-09, not 2026-12-09",
+   "due date is 1927-01-08, not 2027-01-08"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Northwind Bearings Ltd."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Northwind Bearings Ltd. found. Proceeding with invoice entry."
+ }
+}

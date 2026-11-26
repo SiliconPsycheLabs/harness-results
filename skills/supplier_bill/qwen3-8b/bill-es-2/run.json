@@ -1,0 +1,99 @@
+{
+ "request": "bill-es-2",
+ "kind": "bill",
+ "language": "es",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Suministros Ibarra"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Suministros Ibarra S.L.",
+     "number": "SI-3342",
+     "date": "2026-12-09",
+     "due_date": "2027-01-08",
+     "lines": [
+      {
+       "description": "200 tornillos de anclaje",
+       "quantity": 200,
+       "unit_price": 1.85
+      },
+      {
+       "description": "15 juntas tóricas",
+       "quantity": 15,
+       "unit_price": 4.2
+      },
+      {
+       "description": "1 porte",
+       "quantity": 1,
+       "unit_price": 47.0
+      }
+     ],
+     "total": 480.0
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "La factura de Suministros Ibarra S.L. con número SI-3342 se ha introducido como factura de borrador con un total de 480,00 EUR. Está esperando validación.",
+  "seconds": 9.04,
+  "tokens_in": 3297,
+  "tokens_out": 261,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Suministros Ibarra"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Suministros Ibarra S.L.",
+     "number": "SI-3342",
+     "date": "2026-12-09",
+     "due_date": "2027-01-08",
+     "lines": [
+      {
+       "description": "200 tornillos de anclaje",
+       "quantity": 200,
+       "unit_price": 1.85
+      },
+      {
+       "description": "15 juntas tóricas",
+       "quantity": 15,
+       "unit_price": 4.2
+      },
+      {
+       "description": "1 porte",
+       "quantity": 1,
+       "unit_price": 47.0
+      }
+     ],
+     "total": 480.0
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "La factura de Suministros Ibarra S.L. con número SI-3342 se ha introducido como factura de borrador con un total de 480,00 EUR. Está esperando validación."
+ }
+}

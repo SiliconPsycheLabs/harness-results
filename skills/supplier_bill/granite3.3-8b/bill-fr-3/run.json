@@ -1,0 +1,65 @@
+{
+ "request": "bill-fr-3",
+ "kind": "bill",
+ "language": "fr",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Atelier Dumont SARL"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Supplier found. Proceeding with the invoice entry.",
+  "seconds": 1.34,
+  "tokens_in": 2105,
+  "tokens_out": 54,
+  "right": false,
+  "missing": [
+   "no bill with the invoice number"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Atelier Dumont SARL"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Atelier Dumont SARL",
+     "number": "F-2026-0968",
+     "date": "2026-12-12",
+     "lines": [
+      {
+       "description": "45 roulements coniques",
+       "quantity": 45,
+       "unit_price": 27.6
+      },
+      {
+       "description": "Total hors taxes",
+       "quantity": 1,
+       "unit_price": 1242
+      }
+     ],
+     "total": 1242
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "I apologize for the error. The total of the lines should match the net total on the invoice. Let's correct this:"
+ }
+}

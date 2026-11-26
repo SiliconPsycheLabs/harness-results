@@ -1,0 +1,79 @@
+{
+ "request": "bill-fr-3",
+ "kind": "bill",
+ "language": "fr",
+ "model": "qwen3.8-flash-next-abliterated",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Atelier Dumont"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Atelier Dumont SARL",
+     "number": "F-2026-0968",
+     "date": "2026-12-12",
+     "due_date": "2027-01-11",
+     "lines": [
+      {
+       "description": "roulements coniques",
+       "quantity": 45,
+       "unit_price": 27.6
+      }
+     ],
+     "total": 1242.0
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Facture F-2026-0968 d'Atelier Dumont SARL saisie en brouillon (1 242,00 EUR), en attente de validation.",
+  "seconds": 19.51,
+  "tokens_in": 3202,
+  "tokens_out": 198,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Atelier Dumont"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Atelier Dumont SARL",
+     "number": "F-2026-0968",
+     "date": "2026-12-12",
+     "due_date": "2027-01-11",
+     "lines": [
+      {
+       "description": "roulements coniques",
+       "quantity": 45,
+       "unit_price": 27.6
+      }
+     ],
+     "total": 1242.0
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Facture F-2026-0968 d'Atelier Dumont SARL saisie en brouillon (1 242,00 EUR), en attente de validation."
+ }
+}

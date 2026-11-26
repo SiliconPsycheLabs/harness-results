@@ -1,0 +1,89 @@
+{
+ "request": "bill-es-1",
+ "kind": "bill",
+ "language": "es",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Suministros Ibarra S.L."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Suministros Ibarra S.L.",
+     "number": "SI-3310",
+     "date": "2026-12-02",
+     "due_date": "2027-01-01",
+     "lines": [
+      {
+       "description": "60 rodamientos",
+       "quantity": 60,
+       "unit_price": 22.0
+      },
+      {
+       "description": "12 correas",
+       "quantity": 12,
+       "unit_price": 75.0
+      }
+     ],
+     "total": 2220.0
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Factura registrada con éxito. Espera a que alguien la valide.",
+  "seconds": 6.4,
+  "tokens_in": 3181,
+  "tokens_out": 180,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Suministros Ibarra S.L."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Suministros Ibarra S.L.",
+     "number": "SI-3310",
+     "date": "2026-12-02",
+     "due_date": "2027-01-01",
+     "lines": [
+      {
+       "description": "60 rodamientos",
+       "quantity": 60,
+       "unit_price": 22.0
+      },
+      {
+       "description": "12 correas",
+       "quantity": 12,
+       "unit_price": 75.0
+      }
+     ],
+     "total": 2220.0
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Factura registrada con éxito. Espera a que alguien la valide."
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "request": "bill-it-3",
+ "kind": "bill",
+ "language": "it",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Officine Galli S.r.l."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Officine Galli S.r.l.",
+     "number": "FG-0467",
+     "date": "2026-12-10",
+     "lines": [
+      {
+       "description": "12 riduttori di pressione",
+       "quantity": 12,
+       "unit_price": 187.5
+      }
+     ],
+     "total": 2250
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The invoice has been entered as draft. It's waiting for validation.",
+  "seconds": 4.47,
+  "tokens_in": 3357,
+  "tokens_out": 164,
+  "right": false,
+  "missing": [
+   "due date is 2026-11-26, not 2027-01-09"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Officine Galli S.r.l."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Officine Galli S.r.l.",
+     "number": "FG-0467",
+     "date": "2026-12-10",
+     "lines": [
+      {
+       "description": "12 riduttori di pressione",
+       "quantity": 12,
+       "unit_price": 187.5
+      }
+     ],
+     "total": 2250
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The invoice has been entered as draft. It's waiting for validation."
+ }
+}

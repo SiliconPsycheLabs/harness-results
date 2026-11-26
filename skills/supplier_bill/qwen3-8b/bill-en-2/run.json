@@ -1,0 +1,99 @@
+{
+ "request": "bill-en-2",
+ "kind": "bill",
+ "language": "en",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Harbor Tools"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Harbor Tools Inc.",
+     "number": "HT-9907",
+     "date": "2026-12-03",
+     "due_date": "2027-01-02",
+     "lines": [
+      {
+       "description": "torque wrenches",
+       "quantity": 25,
+       "unit_price": 64
+      },
+      {
+       "description": "socket sets",
+       "quantity": 10,
+       "unit_price": 38.5
+      },
+      {
+       "description": "delivery charge",
+       "quantity": 1,
+       "unit_price": 45
+      }
+     ],
+     "total": 2030
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Invoice from Harbor Tools Inc. (HT-9907) has been entered as a draft bill with a net total of 2030.00 EUR. It is now waiting for validation.",
+  "seconds": 7.09,
+  "tokens_in": 3204,
+  "tokens_out": 230,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Harbor Tools"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Harbor Tools Inc.",
+     "number": "HT-9907",
+     "date": "2026-12-03",
+     "due_date": "2027-01-02",
+     "lines": [
+      {
+       "description": "torque wrenches",
+       "quantity": 25,
+       "unit_price": 64
+      },
+      {
+       "description": "socket sets",
+       "quantity": 10,
+       "unit_price": 38.5
+      },
+      {
+       "description": "delivery charge",
+       "quantity": 1,
+       "unit_price": 45
+      }
+     ],
+     "total": 2030
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Invoice from Harbor Tools Inc. (HT-9907) has been entered as a draft bill with a net total of 2030.00 EUR. It is now waiting for validation."
+ }
+}

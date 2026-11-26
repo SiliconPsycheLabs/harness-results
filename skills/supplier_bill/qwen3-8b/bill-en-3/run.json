@@ -1,0 +1,119 @@
+{
+ "request": "bill-en-3",
+ "kind": "bill",
+ "language": "en",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Northwind Bearings Ltd.",
+     "number": "NB-20455",
+     "date": "2026-12-09",
+     "due_date": "2027-01-08",
+     "lines": [
+      {
+       "description": "needle bearings",
+       "quantity": 1200,
+       "unit_price": 1.35
+      }
+     ],
+     "total": 1620.0
+    },
+    "gate": "stopped",
+    "reason": "the supplier is not in the company's register: use the exact name find_supplier gives",
+    "ran": false
+   },
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Northwind Bearings Ltd."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Northwind Bearings Ltd",
+     "number": "NB-20455",
+     "date": "2026-12-09",
+     "due_date": "2027-01-08",
+     "lines": [
+      {
+       "description": "needle bearings",
+       "quantity": 1200,
+       "unit_price": 1.35
+      }
+     ],
+     "total": 1620.0
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Invoice entered as draft bill 1: Northwind Bearings Ltd, invoice NB-20455, net total 1620.00 EUR, waiting for validation.",
+  "seconds": 9.93,
+  "tokens_in": 4507,
+  "tokens_out": 299,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Northwind Bearings Ltd.",
+     "number": "NB-20455",
+     "date": "2026-12-09",
+     "due_date": "2027-01-08",
+     "lines": [
+      {
+       "description": "needle bearings",
+       "quantity": 1200,
+       "unit_price": 1.35
+      }
+     ],
+     "total": 1620.0
+    },
+    "gate": "stopped",
+    "reason": "the supplier is not in the company's register: use the exact name find_supplier gives",
+    "ran": true
+   },
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Northwind Bearings"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Northwind Bearings Ltd",
+     "number": "NB-20455",
+     "date": "2026-12-09",
+     "due_date": "2027-01-08",
+     "lines": [
+      {
+       "description": "needle bearings",
+       "quantity": 1200,
+       "unit_price": 1.35
+      }
+     ],
+     "total": 1620.0
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Invoice entered as draft bill 1: Northwind Bearings Ltd, invoice NB-20455, net total 1620.00 EUR, waiting for validation."
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "request": "bill-de-3",
+ "kind": "bill",
+ "language": "de",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Lindner Maschinenbau AG"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Supplier found. Creating the draft bill...",
+  "seconds": 1.33,
+  "tokens_in": 2080,
+  "tokens_out": 52,
+  "right": false,
+  "missing": [
+   "no bill with the invoice number"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Lindner Maschinenbau AG"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Supplier found. Creating the draft bill..."
+ }
+}

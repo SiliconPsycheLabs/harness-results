@@ -26,7 +26,7 @@
   "seconds": 13.75,
   "tokens_in": 1677,
   "tokens_out": 179,
-  "file_written_outside": false
+  "done_anyway": []
  },
  "gate_only_watching": {
   "calls": [
@@ -75,7 +75,9 @@
    }
   ],
   "answer": "/tmp/rapport_ventes.docx",
-  "file_written_outside": true
+  "done_anyway": [
+   "/tmp/rapport_ventes.docx"
+  ]
  },
- "asked_path": "/tmp/rapport_ventes.docx"
+ "asked": "`/tmp/rapport_ventes.docx`"
 }

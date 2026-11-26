@@ -1,0 +1,99 @@
+{
+ "request": "bill-en-2",
+ "kind": "bill",
+ "language": "en",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Harbor Tools"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Harbor Tools Inc.",
+     "number": "HT-9907",
+     "date": "2026-12-03",
+     "due_date": "2027-01-02",
+     "lines": [
+      {
+       "description": "torque wrenches",
+       "quantity": 25,
+       "unit_price": 64.0
+      },
+      {
+       "description": "socket sets",
+       "quantity": 10,
+       "unit_price": 38.5
+      },
+      {
+       "description": "delivery charge",
+       "quantity": 1,
+       "unit_price": 45.0
+      }
+     ],
+     "total": 2030.0
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "entered as draft bill 1: Harbor Tools Inc., invoice HT-9907, net total 2030.00 EUR, waiting for validation",
+  "seconds": 6.77,
+  "tokens_in": 3115,
+  "tokens_out": 205,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Harbor Tools"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Harbor Tools Inc.",
+     "number": "HT-9907",
+     "date": "2026-12-03",
+     "due_date": "2027-01-02",
+     "lines": [
+      {
+       "description": "torque wrenches",
+       "quantity": 25,
+       "unit_price": 64.0
+      },
+      {
+       "description": "socket sets",
+       "quantity": 10,
+       "unit_price": 38.5
+      },
+      {
+       "description": "delivery charge",
+       "quantity": 1,
+       "unit_price": 45.0
+      }
+     ],
+     "total": 2030.0
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "entered as draft bill 1: Harbor Tools Inc., invoice HT-9907, net total 2030.00 EUR, waiting for validation"
+ }
+}

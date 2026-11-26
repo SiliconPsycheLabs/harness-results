@@ -1,0 +1,99 @@
+{
+ "request": "bill-de-2",
+ "kind": "bill",
+ "language": "de",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Lindner Maschinenbau"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Lindner Maschinenbau AG",
+     "number": "LM-20877",
+     "date": "2026-12-07",
+     "due_date": "2027-01-06",
+     "lines": [
+      {
+       "description": "Hydraulikschlauch",
+       "quantity": 30,
+       "unit_price": 28.0
+      },
+      {
+       "description": "Druckregler",
+       "quantity": 5,
+       "unit_price": 190.0
+      },
+      {
+       "description": "Frachtpauschale",
+       "quantity": 1,
+       "unit_price": 55.0
+      }
+     ],
+     "total": 1845.0
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Rechnung von Lindner Maschinenbau als Entwurf eingegeben, warten auf Validierung.",
+  "seconds": 5.74,
+  "tokens_in": 3221,
+  "tokens_out": 216,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Lindner Maschinenbau"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Lindner Maschinenbau AG",
+     "number": "LM-20877",
+     "date": "2026-12-07",
+     "due_date": "2027-01-06",
+     "lines": [
+      {
+       "description": "Hydraulikschlauch",
+       "quantity": 30,
+       "unit_price": 28.0
+      },
+      {
+       "description": "Druckregler",
+       "quantity": 5,
+       "unit_price": 190.0
+      },
+      {
+       "description": "Frachtpauschale",
+       "quantity": 1,
+       "unit_price": 55.0
+      }
+     ],
+     "total": 1845.0
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Rechnung von Lindner Maschinenbau als Entwurf eingefügt, warten auf Validierung."
+ }
+}

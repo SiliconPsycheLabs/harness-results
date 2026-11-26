@@ -1,0 +1,79 @@
+{
+ "request": "bill-en-3",
+ "kind": "bill",
+ "language": "en",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Northwind Bearings Ltd."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Northwind Bearings Ltd",
+     "number": "NB-20455",
+     "date": "2026-12-09",
+     "due_date": "2027-01-08",
+     "lines": [
+      {
+       "description": "1,200 needle bearings",
+       "quantity": 1200,
+       "unit_price": 1.35
+      }
+     ],
+     "total": 1620.0
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "entered as draft bill 1: Northwind Bearings Ltd, invoice NB-20455, net total 1620.00 EUR, waiting for validation",
+  "seconds": 5.57,
+  "tokens_in": 3029,
+  "tokens_out": 166,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Northwind Bearings Ltd."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Northwind Bearings Ltd",
+     "number": "NB-20455",
+     "date": "2026-12-09",
+     "due_date": "2027-01-08",
+     "lines": [
+      {
+       "description": "1,200 needle bearings",
+       "quantity": 1200,
+       "unit_price": 1.35
+      }
+     ],
+     "total": 1620.0
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "entered as draft bill 1: Northwind Bearings Ltd, invoice NB-20455, net total 1620.00 EUR, waiting for validation"
+ }
+}

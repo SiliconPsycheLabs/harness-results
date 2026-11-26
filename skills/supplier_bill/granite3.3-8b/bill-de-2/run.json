@@ -1,0 +1,99 @@
+{
+ "request": "bill-de-2",
+ "kind": "bill",
+ "language": "de",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Lindner Maschinenbau"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Lindner Maschinenbau AG",
+     "number": "LM-20877",
+     "date": "2026-12-07",
+     "lines": [
+      {
+       "description": "30 Hydraulikschläuche",
+       "quantity": 30,
+       "unit_price": 28
+      },
+      {
+       "description": "5 Druckregler",
+       "quantity": 5,
+       "unit_price": 190
+      },
+      {
+       "description": "1 Frachtpauschale",
+       "quantity": 1,
+       "unit_price": 55
+      }
+     ],
+     "total": 1845
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The invoice from Lindner Maschinenbau AG has been entered as draft bill number 1. It's awaiting validation.",
+  "seconds": 13.26,
+  "tokens_in": 3469,
+  "tokens_out": 229,
+  "right": false,
+  "missing": [
+   "due date is 2026-11-26, not 2027-01-06"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Lindner Maschinenbau"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Lindner Maschinenbau AG",
+     "number": "LM-20877",
+     "date": "2026-12-07",
+     "lines": [
+      {
+       "description": "30 Hydraulikschläuche",
+       "quantity": 30,
+       "unit_price": 28
+      },
+      {
+       "description": "5 Druckregler",
+       "quantity": 5,
+       "unit_price": 190
+      },
+      {
+       "description": "1 Frachtpauschale",
+       "quantity": 1,
+       "unit_price": 55
+      }
+     ],
+     "total": 1845
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The invoice from Lindner Maschinenbau AG has been entered as draft bill number 1. It's awaiting validation."
+ }
+}

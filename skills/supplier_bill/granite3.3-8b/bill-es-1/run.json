@@ -1,0 +1,41 @@
+{
+ "request": "bill-es-1",
+ "kind": "bill",
+ "language": "es",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Suministros Ibarra S.L."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Supplier found. Proceeding with invoice entry.",
+  "seconds": 1.42,
+  "tokens_in": 2119,
+  "tokens_out": 55,
+  "right": false,
+  "missing": [
+   "no bill with the invoice number"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Suministros Ibarra S.L."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Supplier found. Proceeding with the invoice entry."
+ }
+}

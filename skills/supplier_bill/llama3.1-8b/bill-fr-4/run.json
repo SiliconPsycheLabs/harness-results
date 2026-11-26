@@ -1,0 +1,99 @@
+{
+ "request": "bill-fr-4",
+ "kind": "bill",
+ "language": "fr",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Dumont"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Atelier Dumont SARL",
+     "number": "F-2026-0977",
+     "date": "2026-12-16",
+     "due_date": "2027-01-15",
+     "lines": [
+      {
+       "description": "4 réducteurs",
+       "quantity": 4,
+       "unit_price": 420.0
+      },
+      {
+       "description": "16 accouplements",
+       "quantity": 16,
+       "unit_price": 36.25
+      },
+      {
+       "description": "2 heures de mise en service",
+       "quantity": 2,
+       "unit_price": 85.0
+      }
+     ],
+     "total": 2430.0
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "La facture a été enregistrée sous forme de projet de facture. Un utilisateur doit la valider.",
+  "seconds": 6.06,
+  "tokens_in": 3167,
+  "tokens_out": 213,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Dumont"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Atelier Dumont SARL",
+     "number": "F-2026-0977",
+     "date": "2026-12-16",
+     "due_date": "2027-01-15",
+     "lines": [
+      {
+       "description": "4 réducteurs",
+       "quantity": 4,
+       "unit_price": 420.0
+      },
+      {
+       "description": "16 accouplements",
+       "quantity": 16,
+       "unit_price": 36.25
+      },
+      {
+       "description": "2 heures de mise en service",
+       "quantity": 2,
+       "unit_price": 85.0
+      }
+     ],
+     "total": 2430.0
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "La facture a été enregistrée sous forme de projet de facture. Un utilisateur doit la valider."
+ }
+}

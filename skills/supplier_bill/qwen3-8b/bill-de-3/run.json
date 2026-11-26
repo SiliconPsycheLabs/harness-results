@@ -1,0 +1,79 @@
+{
+ "request": "bill-de-3",
+ "kind": "bill",
+ "language": "de",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Lindner Maschinenbau AG"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Lindner Maschinenbau AG",
+     "number": "LM-20902",
+     "date": "2026-12-14",
+     "due_date": "2027-01-13",
+     "lines": [
+      {
+       "description": "16 Linearführungen",
+       "quantity": 16,
+       "unit_price": 212.5
+      }
+     ],
+     "total": 3400
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Rechnung Lindner Maschinenbau AG mit der Nummer LM-20902 wurde als Entwurf eingetragen. Nettosumme: 3400,00 EUR. Warte auf Validierung.",
+  "seconds": 7.98,
+  "tokens_in": 3188,
+  "tokens_out": 208,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Lindner Maschinenbau AG"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Lindner Maschinenbau AG",
+     "number": "LM-20902",
+     "date": "2026-12-14",
+     "due_date": "2027-01-13",
+     "lines": [
+      {
+       "description": "16 Linearführungen",
+       "quantity": 16,
+       "unit_price": 212.5
+      }
+     ],
+     "total": 3400
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Rechnung Lindner Maschinenbau AG, Nummer LM-20902, Nettosumme 3.400,00 EUR, wurde als Entwurf eingetragen und wartet auf Validierung."
+ }
+}

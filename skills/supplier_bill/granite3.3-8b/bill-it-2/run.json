@@ -1,0 +1,99 @@
+{
+ "request": "bill-it-2",
+ "kind": "bill",
+ "language": "it",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Officine Galli"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Officine Galli S.r.l.",
+     "number": "FG-0452",
+     "date": "2026-12-04",
+     "lines": [
+      {
+       "description": "25 valvole a sfera",
+       "quantity": 25,
+       "unit_price": 48
+      },
+      {
+       "description": "100 guarnizioni",
+       "quantity": 100,
+       "unit_price": 2.4
+      },
+      {
+       "description": "1 trasporto",
+       "quantity": 1,
+       "unit_price": 60
+      }
+     ],
+     "total": 1500
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The invoice from Officine Galli S.r.l. has been entered as draft bill number 1. It's awaiting validation.",
+  "seconds": 7.6,
+  "tokens_in": 3421,
+  "tokens_out": 225,
+  "right": false,
+  "missing": [
+   "due date is 2026-11-26, not 2027-01-03"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Officine Galli"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Officine Galli S.r.l.",
+     "number": "FG-0452",
+     "date": "2026-12-04",
+     "lines": [
+      {
+       "description": "25 valvole a sfera",
+       "quantity": 25,
+       "unit_price": 48
+      },
+      {
+       "description": "100 guarnizioni",
+       "quantity": 100,
+       "unit_price": 2.4
+      },
+      {
+       "description": "1 trasporto",
+       "quantity": 1,
+       "unit_price": 60
+      }
+     ],
+     "total": 1500
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The invoice from Officine Galli S.r.l. has been entered as draft bill number 1. It's awaiting validation."
+ }
+}

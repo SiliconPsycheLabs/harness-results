@@ -1,0 +1,79 @@
+{
+ "request": "bill-it-3",
+ "kind": "bill",
+ "language": "it",
+ "model": "qwen3.8-flash-next-abliterated",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Officine Galli"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Officine Galli S.r.l.",
+     "number": "FG-0467",
+     "date": "2026-12-10",
+     "due_date": "2027-01-09",
+     "lines": [
+      {
+       "description": "Riduttori di pressione",
+       "quantity": 12,
+       "unit_price": 187.5
+      }
+     ],
+     "total": 2250.0
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Fattura FG-0467 di Officine Galli S.r.l. registrata come bozza (totale 2.250,00 EUR), in attesa di validazione.",
+  "seconds": 16.43,
+  "tokens_in": 3184,
+  "tokens_out": 192,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Officine Galli"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Officine Galli S.r.l.",
+     "number": "FG-0467",
+     "date": "2026-12-10",
+     "due_date": "2027-01-09",
+     "lines": [
+      {
+       "description": "Riduttori di pressione",
+       "quantity": 12,
+       "unit_price": 187.5
+      }
+     ],
+     "total": 2250.0
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Fattura FG-0467 di Officine Galli S.r.l. registrata come bozza (totale 2.250,00 EUR), in attesa di validazione."
+ }
+}
