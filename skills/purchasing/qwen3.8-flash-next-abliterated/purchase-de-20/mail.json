@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "sales@harbortools.example"
+ ],
+ "subject": "Bestellung zu Angebot Q-6047",
+ "body": "Sehr geehrte Damen und Herren,\n\nwir bestellen wie in Ihrem Angebot Q-6047 angegeben.\n\nMit freundlichen Grüßen\nEinkauf",
+ "attachments": [
+  "/acme/documents/orders/order_20.xlsx"
+ ]
+}

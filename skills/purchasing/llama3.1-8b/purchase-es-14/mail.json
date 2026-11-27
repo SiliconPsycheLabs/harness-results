@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "info@lindner-maschinenbau.example"
+ ],
+ "subject": "Pedido de compra Q-3519",
+ "body": "Se ordenan 50 bombas de engrase y 25 manómetros según el presupuesto Q-3519.",
+ "attachments": [
+  "/acme/documents/orders/order_14.xlsx"
+ ]
+}

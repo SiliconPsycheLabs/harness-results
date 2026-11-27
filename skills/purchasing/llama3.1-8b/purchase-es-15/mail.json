@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "commerciale@tessiturabellomo.example"
+ ],
+ "subject": "Pedido de compra Q-1157",
+ "body": "Estimado proveedor, le informamos que hemos aceptado su presupuesto Q-1157 y solicitamos que envíe los siguientes artículos: 20 bombas de engrase y 50 manómetros. Agradecemos su cooperación.",
+ "attachments": [
+  "/acme/documents/orders/order_15.xlsx"
+ ]
+}

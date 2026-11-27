@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "vertrieb@kraemer-werkzeugbau.example"
+ ],
+ "subject": "Bestellung basierend auf Angebot Q-4871",
+ "body": "Wir bestellen die Artikel gemäß Ihrem Angebot Q-4871. Die Bestellung wurde als /acme/documents/orders/order_18.xlsx erstellt.",
+ "attachments": [
+  "/acme/documents/orders/order_18.xlsx"
+ ]
+}

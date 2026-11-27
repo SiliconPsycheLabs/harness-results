@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "commerciale@tessiturabellomo.example"
+ ],
+ "subject": "Commande basée sur le devis Q-2458",
+ "body": "Nous commandons les articles mentionnés dans votre devis Q-2458.",
+ "attachments": [
+  "/acme/documents/orders/order_11.xlsx"
+ ]
+}

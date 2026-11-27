@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "info@lindner-maschinenbau.example"
+ ],
+ "subject": "Pedido de compra según presupuesto Q-3519",
+ "body": "Buenos días,\n\nPor medio del presente les comunicamos que realizamos el pedido de compra conforme a su presupuesto n.º Q-3519, por un total de 5.620,25 EUR.\n\nAdjuntamos el pedido de compra en formato Excel.\n\nUn saludo,\nAcme Components",
+ "attachments": [
+  "/acme/documents/orders/order_14.xlsx"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "contact@atelier-dumont.example"
+ ],
+ "subject": "Pedido de compra según presupuesto Q-6675",
+ "body": "Estimados señores de Atelier Dumont SARL,\n\nPor medio del presente les comunicamos que realizamos el pedido de compra conforme a su presupuesto n.º Q-6675, por un total de 1.033,70 EUR.\n\nAdjuntamos el pedido de compra detallado.\n\nQuedamos a la espera de su confirmación.\n\nUn cordial saludo,\n\nAcme Components",
+ "attachments": [
+  "/acme/documents/orders/order_16.xlsx"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "sales@harbortools.example"
+ ],
+ "subject": "Commande basée sur le devis Q-8291",
+ "body": "Nous commandons les articles mentionnés dans le devis Q-8291 de Harbor Tools Inc.",
+ "attachments": [
+  "/acme/documents/orders/order_12.xlsx"
+ ]
+}

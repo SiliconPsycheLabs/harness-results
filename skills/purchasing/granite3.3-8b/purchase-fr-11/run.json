@@ -1,0 +1,22 @@
+{
+ "request": "purchase-fr-11",
+ "kind": "purchase",
+ "language": "fr",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "The PDF files could not be accessed. Without the quotes, I cannot compare the totals or write the purchase order.",
+  "seconds": 2.53,
+  "tokens_in": 2927,
+  "tokens_out": 89,
+  "right": false,
+  "missing": [
+   "no file at the path asked",
+   "0 mails sent, not 1"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "The PDF files could not be accessed. Without the quotes, I cannot compare the totals or write the purchase order."
+ }
+}

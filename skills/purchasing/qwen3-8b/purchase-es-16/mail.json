@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "contact@atelier-dumont.example"
+ ],
+ "subject": "Pedido basado en presupuesto Q-6675",
+ "body": "Estimado proveedor, nos gustaría realizar el pedido basado en su presupuesto Q-6675. Adjunto encontrará el documento del pedido.",
+ "attachments": [
+  "/acme/documents/orders/order_16.xlsx"
+ ]
+}

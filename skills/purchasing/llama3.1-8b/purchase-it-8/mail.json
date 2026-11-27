@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "vertrieb@kraemer-werkzeugbau.example"
+ ],
+ "subject": "Ordine n. 8",
+ "body": "Ordine n. 8 come da preventivo Q-1683.",
+ "attachments": [
+  "/acme/documents/orders/order_8.xlsx"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "info@lindner-maschinenbau.example"
+ ],
+ "subject": "Devis Q-5800",
+ "body": "Nous commandons conformément au devis Q-5800.",
+ "attachments": [
+  "/acme/documents/orders/order_9.xlsx"
+ ]
+}

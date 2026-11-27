@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "commerciale@tessiturabellomo.example"
+ ],
+ "subject": "Q-9663",
+ "body": "We order as per quote Q-9663. Please confirm receipt.",
+ "attachments": [
+  "/acme/documents/orders/order_1.xlsx"
+ ]
+}

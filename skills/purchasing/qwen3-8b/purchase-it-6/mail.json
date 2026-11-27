@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "info@lindner-maschinenbau.example"
+ ],
+ "subject": "Ordine basato sul preventivo Q-8691",
+ "body": "Gentile Lindner Maschinenbau AG, ordiamo come indicato nel preventivo Q-8691. Cordiali saluti.",
+ "attachments": [
+  "/acme/documents/orders/order_6.xlsx"
+ ]
+}

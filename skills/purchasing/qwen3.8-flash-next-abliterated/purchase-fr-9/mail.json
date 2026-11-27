@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "info@lindner-maschinenbau.example"
+ ],
+ "subject": "Commande suite au devis Q-5800",
+ "body": "Bonjour,\n\nNous vous passons commande conformément à votre devis n° Q-5800 pour 20 courroies et 50 roulements coniques, pour un total de 1 745,00 EUR.\n\nVeuillez trouver le bon de commande en pièce jointe.\n\nCordialement,\nAcme Components",
+ "attachments": [
+  "/acme/documents/orders/order_9.xlsx"
+ ]
+}

@@ -19,6 +19,7 @@ Each skill is one thing an office needs done. Its page gives the whole recipe (m
 - **[payments](skills/payments/)**: Prepare the payment of validated supplier bills in the accounting application: every payment waits for a person, and a bank account that is not the one on file is never paid.
 - **[pdf](skills/pdf/)**: Read a supplier invoice in PDF and save its data as a record: supplier, number, dates, lines, net total and the page the total is on.
 - **[powerpoint](skills/powerpoint/)**: Write a PowerPoint presentation (.pptx) from a colleague's request: a title slide and content slides with bullet points or a table.
+- **[purchasing](skills/purchasing/)**: A purchase from start to end: read the suppliers' quotes, choose the one with the lower total, write the purchase order as an Excel sheet and send it to that supplier once the purchasing manager confirms.
 - **[sales_report](skills/sales_report/)**: A sales report from start to end: take the figures from the company's database with one query, put them in an Excel sheet with a total, and send the sheet to the colleague who asked.
 - **[supplier_bill](skills/supplier_bill/)**: Enter a supplier invoice in the accounting application as a draft bill: supplier, number, dates, lines and net total.
 - **[web_search](skills/web_search/)**: Answer a question by searching an open encyclopedia on the web: find the page, read it, and save the answer with the address it comes from.
@@ -86,6 +87,10 @@ Each skill is one thing an office needs done. Its page gives the whole recipe (m
 | [powerpoint](skills/powerpoint/) | [`qwen3.8-flash-next-abliterated`](skills/powerpoint/qwen3.8-flash-next-abliterated/) | **20 of 20** | **6 of 6** | 29.4 s | 2,230 in, 349 out |
 | [powerpoint](skills/powerpoint/) | [`qwen3-8b`](skills/powerpoint/qwen3-8b/) | **18 of 20** | **6 of 6** | 7.4 s | 2,205 in, 274 out |
 | [powerpoint](skills/powerpoint/) | [`llama3.1-8b`](skills/powerpoint/llama3.1-8b/) | **17 of 20** | **6 of 6** | 6.7 s | 2,166 in, 271 out |
+| [purchasing](skills/purchasing/) | [`qwen3.8-flash-next-abliterated`](skills/purchasing/qwen3.8-flash-next-abliterated/) | **20 of 20** | **6 of 6** | 36.0 s | 10,825 in, 440 out |
+| [purchasing](skills/purchasing/) | [`llama3.1-8b`](skills/purchasing/llama3.1-8b/) | **14 of 20** | **6 of 6** | 10.3 s | 10,451 in, 370 out |
+| [purchasing](skills/purchasing/) | [`qwen3-8b`](skills/purchasing/qwen3-8b/) | **12 of 19** | **5 of 5** | 13.1 s | 10,507 in, 423 out |
+| [purchasing](skills/purchasing/) | [`granite3.3-8b`](skills/purchasing/granite3.3-8b/) | **0 of 20** | **6 of 6** | 3.6 s | 2,947 in, 117 out |
 | [sales_report](skills/sales_report/) | [`qwen3-8b`](skills/sales_report/qwen3-8b/) | **20 of 20** | **6 of 6** | 8.8 s | 8,415 in, 388 out |
 | [sales_report](skills/sales_report/) | [`qwen3.8-flash-next-abliterated`](skills/sales_report/qwen3.8-flash-next-abliterated/) | **20 of 20** | **6 of 6** | 27.2 s | 8,436 in, 380 out |
 | [sales_report](skills/sales_report/) | [`llama3.1-8b`](skills/sales_report/llama3.1-8b/) | **17 of 20** | **6 of 6** | 9.3 s | 8,194 in, 348 out |

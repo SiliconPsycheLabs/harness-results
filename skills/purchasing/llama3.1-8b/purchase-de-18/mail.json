@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "vertrieb@kraemer-werkzeugbau.example"
+ ],
+ "subject": "Bestellung Q-4871",
+ "body": "Wir bestellen 100 Manometer und 50 Spannfutter gemäß Ihrem Angebot Q-4871.",
+ "attachments": [
+  "/acme/documents/orders/order_18.xlsx"
+ ]
+}

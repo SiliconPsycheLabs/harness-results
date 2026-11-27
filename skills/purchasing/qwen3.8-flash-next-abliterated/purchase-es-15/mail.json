@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "commerciale@tessiturabellomo.example"
+ ],
+ "subject": "Pedido de compra según presupuesto Q-1157",
+ "body": "Estimados señores,\n\nPor medio del presente les comunicamos que realizamos el pedido de compra conforme a su presupuesto n.º Q-1157, por un total de 4.861,40 EUR.\n\nAdjuntamos el pedido de compra detallado.\n\nQuedamos a la espera de su confirmación.\n\nUn cordial saludo,\nAcme Components",
+ "attachments": [
+  "/acme/documents/orders/order_15.xlsx"
+ ]
+}

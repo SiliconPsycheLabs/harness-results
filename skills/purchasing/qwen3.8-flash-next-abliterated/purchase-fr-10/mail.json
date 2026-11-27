@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "vertrieb@kraemer-werkzeugbau.example"
+ ],
+ "subject": "Commande suite au devis Q-7959",
+ "body": "Bonjour, nous vous commandons les articles selon votre devis Q-7959. Veuillez trouver le bon de commande en pièce jointe.",
+ "attachments": [
+  "/acme/documents/orders/order_10.xlsx"
+ ]
+}

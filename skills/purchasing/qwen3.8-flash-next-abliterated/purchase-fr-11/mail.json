@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "commerciale@tessiturabellomo.example"
+ ],
+ "subject": "Commande suite au devis Q-2458",
+ "body": "Bonjour,\n\nNous vous passons commande conformément à votre devis n° Q-2458 pour 20 roulements coniques et 20 moteurs électriques.\n\nVeuillez trouver le bon de commande en pièce jointe.\n\nCordialement,\nAcme Components",
+ "attachments": [
+  "/acme/documents/orders/order_11.xlsx"
+ ]
+}

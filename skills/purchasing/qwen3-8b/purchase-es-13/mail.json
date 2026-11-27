@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "commerciale@tessiturabellomo.example"
+ ],
+ "subject": "Pedido basado en el presupuesto Q-4689",
+ "body": "Estimado proveedor, le enviamos el pedido basado en su presupuesto Q-4689. Agradecemos su atención.",
+ "attachments": [
+  "/acme/documents/orders/order_13.xlsx"
+ ]
+}

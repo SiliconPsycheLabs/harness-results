@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "vertrieb@kraemer-werkzeugbau.example"
+ ],
+ "subject": "Ordine d'acquisto in riferimento al preventivo Q-1683",
+ "body": "Gentili Signori,\ncon la presente confermiamo l'ordine come da Vostro preventivo n. Q-1683.\nTrovate in allegato l'ordine d'acquisto dettagliato.\n\nCordiali saluti,\nAcme Components",
+ "attachments": [
+  "/acme/documents/orders/order_8.xlsx"
+ ]
+}

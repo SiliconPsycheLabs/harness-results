@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "sales@harbortools.example"
+ ],
+ "subject": "Commande suite au devis Q-8291",
+ "body": "Bonjour,\n\nNous vous commandons les articles suivants selon votre devis Q-8291 : 10 courroies et 25 poulies.\n\nVeuillez trouver le bon de commande en pièce jointe.\n\nCordialement,\nAcme Components",
+ "attachments": [
+  "/acme/documents/orders/order_12.xlsx"
+ ]
+}

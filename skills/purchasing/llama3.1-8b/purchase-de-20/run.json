@@ -1,0 +1,197 @@
+{
+ "request": "purchase-de-20",
+ "kind": "purchase",
+ "language": "de",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/quotes/quote_20_a.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/quotes/quote_20_b.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "write_xlsx",
+    "arguments": {
+     "path": "/acme/documents/orders/order_20.xlsx",
+     "sheet": "Bestellung",
+     "columns": [
+      {
+       "name": "Artikel",
+       "type": "text"
+      },
+      {
+       "name": "Menge",
+       "type": "number"
+      },
+      {
+       "name": "Einzelpreis",
+       "type": "number"
+      },
+      {
+       "name": "Betrag",
+       "type": "number"
+      }
+     ],
+     "rows": [
+      [
+       "Linearführungen",
+       "100",
+       "259,98",
+       "25998,00"
+      ],
+      [
+       "Spannfutter",
+       "10",
+       "284,02",
+       "2840,20"
+      ]
+     ],
+     "total_columns": [
+      "Betrag"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Harbor Tools Inc."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "sales@harbortools.example"
+     ],
+     "subject": "Bestellung Q-6047",
+     "body": "Wir bestellen 100 Linearführungen und 10 Spannfutter gemäß Ihrem Angebot Q-6047.",
+     "attachments": [
+      "/acme/documents/orders/order_20.xlsx"
+     ]
+    },
+    "gate": "held for the purchasing manager, who confirmed it",
+    "reason": "the order waits for the purchasing manager's confirmation",
+    "ran": true
+   }
+  ],
+  "answer": "Harbor Tools Inc., 28.838,20 EUR, Bestellung Q-6047",
+  "seconds": 9.49,
+  "tokens_in": 10428,
+  "tokens_out": 356,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/quotes/quote_20_a.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/quotes/quote_20_b.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "write_xlsx",
+    "arguments": {
+     "path": "/acme/documents/orders/order_20.xlsx",
+     "sheet": "Bestellung",
+     "columns": [
+      {
+       "name": "Artikel",
+       "type": "text"
+      },
+      {
+       "name": "Menge",
+       "type": "number"
+      },
+      {
+       "name": "Einzelpreis",
+       "type": "number"
+      },
+      {
+       "name": "Betrag",
+       "type": "number"
+      }
+     ],
+     "rows": [
+      [
+       "Linearführungen",
+       "100",
+       "259,98",
+       "25998,00"
+      ],
+      [
+       "Spannfutter",
+       "10",
+       "284,02",
+       "2840,20"
+      ]
+     ],
+     "total_columns": [
+      "Betrag"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Harbor Tools Inc."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "sales@harbortools.example"
+     ],
+     "subject": "Bestellung Q-6047",
+     "body": "Wir bestellen 100 Linearführungen und 10 Spannfutter gemäß Ihrem Angebot Q-6047.",
+     "attachments": [
+      "/acme/documents/orders/order_20.xlsx"
+     ]
+    },
+    "gate": "held for the purchasing manager, who confirmed it",
+    "reason": "the order waits for the purchasing manager's confirmation",
+    "ran": true
+   }
+  ],
+  "answer": "Harbor Tools Inc., 28.838,20 EUR, Bestellung Q-6047"
+ }
+}

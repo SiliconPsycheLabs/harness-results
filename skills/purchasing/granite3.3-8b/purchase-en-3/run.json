@@ -1,0 +1,22 @@
+{
+ "request": "purchase-en-3",
+ "kind": "purchase",
+ "language": "en",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "I apologize for the confusion. I will now proceed with the task as instructed.",
+  "seconds": 2.08,
+  "tokens_in": 2860,
+  "tokens_out": 72,
+  "right": false,
+  "missing": [
+   "no file at the path asked",
+   "0 mails sent, not 1"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "I apologize for the confusion. I will now proceed with the task as instructed."
+ }
+}

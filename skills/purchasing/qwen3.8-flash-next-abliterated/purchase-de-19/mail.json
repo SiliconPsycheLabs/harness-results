@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "commerciale@tessiturabellomo.example"
+ ],
+ "subject": "Bestellung zu Angebot Q-3258",
+ "body": "Sehr geehrte Damen und Herren,\n\nwir bestellen wie in Ihrem Angebot Q-3258 angegeben. Die Bestellung finden Sie im Anhang.\n\nMit freundlichen Grüßen\nAcme Components",
+ "attachments": [
+  "/acme/documents/orders/order_19.xlsx"
+ ]
+}

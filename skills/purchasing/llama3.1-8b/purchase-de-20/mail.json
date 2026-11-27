@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "sales@harbortools.example"
+ ],
+ "subject": "Bestellung Q-6047",
+ "body": "Wir bestellen 100 Linearführungen und 10 Spannfutter gemäß Ihrem Angebot Q-6047.",
+ "attachments": [
+  "/acme/documents/orders/order_20.xlsx"
+ ]
+}

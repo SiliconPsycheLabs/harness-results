@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "vertrieb@kraemer-werkzeugbau.example"
+ ],
+ "subject": "Bestellung Q-4735",
+ "body": "Wir bestellen 100 Arbeitshandschuhe und 25 Bohrer gemäß Ihrem Angebot Q-4735.",
+ "attachments": [
+  "/acme/documents/orders/order_17.xlsx"
+ ]
+}

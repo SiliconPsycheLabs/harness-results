@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "contact@atelier-dumont.example"
+ ],
+ "subject": "Ordine n. 5",
+ "body": "Ordine n. 5 come da preventivo Q-4948.",
+ "attachments": [
+  "/acme/documents/orders/order_5.xlsx"
+ ]
+}

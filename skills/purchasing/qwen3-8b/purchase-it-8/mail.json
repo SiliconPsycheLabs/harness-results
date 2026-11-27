@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "vertrieb@kraemer-werkzeugbau.example"
+ ],
+ "subject": "Ordine basato sul preventivo Q-1683",
+ "body": "Gentile Krämer Werkzeugbau GmbH, ordiamo i prodotti descritti nel preventivo Q-1683. Grazie per la vostra collaborazione.",
+ "attachments": [
+  "/acme/documents/orders/order_8.xlsx"
+ ]
+}

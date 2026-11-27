@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "info@lindner-maschinenbau.example"
+ ],
+ "subject": "Pedido basado en el presupuesto Q-3519",
+ "body": "Estimado proveedor, le enviamos el pedido basado en su presupuesto Q-3519. Agradecemos su atención.",
+ "attachments": [
+  "/acme/documents/orders/order_14.xlsx"
+ ]
+}

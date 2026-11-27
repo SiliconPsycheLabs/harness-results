@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "commerciale@tessiturabellomo.example"
+ ],
+ "subject": "Order per quote Q-9663",
+ "body": "Buongiorno, ordiniamo come da Vostra offerta Q-9663. Allegato l'ordine di acquisto.",
+ "attachments": [
+  "/acme/documents/orders/order_1.xlsx"
+ ]
+}
