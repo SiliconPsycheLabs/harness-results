@@ -1,0 +1,8 @@
+{
+ "invoice": "NB-35924",
+ "currency": "PLN",
+ "amount": 1623.47,
+ "date": "2026-09-15",
+ "amount_eur": 374.06,
+ "source_url": "https://api.frankfurter.dev/v1/2026-09-15?amount=1623.47&base=PLN&symbols=EUR"
+}

@@ -1,0 +1,8 @@
+{
+ "invoice": "TB-81466",
+ "currency": "CHF",
+ "amount": 2554.73,
+ "date": "2026-09-29",
+ "amount_eur": 2700.27,
+ "source_url": "https://api.frankfurter.dev/v1/2026-09-29?amount=2554.73&base=CHF&symbols=EUR"
+}

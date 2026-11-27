@@ -1,0 +1,21 @@
+{
+ "request": "capital-en-4",
+ "kind": "capital",
+ "language": "en",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "Apologies for the confusion. I will now perform the search and save the answer as requested.",
+  "seconds": 1.99,
+  "tokens_in": 1553,
+  "tokens_out": 68,
+  "right": false,
+  "missing": [
+   "no note at the path asked"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "Apologies for the confusion. I will now perform the search and save the answer as requested."
+ }
+}

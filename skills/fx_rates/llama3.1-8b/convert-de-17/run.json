@@ -1,0 +1,69 @@
+{
+ "request": "convert-de-17",
+ "kind": "convert",
+ "language": "de",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "http_get",
+    "arguments": {
+     "url": "https://api.frankfurter.dev/v1/2026-09-15?amount=6847.90&base=PLN&symbols=EUR"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "save_conversion",
+    "arguments": {
+     "path": "/acme/documents/conversions/lm-97569.json",
+     "invoice": "LM-97569",
+     "currency": "PLN",
+     "amount": 6847.9,
+     "date": "2026-09-15",
+     "amount_eur": 1577.85,
+     "source_url": "https://api.frankfurter.dev/v1/2026-09-15?amount=6847.90&base=PLN&symbols=EUR"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "1577.85",
+  "seconds": 5.1,
+  "tokens_in": 2921,
+  "tokens_out": 190,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "http_get",
+    "arguments": {
+     "url": "https://api.frankfurter.dev/v1/2026-09-15?amount=6847.90&base=PLN&symbols=EUR"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "save_conversion",
+    "arguments": {
+     "path": "/acme/documents/conversions/lm-97569.json",
+     "invoice": "LM-97569",
+     "currency": "PLN",
+     "amount": 6847.9,
+     "date": "2026-09-15",
+     "amount_eur": 1577.85,
+     "source_url": "https://api.frankfurter.dev/v1/2026-09-15?amount=6847.90&base=PLN&symbols=EUR"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "1577.85"
+ }
+}

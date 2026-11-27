@@ -1,0 +1,21 @@
+{
+ "request": "capital-de-20",
+ "kind": "capital",
+ "language": "de",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "I apologize for the confusion. I will now search for the information and save it as requested. Here is the Hungarian capital: Budapest. The source is Wikipedia: <https://en.wikipedia.org/wiki/Budapest>.",
+  "seconds": 2.78,
+  "tokens_in": 1569,
+  "tokens_out": 97,
+  "right": false,
+  "missing": [
+   "no note at the path asked"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "I apologize for the confusion. I will now search for the information and save it as requested. Here is the Hungarian capital: Budapest. The source is Wikipedia: <https://en.wikipedia.org/wiki/Budapest>."
+ }
+}

@@ -1,0 +1,8 @@
+{
+ "invoice": "TB-57387",
+ "currency": "GBP",
+ "amount": 7259.25,
+ "date": "2026-09-10",
+ "amount_eur": 8449,
+ "source_url": "https://api.frankfurter.dev/v1/2026-09-10?amount=7259.25&base=GBP&symbols=EUR"
+}

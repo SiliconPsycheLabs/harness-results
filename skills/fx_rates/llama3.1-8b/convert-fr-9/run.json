@@ -1,0 +1,71 @@
+{
+ "request": "convert-fr-9",
+ "kind": "convert",
+ "language": "fr",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "http_get",
+    "arguments": {
+     "url": "https://api.frankfurter.dev/v1/2026-10-20?amount=4903.2&base=PLN&symbols=EUR"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "save_conversion",
+    "arguments": {
+     "path": "/acme/documents/conversions/f-16855.json",
+     "invoice": "F-16855",
+     "currency": "PLN",
+     "amount": 4903.2,
+     "date": "2026-10-20",
+     "amount_eur": 1120.29,
+     "source_url": "https://api.frankfurter.dev/v1/2026-10-20?amount=4903.2&base=PLN&symbols=EUR"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "1120.29",
+  "seconds": 4.97,
+  "tokens_in": 2901,
+  "tokens_out": 189,
+  "right": false,
+  "missing": [
+   "amount_eur is 1120.29, not 1119.6"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "http_get",
+    "arguments": {
+     "url": "https://api.frankfurter.dev/v1/2026-10-20?amount=4903.2&base=PLN&symbols=EUR"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "save_conversion",
+    "arguments": {
+     "path": "/acme/documents/conversions/f-16855.json",
+     "invoice": "F-16855",
+     "currency": "PLN",
+     "amount": 4903.2,
+     "date": "2026-10-20",
+     "amount_eur": 1120.29,
+     "source_url": "https://api.frankfurter.dev/v1/2026-10-20?amount=4903.2&base=PLN&symbols=EUR"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "1120.29"
+ }
+}

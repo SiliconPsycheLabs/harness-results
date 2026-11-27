@@ -1,0 +1,8 @@
+{
+ "invoice": "TB-91215",
+ "currency": "PLN",
+ "amount": 202.33,
+ "date": "2026-09-29",
+ "amount_eur": 9.35,
+ "source_url": "https://api.frankfurter.dev/v1/2026-09-29?amount=202.33&base=PLN&symbols=EUR"
+}

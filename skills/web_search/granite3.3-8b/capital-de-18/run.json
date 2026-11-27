@@ -1,0 +1,21 @@
+{
+ "request": "capital-de-18",
+ "kind": "capital",
+ "language": "de",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "I apologize for the confusion. The capital of Norway is Oslo. I will save this information under the specified path.",
+  "seconds": 1.91,
+  "tokens_in": 1562,
+  "tokens_out": 60,
+  "right": false,
+  "missing": [
+   "no note at the path asked"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "The capital of Norway is Oslo."
+ }
+}

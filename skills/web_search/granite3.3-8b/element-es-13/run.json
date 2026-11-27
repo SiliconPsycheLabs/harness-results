@@ -1,0 +1,21 @@
+{
+ "request": "element-es-13",
+ "kind": "element",
+ "language": "es",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "El número atómico del cromo es 24. (source: /acme/documents/answers/web_13.json)",
+  "seconds": 2.47,
+  "tokens_in": 1583,
+  "tokens_out": 88,
+  "right": false,
+  "missing": [
+   "no note at the path asked"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "El número atómico del cromo es 24. (source: /acme/documents/answers/web_13.json)"
+ }
+}

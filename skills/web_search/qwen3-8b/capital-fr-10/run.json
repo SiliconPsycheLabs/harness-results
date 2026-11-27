@@ -1,0 +1,83 @@
+{
+ "request": "capital-fr-10",
+ "kind": "capital",
+ "language": "fr",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "search_web",
+    "arguments": {
+     "query": "capitale Hongrie",
+     "language": "fr"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "fetch_page",
+    "arguments": {
+     "url": "https://fr.wikipedia.org/wiki/Budapest"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "save_answer",
+    "arguments": {
+     "path": "/acme/documents/answers/web_10.json",
+     "question": "Quelle est la capitale de la Hongrie ?",
+     "answer": "La capitale de la Hongrie est Budapest.",
+     "source_url": "https://fr.wikipedia.org/wiki/Budapest"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "La capitale de la Hongrie est Budapest.",
+  "seconds": 3.68,
+  "tokens_in": 5416,
+  "tokens_out": 162,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "search_web",
+    "arguments": {
+     "query": "capitale Hongrie",
+     "language": "fr"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "fetch_page",
+    "arguments": {
+     "url": "https://fr.wikipedia.org/wiki/Budapest"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "save_answer",
+    "arguments": {
+     "path": "/acme/documents/answers/web_10.json",
+     "question": "Quelle est la capitale de la Hongrie ?",
+     "answer": "La capitale de la Hongrie est Budapest.",
+     "source_url": "https://fr.wikipedia.org/wiki/Budapest"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "La capitale de la Hongrie est Budapest."
+ }
+}

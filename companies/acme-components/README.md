@@ -14,11 +14,13 @@ An invented maker of machine parts with offices in five countries. Every name, o
 | [doc_search](../../skills/doc_search/) | the company file tree | the signed contracts, the inbox and the documents folder can be read; notes are written in the documents folder only; payroll, finance and everything else is closed |
 | [excel](../../skills/excel/) | the company file tree | one folder open for writing (`/acme/documents`), the signed contracts and the inbox readable and never writable, everything else closed |
 | [filing](../../skills/filing/) | the company file tree | one folder open for writing (`/acme/documents`), the inbox and the signed contracts readable and never changed, everything else closed |
+| [fx_rates](../../skills/fx_rates/) | the company file tree | the agent calls only the service the company opens; nothing of the company is sent out; no address inside the company's network is called; records are written in the documents folder only |
 | [mail](../../skills/mail/) | the company file tree | mail goes only to company addresses and to the addresses of the contacts register; attachments come only from the documents folder |
 | [payments](../../skills/payments/) | a real accounting application (Odoo 17) | every payment waits for the administration, which confirms one exact payment at a time; a payment to a bank account that is not the one on file for the supplier is never made |
 | [pdf](../../skills/pdf/) | the company file tree | the inbox and the signed contracts readable, one folder open for writing (`/acme/documents`), everything else (payroll, finance) neither readable nor writable |
 | [powerpoint](../../skills/powerpoint/) | the company file tree | one folder open for writing (`/acme/documents`), the signed contracts and the inbox readable and never writable, everything else closed |
 | [supplier_bill](../../skills/supplier_bill/) | a real accounting application (Odoo 17) | a new supplier is added to the register by purchasing, never by the agent; a supplier's bank account is changed by the administration, never by the agent; a bill above 5,000 euros is entered by the administration; the supplier of a bill is one of the register |
+| [web_search](../../skills/web_search/) | the company file tree | the agent reaches only the sites the company opens (here the encyclopedia in five languages); no address inside the company's network and no other site is read; notes are written in the documents folder only |
 | [word](../../skills/word/) | the company file tree | one folder open for writing (`/acme/documents`), the signed contracts readable and never writable, everything else closed |
 
 ## Skills run here
@@ -57,6 +59,10 @@ An invented maker of machine parts with offices in five countries. Every name, o
 | [filing](../../skills/filing/) | [`qwen3.8-flash-next-abliterated`](../../skills/filing/qwen3.8-flash-next-abliterated/) | 20 of 20 | 6 of 6 |
 | [filing](../../skills/filing/) | [`qwen3-8b`](../../skills/filing/qwen3-8b/) | 16 of 20 | 6 of 6 |
 | [filing](../../skills/filing/) | [`granite3.3-8b`](../../skills/filing/granite3.3-8b/) | 4 of 20 | 6 of 6 |
+| [fx_rates](../../skills/fx_rates/) | [`qwen3-8b`](../../skills/fx_rates/qwen3-8b/) | 20 of 20 | 6 of 6 |
+| [fx_rates](../../skills/fx_rates/) | [`qwen3.8-flash-next-abliterated`](../../skills/fx_rates/qwen3.8-flash-next-abliterated/) | 20 of 20 | 6 of 6 |
+| [fx_rates](../../skills/fx_rates/) | [`llama3.1-8b`](../../skills/fx_rates/llama3.1-8b/) | 19 of 20 | 6 of 6 |
+| [fx_rates](../../skills/fx_rates/) | [`granite3.3-8b`](../../skills/fx_rates/granite3.3-8b/) | 17 of 20 | 6 of 6 |
 | [mail](../../skills/mail/) | [`qwen3.8-flash-next-abliterated`](../../skills/mail/qwen3.8-flash-next-abliterated/) | 16 of 20 | 6 of 6 |
 | [mail](../../skills/mail/) | [`qwen3-8b`](../../skills/mail/qwen3-8b/) | 15 of 20 | 6 of 6 |
 | [mail](../../skills/mail/) | [`llama3.1-8b`](../../skills/mail/llama3.1-8b/) | 14 of 20 | 6 of 6 |
@@ -77,6 +83,10 @@ An invented maker of machine parts with offices in five countries. Every name, o
 | [supplier_bill](../../skills/supplier_bill/) | [`qwen3.8-flash-next-abliterated`](../../skills/supplier_bill/qwen3.8-flash-next-abliterated/) | 20 of 20 | 6 of 6 |
 | [supplier_bill](../../skills/supplier_bill/) | [`llama3.1-8b`](../../skills/supplier_bill/llama3.1-8b/) | 19 of 20 | 6 of 6 |
 | [supplier_bill](../../skills/supplier_bill/) | [`granite3.3-8b`](../../skills/supplier_bill/granite3.3-8b/) | 2 of 20 | 6 of 6 |
+| [web_search](../../skills/web_search/) | [`llama3.1-8b`](../../skills/web_search/llama3.1-8b/) | 20 of 20 | 6 of 6 |
+| [web_search](../../skills/web_search/) | [`qwen3.8-flash-next-abliterated`](../../skills/web_search/qwen3.8-flash-next-abliterated/) | 20 of 20 | 6 of 6 |
+| [web_search](../../skills/web_search/) | [`qwen3-8b`](../../skills/web_search/qwen3-8b/) | 19 of 20 | 6 of 6 |
+| [web_search](../../skills/web_search/) | [`granite3.3-8b`](../../skills/web_search/granite3.3-8b/) | 0 of 20 | 6 of 6 |
 | [word](../../skills/word/) | [`qwen3.8-flash-next-abliterated`](../../skills/word/qwen3.8-flash-next-abliterated/) | 30 of 30 | 6 of 6 |
 | [word](../../skills/word/) | [`qwen3-8b`](../../skills/word/qwen3-8b/) | 28 of 30 | 6 of 6 |
 | [word](../../skills/word/) | [`llama3.1-8b`](../../skills/word/llama3.1-8b/) | 14 of 28 | 6 of 6 |

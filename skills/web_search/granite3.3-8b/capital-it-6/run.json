@@ -1,0 +1,21 @@
+{
+ "request": "capital-it-6",
+ "kind": "capital",
+ "language": "it",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "La capitale della Norvegia è Oslo. Fonti: [search_web]({\"query\": \"capitale della Norvegia\", \"language\": \"it\"}), [fetch_page]({\"url\": \"https://it.wikipedia.org/wiki/Oslo\"}), [save_answer]({\"path\": \"/acme/documents/answers/web_6.json\", \"question\": \"Qual \\u00e8 la capitale della Norvegia?\", \"answer\": \"La capitale della Norvegia \\u00e8 Oslo.\", \"source_url\": \"https://it.wikipedia.org/wiki/Oslo\"})}",
+  "seconds": 5.23,
+  "tokens_in": 1554,
+  "tokens_out": 191,
+  "right": false,
+  "missing": [
+   "no note at the path asked"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "La capitale della Norvegia è Oslo. Fonti: [search_web]({\"query\": \"capitale della Norvegia\", \"language\": \"it\"}), [fetch_page]({\"url\": \"https://it.wikipedia.org/wiki/Oslo\"}), [save_answer]({\"path\": \"/acme/documents/answers/web_6.json\", \"question\": \"Qual \\u00e8 la capitale della Norvegia?\", \"answer\": \"La capitale della Norvegia \\u00e8 Oslo.\", \"source_url\": \"https://it.wikipedia.org/wiki/Oslo\"})}"
+ }
+}

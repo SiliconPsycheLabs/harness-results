@@ -1,0 +1,21 @@
+{
+ "request": "capital-fr-10",
+ "kind": "capital",
+ "language": "fr",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "I apologize for the confusion. Here's the requested information:",
+  "seconds": 1.57,
+  "tokens_in": 1566,
+  "tokens_out": 53,
+  "right": false,
+  "missing": [
+   "no note at the path asked"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "I apologize for the confusion. Here's the requested information:"
+ }
+}

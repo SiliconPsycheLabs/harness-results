@@ -1,0 +1,8 @@
+{
+ "invoice": "KW-22646",
+ "currency": "CHF",
+ "amount": 7672.44,
+ "date": "2026-09-30",
+ "amount_eur": 8095,
+ "source_url": "https://api.frankfurter.dev/v1/2026-09-30?amount=7672.44&base=CHF&symbols=EUR"
+}

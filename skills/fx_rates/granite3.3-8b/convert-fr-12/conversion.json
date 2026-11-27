@@ -1,0 +1,8 @@
+{
+ "invoice": "F-16740",
+ "currency": "CHF",
+ "amount": 8498.3,
+ "date": "2026-09-01",
+ "amount_eur": 76741.57,
+ "source_url": "https://api.frankfurter.dev/v1/2026-09-01?amount=8498.3&base=CHF&symbols=EUR"
+}

@@ -1,0 +1,8 @@
+{
+ "invoice": "KW-96420",
+ "currency": "SEK",
+ "amount": 7009.82,
+ "date": "2026-09-29",
+ "amount_eur": 619.19,
+ "source_url": "https://api.frankfurter.dev/v1/2026-09-29?amount=7009.82&base=SEK&symbols=EUR"
+}

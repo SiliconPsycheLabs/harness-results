@@ -1,0 +1,8 @@
+{
+ "invoice": "SI-25914",
+ "currency": "PLN",
+ "amount": 5248.39,
+ "date": "2026-09-08",
+ "amount_eur": 1215.55,
+ "source_url": "https://api.frankfurter.dev/v1/2026-09-08?amount=5248.39&base=PLN&symbols=EUR"
+}

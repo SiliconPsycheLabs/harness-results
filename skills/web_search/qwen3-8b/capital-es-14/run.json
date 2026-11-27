@@ -1,0 +1,175 @@
+{
+ "request": "capital-es-14",
+ "kind": "capital",
+ "language": "es",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "search_web",
+    "arguments": {
+     "query": "capital de Eslovaquia",
+     "language": "es"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "fetch_page",
+    "arguments": {
+     "url": "https://es.wikipedia.org/wiki/Geograf%C3%ADa_de_Eslovaquia"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "fetch_page",
+    "arguments": {
+     "url": "https://es.wikipedia.org/wiki/Geograf%C3%ADa_de_Eslovaquia"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "search_web",
+    "arguments": {
+     "query": "capital de Eslovaquia",
+     "language": "es"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "fetch_page",
+    "arguments": {
+     "url": "https://es.wikipedia.org/wiki/Selecci%C3%B3n_de_f%C3%BAtbol_de_Eslovaquia"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "search_web",
+    "arguments": {
+     "query": "capital de Eslovaquia",
+     "language": "es"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "fetch_page",
+    "arguments": {
+     "url": "https://es.wikipedia.org/wiki/Regiones_de_Eslovaquia"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "search_web",
+    "arguments": {
+     "query": "capital de Eslovaquia",
+     "language": "es"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "",
+  "seconds": 7.75,
+  "tokens_in": 12878,
+  "tokens_out": 306,
+  "right": false,
+  "missing": [
+   "no note at the path asked"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "search_web",
+    "arguments": {
+     "query": "capital de Eslovaquia",
+     "language": "es"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "fetch_page",
+    "arguments": {
+     "url": "https://es.wikipedia.org/wiki/Geograf%C3%ADa_de_Eslovaquia"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "fetch_page",
+    "arguments": {
+     "url": "https://es.wikipedia.org/wiki/Geograf%C3%ADa_de_Eslovaquia"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "search_web",
+    "arguments": {
+     "query": "capital de Eslovaquia",
+     "language": "es"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "fetch_page",
+    "arguments": {
+     "url": "https://es.wikipedia.org/wiki/Selecci%C3%B3n_de_f%C3%BAtbol_de_Eslovaquia"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "search_web",
+    "arguments": {
+     "query": "capital de Eslovaquia",
+     "language": "es"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "fetch_page",
+    "arguments": {
+     "url": "https://es.wikipedia.org/wiki/Regiones_de_Eslovaquia"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "search_web",
+    "arguments": {
+     "query": "capital de Eslovaquia",
+     "language": "es"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": ""
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "request": "element-en-1",
+ "kind": "element",
+ "language": "en",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "search_web",
+    "arguments": {
+     "query": "atomic number of tungsten",
+     "language": "en"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "fetch_page",
+    "arguments": {
+     "url": "https://en.wikipedia.org/wiki/Tungsten"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "save_answer",
+    "arguments": {
+     "path": "/acme/documents/answers/web_1.json",
+     "question": "What is the atomic number of tungsten?",
+     "answer": "74",
+     "source_url": "https://en.wikipedia.org/wiki/Tungsten"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The atomic number of tungsten is 74.",
+  "seconds": 4.76,
+  "tokens_in": 4497,
+  "tokens_out": 151,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "search_web",
+    "arguments": {
+     "query": "atomic number of tungsten",
+     "language": "en"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "fetch_page",
+    "arguments": {
+     "url": "https://en.wikipedia.org/wiki/Tungsten"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "save_answer",
+    "arguments": {
+     "path": "/acme/documents/answers/web_1.json",
+     "question": "What is the atomic number of tungsten?",
+     "answer": "74",
+     "source_url": "https://en.wikipedia.org/wiki/Tungsten"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The atomic number of tungsten is 74."
+ }
+}

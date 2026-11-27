@@ -1,0 +1,8 @@
+{
+ "invoice": "HT-83460",
+ "currency": "PLN",
+ "amount": 9387.26,
+ "date": "2026-10-27",
+ "amount_eur": 2132.48,
+ "source_url": "https://api.frankfurter.dev/v1/2026-10-27?amount=9387.26&base=PLN&symbols=EUR"
+}

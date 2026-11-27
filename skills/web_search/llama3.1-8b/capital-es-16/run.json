@@ -1,0 +1,83 @@
+{
+ "request": "capital-es-16",
+ "kind": "capital",
+ "language": "es",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "search_web",
+    "arguments": {
+     "query": "Él cual es la capital de Finlandia",
+     "language": "es"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "fetch_page",
+    "arguments": {
+     "url": "https://es.wikipedia.org/wiki/Finlandia"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "save_answer",
+    "arguments": {
+     "path": "/acme/documents/answers/web_16.json",
+     "question": "Él cual es la capital de Finlandia",
+     "answer": "Helsinki",
+     "source_url": "https://es.wikipedia.org/wiki/Finlandia"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "La capital de Finlandia es Helsinki.",
+  "seconds": 4.64,
+  "tokens_in": 5091,
+  "tokens_out": 163,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "search_web",
+    "arguments": {
+     "query": "Él cual es la capital de Finlandia",
+     "language": "es"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "fetch_page",
+    "arguments": {
+     "url": "https://es.wikipedia.org/wiki/Finlandia"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "save_answer",
+    "arguments": {
+     "path": "/acme/documents/answers/web_16.json",
+     "question": "Él cual es la capital de Finlandia",
+     "answer": "Helsinki",
+     "source_url": "https://es.wikipedia.org/wiki/Finlandia"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "La capital de Finlandia es Helsinki."
+ }
+}

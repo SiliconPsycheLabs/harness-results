@@ -1,0 +1,21 @@
+{
+ "request": "capital-it-8",
+ "kind": "capital",
+ "language": "it",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "The capital of Latvia is Riga.",
+  "seconds": 1.34,
+  "tokens_in": 1551,
+  "tokens_out": 45,
+  "right": false,
+  "missing": [
+   "no note at the path asked"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "The capital of Latvia is Riga."
+ }
+}

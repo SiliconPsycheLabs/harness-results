@@ -1,0 +1,8 @@
+{
+ "invoice": "F-84193",
+ "currency": "USD",
+ "amount": 2207.57,
+ "date": "2026-09-17",
+ "amount_eur": 1922.8,
+ "source_url": "https://api.frankfurter.dev/v1/2026-09-17?amount=2207.57&base=USD&symbols=EUR"
+}

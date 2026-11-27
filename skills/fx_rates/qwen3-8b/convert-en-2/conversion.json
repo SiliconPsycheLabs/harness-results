@@ -1,0 +1,8 @@
+{
+ "invoice": "NB-6928",
+ "currency": "SEK",
+ "amount": 5420.35,
+ "date": "2026-09-24",
+ "amount_eur": 481.19,
+ "source_url": "https://api.frankfurter.dev/v1/2026-09-24?amount=5420.35&base=SEK&symbols=EUR"
+}
