@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "commerciale@tessiturabellomo.example"
+ ],
+ "subject": "Avviso di pagamento fatture TB-37164 e TB-99367",
+ "body": "Egregio Sig. Rappresentante, Le trasmettiamo l'avviso di pagamento relative alle fatture TB-37164 e TB-99367, pagate nella misura di 282,10 EUR e 251,80 EUR rispettivamente.",
+ "attachments": []
+}

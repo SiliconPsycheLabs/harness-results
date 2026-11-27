@@ -1,0 +1,23 @@
+{
+ "request": "with_supplier-en-4",
+ "kind": "with_supplier",
+ "language": "en",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "I apologize for the confusion. I am unable to proceed without the necessary information. Please provide the names of the attendees and the preferred time slot for the meeting.",
+  "seconds": 4.28,
+  "tokens_in": 3827,
+  "tokens_out": 143,
+  "right": false,
+  "missing": [
+   "0 meetings created, not 1",
+   "agenda: no file at the path asked",
+   "0 mails sent, not 1"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "Apologies for the confusion. I am unable to proceed without the necessary information. Please provide the names and addresses of Anna Keller, Paolo Ferri, Lucia Marin, and Northwind Bearings."
+ }
+}

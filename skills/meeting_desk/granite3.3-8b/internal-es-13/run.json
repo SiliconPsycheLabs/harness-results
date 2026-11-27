@@ -1,0 +1,23 @@
+{
+ "request": "internal-es-13",
+ "kind": "internal",
+ "language": "es",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "No se pudo organizar la reunión ya que no se proporcionaron las direcciones de correo electrónico de los asistentes.",
+  "seconds": 4.59,
+  "tokens_in": 3888,
+  "tokens_out": 155,
+  "right": false,
+  "missing": [
+   "0 meetings created, not 1",
+   "agenda: no file at the path asked",
+   "0 mails sent, not 1"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "No se pudo organizar la reunión ya que no se proporcionaron las direcciones de correo electrónico de los asistentes."
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "request": "with_supplier-de-18",
+ "kind": "with_supplier",
+ "language": "de",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "Apologies for the confusion. I am unable to proceed without specific names and contact information for Jan Petersen, Sabine Vogt, Lena Brandt, and Krämer Werkzeugbau. I will need to use the 'find_person' tool to retrieve their addresses before continuing with the meeting organization process.",
+  "seconds": 5.23,
+  "tokens_in": 3910,
+  "tokens_out": 185,
+  "right": false,
+  "missing": [
+   "0 meetings created, not 1",
+   "agenda: no file at the path asked",
+   "0 mails sent, not 1"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "Apologies for the confusion. I am unable to proceed without specific names and contact information for Jan Petersen, Sabine Vogt, Lena Brandt, and Krämer Werkzeugbau. I will need to use the 'find_person' tool to retrieve their addresses before I can continue with scheduling the meeting."
+ }
+}

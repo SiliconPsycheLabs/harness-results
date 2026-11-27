@@ -1,0 +1,23 @@
+{
+ "request": "pay-it-5",
+ "kind": "pay",
+ "language": "it",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "No invoices were listed for Officine Galli S.r.l. to pay.",
+  "seconds": 2.66,
+  "tokens_in": 2101,
+  "tokens_out": 87,
+  "right": false,
+  "missing": [
+   "FG-95816 is not paid",
+   "FG-8560 is not paid",
+   "0 mails sent, not 1"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "No invoices were listed for Officine Galli S.r.l. to pay."
+ }
+}

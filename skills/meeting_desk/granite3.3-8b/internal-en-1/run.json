@@ -1,0 +1,23 @@
+{
+ "request": "internal-en-1",
+ "kind": "internal",
+ "language": "en",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "Unable to proceed without the necessary information and permissions. Please provide the required details and confirm the action.",
+  "seconds": 3.7,
+  "tokens_in": 3794,
+  "tokens_out": 109,
+  "right": false,
+  "missing": [
+   "0 meetings created, not 1",
+   "agenda: no file at the path asked",
+   "0 mails sent, not 1"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "Unable to proceed without the necessary information and permissions. Please provide the required details and confirm the action."
+ }
+}

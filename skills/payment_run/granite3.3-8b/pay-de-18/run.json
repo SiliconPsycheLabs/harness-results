@@ -1,0 +1,23 @@
+{
+ "request": "pay-de-18",
+ "kind": "pay",
+ "language": "de",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "No validated invoices found for Lindner Maschinenbau.",
+  "seconds": 3.24,
+  "tokens_in": 2132,
+  "tokens_out": 114,
+  "right": false,
+  "missing": [
+   "LM-92864 is not paid",
+   "LM-53817 is not paid",
+   "0 mails sent, not 1"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "No validated invoices found for Lindner Maschinenbau."
+ }
+}

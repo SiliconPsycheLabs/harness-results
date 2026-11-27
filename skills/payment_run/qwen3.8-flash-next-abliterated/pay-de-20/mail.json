@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "info@lindner-maschinenbau.example"
+ ],
+ "subject": "Zahlungsavis",
+ "body": "Sehr geehrte Damen und Herren,\n\nhiermit bestätigen wir die Zahlung folgender Rechnungen:\n\n- Rechnung LM-51165: 2.567,10 EUR\n- Rechnung LM-53363: 2.456,10 EUR\n\nMit freundlichen Grüßen\nAcme Components",
+ "attachments": []
+}

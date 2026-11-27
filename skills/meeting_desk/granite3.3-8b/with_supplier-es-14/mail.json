@@ -1,0 +1,13 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "luis.aranda@acme.example",
+  "carmen.ibarra@acme.example",
+  "ventas@suministrosibarra.example"
+ ],
+ "subject": "Lista de precios",
+ "body": "La reunión se celebrará el 8 de febrero de 2027 de 10:00 a 11:00 en la sala de reuniones 1.",
+ "attachments": [
+  "/acme/documents/meetings/agenda_14.docx"
+ ]
+}

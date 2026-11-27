@@ -1,0 +1,23 @@
+{
+ "request": "pay-de-17",
+ "kind": "pay",
+ "language": "de",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "No action was possible without a list of open bills. Request for list of open bills from Krämer Werkzeugbau GmbH.",
+  "seconds": 3.07,
+  "tokens_in": 2110,
+  "tokens_out": 105,
+  "right": false,
+  "missing": [
+   "KW-11181 is not paid",
+   "KW-17067 is not paid",
+   "0 mails sent, not 1"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "No action was possible without a list of open bills from list_open_bills. Please provide the necessary input to proceed."
+ }
+}

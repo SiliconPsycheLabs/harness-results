@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "orders@northwind-bearings.example"
+ ],
+ "subject": "Payment advice for invoices NB-99250 and NB-69139",
+ "body": "This email confirms payment of your invoices NB-99250 and NB-69139. Amounts paid: 686.80 EUR and 2474.00 EUR respectively.",
+ "attachments": []
+}

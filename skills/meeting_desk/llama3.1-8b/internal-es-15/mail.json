@@ -1,0 +1,12 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "carmen.ibarra@acme.example",
+  "elena.pardo@acme.example"
+ ],
+ "subject": "Calidad de proveedores",
+ "body": "El órgano de calidad de proveedores se reunirá el 18 de febrero de 2027 a las 11:00",
+ "attachments": [
+  "/acme/documents/meetings/agenda_15.docx"
+ ]
+}

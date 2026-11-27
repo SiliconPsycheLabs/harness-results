@@ -1,0 +1,23 @@
+{
+ "request": "pay-it-8",
+ "kind": "pay",
+ "language": "it",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "No invoices were found for Tessitura Bellomo S.p.A. to pay.",
+  "seconds": 2.58,
+  "tokens_in": 2109,
+  "tokens_out": 92,
+  "right": false,
+  "missing": [
+   "TB-37164 is not paid",
+   "TB-99367 is not paid",
+   "0 mails sent, not 1"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "No invoices were open for Tessitura Bellomo S.p.A., so no payment was made and no payment advice was sent."
+ }
+}

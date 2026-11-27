@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "marco.bellomo@acme.example"
+ ],
+ "subject": "Rapporto importi ordinati 2025",
+ "body": "Ecco il rapporto sugli importi ordinati nel 2025 per ogni linea di prodotto.",
+ "attachments": [
+  "/acme/documents/reports/report_5.xlsx"
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "request": "internal-de-17",
+ "kind": "internal",
+ "language": "de",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "Apologies for the confusion. I am unable to proceed without the necessary details such as the current availability of Sabine Vogt, Lena Brandt, and Mira Scholz, and the specific points for the agenda. Please provide these details so I can organize the meeting accordingly.",
+  "seconds": 4.68,
+  "tokens_in": 3917,
+  "tokens_out": 173,
+  "right": false,
+  "missing": [
+   "0 meetings created, not 1",
+   "agenda: no file at the path asked",
+   "0 mails sent, not 1"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "Apologies for the confusion. I was instructed to organize a meeting but no specific details were provided. Now that the details are given, here's how I proceed:"
+ }
+}

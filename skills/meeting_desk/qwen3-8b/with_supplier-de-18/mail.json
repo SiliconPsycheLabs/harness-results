@@ -1,0 +1,14 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "jan.petersen@acme.example",
+  "sabine.vogt@acme.example",
+  "lena.brandt@acme.example",
+  "vertrieb@kraemer-werkzeugbau.example"
+ ],
+ "subject": "Preisliste",
+ "body": "Sie sind zur Besprechung \"Preisliste\" am 2027-03-03 um 14:00 eingeladen.",
+ "attachments": [
+  "/acme/documents/meetings/agenda_18.docx"
+ ]
+}

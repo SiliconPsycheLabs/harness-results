@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "marco.bellomo@acme.example"
+ ],
+ "subject": "Importo totale ordinato nel 2025 per ogni linea di prodotto",
+ "body": "Ecco il report richiesto.",
+ "attachments": [
+  "/acme/documents/reports/report_5.xlsx"
+ ]
+}

@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "sales@harbortools.example"
+ ],
+ "subject": "Payment Advice for Invoices HT-80555 and HT-8706",
+ "body": "Dear Harbor Tools Inc.,\n\nWe have paid the invoices HT-80555 and HT-8706 in full. The amounts paid were 4240.20 EUR and 4412.90 EUR respectively.\n\nBest regards,\nAcme Components",
+ "attachments": []
+}

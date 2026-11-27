@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "marta.navas@acme.example"
+ ],
+ "subject": "Informe de pedidos de 2025",
+ "body": "Se adjunta el informe de pedidos de 2025 para el país IT.",
+ "attachments": [
+  "/acme/documents/reports/report_14.xlsx"
+ ]
+}

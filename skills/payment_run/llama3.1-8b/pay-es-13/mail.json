@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "ventas@suministrosibarra.example"
+ ],
+ "subject": "Pagos de facturas SI-33974 y SI-43383",
+ "body": "Queremos informarle que hemos pagado las facturas SI-33974 y SI-43383 de Suministros Ibarra S.L. por un total de 6320.20 EUR.",
+ "attachments": []
+}

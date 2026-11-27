@@ -1,0 +1,22 @@
+{
+ "request": "by_line-it-5",
+ "kind": "by_line",
+ "language": "it",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "Apologies for the confusion. Here are the steps to complete the task:",
+  "seconds": 1.55,
+  "tokens_in": 2978,
+  "tokens_out": 51,
+  "right": false,
+  "missing": [
+   "no file at the path asked",
+   "0 mails sent, not 1"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "Apologies for the confusion. Here are the steps to complete the task:"
+ }
+}

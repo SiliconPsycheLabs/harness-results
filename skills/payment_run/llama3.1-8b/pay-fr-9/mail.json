@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "contact@atelier-dumont.example"
+ ],
+ "subject": "Avis de paiement de facture F-46725",
+ "body": "Nous vous informons que nous avons payé la facture F-46725 découlant le 21/12/2026 pour un montant de 3293,50 EUR.",
+ "attachments": []
+}

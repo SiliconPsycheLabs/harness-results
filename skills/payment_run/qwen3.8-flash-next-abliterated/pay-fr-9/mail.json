@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "contact@atelier-dumont.example"
+ ],
+ "subject": "Avis de paiement",
+ "body": "Bonjour,\n\nNous avons procédé au règlement de la facture suivante :\n\n- Facture F-46725 : 3293,50 EUR\n\nCordialement,\n\nLe service comptabilité fournisseurs\nAcme Components",
+ "attachments": []
+}

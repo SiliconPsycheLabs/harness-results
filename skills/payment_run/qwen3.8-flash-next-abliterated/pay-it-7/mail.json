@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "commerciale@tessiturabellomo.example"
+ ],
+ "subject": "Avviso di pagamento",
+ "body": "Gentile Tessitura Bellomo S.p.A.,\n\ncon la presente comunichiamo il pagamento della seguente fattura:\n\n- Fattura TB-2930: importo 1.063,90 EUR\n\nCordiali saluti,\n\nAcme Components\nUfficio Contabilità Fornitori",
+ "attachments": []
+}

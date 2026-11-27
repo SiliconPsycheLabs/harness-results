@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "ordini@officinegalli.example"
+ ],
+ "subject": "Pagamenti ricevuti",
+ "body": "Egregio Sig. Rappresentante, le inviamo a conoscenza che abbiamo effettuato i seguenti pagamenti: FG-8560 di € 4462,10 e FG-95816 di € 909,40.",
+ "attachments": []
+}

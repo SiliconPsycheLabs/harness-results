@@ -1,0 +1,23 @@
+{
+ "request": "pay-de-20",
+ "kind": "pay",
+ "language": "de",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "No action was possible without a call to list_open_bills to get the open invoices from Lindner Maschinenbau AG.",
+  "seconds": 2.52,
+  "tokens_in": 2089,
+  "tokens_out": 85,
+  "right": false,
+  "missing": [
+   "LM-51165 is not paid",
+   "LM-53363 is not paid",
+   "0 mails sent, not 1"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "No action was taken as no tools were called to perform the requested task."
+ }
+}

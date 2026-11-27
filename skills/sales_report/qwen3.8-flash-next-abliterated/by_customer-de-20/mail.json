@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "anja.seidel@acme.example"
+ ],
+ "subject": "Gesamtbetrag FR-Kunden 2025",
+ "body": "Anbei die Übersicht der Gesamtbeträge für Kunden aus FR im Jahr 2025.",
+ "attachments": [
+  "/acme/documents/reports/report_20.xlsx"
+ ]
+}

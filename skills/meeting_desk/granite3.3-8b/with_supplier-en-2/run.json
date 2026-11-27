@@ -1,0 +1,23 @@
+{
+ "request": "with_supplier-en-2",
+ "kind": "with_supplier",
+ "language": "en",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "Apologies for the confusion. I am unable to proceed without the necessary information. Please provide the names and addresses of Anna Keller, Paolo Ferri, Tom Reyes, and Northwind Bearings.",
+  "seconds": 5.0,
+  "tokens_in": 3820,
+  "tokens_out": 149,
+  "right": false,
+  "missing": [
+   "0 meetings created, not 1",
+   "agenda: no file at the path asked",
+   "0 mails sent, not 1"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "Apologies for the confusion. I am unable to proceed without the necessary information. Please provide the names and addresses of Anna Keller, Paolo Ferri, Tom Reyes, and Northwind Bearings."
+ }
+}

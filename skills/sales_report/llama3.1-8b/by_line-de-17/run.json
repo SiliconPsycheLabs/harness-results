@@ -1,0 +1,189 @@
+{
+ "request": "by_line-de-17",
+ "kind": "by_line",
+ "language": "de",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "run_query",
+    "arguments": {
+     "sql": "SELECT p.line, SUM(ol.quantity * p.unit_price) FROM orders o JOIN order_lines ol ON o.id = ol.order_id JOIN products p ON ol.product_id = p.id WHERE o.order_date BETWEEN '2026-01-01' AND '2026-12-31' GROUP BY p.line"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "write_xlsx",
+    "arguments": {
+     "path": "/acme/documents/reports/report_17.xlsx",
+     "sheet": "Report",
+     "columns": [
+      {
+       "name": "Linie",
+       "type": "text"
+      },
+      {
+       "name": "Betrag",
+       "type": "number"
+      },
+      {
+       "name": "Betrag",
+       "type": "number"
+      }
+     ],
+     "rows": [
+      [
+       "Bearings",
+       "5301",
+       "5301"
+      ],
+      [
+       "Hydraulics",
+       "28515",
+       "28515"
+      ],
+      [
+       "Spare parts",
+       "78240",
+       "78240"
+      ],
+      [
+       "Tooling",
+       "35184",
+       "35184"
+      ]
+     ],
+     "total_columns": [
+      "Betrag"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Mira Scholz"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "mira.scholz@acme.example"
+     ],
+     "subject": "Bestellsummen 2026",
+     "body": "Hier sind die Bestellsummen 2026 nach Produktlinie.",
+     "attachments": [
+      "/acme/documents/reports/report_17.xlsx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Gesendet an Mira Scholz.",
+  "seconds": 9.64,
+  "tokens_in": 8330,
+  "tokens_out": 357,
+  "right": false,
+  "missing": [
+   "3 columns, not 2"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "run_query",
+    "arguments": {
+     "sql": "SELECT p.line, SUM(ol.quantity * p.unit_price) FROM orders o JOIN order_lines ol ON o.id = ol.order_id JOIN products p ON ol.product_id = p.id WHERE o.order_date BETWEEN '2026-01-01' AND '2026-12-31' GROUP BY p.line"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "write_xlsx",
+    "arguments": {
+     "path": "/acme/documents/reports/report_17.xlsx",
+     "sheet": "Report",
+     "columns": [
+      {
+       "name": "Linie",
+       "type": "text"
+      },
+      {
+       "name": "Betrag",
+       "type": "number"
+      },
+      {
+       "name": "Betrag",
+       "type": "number"
+      }
+     ],
+     "rows": [
+      [
+       "Bearings",
+       "5301",
+       "5301"
+      ],
+      [
+       "Hydraulics",
+       "28515",
+       "28515"
+      ],
+      [
+       "Spare parts",
+       "78240",
+       "78240"
+      ],
+      [
+       "Tooling",
+       "35184",
+       "35184"
+      ]
+     ],
+     "total_columns": [
+      "Betrag"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Mira Scholz"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "mira.scholz@acme.example"
+     ],
+     "subject": "Bestellsummen 2026",
+     "body": "Hier sind die Bestellsummen 2026 nach Produktlinie.",
+     "attachments": [
+      "/acme/documents/reports/report_17.xlsx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Gesendet an Mira Scholz."
+ }
+}

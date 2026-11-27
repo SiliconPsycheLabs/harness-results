@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "contact@atelier-dumont.example"
+ ],
+ "subject": "Avis de paiement pour Atelier Dumont SARL",
+ "body": "Bonjour,\n\nNous informons que les factures suivantes ont été payées :\n- Facture n° F-31815 pour un montant de 3395.10 EUR.\n\nCordialement,\nL'équipe comptable d'Acme Components",
+ "attachments": []
+}

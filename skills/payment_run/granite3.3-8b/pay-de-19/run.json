@@ -1,0 +1,22 @@
+{
+ "request": "pay-de-19",
+ "kind": "pay",
+ "language": "de",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "No action was possible without a list of open bills from list_open_bills. Please provide the necessary input to proceed.",
+  "seconds": 3.25,
+  "tokens_in": 2113,
+  "tokens_out": 105,
+  "right": false,
+  "missing": [
+   "KW-82504 is not paid",
+   "0 mails sent, not 1"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "No action was possible as no open bills were listed for Krämer Werkzeugbau GmbH."
+ }
+}

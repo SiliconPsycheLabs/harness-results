@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "ventas@suministrosibarra.example"
+ ],
+ "subject": "Aviso de pago de facturas",
+ "body": "Le informamos de que las siguientes facturas han sido pagadas:\n- Factura SI-50088 por un importe de 2999.20 EUR.\n- Factura SI-9819 por un importe de 3585.40 EUR.",
+ "attachments": []
+}

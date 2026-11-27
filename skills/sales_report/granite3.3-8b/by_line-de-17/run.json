@@ -1,0 +1,22 @@
+{
+ "request": "by_line-de-17",
+ "kind": "by_line",
+ "language": "de",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "Apologies for the confusion. I will now proceed with the requested task.",
+  "seconds": 2.52,
+  "tokens_in": 3026,
+  "tokens_out": 81,
+  "right": false,
+  "missing": [
+   "no file at the path asked",
+   "0 mails sent, not 1"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "Apologies for the confusion. I will now proceed with the requested task."
+ }
+}

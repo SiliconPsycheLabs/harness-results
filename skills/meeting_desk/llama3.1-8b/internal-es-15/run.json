@@ -1,0 +1,227 @@
+{
+ "request": "internal-es-15",
+ "kind": "internal",
+ "language": "es",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Carmen Ibarra"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Elena Pardo"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Proveedor X"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_free_slots",
+    "arguments": {
+     "people": [
+      "carmen.ibarra@acme.example",
+      "elena.pardo@acme.example"
+     ],
+     "date": "2027-02-18",
+     "minutes": 60,
+     "part_of_day": "morning"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_event",
+    "arguments": {
+     "title": "Calidad de proveedores",
+     "date": "2027-02-18",
+     "start": "11:00",
+     "end": "12:00",
+     "attendees": [
+      "carmen.ibarra@acme.example",
+      "elena.pardo@acme.example"
+     ],
+     "location": "Sala de reuniones"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/meetings/agenda_15.docx",
+     "title": "Calidad de proveedores",
+     "blocks": [
+      {
+       "type": "numbered",
+       "text": "Reclamaciones abiertas",
+       "level": 1
+      },
+      {
+       "type": "numbered",
+       "text": "Costes de la nueva línea",
+       "level": 1
+      },
+      {
+       "type": "numbered",
+       "text": "Próximos pasos y responsables",
+       "level": 1
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "carmen.ibarra@acme.example",
+      "elena.pardo@acme.example"
+     ],
+     "subject": "Calidad de proveedores",
+     "body": "El órgano de calidad de proveedores se reunirá el 18 de febrero de 2027 a las 11:00",
+     "attachments": [
+      "/acme/documents/meetings/agenda_15.docx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "El 18 de febrero de 2027 a las 11:00, se envió la invitación a la reunión \"Calidad de proveedores\" con el orden del día adjunto.",
+  "seconds": 14.28,
+  "tokens_in": 16712,
+  "tokens_out": 532,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Carmen Ibarra"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Elena Pardo"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Proveedor X"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_free_slots",
+    "arguments": {
+     "people": [
+      "carmen.ibarra@acme.example",
+      "elena.pardo@acme.example"
+     ],
+     "date": "2027-02-18",
+     "minutes": 60,
+     "part_of_day": "morning"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_event",
+    "arguments": {
+     "title": "Calidad de proveedores",
+     "date": "2027-02-18",
+     "start": "11:00",
+     "end": "12:00",
+     "attendees": [
+      "carmen.ibarra@acme.example",
+      "elena.pardo@acme.example"
+     ],
+     "location": "Sala de reuniones"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/meetings/agenda_15.docx",
+     "title": "Calidad de proveedores",
+     "blocks": [
+      {
+       "type": "numbered",
+       "text": "Reclamaciones abiertas",
+       "level": 1
+      },
+      {
+       "type": "numbered",
+       "text": "Costes de la nueva línea",
+       "level": 1
+      },
+      {
+       "type": "numbered",
+       "text": "Próximos pasos y responsables",
+       "level": 1
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "carmen.ibarra@acme.example",
+      "elena.pardo@acme.example"
+     ],
+     "subject": "Calidad de proveedores",
+     "body": "El órgano de calidad de proveedores se reunirá el 18 de febrero de 2027 a las 11:00",
+     "attachments": [
+      "/acme/documents/meetings/agenda_15.docx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "El 18 de febrero de 2027 a las 11:00 se reunirá el Calidad de proveedores. Se envió la invitación con el orden del día adjunto."
+ }
+}

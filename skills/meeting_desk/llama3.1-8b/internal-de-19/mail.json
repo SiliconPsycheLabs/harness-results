@@ -1,0 +1,12 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "tobias.voss@acme.example",
+  "lena.brandt@acme.example"
+ ],
+ "subject": "Budgetpröfung",
+ "body": "Am 1. April 2027 um 14:00 ist die Budgetpröfung angesetzt.",
+ "attachments": [
+  "/acme/documents/meetings/agenda_19.docx"
+ ]
+}

@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "commerciale@tessiturabellomo.example"
+ ],
+ "subject": "Avviso di pagamento delle fatture",
+ "body": "Le seguenti fatture sono state pagate:\n- Fattura numero TB-2930 per un importo di 1063.90 EUR.",
+ "attachments": []
+}

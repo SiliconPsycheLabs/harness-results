@@ -1,0 +1,13 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "claire.dumont@acme.example",
+  "luc.moreau@acme.example",
+  "contact@atelier-dumont.example"
+ ],
+ "subject": "Plan de production",
+ "body": "Vous avez une réunion le 8 mars 2027 de 15:30 à 16:30. Voici l'ordre du jour : Réclamations ouvertes; Chiffres du dernier trimestre; Coûts de la nouvelle ligne.",
+ "attachments": [
+  "/acme/documents/meetings/agenda_10.docx"
+ ]
+}

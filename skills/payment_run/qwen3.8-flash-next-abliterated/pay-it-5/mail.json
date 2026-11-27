@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "ordini@officinegalli.example"
+ ],
+ "subject": "Avviso di pagamento",
+ "body": "Gentili Officine Galli S.r.l.,\n\ncon la presente comunichiamo che sono state effettuate le seguenti fatture:\n\n- Fattura FG-8560: 4.462,10 EUR\n- Fattura FG-95816: 909,40 EUR\n\nCordiali saluti,\n\nAcme Components\nUfficio Amministrazione Fornitori",
+ "attachments": []
+}

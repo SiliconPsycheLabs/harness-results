@@ -1,0 +1,12 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "luca.ferri@acme.example",
+  "paolo.greco@acme.example"
+ ],
+ "subject": "Piano di produzione",
+ "body": "Gentili colleghi,\n\nvi invitiamo alla riunione \"Piano di produzione\" che si terrà il 29 marzo 2027 alle ore 10:00.\n\nIn allegato trovate l'ordine del giorno.\n\nCordiali saluti,\nUfficio Acme Components",
+ "attachments": [
+  "/acme/documents/meetings/agenda_5.docx"
+ ]
+}

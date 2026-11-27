@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "neil.carver@acme.example"
+ ],
+ "subject": "Bearings Report for 2025",
+ "body": "Attached is the Bearings Report for 2025.",
+ "attachments": [
+  "/acme/documents/reports/report_3.xlsx"
+ ]
+}

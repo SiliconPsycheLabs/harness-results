@@ -1,0 +1,14 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "paolo.greco@acme.example",
+  "luca.ferri@acme.example",
+  "stefano.riva@acme.example",
+  "ordini@officinegalli.example"
+ ],
+ "subject": "Revisione del budget",
+ "body": "La riunione è fissata per il 2027-02-01 alle 11:30. Vi allego l'ordine del giorno.",
+ "attachments": [
+  "/acme/documents/meetings/agenda_6.docx"
+ ]
+}

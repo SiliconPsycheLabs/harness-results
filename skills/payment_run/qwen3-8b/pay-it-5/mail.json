@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "ordini@officinegalli.example"
+ ],
+ "subject": "Payment Advice for Invoices FG-8560 and FG-95816",
+ "body": "Dear Officine Galli S.r.l.,\n\nWe would like to inform you that the following invoices have been paid:\n- Invoice FG-8560 for an amount of 4462.10 EUR\n- Invoice FG-95816 for an amount of 909.40 EUR\n\nPlease find the payment details attached.\n\nBest regards,\nAcme Components",
+ "attachments": []
+}

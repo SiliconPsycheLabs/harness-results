@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "anja.seidel@acme.example"
+ ],
+ "subject": "Bestellbeträge 2025",
+ "body": "Hier sind die Bestellbeträge der Kunden aus Frankreich im Jahr 2025.",
+ "attachments": [
+  "/acme/documents/reports/report_20.xlsx"
+ ]
+}

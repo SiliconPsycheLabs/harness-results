@@ -14,9 +14,12 @@ Each skill is one thing an office needs done. Its page gives the whole recipe (m
 - **[filing](skills/filing/)**: File the documents that arrive: copy each one from the inbox into the right folder of the company's documents, and tidy folders by moving files.
 - **[fx_rates](skills/fx_rates/)**: Convert a foreign-currency invoice into euros at the European Central Bank's reference rate of its date, by calling an outside service, and save the conversion with the address it comes from.
 - **[mail](skills/mail/)**: Write and send a mail to a supplier or a colleague, with the attachments asked, only to addresses the company allows.
+- **[meeting_desk](skills/meeting_desk/)**: Organising a meeting from start to end: find the first time when everyone is free, book it in the company calendar, write the agenda as a Word file and send the invitation to every attendee with the agenda attached.
+- **[payment_run](skills/payment_run/)**: A payment run from start to end: pay a supplier's open invoices in the accounting application, each payment confirmed by a person of the administration, then send the supplier the payment advice.
 - **[payments](skills/payments/)**: Prepare the payment of validated supplier bills in the accounting application: every payment waits for a person, and a bank account that is not the one on file is never paid.
 - **[pdf](skills/pdf/)**: Read a supplier invoice in PDF and save its data as a record: supplier, number, dates, lines, net total and the page the total is on.
 - **[powerpoint](skills/powerpoint/)**: Write a PowerPoint presentation (.pptx) from a colleague's request: a title slide and content slides with bullet points or a table.
+- **[sales_report](skills/sales_report/)**: A sales report from start to end: take the figures from the company's database with one query, put them in an Excel sheet with a total, and send the sheet to the colleague who asked.
 - **[supplier_bill](skills/supplier_bill/)**: Enter a supplier invoice in the accounting application as a draft bill: supplier, number, dates, lines and net total.
 - **[web_search](skills/web_search/)**: Answer a question by searching an open encyclopedia on the web: find the page, read it, and save the answer with the address it comes from.
 - **[word](skills/word/)**: Write a Word document (.docx) from an office request: letters, minutes, quotes, reports, notices, instructions.
@@ -63,6 +66,14 @@ Each skill is one thing an office needs done. Its page gives the whole recipe (m
 | [mail](skills/mail/) | [`qwen3-8b`](skills/mail/qwen3-8b/) | **15 of 20** | **6 of 6** | 5.0 s | 2,111 in, 225 out |
 | [mail](skills/mail/) | [`llama3.1-8b`](skills/mail/llama3.1-8b/) | **14 of 20** | **6 of 6** | 4.9 s | 2,088 in, 192 out |
 | [mail](skills/mail/) | [`granite3.3-8b`](skills/mail/granite3.3-8b/) | **11 of 20** | **6 of 6** | 7.2 s | 2,266 in, 270 out |
+| [meeting_desk](skills/meeting_desk/) | [`qwen3.8-flash-next-abliterated`](skills/meeting_desk/qwen3.8-flash-next-abliterated/) | **20 of 20** | **6 of 6** | 44.1 s | 17,362 in, 564 out |
+| [meeting_desk](skills/meeting_desk/) | [`qwen3-8b`](skills/meeting_desk/qwen3-8b/) | **19 of 20** | **6 of 6** | 15.2 s | 17,250 in, 532 out |
+| [meeting_desk](skills/meeting_desk/) | [`llama3.1-8b`](skills/meeting_desk/llama3.1-8b/) | **18 of 20** | **6 of 6** | 14.3 s | 18,663 in, 516 out |
+| [meeting_desk](skills/meeting_desk/) | [`granite3.3-8b`](skills/meeting_desk/granite3.3-8b/) | **6 of 20** | **6 of 6** | 5.0 s | 3,913 in, 175 out |
+| [payment_run](skills/payment_run/) | [`qwen3-8b`](skills/payment_run/qwen3-8b/) | **20 of 20** | **6 of 6** | 9.5 s | 6,994 in, 359 out |
+| [payment_run](skills/payment_run/) | [`llama3.1-8b`](skills/payment_run/llama3.1-8b/) | **20 of 20** | **6 of 6** | 10.3 s | 7,345 in, 316 out |
+| [payment_run](skills/payment_run/) | [`qwen3.8-flash-next-abliterated`](skills/payment_run/qwen3.8-flash-next-abliterated/) | **20 of 20** | **6 of 6** | 22.4 s | 7,084 in, 368 out |
+| [payment_run](skills/payment_run/) | [`granite3.3-8b`](skills/payment_run/granite3.3-8b/) | **8 of 20** | **6 of 6** | 3.4 s | 2,123 in, 119 out |
 | [payments](skills/payments/) | [`llama3.1-8b`](skills/payments/llama3.1-8b/) | **20 of 20** | **6 of 6** | 8.2 s | 3,612 in, 193 out |
 | [payments](skills/payments/) | [`granite3.3-8b`](skills/payments/granite3.3-8b/) | **20 of 20** | **6 of 6** | 8.4 s | 3,431 in, 219 out |
 | [payments](skills/payments/) | [`qwen3-8b`](skills/payments/qwen3-8b/) | **20 of 20** | **6 of 6** | 9.9 s | 3,289 in, 234 out |
@@ -75,6 +86,10 @@ Each skill is one thing an office needs done. Its page gives the whole recipe (m
 | [powerpoint](skills/powerpoint/) | [`qwen3.8-flash-next-abliterated`](skills/powerpoint/qwen3.8-flash-next-abliterated/) | **20 of 20** | **6 of 6** | 29.4 s | 2,230 in, 349 out |
 | [powerpoint](skills/powerpoint/) | [`qwen3-8b`](skills/powerpoint/qwen3-8b/) | **18 of 20** | **6 of 6** | 7.4 s | 2,205 in, 274 out |
 | [powerpoint](skills/powerpoint/) | [`llama3.1-8b`](skills/powerpoint/llama3.1-8b/) | **17 of 20** | **6 of 6** | 6.7 s | 2,166 in, 271 out |
+| [sales_report](skills/sales_report/) | [`qwen3-8b`](skills/sales_report/qwen3-8b/) | **20 of 20** | **6 of 6** | 8.8 s | 8,415 in, 388 out |
+| [sales_report](skills/sales_report/) | [`qwen3.8-flash-next-abliterated`](skills/sales_report/qwen3.8-flash-next-abliterated/) | **20 of 20** | **6 of 6** | 27.2 s | 8,436 in, 380 out |
+| [sales_report](skills/sales_report/) | [`llama3.1-8b`](skills/sales_report/llama3.1-8b/) | **17 of 20** | **6 of 6** | 9.3 s | 8,194 in, 348 out |
+| [sales_report](skills/sales_report/) | [`granite3.3-8b`](skills/sales_report/granite3.3-8b/) | **0 of 20** | **6 of 6** | 1.7 s | 2,974 in, 54 out |
 | [supplier_bill](skills/supplier_bill/) | [`qwen3-8b`](skills/supplier_bill/qwen3-8b/) | **20 of 20** | **6 of 6** | 7.5 s | 3,264 in, 221 out |
 | [supplier_bill](skills/supplier_bill/) | [`qwen3.8-flash-next-abliterated`](skills/supplier_bill/qwen3.8-flash-next-abliterated/) | **20 of 20** | **6 of 6** | 22.3 s | 3,271 in, 231 out |
 | [supplier_bill](skills/supplier_bill/) | [`llama3.1-8b`](skills/supplier_bill/llama3.1-8b/) | **19 of 20** | **6 of 6** | 6.0 s | 3,174 in, 202 out |

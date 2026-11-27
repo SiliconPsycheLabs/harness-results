@@ -1,0 +1,22 @@
+{
+ "request": "pay-es-14",
+ "kind": "pay",
+ "language": "es",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "No invoices were found for Suministros Ibarra or no invoices are open.",
+  "seconds": 2.76,
+  "tokens_in": 2088,
+  "tokens_out": 93,
+  "right": false,
+  "missing": [
+   "SI-60769 is not paid",
+   "0 mails sent, not 1"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "No invoices were found for Suministros Ibarra or no invoices are open."
+ }
+}

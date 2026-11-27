@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "nadia.perrin@acme.example"
+ ],
+ "subject": "Résultats des ventes de 2026 pour la ligne Bearings",
+ "body": "Voici les quantités et montants totaux commandés pour la ligne Bearings en 2026.",
+ "attachments": [
+  "/acme/documents/reports/report_11.xlsx"
+ ]
+}

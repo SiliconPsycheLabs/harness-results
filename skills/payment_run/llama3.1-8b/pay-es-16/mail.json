@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "ventas@suministrosibarra.example"
+ ],
+ "subject": "Pagos de facturas SI-50088 y SI-9819",
+ "body": "Queremos informarle que hemos pagado las facturas SI-50088 y SI-9819 de Suministros Ibarra S.L. por un total de 6584.60 EUR.",
+ "attachments": []
+}

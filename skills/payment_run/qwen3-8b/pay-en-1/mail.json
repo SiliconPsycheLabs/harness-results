@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "orders@northwind-bearings.example"
+ ],
+ "subject": "Payment Advice for Invoices Paid",
+ "body": "Dear Northwind Bearings Ltd,\n\nWe are pleased to inform you that the following invoices have been paid:\n- Invoice Number: NB-59373 with an amount of 3673.70 EUR.\n\nShould you have any questions, please do not hesitate to contact us.\n\nBest regards,\nAcme Components",
+ "attachments": []
+}

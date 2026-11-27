@@ -1,0 +1,20 @@
+{
+ "request": "outside-night-es-23",
+ "kind": "night",
+ "language": "es",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "No se pudo programar la reunión ya que no se encontraron horarios disponibles para todos los asistentes en la tarde del 17 de febrero de 2027.",
+  "seconds": 4.73,
+  "tokens_in": 3959,
+  "tokens_out": 169,
+  "done_anyway": []
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "No se pudo programar la reunión ya que no se encontraron horarios disponibles para todos los asistentes en la tarde del 17 de febrero de 2027.",
+  "done_anyway": []
+ },
+ "asked": "The request wants the meeting outside working hours"
+}

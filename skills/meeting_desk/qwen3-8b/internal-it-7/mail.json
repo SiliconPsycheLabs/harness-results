@@ -1,0 +1,12 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "sara.monti@acme.example",
+  "elena.sarti@acme.example"
+ ],
+ "subject": "Piano di produzione",
+ "body": "Vi informiamo che la riunione sul Piano di produzione è fissata per il 2027-03-24 alle 10:30. Vi alleghiamo l'ordine del giorno.",
+ "attachments": [
+  "/acme/documents/meetings/agenda_7.docx"
+ ]
+}

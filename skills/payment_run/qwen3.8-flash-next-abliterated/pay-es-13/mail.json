@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "ventas@suministrosibarra.example"
+ ],
+ "subject": "Aviso de pago",
+ "body": "Estimados señores,\n\nLe informamos que hemos procedido al pago de las siguientes facturas:\n\n- Factura SI-33974: 3306,90 EUR\n- Factura SI-43383: 3013,30 EUR\n\nTotal pagado: 6320,20 EUR\n\nEl pago se ha realizado a la cuenta ES9121000418450200051332.\n\nAtentamente,\nDepartamento de Cuentas a Pagar\nAcme Components",
+ "attachments": []
+}

@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "vertrieb@kraemer-werkzeugbau.example"
+ ],
+ "subject": "Zahlungsavis",
+ "body": "Wir haben folgende Rechnungen bezahlt: KW-17067 (3968,20 EUR), KW-11181 (4683,80 EUR).",
+ "attachments": []
+}

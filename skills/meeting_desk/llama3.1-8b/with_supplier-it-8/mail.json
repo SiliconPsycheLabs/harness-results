@@ -1,0 +1,14 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "sara.monti@acme.example",
+  "giulia.conti@acme.example",
+  "marta.leone@acme.example",
+  "ordini@officinegalli.example"
+ ],
+ "subject": "Piano di produzione",
+ "body": "La riunione si terrà il 18 febbraio 2027 alle 16:00.",
+ "attachments": [
+  "/acme/documents/meetings/agenda_8.docx"
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "paul.lefevre@acme.example",
+  "ines.garnier@acme.example",
+  "luc.moreau@acme.example"
+ ],
+ "subject": "Revue du budget",
+ "body": "Voici l'ordre du jour pour la réunion du 31 mars 2027 à 14:00.",
+ "attachments": [
+  "/acme/documents/meetings/agenda_11.docx"
+ ]
+}

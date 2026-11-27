@@ -1,0 +1,23 @@
+{
+ "request": "internal-fr-11",
+ "kind": "internal",
+ "language": "fr",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "Apologies for the confusion. I am unable to proceed without the necessary details such as the specific time slots for the attendees, Paul Lefèvre, Inès Garnier, and Luc Moreau. Without this information, I cannot accurately schedule the meeting using the find_free_slots tool. Once I have this information, I will be able to organize the meeting, create the agenda, and send out the invitations accordingly.",
+  "seconds": 5.5,
+  "tokens_in": 3896,
+  "tokens_out": 203,
+  "right": false,
+  "missing": [
+   "0 meetings created, not 1",
+   "agenda: no file at the path asked",
+   "0 mails sent, not 1"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "Apologies for the confusion. I am unable to proceed without the necessary names and contact information for Paul Lefèvre, Inès Garnier, and Luc Moreau. Please provide their names for the find_person tool to look up their addresses."
+ }
+}

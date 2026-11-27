@@ -1,0 +1,23 @@
+{
+ "request": "with_supplier-fr-12",
+ "kind": "with_supplier",
+ "language": "fr",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "I apologize for the confusion. I am unable to proceed without the necessary information. Please provide the names of all attendees and their email addresses, as well as the preferred time slot for the meeting.",
+  "seconds": 4.79,
+  "tokens_in": 3928,
+  "tokens_out": 169,
+  "right": false,
+  "missing": [
+   "0 meetings created, not 1",
+   "agenda: no file at the path asked",
+   "0 mails sent, not 1"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "I apologize for the confusion. I am unable to proceed without the necessary information. Please provide the names of all attendees and their email addresses, as well as the preferred time slot for the meeting."
+ }
+}

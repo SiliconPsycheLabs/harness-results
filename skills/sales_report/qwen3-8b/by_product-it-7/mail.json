@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "stefano.riva@acme.example"
+ ],
+ "subject": "Report on Tooling Orders for 2026",
+ "body": "Attached is the report on the total quantity and amount of Tooling products ordered in 2026.",
+ "attachments": [
+  "/acme/documents/reports/report_7.xlsx"
+ ]
+}

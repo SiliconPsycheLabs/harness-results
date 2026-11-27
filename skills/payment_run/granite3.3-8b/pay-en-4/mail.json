@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "sales@harbortools.example"
+ ],
+ "subject": "Payment advice for invoices HT-80555 and HT-8706",
+ "body": "This email confirms payment of your invoices HT-80555 and HT-8706. Amounts: 4240.20 EUR and 4412.90 EUR respectively.",
+ "attachments": []
+}

@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "vertrieb@kraemer-werkzeugbau.example"
+ ],
+ "subject": "Zahlungsavis für Krämer Werkzeugbau GmbH",
+ "body": "Sehr geehrte Damen und Herren,\n\nhiermit bestätigen wir die Zahlung der folgenden Rechnungen:\n- Rechnungsnr. KW-17067 mit einem Betrag von 3968,20 EUR\n- Rechnungsnr. KW-11181 mit einem Betrag von 4683,80 EUR\n\nDie Zahlungen wurden auf das Konto DE89370400440532013000 überwiesen.\n\nMit freundlichen Grüßen,\n\nAcme Components",
+ "attachments": []
+}

@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "vertrieb@kraemer-werkzeugbau.example"
+ ],
+ "subject": "Zahlungsavis",
+ "body": "Wir haben Ihre Rechnung KW-82504 in Höhe von 1984,50 EUR beglichen.",
+ "attachments": []
+}

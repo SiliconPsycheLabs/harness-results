@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "owen.blake@acme.example"
+ ],
+ "subject": "Report 2",
+ "body": "Your report is attached.",
+ "attachments": [
+  "/acme/documents/reports/report_2.xlsx"
+ ]
+}

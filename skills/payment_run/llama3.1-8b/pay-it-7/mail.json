@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "commerciale@tessiturabellomo.example"
+ ],
+ "subject": "Avviso di pagamento fattura TB-2930",
+ "body": "Egregio Sig. Rappresentante, siamo a Lei per comunicare che la fattura TB-2930 è stata pagata nella misura di 1063,90 EUR. Cordiali saluti.",
+ "attachments": []
+}

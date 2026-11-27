@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "hugo.besnard@acme.example"
+ ],
+ "subject": "Rapport de ventes 2026",
+ "body": "Voici le rapport de ventes 2026 pour le pays DE.",
+ "attachments": [
+  "/acme/documents/reports/report_12.xlsx"
+ ]
+}

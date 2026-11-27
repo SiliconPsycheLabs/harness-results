@@ -1,0 +1,14 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "anna.keller@acme.example",
+  "paolo.ferri@acme.example",
+  "tom.reyes@acme.example",
+  "orders@northwind-bearings.example"
+ ],
+ "subject": "Production plan",
+ "body": "You are invited to the meeting 'Production plan' on 2027-03-26 at 12:30.",
+ "attachments": [
+  "/acme/documents/meetings/agenda_2.docx"
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "luis.aranda@acme.example",
+  "carmen.ibarra@acme.example",
+  "ventas@suministrosibarra.example"
+ ],
+ "subject": "Lista de precios",
+ "body": "Estimados asistentes,\n\nLes invitamos a la reunión \"Lista de precios\" que tendrá lugar el 8 de febrero de 2027 a las 10:00.\n\nAdjunto encontrarán el orden del día.\n\nUn saludo,\nOficina de Acme Components",
+ "attachments": [
+  "/acme/documents/meetings/agenda_14.docx"
+ ]
+}

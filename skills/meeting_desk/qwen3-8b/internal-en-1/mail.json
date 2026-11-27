@@ -1,0 +1,13 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "paolo.ferri@acme.example",
+  "anna.keller@acme.example",
+  "lucia.marin@acme.example"
+ ],
+ "subject": "Budget review",
+ "body": "You are invited to the meeting 'Budget review' on 2027-02-11 at 14:00.",
+ "attachments": [
+  "/acme/documents/meetings/agenda_1.docx"
+ ]
+}

@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "ordini@officinegalli.example"
+ ],
+ "subject": "Avviso di pagamento",
+ "body": "Gentili Signori,\n\ncon la presente vi informiamo che è stato effettuato il pagamento della seguente fattura:\n\n- Fattura FG-79162: importo 3.400,30 EUR\n\nCordiali saluti,\n\nAcme Components\nUfficio Contabilità Fornitori",
+ "attachments": []
+}

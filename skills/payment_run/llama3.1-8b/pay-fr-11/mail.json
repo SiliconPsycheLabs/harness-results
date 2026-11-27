@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "contact@atelier-dumont.example"
+ ],
+ "subject": "Avis de paiement des factures F-26147",
+ "body": "Nous vous informons que nous avons payé la facture F-26147 décimale à 2920,30 EUR.",
+ "attachments": []
+}

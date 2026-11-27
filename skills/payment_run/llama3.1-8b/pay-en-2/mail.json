@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "orders@northwind-bearings.example"
+ ],
+ "subject": "Payment for invoices NB-99250 and NB-69139",
+ "body": "Dear Northwind Bearings Ltd, we have paid the invoices NB-99250 and NB-69139 in full. Thank you for your cooperation.",
+ "attachments": []
+}

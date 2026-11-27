@@ -1,0 +1,23 @@
+{
+ "request": "with_supplier-de-20",
+ "kind": "with_supplier",
+ "language": "de",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "Apologies for the confusion. I was instructed to organize a meeting but no specific details were provided. Now that the details are given, here's how I will proceed:",
+  "seconds": 4.34,
+  "tokens_in": 3938,
+  "tokens_out": 154,
+  "right": false,
+  "missing": [
+   "0 meetings created, not 1",
+   "agenda: no file at the path asked",
+   "0 mails sent, not 1"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "Apologies for the confusion. I was instructed to organize a meeting but no specific details were provided. Here's how I would proceed with the given instructions:"
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "carmen.ibarra@acme.example",
+  "elena.pardo@acme.example"
+ ],
+ "subject": "Calidad de proveedores",
+ "body": "Estimadas Carmen y Elena,\n\nLa reunión \"Calidad de proveedores\" tendrá lugar el 18 de febrero de 2027 a las 11:00.\n\nAdjunto encontrarán el orden del día.\n\nSaludos cordiales",
+ "attachments": [
+  "/acme/documents/meetings/agenda_15.docx"
+ ]
+}

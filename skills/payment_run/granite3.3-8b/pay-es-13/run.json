@@ -1,0 +1,23 @@
+{
+ "request": "pay-es-13",
+ "kind": "pay",
+ "language": "es",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "No invoices were found for Suministros Ibarra S.L. or the invoices were already paid.",
+  "seconds": 4.0,
+  "tokens_in": 2123,
+  "tokens_out": 125,
+  "right": false,
+  "missing": [
+   "SI-33974 is not paid",
+   "SI-43383 is not paid",
+   "0 mails sent, not 1"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "No invoices were found for Suministros Ibarra S.L. or the invoices were already paid."
+ }
+}

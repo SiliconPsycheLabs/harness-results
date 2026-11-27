@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "ordini@officinegalli.example"
+ ],
+ "subject": "Pagamento fattura FG-79162",
+ "body": "Egregio Sig. Rappresentante, siamo a Lei per comunicare che la fattura FG-79162 è stata pagata nella misura di 3400,30 EUR.",
+ "attachments": []
+}

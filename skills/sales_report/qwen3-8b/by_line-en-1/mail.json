@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "owen.blake@acme.example"
+ ],
+ "subject": "Report on total amount ordered in 2025",
+ "body": "Please find the report on the total amount ordered in 2025 attached.",
+ "attachments": [
+  "/acme/documents/reports/report_1.xlsx"
+ ]
+}

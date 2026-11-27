@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "ventas@suministrosibarra.example"
+ ],
+ "subject": "Aviso de pago de facturas",
+ "body": "Le informamos que hemos pagado la siguiente factura:\n\n- Número: SI-60769\n- Monto: 3660.60 EUR",
+ "attachments": []
+}

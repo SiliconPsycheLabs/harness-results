@@ -1,0 +1,171 @@
+{
+ "request": "by_line-fr-9",
+ "kind": "by_line",
+ "language": "fr",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "run_query",
+    "arguments": {
+     "sql": "SELECT p.line, SUM(ol.quantity * p.unit_price) FROM orders o JOIN order_lines ol ON o.id = ol.order_id JOIN products p ON ol.product_id = p.id WHERE o.order_date BETWEEN '2025-01-01' AND '2025-12-31' GROUP BY p.line"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "write_xlsx",
+    "arguments": {
+     "path": "/acme/documents/reports/report_9.xlsx",
+     "sheet": "Montant total commandé",
+     "columns": [
+      {
+       "name": "Ligne",
+       "type": "text"
+      },
+      {
+       "name": "Montant",
+       "type": "number"
+      }
+     ],
+     "rows": [
+      [
+       "Bearings",
+       "6619"
+      ],
+      [
+       "Hydraulics",
+       "21380"
+      ],
+      [
+       "Spare parts",
+       "73612"
+      ],
+      [
+       "Tooling",
+       "36961"
+      ]
+     ],
+     "total_columns": [
+      "Montant"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Claire Dumont"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "claire.dumont@acme.example"
+     ],
+     "subject": "Résumé des ventes 2025",
+     "body": "Voici le montant total commandé en 2025 pour chaque ligne de produits.",
+     "attachments": [
+      "/acme/documents/reports/report_9.xlsx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Le rapport a été envoyé à Claire Dumont.",
+  "seconds": 9.28,
+  "tokens_in": 8192,
+  "tokens_out": 348,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "run_query",
+    "arguments": {
+     "sql": "SELECT p.line, SUM(ol.quantity * p.unit_price) FROM orders o JOIN order_lines ol ON o.id = ol.order_id JOIN products p ON ol.product_id = p.id WHERE o.order_date BETWEEN '2025-01-01' AND '2025-12-31' GROUP BY p.line"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "write_xlsx",
+    "arguments": {
+     "path": "/acme/documents/reports/report_9.xlsx",
+     "sheet": "Montant total commandé",
+     "columns": [
+      {
+       "name": "Ligne",
+       "type": "text"
+      },
+      {
+       "name": "Montant",
+       "type": "number"
+      }
+     ],
+     "rows": [
+      [
+       "Bearings",
+       "6619"
+      ],
+      [
+       "Hydraulics",
+       "21380"
+      ],
+      [
+       "Spare parts",
+       "73612"
+      ],
+      [
+       "Tooling",
+       "36961"
+      ]
+     ],
+     "total_columns": [
+      "Montant"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Claire Dumont"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "claire.dumont@acme.example"
+     ],
+     "subject": "Résumé des ventes 2025",
+     "body": "Voici le montant total commandé en 2025 pour chaque ligne de produits.",
+     "attachments": [
+      "/acme/documents/reports/report_9.xlsx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Le rapport a été envoyé à Claire Dumont."
+ }
+}

@@ -1,0 +1,216 @@
+{
+ "request": "internal-de-19",
+ "kind": "internal",
+ "language": "de",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Tobias Voss"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Lena Brandt"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Acme Components"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_free_slots",
+    "arguments": {
+     "people": [
+      "tobias.voss@acme.example",
+      "lena.brandt@acme.example"
+     ],
+     "date": "2027-04-01",
+     "minutes": 60,
+     "part_of_day": "afternoon"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_event",
+    "arguments": {
+     "title": "Budgetpröfung",
+     "date": "2027-04-01",
+     "start": "14:00",
+     "end": "15:00",
+     "attendees": [
+      "tobias.voss@acme.example",
+      "lena.brandt@acme.example"
+     ],
+     "location": "Acme Components"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/meetings/agenda_19.docx",
+     "title": "Budgetpröfung",
+     "blocks": [
+      {
+       "type": "numbered",
+       "items": [
+        "Kosten der neuen Linie",
+        "Lieferzeiten",
+        "Lagerbestände"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "tobias.voss@acme.example",
+      "lena.brandt@acme.example"
+     ],
+     "subject": "Budgetpröfung",
+     "body": "Am 1. April 2027 um 14:00 ist die Budgetpröfung angesetzt.",
+     "attachments": [
+      "/acme/documents/meetings/agenda_19.docx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "1. April 2027, 14:00, Budgetprüfung, Agenda an alle Teilnehmer gesendet.",
+  "seconds": 11.95,
+  "tokens_in": 16593,
+  "tokens_out": 456,
+  "right": false,
+  "missing": [
+   "the title is not the one asked",
+   "agenda: title lacks: Budgetprüfung"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Tobias Voss"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Lena Brandt"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Acme Components"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_free_slots",
+    "arguments": {
+     "people": [
+      "tobias.voss@acme.example",
+      "lena.brandt@acme.example"
+     ],
+     "date": "2027-04-01",
+     "minutes": 60,
+     "part_of_day": "afternoon"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_event",
+    "arguments": {
+     "title": "Budgetpröfung",
+     "date": "2027-04-01",
+     "start": "14:00",
+     "end": "15:00",
+     "attendees": [
+      "tobias.voss@acme.example",
+      "lena.brandt@acme.example"
+     ],
+     "location": "Acme Components"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/meetings/agenda_19.docx",
+     "title": "Budgetpröfung",
+     "blocks": [
+      {
+       "type": "numbered",
+       "items": [
+        "Kosten der neuen Linie",
+        "Lieferzeiten",
+        "Lagerbestände"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "tobias.voss@acme.example",
+      "lena.brandt@acme.example"
+     ],
+     "subject": "Budgetpröfung",
+     "body": "Am 1. April 2027 um 14:00 ist die Budgetpröfung angesetzt.",
+     "attachments": [
+      "/acme/documents/meetings/agenda_19.docx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "1. April 2027, 14:00, Budgetprüfung, Agenda an alle Teilnehmer gesendet."
+ }
+}

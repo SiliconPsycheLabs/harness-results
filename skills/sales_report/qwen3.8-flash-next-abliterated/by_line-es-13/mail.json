@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "rosa.vidal@acme.example"
+ ],
+ "subject": "Importe total por línea de producto 2026",
+ "body": "Adjunto la hoja con el importe total pedido en 2026 por cada línea de producto.",
+ "attachments": [
+  "/acme/documents/reports/report_13.xlsx"
+ ]
+}

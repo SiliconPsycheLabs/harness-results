@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "rosa.vidal@acme.example"
+ ],
+ "subject": "Informe de pedidos de 2026",
+ "body": "Se adjunta el informe de pedidos de 2026.",
+ "attachments": [
+  "/acme/documents/reports/report_13.xlsx"
+ ]
+}

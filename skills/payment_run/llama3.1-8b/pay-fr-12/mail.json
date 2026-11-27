@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "contact@atelier-dumont.example"
+ ],
+ "subject": "Avis de paiement des factures F-15927",
+ "body": "Nous vous informons que nous avons payé la facture F-15927 désormais. Merci de confirmer.",
+ "attachments": []
+}

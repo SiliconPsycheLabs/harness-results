@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "carmen.ibarra@acme.example"
+ ],
+ "subject": "Importe total pedido en 2026 por cada cliente del país IT",
+ "body": "Adjunto encontrará el informe solicitado.",
+ "attachments": [
+  "/acme/documents/reports/report_16.xlsx"
+ ]
+}

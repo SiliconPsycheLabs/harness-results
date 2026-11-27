@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "vertrieb@kraemer-werkzeugbau.example"
+ ],
+ "subject": "Zahlungsavis",
+ "body": "Sehr geehrte Damen und Herren,\n\nhiermit bestätigen wir die Zahlung folgender Rechnung:\n\nRechnungsnummer: KW-82504\nBetrag: 1.984,50 EUR\n\nMit freundlichen Grüßen\nAcme Components",
+ "attachments": []
+}

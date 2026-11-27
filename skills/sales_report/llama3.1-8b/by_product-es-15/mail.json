@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "andres.molina@acme.example"
+ ],
+ "subject": "Reporte de Spare parts",
+ "body": "Se adjunta el reporte de Spare parts para el 2026.",
+ "attachments": [
+  "/acme/documents/reports/report_15.xlsx"
+ ]
+}

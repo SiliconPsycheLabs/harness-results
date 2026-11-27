@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "nadia.perrin@acme.example"
+ ],
+ "subject": "Rapport sur les commandes Bearings en 2026",
+ "body": "Voici le rapport sur les commandes Bearings en 2026.",
+ "attachments": [
+  "/acme/documents/reports/report_11.xlsx"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "sabine.vogt@acme.example"
+ ],
+ "subject": "Spare parts 2026",
+ "body": "Anbei die Mengen und Beträge der Spare-parts-Produkte für 2026.",
+ "attachments": [
+  "/acme/documents/reports/report_19.xlsx"
+ ]
+}

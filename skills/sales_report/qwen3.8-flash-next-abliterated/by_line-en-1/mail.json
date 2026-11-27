@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "owen.blake@acme.example"
+ ],
+ "subject": "Total amount ordered in 2025 by product line",
+ "body": "Here is the sheet with the total amount ordered in 2025 for each product line.",
+ "attachments": [
+  "/acme/documents/reports/report_1.xlsx"
+ ]
+}
