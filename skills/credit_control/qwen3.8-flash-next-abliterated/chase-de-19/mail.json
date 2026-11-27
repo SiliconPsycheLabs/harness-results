@@ -1,0 +1,11 @@
+{
+ "from": "credit@acme.example",
+ "to": [
+  "buchhaltung@brandt-praezisionsteile.example"
+ ],
+ "subject": "Zahlungserinnerung: Rechnung AC-2026-2564",
+ "body": "Sehr geehrte Damen und Herren,\n\nwir möchten Sie freundlich daran erinnern, dass die Rechnung AC-2026-2564 mit einem offenen Betrag von 8.160,00 EUR bereits seit dem 12.10.2026 überfällig ist.\n\nWir bitten Sie, den offenen Betrag zeitnah zu begleichen. Sollten Sie bereits eine Zahlung veranlasst haben, betrachten Sie dieses Schreiben bitte als gegenstandslos.\n\nMit freundlichen Grüßen\nAcme Components",
+ "attachments": [],
+ "invoice": "AC-2026-2564",
+ "customer": "Brandt Präzisionsteile GmbH"
+}

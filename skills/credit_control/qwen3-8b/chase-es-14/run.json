@@ -1,0 +1,65 @@
+{
+ "request": "chase-es-14",
+ "kind": "chase",
+ "language": "es",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "list_overdue_invoices",
+    "arguments": {
+     "customer": "Fundiciones Aranda S.A."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_reminder",
+    "arguments": {
+     "customer": "Fundiciones Aranda S.A.",
+     "number": "AC-2026-6010",
+     "to": "contabilidad@fundicionesaranda.example",
+     "subject": "Recordatorio de pago de factura",
+     "body": "Estimados, le recordamos que la factura número AC-2026-6010 tiene un importe pendiente de 3503.0 euros y vence el 22 de octubre de 2026. Por favor, pónganse en contacto con nosotros para más información."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Se ha enviado un recordatorio de pago para la factura AC-2026-6010 de Fundiciones Aranda S.A.",
+  "seconds": 6.32,
+  "tokens_in": 2944,
+  "tokens_out": 216,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "list_overdue_invoices",
+    "arguments": {
+     "customer": "Fundiciones Aranda S.A."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_reminder",
+    "arguments": {
+     "customer": "Fundiciones Aranda S.A.",
+     "number": "AC-2026-6010",
+     "to": "contabilidad@fundicionesaranda.example",
+     "subject": "Recordatorio de pago de factura",
+     "body": "Estimados, le recordamos que la factura número AC-2026-6010 tiene un importe pendiente de 3503.0 euros y vence el 22 de octubre de 2026. Por favor, pónganse en contacto con nosotros para más información."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Se ha enviado un recordatorio de pago para la factura AC-2026-6010 de Fundiciones Aranda S.A."
+ }
+}

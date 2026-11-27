@@ -1,0 +1,5 @@
+{
+ "question": "Quanti ordini ha fatto Pennant Hydraulics Inc. nel 2025?",
+ "answer": "Pennant Hydraulics Inc. ha effettuato 0 ordini nel 2025.",
+ "query": "SELECT COUNT(*) FROM orders WHERE STRFTIME('%Y', order_date) = '2025' AND customer_id IN (SELECT id FROM customers WHERE name = 'Pennant Hydraulics Inc');"
+}

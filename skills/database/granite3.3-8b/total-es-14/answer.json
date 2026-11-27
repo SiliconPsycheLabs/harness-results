@@ -1,0 +1,5 @@
+{
+ "question": "¿Cuál es el importe total, en euros, de lo que Outillage Besnard SARL pidió en 2026? Cuenta cada pedido, sea cual sea su estado.",
+ "answer": "El importe total de lo que Outillage Besnard SARL pidió en 2026 es de 9685 euros.",
+ "query": "SELECT SUM(order_lines.quantity * products.unit_price) AS total_amount FROM orders JOIN order_lines ON orders.id = order_lines.order_id JOIN customers ON orders.customer_id = customers.id JOIN products ON order_lines.product_id = products.id WHERE customers.name = 'Outillage Besnard SARL' AND STRFTIME('%Y', orders.order_date) = '2026';"
+}

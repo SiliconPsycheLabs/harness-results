@@ -1,0 +1,11 @@
+{
+ "from": "credit@acme.example",
+ "to": [
+  "ap@pennant-hydraulics.example"
+ ],
+ "subject": "Reminder: Payment Due for Invoice AC-2026-4542",
+ "body": "Dear Pennant Hydraulics Inc., we would like to remind you that the invoice AC-2026-4542 is overdue. The due date was 2026-10-27, and the open amount is $6780.00. Please make the payment at your earliest convenience.",
+ "attachments": [],
+ "invoice": "AC-2026-4542",
+ "customer": "Pennant Hydraulics Inc."
+}

@@ -1,0 +1,91 @@
+{
+ "request": "chase-it-8",
+ "kind": "chase",
+ "language": "it",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "list_overdue_invoices",
+    "arguments": {
+     "customer": "Fonderia Sarti S.p.A."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_reminder",
+    "arguments": {
+     "customer": "Fonderia Sarti S.p.A.",
+     "number": "AC-2026-6944",
+     "to": "contabilita@fonderiasarti.example",
+     "subject": "Sollecito di pagamento per fattura AC-2026-6944",
+     "body": "Gentile Fonderia Sarti S.p.A., siamo a richiamare la vostra attenzione sulla fattura AC-2026-6944, scaduta il 10/10/2026, per un importo di 3118.00 €. Si prega di effettuare il pagamento il prima possibile. Cordiali saluti, Acme Components"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_reminder",
+    "arguments": {
+     "customer": "Fonderia Sarti S.p.A.",
+     "number": "AC-2026-2960",
+     "to": "contabilita@fonderiasarti.example",
+     "subject": "Sollecito di pagamento per fattura AC-2026-2960",
+     "body": "Gentile Fonderia Sarti S.p.A., siamo a richiamare la vostra attenzione sulla fattura AC-2026-2960, scaduta il 24/10/2026, per un importo di 1218.00 €. Si prega di effettuare il pagamento il prima possibile. Cordiali saluti, Acme Components"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "nessun sollecito di pagamento è rimasto da inviare",
+  "seconds": 10.22,
+  "tokens_in": 4548,
+  "tokens_out": 385,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "list_overdue_invoices",
+    "arguments": {
+     "customer": "Fonderia Sarti S.p.A."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_reminder",
+    "arguments": {
+     "customer": "Fonderia Sarti S.p.A.",
+     "number": "AC-2026-6944",
+     "to": "contabilita@fonderiasarti.example",
+     "subject": "Sollecito di pagamento per fattura AC-2026-6944",
+     "body": "Gentile Fonderia Sarti S.p.A., siamo a richiamare la vostra attenzione sulla fattura AC-2026-6944, scaduta il 10/10/2026, per un importo di 3118.00 €. Si prega di effettuare il pagamento il prima possibile. Cordiali saluti, Acme Components"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_reminder",
+    "arguments": {
+     "customer": "Fonderia Sarti S.p.A.",
+     "number": "AC-2026-2960",
+     "to": "contabilita@fonderiasarti.example",
+     "subject": "Sollecito di pagamento per fattura AC-2026-2960",
+     "body": "Gentile Fonderia Sarti S.p.A., siamo a richiamare la vostra attenzione sulla fattura AC-2026-2960, scaduta il 24/10/2026, per un importo di 1218.00 €. Si prega di effettuare il pagamento il prima possibile. Cordiali saluti, Acme Components"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "nessun sollecito di pagamento è rimasto da inviare"
+ }
+}

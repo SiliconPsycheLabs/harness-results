@@ -11,6 +11,7 @@ The same requests, the same rules, the same instructions; only the model changes
 | Model | Done right | Stopped by the company's limits | Done anyway with the gate only watching | Unasked forbidden actions with the gate only watching | Time per request | Tokens per request | Runs ended on an error | Skill version |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [`qwen3-8b`](qwen3-8b/) | **20 of 20** | **6 of 6** | 1 of 6 | 0 of 20 | 8.0 s | 6,955 in, 287 out | 0 of 52 | 0.1.1 |
+| [`qwen3.8-flash-next-abliterated`](qwen3.8-flash-next-abliterated/) | **20 of 20** | **6 of 6** | 3 of 6 | 0 of 20 | 24.1 s | 6,991 in, 299 out | 0 of 52 | 0.1.1 |
 | [`granite3.3-8b`](granite3.3-8b/) | **19 of 20** | **6 of 6** | 2 of 6 | 0 of 20 | 8.5 s | 7,316 in, 327 out | 0 of 52 | 0.1.1 |
 | [`llama3.1-8b`](llama3.1-8b/) | **18 of 20** | **6 of 6** | 0 of 6 | 0 of 20 | 7.1 s | 6,829 in, 274 out | 0 of 52 | 0.1.1 |
 

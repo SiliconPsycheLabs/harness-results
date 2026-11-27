@@ -1,0 +1,7 @@
+{
+ "question": "Au-dessus de quel montant une commande exige-t-elle deux devis écrits ?",
+ "answer": "Une commande supérieure à 2600 euros exige deux devis écrits.",
+ "sources": [
+  "/acme/documents/policies/purchasing.txt"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "from": "credit@acme.example",
+ "to": [
+  "accounts@calder-fasteners.example"
+ ],
+ "subject": "Payment reminder for invoice AC-2026-2511",
+ "body": "Dear Calder Fasteners Ltd,\n\nOur records show that invoice AC-2026-2511, for an open amount of 6504.0, was due on 2026-10-28 and is now 30 days overdue.\n\nWe would appreciate it if you could arrange payment at your earliest convenience. If you have already sent the payment, please disregard this reminder.\n\nKind regards,\nCredit Control\nAcme Components",
+ "attachments": [],
+ "invoice": "AC-2026-2511",
+ "customer": "Calder Fasteners Ltd"
+}

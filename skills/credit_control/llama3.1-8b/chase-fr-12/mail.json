@@ -1,0 +1,11 @@
+{
+ "from": "credit@acme.example",
+ "to": [
+  "compta@outillage-besnard.example"
+ ],
+ "subject": "Relance de paiement pour la facture AC-2026-9282",
+ "body": "Bonjour, nous vous rappelons que la facture AC-2026-9282 dùue le 06/10/2026 pour un montant de 7685.00 euros est toujours impayée. Merci de nous faire parvenir le paiement à légale.",
+ "attachments": [],
+ "invoice": "AC-2026-9282",
+ "customer": "Outillage Besnard SARL"
+}

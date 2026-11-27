@@ -1,0 +1,5 @@
+{
+ "question": "Qual è l'importo totale, in euro, di ciò che Calder Fasteners Ltd ha ordinato nel 2026? Conta ogni ordine, qualunque sia lo stato.",
+ "answer": "L'importo totale, in euro, di ciò che Calder Fasteners Ltd ha ordinato nel 2026 è 11055.",
+ "query": "SELECT SUM(order_lines.quantity * products.unit_price) AS total_amount FROM orders JOIN order_lines ON orders.id = order_lines.order_id JOIN products ON order_lines.product_id = products.id WHERE orders.customer_id = (SELECT id FROM customers WHERE customers.name = 'Calder Fasteners Ltd') AND orders.order_date BETWEEN '2026-01-01' AND '2026-12-31';"
+}

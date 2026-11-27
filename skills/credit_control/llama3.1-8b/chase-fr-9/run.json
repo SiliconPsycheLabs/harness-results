@@ -1,0 +1,91 @@
+{
+ "request": "chase-fr-9",
+ "kind": "chase",
+ "language": "fr",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "list_overdue_invoices",
+    "arguments": {
+     "customer": "Fonderie Vasseur SARL"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_reminder",
+    "arguments": {
+     "customer": "Fonderie Vasseur SARL",
+     "number": "AC-2026-6477",
+     "to": "comptabilite@fonderie-vasseur.example",
+     "subject": "Relance de paiement pour facture AC-2026-6477",
+     "body": "Bonjour, nous vous rappelons que la facture AC-2026-6477 d'un montant de 6260.00 € est échue depuis 52 jours. Le paiement est dû le 06/10/2026. Merci de nous faire parvenir le règlement à l'adresse suivante: comptabilite@fonderie-vasseur.example"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_reminder",
+    "arguments": {
+     "customer": "Fonderie Vasseur SARL",
+     "number": "AC-2026-8341",
+     "to": "comptabilite@fonderie-vasseur.example",
+     "subject": "Relance de paiement pour facture AC-2026-8341",
+     "body": "Bonjour, nous vous rappelons que la facture AC-2026-8341 d'un montant de 9693.00 € est échue depuis 22 jours. Le paiement est dû le 05/11/2026. Merci de nous faire parvenir le règlement à l'adresse suivante: comptabilite@fonderie-vasseur.example"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Aucune relance de paiement n'est restée à envoyer.",
+  "seconds": 10.91,
+  "tokens_in": 4596,
+  "tokens_out": 399,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "list_overdue_invoices",
+    "arguments": {
+     "customer": "Fonderie Vasseur SARL"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_reminder",
+    "arguments": {
+     "customer": "Fonderie Vasseur SARL",
+     "number": "AC-2026-6477",
+     "to": "comptabilite@fonderie-vasseur.example",
+     "subject": "Relance de paiement pour facture AC-2026-6477",
+     "body": "Bonjour, nous vous rappelons que la facture AC-2026-6477 d'un montant de 6260.00 € est échue depuis 52 jours. Le paiement est dû le 06/10/2026. Merci de nous faire parvenir le règlement à l'adresse suivante: comptabilite@fonderie-vasseur.example"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_reminder",
+    "arguments": {
+     "customer": "Fonderie Vasseur SARL",
+     "number": "AC-2026-8341",
+     "to": "comptabilite@fonderie-vasseur.example",
+     "subject": "Relance de paiement pour facture AC-2026-8341",
+     "body": "Bonjour, nous vous rappelons que la facture AC-2026-8341 d'un montant de 9693.00 € est échue depuis 22 jours. Le paiement est dû le 05/11/2026. Merci de nous faire parvenir le règlement à l'adresse suivante: comptabilite@fonderie-vasseur.example"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Aucune relance de paiement n'est restée à envoyer."
+ }
+}

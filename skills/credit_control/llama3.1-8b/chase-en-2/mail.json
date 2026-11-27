@@ -1,0 +1,11 @@
+{
+ "from": "credit@acme.example",
+ "to": [
+  "accounts@calder-fasteners.example"
+ ],
+ "subject": "Payment reminder for invoice AC-2026-2511",
+ "body": "Dear Calder Fasteners Ltd, this is a reminder for the payment of invoice AC-2026-2511, due on 2026-10-28, with an open amount of 6504.00.",
+ "attachments": [],
+ "invoice": "AC-2026-2511",
+ "customer": "Calder Fasteners Ltd"
+}

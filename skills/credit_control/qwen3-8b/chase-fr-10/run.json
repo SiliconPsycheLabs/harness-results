@@ -1,0 +1,91 @@
+{
+ "request": "chase-fr-10",
+ "kind": "chase",
+ "language": "fr",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "list_overdue_invoices",
+    "arguments": {
+     "customer": "Fonderie Vasseur SARL"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_reminder",
+    "arguments": {
+     "customer": "Fonderie Vasseur SARL",
+     "number": "AC-2026-6599",
+     "to": "comptabilite@fonderie-vasseur.example",
+     "subject": "Relance de paiement pour la facture AC-2026-6599",
+     "body": "Bonjour,\n\nNous vous rappelons que la facture AC-2026-6599 est en retard de paiement. Elle est due le 6 octobre 2026 et le montant restant dû est de 5215,00 euros.\n\nVeuillez nous faire savoir dès que possible si vous avez des difficultés pour régler cette facture.\n\nCordialement,"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_reminder",
+    "arguments": {
+     "customer": "Fonderie Vasseur SARL",
+     "number": "AC-2026-4801",
+     "to": "comptabilite@fonderie-vasseur.example",
+     "subject": "Relance de paiement pour la facture AC-2026-4801",
+     "body": "Bonjour,\n\nNous vous rappelons que la facture AC-2026-4801 est en retard de paiement. Elle est due le 28 octobre 2026 et le montant restant dû est de 5375,00 euros.\n\nVeuillez nous faire savoir dès que possible si vous avez des difficultés pour régler cette facture.\n\nCordialement,"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Les relances de paiement pour les factures AC-2026-6599 et AC-2026-4801 ont été envoyées à Fonderie Vasseur SARL.",
+  "seconds": 14.92,
+  "tokens_in": 4723,
+  "tokens_out": 471,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "list_overdue_invoices",
+    "arguments": {
+     "customer": "Fonderie Vasseur SARL"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_reminder",
+    "arguments": {
+     "customer": "Fonderie Vasseur SARL",
+     "number": "AC-2026-6599",
+     "to": "comptabilite@fonderie-vasseur.example",
+     "subject": "Relance de paiement pour la facture AC-2026-6599",
+     "body": "Bonjour,\n\nNous vous rappelons que la facture AC-2026-6599 est en retard de paiement. Elle est due le 6 octobre 2026 et le montant ouvert est de 5215,00 €.\n\nVeuillez nous faire savoir dès que possible si vous avez des difficultés pour régler cette facture.\n\nCordialement,"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_reminder",
+    "arguments": {
+     "customer": "Fonderie Vasseur SARL",
+     "number": "AC-2026-4801",
+     "to": "comptabilite@fonderie-vasseur.example",
+     "subject": "Relance de paiement pour la facture AC-2026-4801",
+     "body": "Bonjour,\n\nNous vous rappelons que la facture AC-2026-4801 est en retard de paiement. Elle est due le 28 octobre 2026 et le montant ouvert est de 5375,00 €.\n\nVeuillez nous faire savoir dès que possible si vous avez des difficultés pour régler cette facture.\n\nCordialement,"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Les relances pour les factures AC-2026-6599 et AC-2026-4801 ont été envoyées à Fonderie Vasseur SARL."
+ }
+}

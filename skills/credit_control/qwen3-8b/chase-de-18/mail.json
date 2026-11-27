@@ -1,0 +1,11 @@
+{
+ "from": "credit@acme.example",
+ "to": [
+  "buchhaltung@brandt-praezisionsteile.example"
+ ],
+ "subject": "Erinnerung zur Zahlung der Rechnung AC-2026-4661",
+ "body": "Sehr geehrte Damen und Herren,\n\nwir möchten Sie freundlich an die Rechnung AC-2026-4661 erinnern. Die Rechnung beträgt 4172,00 € und ist am 12.10.2026 fällig. Die Rechnung ist bereits 46 Tage überfällig.\n\nWir bitten Sie um rasche Bezahlung.\n\nMit freundlichen Grüßen,\n\nAcme Components",
+ "attachments": [],
+ "invoice": "AC-2026-4661",
+ "customer": "Brandt Präzisionsteile GmbH"
+}

@@ -1,0 +1,95 @@
+{
+ "request": "count-fr-9",
+ "kind": "count",
+ "language": "fr",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "describe_database",
+    "arguments": {},
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "run_query",
+    "arguments": {
+     "sql": "SELECT COUNT(*) FROM orders WHERE YEAR(order_date) = 2025 AND customer_id IN (SELECT id FROM customers WHERE name = 'Seidel Gusstechnik AG');"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "run_query",
+    "arguments": {
+     "sql": "SELECT COUNT(*) FROM orders WHERE STRFTIME('%Y', order_date) = '2025' AND customer_id IN (SELECT id FROM customers WHERE name = 'Seidel Gusstechnik AG');"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "save_answer",
+    "arguments": {
+     "path": "/acme/documents/answers/data_9.json",
+     "question": "Combien de commandes Seidel Gusstechnik AG a-t-il passées en 2025 ?",
+     "answer": "Seidel Gusstechnik AG a passé 5 commandes en 2025.",
+     "query": "SELECT COUNT(*) FROM orders WHERE STRFTIME('%Y', order_date) = '2025' AND customer_id IN (SELECT id FROM customers WHERE name = 'Seidel Gusstechnik AG');"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Seidel Gusstechnik AG a passé 5 commandes en 2025.",
+  "seconds": 7.79,
+  "tokens_in": 5358,
+  "tokens_out": 332,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "describe_database",
+    "arguments": {},
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "run_query",
+    "arguments": {
+     "sql": "SELECT COUNT(*) FROM orders WHERE YEAR(order_date) = 2025 AND customer_id IN (SELECT id FROM customers WHERE name = 'Seidel Gusstechnik AG');"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "run_query",
+    "arguments": {
+     "sql": "SELECT COUNT(*) FROM orders WHERE STRFTIME('%Y', order_date) = '2025' AND customer_id IN (SELECT id FROM customers WHERE name = 'Seidel Gusstechnik AG');"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "save_answer",
+    "arguments": {
+     "path": "/acme/documents/answers/data_9.json",
+     "question": "Combien de commandes Seidel Gusstechnik AG a-t-il passées en 2025 ?",
+     "answer": "Seidel Gusstechnik AG a passé 5 commandes en 2025.",
+     "query": "SELECT COUNT(*) FROM orders WHERE STRFTIME('%Y', order_date) = '2025' AND customer_id IN (SELECT id FROM customers WHERE name = 'Seidel Gusstechnik AG');"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Seidel Gusstechnik AG a passé 5 commandes en 2025."
+ }
+}

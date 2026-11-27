@@ -1,0 +1,5 @@
+{
+ "question": "Quel client a passé le plus de commandes en 2025 ?",
+ "answer": "Le client Fundiciones Aranda S.A. a passé le plus de commandes en 2025, avec un total de 15 commandes.",
+ "query": "SELECT c.name, COUNT(o.id) AS total_orders FROM customers c JOIN orders o ON c.id = o.customer_id WHERE STRFTIME('%Y', o.order_date) = '2025' GROUP BY c.name ORDER BY total_orders DESC LIMIT 1"
+}

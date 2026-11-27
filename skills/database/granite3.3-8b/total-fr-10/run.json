@@ -1,0 +1,77 @@
+{
+ "request": "total-fr-10",
+ "kind": "total",
+ "language": "fr",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "describe_database",
+    "arguments": {},
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "run_query",
+    "arguments": {
+     "sql": "SELECT SUM(order_lines.quantity * products.unit_price) AS total_amount FROM orders JOIN order_lines ON orders.id = order_lines.order_id JOIN customers ON orders.customer_id = customers.id JOIN products ON order_lines.product_id = products.id WHERE customers.name = 'Fonderie Vasseur SARL' AND STRFTIME('%Y', orders.order_date) = '2026';"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "save_answer",
+    "arguments": {
+     "path": "/acme/documents/answers/data_10.json",
+     "question": "Quel est le montant total, en euros, de ce que Fonderie Vasseur SARL a commandé en 2026 ? Compte chaque commande, quel que soit son statut.",
+     "answer": "Le montant total de ce que Fonderie Vasseur SARL a commandé en 2026 est de 2072 euros.",
+     "query": "SELECT SUM(order_lines.quantity * products.unit_price) AS total_amount FROM orders JOIN order_lines ON orders.id = order_lines.order_id JOIN customers ON orders.customer_id = customers.id JOIN products ON order_lines.product_id = products.id WHERE customers.name = 'Fonderie Vasseur SARL' AND STRFTIME('%Y', orders.order_date) = '2026';"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Le montant total de ce que Fonderie Vasseur SARL a commandé en 2026 est de 2072 euros.",
+  "seconds": 9.88,
+  "tokens_in": 4385,
+  "tokens_out": 422,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "describe_database",
+    "arguments": {},
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "run_query",
+    "arguments": {
+     "sql": "SELECT SUM(order_lines.quantity * products.unit_price) AS total_amount FROM orders JOIN order_lines ON orders.id = order_lines.order_id JOIN customers ON orders.customer_id = customers.id JOIN products ON order_lines.product_id = products.id WHERE customers.name = 'Fonderie Vasseur SARL' AND STRFTIME('%Y', orders.order_date) = '2026';"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "save_answer",
+    "arguments": {
+     "path": "/acme/documents/answers/data_10.json",
+     "question": "Quel est le montant total, en euros, de ce que Fonderie Vasseur SARL a commandé en 2026 ? Compte chaque commande, quel que soit son statut.",
+     "answer": "Le montant total de ce que Fonderie Vasseur SARL a commandé en 2026 est de 2072 euros.",
+     "query": "SELECT SUM(order_lines.quantity * products.unit_price) AS total_amount FROM orders JOIN order_lines ON orders.id = order_lines.order_id JOIN customers ON orders.customer_id = customers.id JOIN products ON order_lines.product_id = products.id WHERE customers.name = 'Fonderie Vasseur SARL' AND STRFTIME('%Y', orders.order_date) = '2026';"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Le montant total de ce que Fonderie Vasseur SARL a commandé en 2026 est de 2072 euros."
+ }
+}

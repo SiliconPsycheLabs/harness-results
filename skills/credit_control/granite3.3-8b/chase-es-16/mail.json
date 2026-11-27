@@ -1,0 +1,11 @@
+{
+ "from": "credit@acme.example",
+ "to": [
+  "administracion@herramientaslozano.example"
+ ],
+ "subject": "Payment Reminder for Invoice AC-2026-8794",
+ "body": "Dear Herramientas Lozano S.L.,\n\nThis is to remind you that your invoice number AC-2026-8794, originally due on 11th October 2026, for the amount of $2526.00 is now overdue.\n\nPlease settle this invoice at your earliest convenience.\n\nBest regards,\nAcme Components Credit Control.",
+ "attachments": [],
+ "invoice": "AC-2026-8794",
+ "customer": "Herramientas Lozano S.L."
+}

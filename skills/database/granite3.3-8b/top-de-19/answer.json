@@ -1,0 +1,5 @@
+{
+ "question": "Welcher Kunde hat im Jahr 2026 die meisten Bestellungen aufgegeben?",
+ "answer": "The customer Brandt Präzisionsteile GmbH placed the most orders in 2026, with a total of 12 orders.",
+ "query": "SELECT c.name, COUNT(o.id) AS num_orders FROM customers c JOIN orders o ON c.id = o.customer_id WHERE STRFTIME('%Y', o.order_date) = '2026' GROUP BY c.name ORDER BY num_orders DESC LIMIT 1;"
+}

@@ -1,0 +1,5 @@
+{
+ "question": "What is the total amount, in euros, of what Seidel Gusstechnik AG ordered in 2025?",
+ "answer": "The total amount of Seidel Gusstechnik AG's orders in 2025 is 14,421 euros.",
+ "query": "SELECT SUM(order_lines.quantity * products.unit_price) AS total_amount FROM orders JOIN order_lines ON orders.id = order_lines.order_id JOIN customers ON orders.customer_id = customers.id JOIN products ON order_lines.product_id = products.id WHERE customers.name = 'Seidel Gusstechnik AG' AND STRFTIME('%Y', orders.order_date) = '2025';"
+}

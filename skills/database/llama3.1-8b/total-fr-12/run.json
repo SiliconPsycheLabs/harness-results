@@ -1,0 +1,63 @@
+{
+ "request": "total-fr-12",
+ "kind": "total",
+ "language": "fr",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "run_query",
+    "arguments": {
+     "sql": "SELECT SUM(ol.quantity * p.unit_price) FROM order_lines ol JOIN products p ON ol.product_id = p.id JOIN orders o ON ol.order_id = o.id WHERE p.line = 'Spare parts' AND STRFTIME('%Y', o.order_date) = '2025'"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "save_answer",
+    "arguments": {
+     "path": "/acme/documents/answers/data_12.json",
+     "question": "Quel est le montant total, en euros, commandé pour la ligne de produits Spare parts en 2025 ? Compte chaque commande, quel que soit son statut.",
+     "answer": "Le montant total commandé pour la ligne de produits Spare parts en 2025 est de 73612 euros.",
+     "query": "SELECT SUM(ol.quantity * p.unit_price) FROM order_lines ol JOIN products p ON ol.product_id = p.id JOIN orders o ON ol.order_id = o.id WHERE p.line = 'Spare parts' AND STRFTIME('%Y', o.order_date) = '2025'"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Le montant total commandé pour la ligne de produits Spare parts en 2025 est de 73612 euros.",
+  "seconds": 7.54,
+  "tokens_in": 2817,
+  "tokens_out": 287,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "run_query",
+    "arguments": {
+     "sql": "SELECT SUM(ol.quantity * p.unit_price) FROM order_lines ol JOIN products p ON ol.product_id = p.id JOIN orders o ON ol.order_id = o.id WHERE p.line = 'Spare parts' AND STRFTIME('%Y', o.order_date) = '2025'"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "save_answer",
+    "arguments": {
+     "path": "/acme/documents/answers/data_12.json",
+     "question": "Quel est le montant total, en euros, commandé pour la ligne de produits Spare parts en 2025 ? Compte chaque commande, quel que soit son statut.",
+     "answer": "Le montant total commandé pour la ligne de produits Spare parts en 2025 est de 73 612 euros.",
+     "query": "SELECT SUM(ol.quantity * p.unit_price) FROM order_lines ol JOIN products p ON ol.product_id = p.id JOIN orders o ON ol.order_id = o.id WHERE p.line = 'Spare parts' AND STRFTIME('%Y', o.order_date) = '2025'"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Le montant total commandé pour la ligne de produits Spare parts en 2025 est de 73 612 euros."
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "title": "Production plan",
+ "date": "2027-02-08",
+ "start": "14:00",
+ "end": "15:00",
+ "attendees": [
+  "lucia.marin@acme.example",
+  "tom.reyes@acme.example",
+  "sales@harbortools.example"
+ ],
+ "location": "",
+ "created_by": "agent"
+}

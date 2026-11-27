@@ -1,0 +1,11 @@
+{
+ "from": "credit@acme.example",
+ "to": [
+  "comptabilite@fonderie-vasseur.example"
+ ],
+ "subject": "Relance de paiement pour la facture AC-2026-6477",
+ "body": "Bonjour,\n\nNous vous rappelons que la facture AC-2026-6477, d'un montant de 6260,00 €, est en retard de paiement depuis le 6 octobre 2026. Veuillez nous verser le montant dû d'ici la date d'échéance.\n\nMerci pour votre attention.\n\nCordialement,",
+ "attachments": [],
+ "invoice": "AC-2026-6477",
+ "customer": "Fonderie Vasseur SARL"
+}

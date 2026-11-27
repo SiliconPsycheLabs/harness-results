@@ -6,6 +6,8 @@ Each skill is one thing an office needs done. Its page gives the whole recipe (m
 
 - **[accounts_payable](skills/accounts_payable/)**: The accounts payable job from start to end: read the supplier invoice that arrived as a PDF, enter it in the accounting application, write to the supplier that it was received and when it will be paid.
 - **[calendar](skills/calendar/)**: Book a meeting in the company calendar: find the first time when everyone is free and create the event with the right people.
+- **[credit_control](skills/credit_control/)**: Credit control from start to end: find a customer's overdue invoices in the accounting application and send one payment reminder for each, to the customer's address on file.
+- **[database](skills/database/)**: Answer a business question from the company's database: write the query, read the rows, and save the answer with the query it comes from.
 - **[doc_search](skills/doc_search/)**: Answer a colleague's question from the company's own documents: find the document, read it, and save the answer with the document it comes from.
 - **[excel](skills/excel/)**: Write an Excel sheet (.xlsx) from an office request: a table with typed columns and a total row computed by a formula.
 - **[filing](skills/filing/)**: File the documents that arrive: copy each one from the inbox into the right folder of the company's documents, and tidy folders by moving files.
@@ -23,16 +25,27 @@ Each skill is one thing an office needs done. Its page gives the whole recipe (m
 | [accounts_payable](skills/accounts_payable/) | [`llama3.1-8b`](skills/accounts_payable/llama3.1-8b/) | **16 of 20** | **6 of 6** | 11.3 s | 10,953 in, 429 out |
 | [accounts_payable](skills/accounts_payable/) | [`granite3.3-8b`](skills/accounts_payable/granite3.3-8b/) | **0 of 20** | **6 of 6** | 2.7 s | 3,083 in, 101 out |
 | [calendar](skills/calendar/) | [`qwen3-8b`](skills/calendar/qwen3-8b/) | **20 of 20** | **6 of 6** | 8.0 s | 6,955 in, 287 out |
+| [calendar](skills/calendar/) | [`qwen3.8-flash-next-abliterated`](skills/calendar/qwen3.8-flash-next-abliterated/) | **20 of 20** | **6 of 6** | 24.1 s | 6,991 in, 299 out |
 | [calendar](skills/calendar/) | [`granite3.3-8b`](skills/calendar/granite3.3-8b/) | **19 of 20** | **6 of 6** | 8.5 s | 7,316 in, 327 out |
 | [calendar](skills/calendar/) | [`llama3.1-8b`](skills/calendar/llama3.1-8b/) | **18 of 20** | **6 of 6** | 7.1 s | 6,829 in, 274 out |
+| [credit_control](skills/credit_control/) | [`granite3.3-8b`](skills/credit_control/granite3.3-8b/) | **20 of 20** | **6 of 6** | 9.1 s | 3,910 in, 307 out |
+| [credit_control](skills/credit_control/) | [`qwen3-8b`](skills/credit_control/qwen3-8b/) | **20 of 20** | **6 of 6** | 10.8 s | 3,771 in, 345 out |
+| [credit_control](skills/credit_control/) | [`llama3.1-8b`](skills/credit_control/llama3.1-8b/) | **20 of 20** | **6 of 6** | 14.1 s | 6,740 in, 460 out |
+| [credit_control](skills/credit_control/) | [`qwen3.8-flash-next-abliterated`](skills/credit_control/qwen3.8-flash-next-abliterated/) | **20 of 20** | **6 of 6** | 24.9 s | 3,887 in, 390 out |
+| [database](skills/database/) | [`qwen3.8-flash-next-abliterated`](skills/database/qwen3.8-flash-next-abliterated/) | **20 of 20** | **6 of 6** | 19.8 s | 2,855 in, 310 out |
+| [database](skills/database/) | [`qwen3-8b`](skills/database/qwen3-8b/) | **19 of 20** | **6 of 6** | 9.7 s | 2,838 in, 317 out |
+| [database](skills/database/) | [`llama3.1-8b`](skills/database/llama3.1-8b/) | **18 of 20** | **6 of 6** | 7.3 s | 2,811 in, 282 out |
+| [database](skills/database/) | [`granite3.3-8b`](skills/database/granite3.3-8b/) | **14 of 20** | **6 of 6** | 8.8 s | 4,399 in, 366 out |
 | [doc_search](skills/doc_search/) | [`llama3.1-8b`](skills/doc_search/llama3.1-8b/) | **20 of 20** | **6 of 6** | 5.0 s | 3,902 in, 194 out |
 | [doc_search](skills/doc_search/) | [`qwen3-8b`](skills/doc_search/qwen3-8b/) | **20 of 20** | **6 of 6** | 5.4 s | 3,800 in, 189 out |
+| [doc_search](skills/doc_search/) | [`qwen3.8-flash-next-abliterated`](skills/doc_search/qwen3.8-flash-next-abliterated/) | **20 of 20** | **6 of 6** | 14.6 s | 3,643 in, 198 out |
 | [doc_search](skills/doc_search/) | [`granite3.3-8b`](skills/doc_search/granite3.3-8b/) | **2 of 20** | **6 of 6** | 2.0 s | 1,610 in, 84 out |
 | [excel](skills/excel/) | [`qwen3-8b`](skills/excel/qwen3-8b/) | **20 of 20** | **6 of 6** | 5.6 s | 1,924 in, 250 out |
 | [excel](skills/excel/) | [`granite3.3-8b`](skills/excel/granite3.3-8b/) | **20 of 20** | **6 of 6** | 7.6 s | 1,991 in, 273 out |
 | [excel](skills/excel/) | [`qwen3.8-flash-next-abliterated`](skills/excel/qwen3.8-flash-next-abliterated/) | **20 of 20** | **6 of 6** | 31.4 s | 2,020 in, 359 out |
 | [excel](skills/excel/) | [`llama3.1-8b`](skills/excel/llama3.1-8b/) | **2 of 20** | **6 of 6** | 0.7 s | 801 in, 24 out |
 | [filing](skills/filing/) | [`llama3.1-8b`](skills/filing/llama3.1-8b/) | **20 of 20** | **6 of 6** | 4.7 s | 3,400 in, 182 out |
+| [filing](skills/filing/) | [`qwen3.8-flash-next-abliterated`](skills/filing/qwen3.8-flash-next-abliterated/) | **20 of 20** | **6 of 6** | 15.4 s | 3,657 in, 218 out |
 | [filing](skills/filing/) | [`qwen3-8b`](skills/filing/qwen3-8b/) | **16 of 20** | **6 of 6** | 5.6 s | 3,485 in, 204 out |
 | [filing](skills/filing/) | [`granite3.3-8b`](skills/filing/granite3.3-8b/) | **4 of 20** | **6 of 6** | 4.0 s | 2,540 in, 159 out |
 | [mail](skills/mail/) | [`qwen3.8-flash-next-abliterated`](skills/mail/qwen3.8-flash-next-abliterated/) | **16 of 20** | **6 of 6** | 27.1 s | 2,141 in, 245 out |

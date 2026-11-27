@@ -1,0 +1,11 @@
+{
+ "from": "credit@acme.example",
+ "to": [
+  "accounts@calder-fasteners.example"
+ ],
+ "subject": "Reminder: Payment Due for Invoice AC-2026-2511",
+ "body": "Dear Calder Fasteners Ltd, we would like to remind you that the invoice AC-2026-2511 is overdue. The amount due is £6504.00, and the due date was 2026-10-28. Please make the payment at your earliest convenience.",
+ "attachments": [],
+ "invoice": "AC-2026-2511",
+ "customer": "Calder Fasteners Ltd"
+}

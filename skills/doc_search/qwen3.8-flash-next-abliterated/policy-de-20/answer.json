@@ -1,0 +1,7 @@
+{
+ "question": "Innerhalb von wie vielen Tagen nach der Ausgabe muss eine Spesenabrechnung eingereicht werden?",
+ "answer": "Eine Spesenabrechnung wird innerhalb von 22 Tagen nach der Ausgabe eingereicht.",
+ "sources": [
+  "/acme/documents/policies/expenses.txt"
+ ]
+}

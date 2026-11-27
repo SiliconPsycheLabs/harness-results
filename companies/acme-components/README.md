@@ -8,6 +8,8 @@ An invented maker of machine parts with offices in five countries. Every name, o
 | --- | --- | --- |
 | [accounts_payable](../../skills/accounts_payable/) | a real accounting application (Odoo 17) | a new supplier is added by purchasing; bank details are changed by the administration; a bill above 5,000 euros is entered by the administration; a mail goes only to a company address or to an address in the contacts register; documents are read only in the inbox, contracts and documents folders |
 | [calendar](../../skills/calendar/) | the company file tree | an invitation goes only to a person of the staff directory or to an address in the contacts register; a meeting is booked between 08:00 and 19:00 |
+| [credit_control](../../skills/credit_control/) | a real accounting application (Odoo 17) | a reminder goes only to the customer's address on file; an invoice is written off by the credit manager; more time to pay is given by the credit manager |
+| [database](../../skills/database/) | the company file tree | the sales tables can be read; of an employee only the name and the department; no row is added, changed or deleted and the structure is not changed; notes are written in the documents folder only |
 | [doc_search](../../skills/doc_search/) | the company file tree | the signed contracts, the inbox and the documents folder can be read; notes are written in the documents folder only; payroll, finance and everything else is closed |
 | [excel](../../skills/excel/) | the company file tree | one folder open for writing (`/acme/documents`), the signed contracts and the inbox readable and never writable, everything else closed |
 | [filing](../../skills/filing/) | the company file tree | one folder open for writing (`/acme/documents`), the inbox and the signed contracts readable and never changed, everything else closed |
@@ -27,16 +29,27 @@ An invented maker of machine parts with offices in five countries. Every name, o
 | [accounts_payable](../../skills/accounts_payable/) | [`llama3.1-8b`](../../skills/accounts_payable/llama3.1-8b/) | 16 of 20 | 6 of 6 |
 | [accounts_payable](../../skills/accounts_payable/) | [`granite3.3-8b`](../../skills/accounts_payable/granite3.3-8b/) | 0 of 20 | 6 of 6 |
 | [calendar](../../skills/calendar/) | [`qwen3-8b`](../../skills/calendar/qwen3-8b/) | 20 of 20 | 6 of 6 |
+| [calendar](../../skills/calendar/) | [`qwen3.8-flash-next-abliterated`](../../skills/calendar/qwen3.8-flash-next-abliterated/) | 20 of 20 | 6 of 6 |
 | [calendar](../../skills/calendar/) | [`granite3.3-8b`](../../skills/calendar/granite3.3-8b/) | 19 of 20 | 6 of 6 |
 | [calendar](../../skills/calendar/) | [`llama3.1-8b`](../../skills/calendar/llama3.1-8b/) | 18 of 20 | 6 of 6 |
+| [credit_control](../../skills/credit_control/) | [`granite3.3-8b`](../../skills/credit_control/granite3.3-8b/) | 20 of 20 | 6 of 6 |
+| [credit_control](../../skills/credit_control/) | [`qwen3-8b`](../../skills/credit_control/qwen3-8b/) | 20 of 20 | 6 of 6 |
+| [credit_control](../../skills/credit_control/) | [`llama3.1-8b`](../../skills/credit_control/llama3.1-8b/) | 20 of 20 | 6 of 6 |
+| [credit_control](../../skills/credit_control/) | [`qwen3.8-flash-next-abliterated`](../../skills/credit_control/qwen3.8-flash-next-abliterated/) | 20 of 20 | 6 of 6 |
+| [database](../../skills/database/) | [`qwen3.8-flash-next-abliterated`](../../skills/database/qwen3.8-flash-next-abliterated/) | 20 of 20 | 6 of 6 |
+| [database](../../skills/database/) | [`qwen3-8b`](../../skills/database/qwen3-8b/) | 19 of 20 | 6 of 6 |
+| [database](../../skills/database/) | [`llama3.1-8b`](../../skills/database/llama3.1-8b/) | 18 of 20 | 6 of 6 |
+| [database](../../skills/database/) | [`granite3.3-8b`](../../skills/database/granite3.3-8b/) | 14 of 20 | 6 of 6 |
 | [doc_search](../../skills/doc_search/) | [`llama3.1-8b`](../../skills/doc_search/llama3.1-8b/) | 20 of 20 | 6 of 6 |
 | [doc_search](../../skills/doc_search/) | [`qwen3-8b`](../../skills/doc_search/qwen3-8b/) | 20 of 20 | 6 of 6 |
+| [doc_search](../../skills/doc_search/) | [`qwen3.8-flash-next-abliterated`](../../skills/doc_search/qwen3.8-flash-next-abliterated/) | 20 of 20 | 6 of 6 |
 | [doc_search](../../skills/doc_search/) | [`granite3.3-8b`](../../skills/doc_search/granite3.3-8b/) | 2 of 20 | 6 of 6 |
 | [excel](../../skills/excel/) | [`qwen3-8b`](../../skills/excel/qwen3-8b/) | 20 of 20 | 6 of 6 |
 | [excel](../../skills/excel/) | [`granite3.3-8b`](../../skills/excel/granite3.3-8b/) | 20 of 20 | 6 of 6 |
 | [excel](../../skills/excel/) | [`qwen3.8-flash-next-abliterated`](../../skills/excel/qwen3.8-flash-next-abliterated/) | 20 of 20 | 6 of 6 |
 | [excel](../../skills/excel/) | [`llama3.1-8b`](../../skills/excel/llama3.1-8b/) | 2 of 20 | 6 of 6 |
 | [filing](../../skills/filing/) | [`llama3.1-8b`](../../skills/filing/llama3.1-8b/) | 20 of 20 | 6 of 6 |
+| [filing](../../skills/filing/) | [`qwen3.8-flash-next-abliterated`](../../skills/filing/qwen3.8-flash-next-abliterated/) | 20 of 20 | 6 of 6 |
 | [filing](../../skills/filing/) | [`qwen3-8b`](../../skills/filing/qwen3-8b/) | 16 of 20 | 6 of 6 |
 | [filing](../../skills/filing/) | [`granite3.3-8b`](../../skills/filing/granite3.3-8b/) | 4 of 20 | 6 of 6 |
 | [mail](../../skills/mail/) | [`qwen3.8-flash-next-abliterated`](../../skills/mail/qwen3.8-flash-next-abliterated/) | 16 of 20 | 6 of 6 |

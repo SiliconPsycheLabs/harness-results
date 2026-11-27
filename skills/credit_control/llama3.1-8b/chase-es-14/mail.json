@@ -1,0 +1,11 @@
+{
+ "from": "credit@acme.example",
+ "to": [
+  "contabilidad@fundicionesaranda.example"
+ ],
+ "subject": "Recordatorio de pago de factura AC-2026-6010",
+ "body": "Estimado/a, le recordamos que la factura AC-2026-6010 vencida el 22/10/2026 tiene un monto pendiente de $3503.00. Por favor, realice el pago lo antes posible.",
+ "attachments": [],
+ "invoice": "AC-2026-6010",
+ "customer": "Fundiciones Aranda S.A."
+}

@@ -1,0 +1,5 @@
+{
+ "question": "Qual è l’importo totale, in euro, ordinato della linea di prodotto Bearings nel 2026? Conta ogni ordine, qualunque sia lo stato.",
+ "answer": "null",
+ "query": "SELECT SUM(ol.quantity * p.unit_price) FROM order_lines ol JOIN products p ON ol.product_id = p.id JOIN orders o ON ol.order_id = o.id WHERE p.name = 'Bearings' AND STRFTIME('%Y', o.order_date) = '2026'"
+}

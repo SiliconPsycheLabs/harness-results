@@ -1,0 +1,11 @@
+{
+ "from": "credit@acme.example",
+ "to": [
+  "contabilita@fonderiasarti.example"
+ ],
+ "subject": "Payment Reminder for Invoice AC-2026-6944",
+ "body": "Dear Fonderia Sarti S.p.A., this is a friendly reminder that your invoice number AC-2026-6944, due on 10th October 2026, for the amount of $3118.00 is now overdue.",
+ "attachments": [],
+ "invoice": "AC-2026-6944",
+ "customer": "Fonderia Sarti S.p.A."
+}

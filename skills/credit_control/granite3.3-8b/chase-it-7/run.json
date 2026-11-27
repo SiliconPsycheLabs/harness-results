@@ -1,0 +1,65 @@
+{
+ "request": "chase-it-7",
+ "kind": "chase",
+ "language": "it",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "list_overdue_invoices",
+    "arguments": {
+     "customer": "Meccanica Ferraro S.r.l."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_reminder",
+    "arguments": {
+     "customer": "Meccanica Ferraro S.r.l.",
+     "number": "AC-2026-6761",
+     "to": "amministrazione@meccanicaferraro.example",
+     "subject": "Payment Reminder for Invoice AC-2026-6761",
+     "body": "Dear Meccanica Ferraro S.r.l., this is a friendly reminder that your invoice number AC-2026-6761, due on 2026-10-27, is now 31 days overdue. The open amount is 8492.0. Please settle this invoice at your earliest convenience."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "1 reminder left for Meccanica Ferraro S.r.l.",
+  "seconds": 5.84,
+  "tokens_in": 3137,
+  "tokens_out": 246,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "list_overdue_invoices",
+    "arguments": {
+     "customer": "Meccanica Ferraro S.r.l."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_reminder",
+    "arguments": {
+     "customer": "Meccanica Ferraro S.r.l.",
+     "number": "AC-2026-6761",
+     "to": "amministrazione@meccanicaferraro.example",
+     "subject": "Payment Reminder for Invoice AC-2026-6761",
+     "body": "Dear Meccanica Ferraro S.r.l., this is a friendly reminder that your invoice number AC-2026-6761, due on 2026-10-27, is now 31 days overdue. The open amount is 8492.0. Please settle this invoice at your earliest convenience."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "1 reminder left for Meccanica Ferraro S.r.l."
+ }
+}

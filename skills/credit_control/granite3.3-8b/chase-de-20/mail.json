@@ -1,0 +1,11 @@
+{
+ "from": "credit@acme.example",
+ "to": [
+  "rechnungen@seidel-gusstechnik.example"
+ ],
+ "subject": "Payment Reminder for Invoice AC-2026-3285",
+ "body": "Dear Seidel Gusstechnik AG, this is a friendly reminder that your invoice number AC-2026-3285, due on 2026-10-31, is now 27 days overdue. The open amount is CHF 7391.00.",
+ "attachments": [],
+ "invoice": "AC-2026-3285",
+ "customer": "Seidel Gusstechnik AG"
+}

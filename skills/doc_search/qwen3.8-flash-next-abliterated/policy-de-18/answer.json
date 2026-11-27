@@ -1,0 +1,7 @@
+{
+ "question": "Ab welchem Betrag braucht eine Bestellung zwei schriftliche Angebote?",
+ "answer": "Eine Bestellung über 2300 Euro braucht zwei schriftliche Angebote.",
+ "sources": [
+  "/acme/documents/policies/purchasing.txt"
+ ]
+}

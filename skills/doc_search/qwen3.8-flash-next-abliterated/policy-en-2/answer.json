@@ -1,0 +1,7 @@
+{
+ "question": "Above which amount does an order need two written quotes?",
+ "answer": "An order above 3000 euros needs two written quotes.",
+ "sources": [
+  "/acme/documents/policies/purchasing.txt"
+ ]
+}

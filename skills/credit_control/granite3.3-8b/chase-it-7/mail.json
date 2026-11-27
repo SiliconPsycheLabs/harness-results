@@ -1,0 +1,11 @@
+{
+ "from": "credit@acme.example",
+ "to": [
+  "amministrazione@meccanicaferraro.example"
+ ],
+ "subject": "Payment Reminder for Invoice AC-2026-6761",
+ "body": "Dear Meccanica Ferraro S.r.l., this is a friendly reminder that your invoice number AC-2026-6761, due on 2026-10-27, is now 31 days overdue. The open amount is 8492.0. Please settle this invoice at your earliest convenience.",
+ "attachments": [],
+ "invoice": "AC-2026-6761",
+ "customer": "Meccanica Ferraro S.r.l."
+}

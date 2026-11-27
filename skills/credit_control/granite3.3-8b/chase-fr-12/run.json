@@ -1,0 +1,65 @@
+{
+ "request": "chase-fr-12",
+ "kind": "chase",
+ "language": "fr",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "list_overdue_invoices",
+    "arguments": {
+     "customer": "Outillage Besnard SARL"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_reminder",
+    "arguments": {
+     "customer": "Outillage Besnard SARL",
+     "number": "AC-2026-9282",
+     "to": "compta@outillage-besnard.example",
+     "subject": "Payment Reminder for Invoice AC-2026-9282",
+     "body": "Dear Outillage Besnard SARL, this is a friendly reminder that your invoice number AC-2026-9282, originally due on 2026-10-06, is now overdue. The open amount is 7685.0. Please settle this invoice at your earliest convenience."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "One reminder left for Outillage Besnard SARL.",
+  "seconds": 6.16,
+  "tokens_in": 3084,
+  "tokens_out": 223,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "list_overdue_invoices",
+    "arguments": {
+     "customer": "Outillage Besnard SARL"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_reminder",
+    "arguments": {
+     "customer": "Outillage Besnard SARL",
+     "number": "AC-2026-9282",
+     "to": "compta@outillage-besnard.example",
+     "subject": "Payment Reminder for Invoice AC-2026-9282",
+     "body": "Dear Outillage Besnard SARL, this is a friendly reminder that your invoice number AC-2026-9282, due on 2026-10-06, is now 52 days overdue. The open amount is 7685.0. Please settle this invoice at your earliest convenience."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "1 reminder left."
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "from": "credit@acme.example",
+ "to": [
+  "ap@pennant-hydraulics.example"
+ ],
+ "subject": "Payment reminder for invoice AC-2026-6035",
+ "body": "Dear Pennant Hydraulics Inc.,\n\nOur records show that invoice AC-2026-6035, in the amount of 2577.0, was due on 2026-10-17 and remains unpaid. We kindly ask you to settle this amount at your earliest convenience.\n\nIf you have already made the payment, please disregard this reminder.\n\nKind regards,\nAcme Components",
+ "attachments": [],
+ "invoice": "AC-2026-6035",
+ "customer": "Pennant Hydraulics Inc."
+}

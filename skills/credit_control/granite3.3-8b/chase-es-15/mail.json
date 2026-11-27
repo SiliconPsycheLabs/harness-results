@@ -1,0 +1,11 @@
+{
+ "from": "credit@acme.example",
+ "to": [
+  "administracion@herramientaslozano.example"
+ ],
+ "subject": "Payment Reminder for Invoice AC-2026-2761",
+ "body": "Dear Herramientas Lozano S.L., this is a friendly reminder that your invoice number AC-2026-2761, due on 2026-10-11, is now 47 days overdue. The open amount is 1375.0. Thank you.",
+ "attachments": [],
+ "invoice": "AC-2026-2761",
+ "customer": "Herramientas Lozano S.L."
+}

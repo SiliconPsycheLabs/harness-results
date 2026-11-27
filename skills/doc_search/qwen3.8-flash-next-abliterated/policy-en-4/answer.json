@@ -1,0 +1,7 @@
+{
+ "question": "Within how many days of the expense must an expense report be handed in?",
+ "answer": "An expense report is handed in within 24 days of the expense.",
+ "sources": [
+  "/acme/documents/policies/expenses.txt"
+ ]
+}

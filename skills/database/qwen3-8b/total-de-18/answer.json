@@ -1,0 +1,5 @@
+{
+ "question": "Wie hoch ist der Gesamtbetrag in Euro dessen, was Fonderie Vasseur SARL im Jahr 2025 bestellt hat? Zähle jede Bestellung, unabhängig vom Status.",
+ "answer": "Der Gesamtbetrag, den Fonderie Vasseur SARL im Jahr 2025 bestellt hat, beträgt 1235 Euro.",
+ "query": "SELECT SUM(order_lines.quantity * products.unit_price) AS total_amount FROM orders JOIN order_lines ON orders.id = order_lines.order_id JOIN products ON order_lines.product_id = products.id WHERE orders.customer_id = (SELECT id FROM customers WHERE name = 'Fonderie Vasseur SARL') AND orders.order_date BETWEEN '2025-01-01' AND '2025-12-31';"
+}

@@ -1,0 +1,11 @@
+{
+ "from": "credit@acme.example",
+ "to": [
+  "contabilita@fonderiasarti.example"
+ ],
+ "subject": "Sollecito di pagamento per fattura AC-2026-2524",
+ "body": "Gentile Fonderia Sarti S.p.A., siamo a richiamare la vostra attenzione sulla fattura AC-2026-2524, scaduta il 06/10/2026, per un importo di 6378.00 €. Si prega di effettuare il pagamento il prima possibile. Cordiali saluti, Acme Components",
+ "attachments": [],
+ "invoice": "AC-2026-2524",
+ "customer": "Fonderia Sarti S.p.A."
+}

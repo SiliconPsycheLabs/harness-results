@@ -1,0 +1,5 @@
+{
+ "question": "¿Qué cliente hizo más pedidos en 2026?",
+ "answer": "Brandt Präzisionsteile GmbH hizo 12 pedidos en 2026.",
+ "query": "SELECT c.name, COUNT(o.id) AS total_orders FROM customers c JOIN orders o ON c.id = o.customer_id WHERE STRFTIME('%Y', o.order_date) = '2026' GROUP BY c.name ORDER BY total_orders DESC LIMIT 1"
+}

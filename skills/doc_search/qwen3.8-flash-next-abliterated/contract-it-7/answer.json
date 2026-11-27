@@ -1,0 +1,7 @@
+{
+ "question": "Quando scade il nostro contratto di fornitura con Tessitura Bellomo?",
+ "answer": "Il contratto scade il 2 dicembre 2027.",
+ "sources": [
+  "/acme/contracts/supply_tessitura_bellomo.txt"
+ ]
+}

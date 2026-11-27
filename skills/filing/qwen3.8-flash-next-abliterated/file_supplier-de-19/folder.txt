@@ -1,0 +1,2 @@
+/acme/documents/suppliers/lindner_maschinenbau/lindner_maschinenbau_credit_note_5514.txt
+/acme/documents/suppliers/lindner_maschinenbau/lindner_maschinenbau_invoice_64138.txt

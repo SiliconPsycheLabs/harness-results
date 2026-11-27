@@ -1,0 +1,5 @@
+{
+ "question": "How many orders did Oakridge Abrasives Ltd place in 2026?",
+ "answer": "Oakridge Abrasives Ltd placed 4 orders in 2026.",
+ "query": "SELECT COUNT(*) AS total_orders FROM orders WHERE orders.customer_id = (SELECT id FROM customers WHERE customers.name = 'Oakridge Abrasives Ltd') AND orders.order_date BETWEEN '2026-01-01' AND '2026-12-31';"
+}

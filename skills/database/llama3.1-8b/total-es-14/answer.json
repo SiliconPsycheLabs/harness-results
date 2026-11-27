@@ -1,0 +1,5 @@
+{
+ "question": "¿Cuál es el importe total, en euros, de lo que Outillage Besnard SARL pidió en 2026?",
+ "answer": "9685 euros",
+ "query": "SELECT SUM(ol.quantity * p.unit_price) FROM orders AS o INNER JOIN order_lines AS ol ON o.id = ol.order_id INNER JOIN products AS p ON ol.product_id = p.id INNER JOIN customers AS c ON o.customer_id = c.id WHERE STRFTIME('%Y', o.order_date) = '2026' AND c.name = 'Outillage Besnard SARL'"
+}

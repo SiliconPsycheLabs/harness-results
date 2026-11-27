@@ -1,0 +1,11 @@
+{
+ "from": "credit@acme.example",
+ "to": [
+  "rechnungen@seidel-gusstechnik.example"
+ ],
+ "subject": "Zahlungserinnerung: Rechnung AC-2026-3285",
+ "body": "Sehr geehrte Damen und Herren,\n\nwir möchten Sie höflich daran erinnern, dass die Rechnung AC-2026-3285 über einen offenen Betrag von 7.391,00 EUR seit dem 31.10.2026 überfällig ist.\n\nWir bitten Sie, den offenen Betrag zeitnah zu begleichen.\n\nMit freundlichen Grüßen\nAcme Components",
+ "attachments": [],
+ "invoice": "AC-2026-3285",
+ "customer": "Seidel Gusstechnik AG"
+}

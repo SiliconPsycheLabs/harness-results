@@ -1,0 +1,11 @@
+{
+ "from": "credit@acme.example",
+ "to": [
+  "comptabilite@fonderie-vasseur.example"
+ ],
+ "subject": "Relance de paiement - Facture AC-2026-7188",
+ "body": "Bonjour,\n\nSauf erreur ou omission de notre part, la facture AC-2026-7188 d'un montant de 678,00 EUR, arrivée à échéance le 30/10/2026, demeure impayée à ce jour.\n\nNous vous remercions de bien vouloir procéder au règlement dans les meilleurs délais.\n\nCordialement,\n\nLe service crédit\nAcme Components",
+ "attachments": [],
+ "invoice": "AC-2026-7188",
+ "customer": "Fonderie Vasseur SARL"
+}

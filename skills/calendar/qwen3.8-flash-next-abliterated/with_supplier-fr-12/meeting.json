@@ -1,0 +1,13 @@
+{
+ "title": "Qualité fournisseurs",
+ "date": "2027-02-18",
+ "start": "16:30",
+ "end": "17:00",
+ "attendees": [
+  "nadia.perrin@acme.example",
+  "hugo.besnard@acme.example",
+  "contact@atelier-dumont.example"
+ ],
+ "location": "",
+ "created_by": "agent"
+}

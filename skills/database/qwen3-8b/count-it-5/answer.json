@@ -1,0 +1,5 @@
+{
+ "question": "Quanti ordini ha fatto Pennant Hydraulics Inc. nel 2025?",
+ "answer": "Pennant Hydraulics Inc. ha fatto 10 ordini nel 2025.",
+ "query": "SELECT COUNT(*) AS order_count FROM orders WHERE orders.customer_id = (SELECT id FROM customers WHERE customers.name = 'Pennant Hydraulics Inc.') AND orders.order_date BETWEEN '2025-01-01' AND '2025-12-31';"
+}

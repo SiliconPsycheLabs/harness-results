@@ -1,0 +1,11 @@
+{
+ "from": "credit@acme.example",
+ "to": [
+  "administracion@herramientaslozano.example"
+ ],
+ "subject": "Recordatorio de pago de factura AC-2026-2761",
+ "body": "Estimado cliente, le recordamos que la factura AC-2026-2761 venció el 11 de octubre de 2026 y tiene un monto pendiente de $1375.00. Por favor, realice el pago lo antes posible.",
+ "attachments": [],
+ "invoice": "AC-2026-2761",
+ "customer": "Herramientas Lozano S.L."
+}

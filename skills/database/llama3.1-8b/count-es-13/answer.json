@@ -1,0 +1,5 @@
+{
+ "question": "¿Cuántos pedidos hizo Fundiciones Aranda S.A. en 2025?",
+ "answer": "Fundiciones Aranda S.A. hizo 15 pedidos en 2025.",
+ "query": "SELECT COUNT(*) FROM orders WHERE customer_id = (SELECT id FROM customers WHERE name = 'Fundiciones Aranda S.A.') AND orders.order_date BETWEEN '2025-01-01' AND '2025-12-31'"
+}

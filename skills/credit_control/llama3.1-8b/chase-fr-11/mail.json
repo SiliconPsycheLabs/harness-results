@@ -1,0 +1,11 @@
+{
+ "from": "credit@acme.example",
+ "to": [
+  "comptabilite@fonderie-vasseur.example"
+ ],
+ "subject": "Relance de paiement pour facture AC-2026-7188",
+ "body": "Bonjour, nous vous rappelons que la facture AC-2026-7188 est échue depuis 28 jours. Le montant dû est de 678,00 € et le paiement était dû le 30/10/2026. Merci de nous faire parvenir le paiement dès que possible.",
+ "attachments": [],
+ "invoice": "AC-2026-7188",
+ "customer": "Fonderie Vasseur SARL"
+}

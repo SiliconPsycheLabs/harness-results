@@ -1,0 +1,11 @@
+{
+ "from": "credit@acme.example",
+ "to": [
+  "buchhaltung@brandt-praezisionsteile.example"
+ ],
+ "subject": "Payment Reminder for Invoice AC-2026-1508",
+ "body": "Dear Buchhaltung Team, This is to remind you about Invoice AC-2026-1508, which was due on 2026-11-06. The open amount is 3349.00 EUR. Please settle this invoice at your earliest convenience.",
+ "attachments": [],
+ "invoice": "AC-2026-1508",
+ "customer": "Brandt Präzisionsteile GmbH"
+}

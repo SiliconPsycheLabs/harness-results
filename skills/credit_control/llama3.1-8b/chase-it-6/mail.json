@@ -1,0 +1,11 @@
+{
+ "from": "credit@acme.example",
+ "to": [
+  "amministrazione@meccanicaferraro.example"
+ ],
+ "subject": "Sollecito pagamento fattura AC-2026-1260",
+ "body": "Gentile Meccanica Ferraro S.r.l., siamo a Lei a richiamare l’attenzione sul pagamento della fattura AC-2026-1260, scaduta il 27/10/2026, per un importo di 9108.00 €. Si prega di procedere al pagamento il prima possibile. Cordiali saluti, Acme Components",
+ "attachments": [],
+ "invoice": "AC-2026-1260",
+ "customer": "Meccanica Ferraro S.r.l."
+}

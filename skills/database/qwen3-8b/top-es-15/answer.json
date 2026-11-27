@@ -1,0 +1,5 @@
+{
+ "question": "¿Qué cliente hizo más pedidos en 2026?",
+ "answer": "El cliente que hizo más pedidos en 2026 es Brandt Präzisionsteile GmbH con 12 pedidos.",
+ "query": "SELECT customers.name, COUNT(orders.id) AS order_count FROM orders JOIN customers ON orders.customer_id = customers.id WHERE orders.order_date BETWEEN '2026-01-01' AND '2026-12-31' GROUP BY customers.id ORDER BY order_count DESC LIMIT 1;"
+}

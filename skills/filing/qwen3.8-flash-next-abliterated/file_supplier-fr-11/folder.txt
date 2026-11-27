@@ -1,0 +1,2 @@
+/acme/documents/suppliers/atelier_dumont/atelier_dumont_credit_note_27870.txt
+/acme/documents/suppliers/atelier_dumont/atelier_dumont_order_confirmation_15076.txt

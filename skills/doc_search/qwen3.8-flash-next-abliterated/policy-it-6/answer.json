@@ -1,0 +1,7 @@
+{
+ "question": "Quanti giorni al mese un dipendente può lavorare da casa?",
+ "answer": "Un dipendente può lavorare da casa fino a 8 giorni al mese.",
+ "sources": [
+  "/acme/documents/policies/remote_work.txt"
+ ]
+}

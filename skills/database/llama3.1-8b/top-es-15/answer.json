@@ -1,0 +1,5 @@
+{
+ "question": "ÑQué cliente hizo más pedidos en 2026?",
+ "answer": "Brandt Präzisionsteile GmbH",
+ "query": "SELECT customers.name FROM orders INNER JOIN customers ON orders.customer_id = customers.id WHERE STRFTIME('%Y', orders.order_date) = '2026' GROUP BY customers.name ORDER BY COUNT(orders.id) DESC LIMIT 1"
+}

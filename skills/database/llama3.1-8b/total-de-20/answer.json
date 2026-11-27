@@ -1,0 +1,5 @@
+{
+ "question": "Wie hoch ist der Gesamtbetrag in Euro, der im Jahr 2025 von der Produktlinie Hydraulics bestellt wurde?",
+ "answer": "21380 Euro",
+ "query": "SELECT SUM(ol.quantity * p.unit_price) FROM order_lines ol JOIN products p ON ol.product_id = p.id JOIN orders o ON ol.order_id = o.id WHERE STRFTIME('%Y', o.order_date) = '2025' AND p.line = 'Hydraulics'"
+}

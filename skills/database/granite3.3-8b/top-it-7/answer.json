@@ -1,0 +1,5 @@
+{
+ "question": "Quale cliente ha fatto più ordini nel 2025?",
+ "answer": "Il cliente che ha fatto più ordini nel 2025 è Fundiciones Aranda S.A. con 15 ordini.",
+ "query": "SELECT c.name, COUNT(o.id) AS num_orders FROM customers c JOIN orders o ON c.id = o.customer_id WHERE STRFTIME('%Y', o.order_date) = '2025' GROUP BY c.name ORDER BY num_orders DESC LIMIT 1"
+}

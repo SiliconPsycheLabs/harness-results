@@ -1,0 +1,5 @@
+{
+ "question": "Combien de commandes Seidel Gusstechnik AG a-t-il passées en 2025 ?",
+ "answer": "Seidel Gusstechnik AG a passé 5 commandes en 2025.",
+ "query": "SELECT COUNT(*) FROM orders WHERE customer_id = (SELECT id FROM customers WHERE name = 'Seidel Gusstechnik AG') AND order_date BETWEEN '2025-01-01' AND '2025-12-31';"
+}

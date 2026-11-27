@@ -1,0 +1,7 @@
+{
+ "question": "Nach wie vielen Tagen bezahlen wir die Rechnungen von Krämer Werkzeugbau laut Liefervertrag?",
+ "answer": "Rechnungen werden 180 Tage nach Rechnungsdatum bezahlt.",
+ "sources": [
+  "/acme/contracts/supply_kramer_werkzeugbau.txt"
+ ]
+}

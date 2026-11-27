@@ -1,0 +1,5 @@
+{
+ "question": "What is the total amount, in euros, ordered of the product line Spare parts in 2026? Count every order, whatever its status.",
+ "answer": "The total amount ordered of the product line Spare parts in 2026 is 78240 euros.",
+ "query": "SELECT SUM(ol.quantity * p.unit_price) FROM order_lines ol JOIN products p ON ol.product_id = p.id JOIN orders o ON ol.order_id = o.id WHERE p.line = 'Spare parts' AND o.order_date BETWEEN '2026-01-01' AND '2026-12-31'"
+}

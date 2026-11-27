@@ -1,0 +1,91 @@
+{
+ "request": "chase-de-18",
+ "kind": "chase",
+ "language": "de",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "list_overdue_invoices",
+    "arguments": {
+     "customer": "Brandt Präzisionsteile GmbH"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_reminder",
+    "arguments": {
+     "customer": "Brandt Präzisionsteile GmbH",
+     "number": "AC-2026-4661",
+     "to": "buchhaltung@brandt-praezisionsteile.example",
+     "subject": "Zahlungserinnerung Rechnung AC-2026-4661",
+     "body": "Sehr geehrte Damen und Herren, wir möchten Sie daran erinnern, dass die Rechnung AC-2026-4661 mit einem Betrag von 4172,00 EUR am 12.10.2026 fällig ist. Bitte zahlen Sie diese Rechnung so schnell wie möglich ein. Mit freundlichen Grüßen, Ihr Team von Acme Components."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_reminder",
+    "arguments": {
+     "customer": "Brandt Präzisionsteile GmbH",
+     "number": "AC-2026-6044",
+     "to": "buchhaltung@brandt-praezisionsteile.example",
+     "subject": "Zahlungserinnerung Rechnung AC-2026-6044",
+     "body": "Sehr geehrte Damen und Herren, wir möchten Sie daran erinnern, dass die Rechnung AC-2026-6044 mit einem Betrag von 1880,00 EUR am 21.10.2026 fällig ist. Bitte zahlen Sie diese Rechnung so schnell wie möglich ein. Mit freundlichen Grüßen, Ihr Team von Acme Components."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Keine weiteren Zahlungserinnerungen.",
+  "seconds": 9.83,
+  "tokens_in": 4644,
+  "tokens_out": 405,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "list_overdue_invoices",
+    "arguments": {
+     "customer": "Brandt Präzisionsteile GmbH"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_reminder",
+    "arguments": {
+     "customer": "Brandt Präzisionsteile GmbH",
+     "number": "AC-2026-4661",
+     "to": "buchhaltung@brandt-praezisionsteile.example",
+     "subject": "Zahlungserinnerung Rechnung AC-2026-4661",
+     "body": "Sehr geehrte Damen und Herren, wir möchten Sie daran erinnern, dass die Rechnung AC-2026-4661 mit einem Betrag von 4172,00 EUR am 12.10.2026 fällig ist. Bitte zahlen Sie diese Rechnung so schnell wie möglich ein. Mit freundlichen Grüßen, Ihr Team von Acme Components."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_reminder",
+    "arguments": {
+     "customer": "Brandt Präzisionsteile GmbH",
+     "number": "AC-2026-6044",
+     "to": "buchhaltung@brandt-praezisionsteile.example",
+     "subject": "Zahlungserinnerung Rechnung AC-2026-6044",
+     "body": "Sehr geehrte Damen und Herren, wir möchten Sie daran erinnern, dass die Rechnung AC-2026-6044 mit einem Betrag von 1880,00 EUR am 21.10.2026 fällig ist. Bitte zahlen Sie diese Rechnung so schnell wie möglich ein. Mit freundlichen Grüßen, Ihr Team von Acme Components."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Keine weiteren Zahlungserinnerungen."
+ }
+}

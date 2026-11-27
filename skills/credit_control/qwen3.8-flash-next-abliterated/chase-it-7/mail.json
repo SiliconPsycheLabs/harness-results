@@ -1,0 +1,11 @@
+{
+ "from": "credit@acme.example",
+ "to": [
+  "amministrazione@meccanicaferraro.example"
+ ],
+ "subject": "Sollecito di pagamento fattura AC-2026-6761",
+ "body": "Gentile Meccanica Ferraro S.r.l.,\n\nLa informiamo che la fattura n. AC-2026-6761, scaduta il 27/10/2026, risulta ancora insoluta per un importo di 8.492,00 €.\n\nLa preghiamo di effettuare il pagamento quanto prima.\n\nCordiali saluti,\nAcme Components",
+ "attachments": [],
+ "invoice": "AC-2026-6761",
+ "customer": "Meccanica Ferraro S.r.l."
+}

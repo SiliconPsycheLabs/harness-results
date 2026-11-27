@@ -1,0 +1,65 @@
+{
+ "request": "chase-de-19",
+ "kind": "chase",
+ "language": "de",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "list_overdue_invoices",
+    "arguments": {
+     "customer": "Brandt Präzisionsteile GmbH"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_reminder",
+    "arguments": {
+     "customer": "Brandt Präzisionsteile GmbH",
+     "number": "AC-2026-2564",
+     "to": "buchhaltung@brandt-praezisionsteile.example",
+     "subject": "Erinnerung zur Zahlung der Rechnung AC-2026-2564",
+     "body": "Sehr geehrte Damen und Herren,\n\nwir möchten Sie freundlich an die Rechnung AC-2026-2564 erinnern. Die Rechnung ist seit 46 Tagen überfällig und beträgt 8160,00 €. Die Frist zur Zahlung ist am 12.10.2026 abgelaufen.\n\nWir bitten Sie um rasche Bezahlung der Rechnung.\n\nMit freundlichen Grüßen,\n\nAcme Components"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Erinnerung für die Rechnung AC-2026-2564 an Brandt Präzisionsteile GmbH gesendet. Keine weiteren überfälligen Rechnungen vorhanden.",
+  "seconds": 10.3,
+  "tokens_in": 3047,
+  "tokens_out": 303,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "list_overdue_invoices",
+    "arguments": {
+     "customer": "Brandt Präzisionsteile GmbH"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_reminder",
+    "arguments": {
+     "customer": "Brandt Präzisionsteile GmbH",
+     "number": "AC-2026-2564",
+     "to": "buchhaltung@brandt-praezisionsteile.example",
+     "subject": "Erinnerung zur Zahlung der Rechnung AC-2026-2564",
+     "body": "Sehr geehrte Damen und Herren,\n\nwir möchten Sie freundlich an die noch offene Rechnung AC-2026-2564 erinnern. Die Rechnung ist bereits 46 Tage überfällig und beträgt 8160,00 €. Die Frist zur Zahlung ist am 12.10.2026 abgelaufen.\n\nWir bitten Sie um rasche Bezahlung der Rechnung.\n\nMit freundlichen Grüßen,\n\nAcme Components"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Erinnerung an die Rechnung AC-2026-2564 an Brandt Präzisionsteile GmbH gesendet. Keine weiteren überfälligen Rechnungen vorhanden."
+ }
+}

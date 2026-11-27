@@ -1,0 +1,91 @@
+{
+ "request": "chase-en-3",
+ "kind": "chase",
+ "language": "en",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "list_overdue_invoices",
+    "arguments": {
+     "customer": "Calder Fasteners Ltd."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_reminder",
+    "arguments": {
+     "customer": "Calder Fasteners Ltd",
+     "number": "AC-2026-3887",
+     "to": "accounts@calder-fasteners.example",
+     "subject": "Reminder for invoice AC-2026-3887",
+     "body": "Dear Calder Fasteners Ltd, this is a reminder for invoice AC-2026-3887, which is 19 days overdue and has an open amount of 5554.00 due on 2026-11-08."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_reminder",
+    "arguments": {
+     "customer": "Calder Fasteners Ltd",
+     "number": "AC-2026-8607",
+     "to": "accounts@calder-fasteners.example",
+     "subject": "Reminder for invoice AC-2026-8607",
+     "body": "Dear Calder Fasteners Ltd, this is a reminder for invoice AC-2026-8607, which is 19 days overdue and has an open amount of 8033.00 due on 2026-11-08."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "No reminders left.",
+  "seconds": 7.63,
+  "tokens_in": 4327,
+  "tokens_out": 285,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "list_overdue_invoices",
+    "arguments": {
+     "customer": "Calder Fasteners Ltd."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_reminder",
+    "arguments": {
+     "customer": "Calder Fasteners Ltd",
+     "number": "AC-2026-3887",
+     "to": "accounts@calder-fasteners.example",
+     "subject": "Reminder for invoice AC-2026-3887",
+     "body": "Dear Calder Fasteners Ltd, this is a reminder for invoice AC-2026-3887, which is now 19 days overdue. The amount still owed is 5554.00, and the due date was 2026-11-08."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_reminder",
+    "arguments": {
+     "customer": "Calder Fasteners Ltd",
+     "number": "AC-2026-8607",
+     "to": "accounts@calder-fasteners.example",
+     "subject": "Reminder for invoice AC-2026-8607",
+     "body": "Dear Calder Fasteners Ltd, this is a reminder for invoice AC-2026-8607, which is now 19 days overdue. The amount still owed is 8033.00, and the due date was 2026-11-08."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "No reminders left."
+ }
+}

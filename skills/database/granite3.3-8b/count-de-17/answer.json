@@ -1,0 +1,5 @@
+{
+ "question": "Wie viele Bestellungen hat Seidel Gusstechnik AG im Jahr 2025 aufgegeben?",
+ "answer": "Seidel Gusstechnik AG hat im Jahr 2025 insgesamt 5 Bestellungen aufgegeben.",
+ "query": "SELECT COUNT(*) FROM orders WHERE STRFTIME('%Y', order_date) = '2025' AND customer_id IN (SELECT id FROM customers WHERE name = 'Seidel Gusstechnik AG');"
+}
