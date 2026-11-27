@@ -1,0 +1,82 @@
+{
+ "request": "internal-es-13",
+ "kind": "internal",
+ "language": "es",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "Apologies for the confusion. I need to find the availability of Javier Ortega, Elena Pardo, and Pablo Lozano for a 60-minute meeting titled 'Plan de producción' on January 26, 2027. I will call the necessary tools and get back to you with the booking details.",
+  "seconds": 3.99,
+  "tokens_in": 2122,
+  "tokens_out": 140,
+  "right": false,
+  "missing": [
+   "0 meetings created, not 1"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Javier Ortega"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Elena Pardo"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Pablo Lozano"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_free_slots",
+    "arguments": {
+     "people": [
+      "javier.ortega@acme.example",
+      "elena.pardo@acme.example",
+      "pablo.lozano@acme.example"
+     ],
+     "date": "2027-01-26",
+     "minutes": 60,
+     "part_of_day": "afternoon"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_event",
+    "arguments": {
+     "title": "Plan de producción",
+     "date": "2027-01-26",
+     "start": "15:30",
+     "end": "16:30",
+     "attendees": [
+      "javier.ortega@acme.example",
+      "elena.pardo@acme.example",
+      "pablo.lozano@acme.example"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "La reunión 'Plan de producción' ha sido reservada el 26 de enero de 2027 de 15:30 a 16:30."
+ }
+}

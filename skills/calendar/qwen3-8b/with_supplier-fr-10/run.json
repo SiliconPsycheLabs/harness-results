@@ -1,0 +1,163 @@
+{
+ "request": "with_supplier-fr-10",
+ "kind": "with_supplier",
+ "language": "fr",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Hugo Besnard"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Julie Renard"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Luc Moreau"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Atelier Dumont"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_free_slots",
+    "arguments": {
+     "people": [
+      "hugo.besnard@acme.example",
+      "julie.renard@acme.example",
+      "luc.moreau@acme.example",
+      "contact@atelier-dumont.example"
+     ],
+     "date": "2027-02-01",
+     "minutes": 90,
+     "part_of_day": "afternoon"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_event",
+    "arguments": {
+     "title": "Plan de production",
+     "date": "2027-02-01",
+     "start": "14:00",
+     "end": "15:30",
+     "attendees": [
+      "hugo.besnard@acme.example",
+      "julie.renard@acme.example",
+      "luc.moreau@acme.example",
+      "contact@atelier-dumont.example"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "",
+  "seconds": 7.81,
+  "tokens_in": 6823,
+  "tokens_out": 302,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Hugo Besnard"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Julie Renard"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Luc Moreau"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Atelier Dumont"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_free_slots",
+    "arguments": {
+     "people": [
+      "hugo.besnard@acme.example",
+      "julie.renard@acme.example",
+      "luc.moreau@acme.example",
+      "contact@atelier-dumont.example"
+     ],
+     "date": "2027-02-01",
+     "minutes": 90,
+     "part_of_day": "afternoon"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_event",
+    "arguments": {
+     "title": "Plan de production",
+     "date": "2027-02-01",
+     "start": "14:00",
+     "end": "15:30",
+     "attendees": [
+      "hugo.besnard@acme.example",
+      "julie.renard@acme.example",
+      "luc.moreau@acme.example",
+      "contact@atelier-dumont.example"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": ""
+ }
+}

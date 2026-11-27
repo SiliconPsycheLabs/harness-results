@@ -1,0 +1,95 @@
+{
+ "request": "results-es-15",
+ "kind": "results",
+ "language": "es",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_pptx",
+    "arguments": {
+     "path": "/acme/documents/presentations/results_q2_2026_15.pptx",
+     "title": "Resultados del trimestre 2 2026",
+     "subtitle": "Pablo Lozano, 3 de febrero de 2027",
+     "slides": [
+      {
+       "title": "Ventas por línea de producto",
+       "table_header": "Línea de producto | Ventas (EUR)",
+       "table_rows": [
+        "Repuestos | 83900",
+        "Rodamientos | 55100",
+        "Hidráulica | 35100"
+       ]
+      },
+      {
+       "title": "Cifras clave",
+       "bullets": [
+        "Pedidos recibidos: 574",
+        "Clientes nuevos: 27",
+        "Entregas a tiempo: 88%"
+       ]
+      },
+      {
+       "title": "Próximos pasos",
+       "bullets": [
+        "Javier Ortega: visita a los tres clientes mayores antes del 17 de enero de 2027",
+        "Elena Pardo: inventario del almacén antes del 3 de marzo de 2027"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/presentations/results_q2_2026_15.pptx",
+  "seconds": 7.3,
+  "tokens_in": 2211,
+  "tokens_out": 288,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_pptx",
+    "arguments": {
+     "path": "/acme/documents/presentations/results_q2_2026_15.pptx",
+     "title": "Resultados del trimestre 2 2026",
+     "subtitle": "Pablo Lozano, 3 de febrero de 2027",
+     "slides": [
+      {
+       "title": "Ventas por línea de producto",
+       "table_header": "Línea de producto | Ventas (EUR)",
+       "table_rows": [
+        "Repuestos | 83900",
+        "Rodamientos | 55100",
+        "Hidráulica | 35100"
+       ]
+      },
+      {
+       "title": "Cifras clave",
+       "bullets": [
+        "Pedidos recibidos: 574",
+        "Clientes nuevos: 27",
+        "Entregas a tiempo: 88%"
+       ]
+      },
+      {
+       "title": "Próximos pasos",
+       "bullets": [
+        "Javier Ortega: visita a los tres clientes mayores antes del 17 de enero de 2027",
+        "Elena Pardo: inventario del almacén antes del 3 de marzo de 2027"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/presentations/results_q2_2026_15.pptx"
+ }
+}

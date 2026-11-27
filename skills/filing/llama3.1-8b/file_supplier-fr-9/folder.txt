@@ -1,0 +1,2 @@
+/acme/documents/suppliers/atelier_dumont/atelier_dumont_credit_note_13207.txt
+/acme/documents/suppliers/atelier_dumont/atelier_dumont_quote_63050.txt

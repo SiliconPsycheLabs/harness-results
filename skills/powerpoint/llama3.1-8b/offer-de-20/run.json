@@ -1,0 +1,95 @@
+{
+ "request": "offer-de-20",
+ "kind": "offer",
+ "language": "de",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_pptx",
+    "arguments": {
+     "path": "/acme/documents/presentations/offer_20.pptx",
+     "title": "Angebot für Seidel Gusstechnik AG",
+     "subtitle": "Lena Brandt, 18. Februar 2027",
+     "slides": [
+      {
+       "title": "Was wir vorschlagen",
+       "bullets": [
+        "Lieferung von Kugellager",
+        "Lieferung von Spannfutter"
+       ]
+      },
+      {
+       "title": "Preise",
+       "table_header": "Artikel | Menge | Preis (EUR)",
+       "table_rows": [
+        "Kugellager | 100 | 3400",
+        "Spannfutter | 20 | 8900",
+        "Fräsköpfe | 25 | 700"
+       ]
+      },
+      {
+       "title": "Lieferung und Zahlung",
+       "bullets": [
+        "Lieferung innerhalb von 3 Wochen",
+        "Zahlung nach 45 Tagen",
+        "Angebot gültig bis 24. März 2027"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/presentations/offer_20.pptx",
+  "seconds": 6.38,
+  "tokens_in": 2166,
+  "tokens_out": 272,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_pptx",
+    "arguments": {
+     "path": "/acme/documents/presentations/offer_20.pptx",
+     "title": "Angebot für Seidel Gusstechnik AG",
+     "subtitle": "Lena Brandt, 18. Februar 2027",
+     "slides": [
+      {
+       "title": "Was wir vorschlagen",
+       "bullets": [
+        "Lieferung von Kugellager",
+        "Lieferung von Spannfutter"
+       ]
+      },
+      {
+       "title": "Preise",
+       "table_header": "Artikel | Menge | Preis (EUR)",
+       "table_rows": [
+        "Kugellager | 100 | 3400",
+        "Spannfutter | 20 | 8900",
+        "Fräsköpfe | 25 | 700"
+       ]
+      },
+      {
+       "title": "Lieferung und Zahlung",
+       "bullets": [
+        "Lieferung innerhalb von 3 Wochen",
+        "Zahlung nach 45 Tagen",
+        "Angebot gültig bis 24. März 2027"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/presentations/offer_20.pptx"
+ }
+}

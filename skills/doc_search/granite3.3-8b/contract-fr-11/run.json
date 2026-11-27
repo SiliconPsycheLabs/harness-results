@@ -1,0 +1,21 @@
+{
+ "request": "contract-fr-11",
+ "kind": "contract",
+ "language": "fr",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "Apologies for the confusion. I will now search for the relevant document and provide the answer.",
+  "seconds": 1.87,
+  "tokens_in": 1627,
+  "tokens_out": 80,
+  "right": false,
+  "missing": [
+   "no note at the path asked"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "Apologies for the confusion. I will now search for the relevant document and provide the answer."
+ }
+}

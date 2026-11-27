@@ -1,0 +1,95 @@
+{
+ "request": "results-en-1",
+ "kind": "results",
+ "language": "en",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_pptx",
+    "arguments": {
+     "path": "/acme/documents/presentations/results_q1_2026_1.pptx",
+     "title": "Results of quarter 1 2026",
+     "subtitle": "Anna Keller, 21 March 2027",
+     "slides": [
+      {
+       "title": "Sales by product line",
+       "table_header": "Product line | Sales (EUR)",
+       "table_rows": [
+        "Hydraulics | 75400",
+        "Bearings | 4000",
+        "Spare parts | 15300"
+       ]
+      },
+      {
+       "title": "Key figures",
+       "bullets": [
+        "Orders received: 689",
+        "New customers: 25",
+        "Deliveries on time: 86%"
+       ]
+      },
+      {
+       "title": "Next steps",
+       "bullets": [
+        "Owen Blake: visit to the three largest customers by 27 March 2027",
+        "Tom Reyes: new catalogue by 13 February 2027"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/presentations/results_q1_2026_1.pptx",
+  "seconds": 7.73,
+  "tokens_in": 2115,
+  "tokens_out": 262,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_pptx",
+    "arguments": {
+     "path": "/acme/documents/presentations/results_q1_2026_1.pptx",
+     "title": "Results of quarter 1 2026",
+     "subtitle": "Anna Keller, 21 March 2027",
+     "slides": [
+      {
+       "title": "Sales by product line",
+       "table_header": "Product line | Sales (EUR)",
+       "table_rows": [
+        "Hydraulics | 75400",
+        "Bearings | 4000",
+        "Spare parts | 15300"
+       ]
+      },
+      {
+       "title": "Key figures",
+       "bullets": [
+        "Orders received: 689",
+        "New customers: 25",
+        "Deliveries on time: 86%"
+       ]
+      },
+      {
+       "title": "Next steps",
+       "bullets": [
+        "Owen Blake: visit to the three largest customers by 27 March 2027",
+        "Tom Reyes: new catalogue by 13 February 2027"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/presentations/results_q1_2026_1.pptx"
+ }
+}

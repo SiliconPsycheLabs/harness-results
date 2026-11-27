@@ -1,0 +1,24 @@
+{
+ "request": "archive_year-fr-10",
+ "kind": "archive_year",
+ "language": "fr",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "No files were moved as no tool was called. The instruction was to only move files of the year 2025, not to move any files at all.",
+  "seconds": 2.08,
+  "tokens_in": 1548,
+  "tokens_out": 83,
+  "right": false,
+  "missing": [
+   "/acme/documents/archive/2025/2025-01_invoice_157.txt is missing",
+   "/acme/documents/archive/2025/2025-04_credit_note_327.txt is missing",
+   "/acme/documents/unsorted/2025-01_invoice_157.txt should not be there",
+   "/acme/documents/unsorted/2025-04_credit_note_327.txt should not be there"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "No files were moved as no tool was called. The instruction was to only move files of the year 2025, not to move any files at all."
+ }
+}

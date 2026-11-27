@@ -1,0 +1,21 @@
+{
+ "request": "contract-es-13",
+ "kind": "contract",
+ "language": "es",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "Apologies for the confusion. I will now search for the relevant information in the company's documents. (Searching...)}",
+  "seconds": 2.78,
+  "tokens_in": 1669,
+  "tokens_out": 121,
+  "right": false,
+  "missing": [
+   "no note at the path asked"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "Apologies for the confusion. I will now search for the relevant information in the company's documents. (Searching...)}"
+ }
+}

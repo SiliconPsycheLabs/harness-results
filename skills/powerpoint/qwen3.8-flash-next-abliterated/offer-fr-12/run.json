@@ -1,0 +1,95 @@
+{
+ "request": "offer-fr-12",
+ "kind": "offer",
+ "language": "fr",
+ "model": "qwen3.8-flash-next-abliterated",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_pptx",
+    "arguments": {
+     "path": "/acme/documents/presentations/offer_12.pptx",
+     "title": "Offre pour Fonderie Vasseur SARL",
+     "subtitle": "Hugo Besnard, 6 mars 2027",
+     "slides": [
+      {
+       "title": "Ce que nous proposons",
+       "bullets": [
+        "Fourniture de moteurs électriques",
+        "Fourniture de variateurs"
+       ]
+      },
+      {
+       "title": "Prix",
+       "table_header": "Article | Quantité | Prix (EUR)",
+       "table_rows": [
+        "moteurs électriques | 25 | 3500",
+        "variateurs | 20 | 6100",
+        "vannes à bille | 10 | 9500"
+       ]
+      },
+      {
+       "title": "Livraison et paiement",
+       "bullets": [
+        "Livraison sous 3 semaines",
+        "Paiement à 45 jours",
+        "Offre valable jusqu'au 13 janvier 2027"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/presentations/offer_12.pptx",
+  "seconds": 28.47,
+  "tokens_in": 2217,
+  "tokens_out": 332,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_pptx",
+    "arguments": {
+     "path": "/acme/documents/presentations/offer_12.pptx",
+     "title": "Offre pour Fonderie Vasseur SARL",
+     "subtitle": "Hugo Besnard, 6 mars 2027",
+     "slides": [
+      {
+       "title": "Ce que nous proposons",
+       "bullets": [
+        "Fourniture de moteurs électriques",
+        "Fourniture de variateurs"
+       ]
+      },
+      {
+       "title": "Prix",
+       "table_header": "Article | Quantité | Prix (EUR)",
+       "table_rows": [
+        "moteurs électriques | 25 | 3500",
+        "variateurs | 20 | 6100",
+        "vannes à bille | 10 | 9500"
+       ]
+      },
+      {
+       "title": "Livraison et paiement",
+       "bullets": [
+        "Livraison sous 3 semaines",
+        "Paiement à 45 jours",
+        "Offre valable jusqu'au 13 janvier 2027"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/presentations/offer_12.pptx"
+ }
+}

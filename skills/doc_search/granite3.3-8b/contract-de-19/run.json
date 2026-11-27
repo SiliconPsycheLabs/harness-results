@@ -1,0 +1,21 @@
+{
+ "request": "contract-de-19",
+ "kind": "contract",
+ "language": "de",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "I apologize for the confusion. I will now search for the relevant document and provide the answer.",
+  "seconds": 1.95,
+  "tokens_in": 1627,
+  "tokens_out": 81,
+  "right": false,
+  "missing": [
+   "no note at the path asked"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "I apologize for the confusion. I will now search for the relevant document and provide the answer."
+ }
+}

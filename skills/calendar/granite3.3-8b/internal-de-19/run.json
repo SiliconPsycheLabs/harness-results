@@ -1,0 +1,141 @@
+{
+ "request": "internal-de-19",
+ "kind": "internal",
+ "language": "de",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Mira Scholz"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Lena Brandt"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Jan Petersen"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_free_slots",
+    "arguments": {
+     "people": [
+      "mira.scholz@acme.example",
+      "lena.brandt@acme.example",
+      "jan.petersen@acme.example"
+     ],
+     "date": "2027-03-11",
+     "minutes": 90,
+     "part_of_day": "morning"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_event",
+    "arguments": {
+     "title": "Lieferantenqualität",
+     "date": "2027-03-11",
+     "start": "09:30",
+     "end": "11:00",
+     "attendees": [
+      "mira.scholz@acme.example",
+      "lena.brandt@acme.example",
+      "jan.petersen@acme.example"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The meeting 'Lieferantenqualität' is scheduled for 11. March 2027 from 09:30 to 11:00.",
+  "seconds": 8.4,
+  "tokens_in": 7369,
+  "tokens_out": 332,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Mira Scholz"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Lena Brandt"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Jan Petersen"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_free_slots",
+    "arguments": {
+     "people": [
+      "mira.scholz@acme.example",
+      "lena.brandt@acme.example",
+      "jan.petersen@acme.example"
+     ],
+     "date": "2027-03-11",
+     "minutes": 90,
+     "part_of_day": "morning"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_event",
+    "arguments": {
+     "title": "Lieferantenqualität",
+     "date": "2027-03-11",
+     "start": "09:30",
+     "end": "11:00",
+     "attendees": [
+      "mira.scholz@acme.example",
+      "lena.brandt@acme.example",
+      "jan.petersen@acme.example"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The meeting 'Lieferantenqualität' is scheduled for 11. March 2027 from 09:30 to 11:00."
+ }
+}

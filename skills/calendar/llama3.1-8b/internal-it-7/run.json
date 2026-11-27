@@ -1,0 +1,143 @@
+{
+ "request": "internal-it-7",
+ "kind": "internal",
+ "language": "it",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Marta Leone"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Stefano Riva"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Elena Sarti"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_free_slots",
+    "arguments": {
+     "people": [
+      "marta.leone@acme.example",
+      "stefano.riva@acme.example",
+      "elena.sarti@acme.example"
+     ],
+     "date": "2027-03-05",
+     "minutes": 90,
+     "part_of_day": "morning"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_event",
+    "arguments": {
+     "title": "Qualità fornitori",
+     "date": "2027-03-05",
+     "start": "09:30",
+     "end": "11:00",
+     "attendees": [
+      "marta.leone@acme.example",
+      "stefano.riva@acme.example",
+      "elena.sarti@acme.example"
+     ],
+     "location": "marta.leone@acme.example"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "2027-03-05 09:30-11:00",
+  "seconds": 7.43,
+  "tokens_in": 6912,
+  "tokens_out": 287,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Marta Leone"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Stefano Riva"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Elena Sarti"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_free_slots",
+    "arguments": {
+     "people": [
+      "marta.leone@acme.example",
+      "stefano.riva@acme.example",
+      "elena.sarti@acme.example"
+     ],
+     "date": "2027-03-05",
+     "minutes": 90,
+     "part_of_day": "morning"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_event",
+    "arguments": {
+     "title": "Qualità fornitori",
+     "date": "2027-03-05",
+     "start": "09:30",
+     "end": "11:00",
+     "attendees": [
+      "marta.leone@acme.example",
+      "stefano.riva@acme.example",
+      "elena.sarti@acme.example"
+     ],
+     "location": "marta.leone@acme.example"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "2027-03-05 09:30-11:00"
+ }
+}

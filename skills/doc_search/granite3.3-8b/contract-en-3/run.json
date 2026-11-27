@@ -1,0 +1,21 @@
+{
+ "request": "contract-en-3",
+ "kind": "contract",
+ "language": "en",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "Apologies for the oversight. I will now search the relevant documents and provide the answer.",
+  "seconds": 1.56,
+  "tokens_in": 1582,
+  "tokens_out": 65,
+  "right": false,
+  "missing": [
+   "no note at the path asked"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "Apologies for the confusion. I will now search the relevant document and provide the answer."
+ }
+}

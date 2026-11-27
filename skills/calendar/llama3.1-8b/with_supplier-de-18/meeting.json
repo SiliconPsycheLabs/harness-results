@@ -1,0 +1,14 @@
+{
+ "title": "Preisliste",
+ "date": "2027-02-12",
+ "start": "11:30",
+ "end": "12:30",
+ "attendees": [
+  "lena.brandt@acme.example",
+  "felix.hofmann@acme.example",
+  "sabine.vogt@acme.example",
+  "info@lindner-maschinenbau.example"
+ ],
+ "location": "",
+ "created_by": "agent"
+}

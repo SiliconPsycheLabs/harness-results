@@ -1,0 +1,7 @@
+{
+ "question": "Après combien de jours payons-nous les factures de Atelier Dumont, selon le contrat de fourniture ?",
+ "answer": "Les factures sont payées 90 jours après la date de facture, selon le contrat de fourniture entre Acme Components et Atelier Dumont SARL.",
+ "sources": [
+  "/acme/contracts/supply_atelier_dumont.txt"
+ ]
+}

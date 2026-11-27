@@ -1,0 +1,12 @@
+{
+ "title": "Price list",
+ "date": "2027-01-25",
+ "start": "14:00",
+ "end": "14:30",
+ "attendees": [
+  "paolo.ferri@acme.example",
+  "owen.blake@acme.example"
+ ],
+ "location": "paolo.ferri@acme.example",
+ "created_by": "agent"
+}

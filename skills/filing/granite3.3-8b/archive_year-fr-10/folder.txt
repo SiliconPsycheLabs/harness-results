@@ -1,0 +1,6 @@
+/acme/documents/unsorted/2024-01_order_confirmation_730.txt
+/acme/documents/unsorted/2024-02_delivery_note_555.txt
+/acme/documents/unsorted/2025-01_invoice_157.txt
+/acme/documents/unsorted/2025-04_credit_note_327.txt
+/acme/documents/unsorted/2026-07_delivery_note_816.txt
+/acme/documents/unsorted/2026-11_credit_note_446.txt

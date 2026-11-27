@@ -1,0 +1,141 @@
+{
+ "request": "internal-es-15",
+ "kind": "internal",
+ "language": "es",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Rosa Vidal"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Marta Navas"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Carmen Ibarra"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_free_slots",
+    "arguments": {
+     "people": [
+      "rosa.vidal@acme.example",
+      "marta.navas@acme.example",
+      "carmen.ibarra@acme.example"
+     ],
+     "date": "2027-02-03",
+     "minutes": 90,
+     "part_of_day": "afternoon"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_event",
+    "arguments": {
+     "title": "Lista de precios",
+     "date": "2027-02-03",
+     "start": "16:30",
+     "end": "18:00",
+     "attendees": [
+      "rosa.vidal@acme.example",
+      "marta.navas@acme.example",
+      "carmen.ibarra@acme.example"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "2027-02-03 16:30",
+  "seconds": 7.92,
+  "tokens_in": 6965,
+  "tokens_out": 289,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Rosa Vidal"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Marta Navas"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Carmen Ibarra"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_free_slots",
+    "arguments": {
+     "people": [
+      "rosa.vidal@acme.example",
+      "marta.navas@acme.example",
+      "carmen.ibarra@acme.example"
+     ],
+     "date": "2027-02-03",
+     "minutes": 90,
+     "part_of_day": "afternoon"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_event",
+    "arguments": {
+     "title": "Lista de precios",
+     "date": "2027-02-03",
+     "start": "16:30",
+     "end": "18:00",
+     "attendees": [
+      "rosa.vidal@acme.example",
+      "marta.navas@acme.example",
+      "carmen.ibarra@acme.example"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "2027-02-03 16:30"
+ }
+}

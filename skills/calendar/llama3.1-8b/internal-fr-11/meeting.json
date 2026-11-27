@@ -1,0 +1,12 @@
+{
+ "title": "Plan de production",
+ "date": "2027-03-01",
+ "start": "14:00",
+ "end": "14:30",
+ "attendees": [
+  "nadia.perrin@acme.example",
+  "julie.renard@acme.example"
+ ],
+ "location": "nadia.perrin@acme.example",
+ "created_by": "agent"
+}

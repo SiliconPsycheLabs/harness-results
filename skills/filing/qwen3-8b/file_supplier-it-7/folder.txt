@@ -1,0 +1,3 @@
+/acme/documents/suppliers/tessitura_bellomo/tessitura_bellomo_credit_note_42959.txt
+/acme/documents/suppliers/tessitura_bellomo/tessitura_bellomo_invoice_78606.txt
+/acme/documents/suppliers/tessitura_bellomo/tessitura_bellomo_quote_33180.txt

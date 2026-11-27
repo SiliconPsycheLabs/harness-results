@@ -1,0 +1,95 @@
+{
+ "request": "offer-fr-10",
+ "kind": "offer",
+ "language": "fr",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_pptx",
+    "arguments": {
+     "path": "/acme/documents/presentations/offer_10.pptx",
+     "title": "Offre pour Outillage Besnard SARL",
+     "subtitle": "Hugo Besnard, 25 mars 2027",
+     "slides": [
+      {
+       "title": "Ce que nous proposons",
+       "bullets": [
+        "Fourniture de courroies",
+        "Fourniture de vannes à bille"
+       ]
+      },
+      {
+       "title": "Prix",
+       "table_header": "Article | Quantité | Prix (EUR)",
+       "table_rows": [
+        "courroies | 20 | 400",
+        "vannes à bille | 100 | 2200",
+        "manomètres | 100 | 3800"
+       ]
+      },
+      {
+       "title": "Livraison et paiement",
+       "bullets": [
+        "Livraison sous 2 semaines",
+        "Paiement à 60 jours",
+        "Offre valable jusqu'àau 4 février 2027"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/presentations/offer_10.pptx",
+  "seconds": 6.79,
+  "tokens_in": 2151,
+  "tokens_out": 271,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_pptx",
+    "arguments": {
+     "path": "/acme/documents/presentations/offer_10.pptx",
+     "title": "Offre pour Outillage Besnard SARL",
+     "subtitle": "Hugo Besnard, 25 mars 2027",
+     "slides": [
+      {
+       "title": "Ce que nous proposons",
+       "bullets": [
+        "Fourniture de courroies",
+        "Fourniture de vannes à bille"
+       ]
+      },
+      {
+       "title": "Prix",
+       "table_header": "Article | Quantité | Prix (EUR)",
+       "table_rows": [
+        "courroies | 20 | 400",
+        "vannes à bille | 100 | 2200",
+        "manomètres | 100 | 3800"
+       ]
+      },
+      {
+       "title": "Livraison et paiement",
+       "bullets": [
+        "Livraison sous 2 semaines",
+        "Paiement à 60 jours",
+        "Offre valable jusqu'àau 4 février 2027"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/presentations/offer_10.pptx"
+ }
+}

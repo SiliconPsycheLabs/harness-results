@@ -1,0 +1,14 @@
+{
+ "title": "Preisliste",
+ "date": "2027-02-01",
+ "start": "14:30",
+ "end": "16:00",
+ "attendees": [
+  "jonas.kramer@acme.example",
+  "felix.hofmann@acme.example",
+  "lena.brandt@acme.example",
+  "vertrieb@kraemer-werkzeugbau.example"
+ ],
+ "location": "",
+ "created_by": "agent"
+}

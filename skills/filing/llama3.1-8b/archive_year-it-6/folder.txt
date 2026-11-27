@@ -1,0 +1,6 @@
+/acme/documents/archive/2025/2025-05_invoice_390.txt
+/acme/documents/archive/2025/2025-12_quote_819.txt
+/acme/documents/unsorted/2024-05_credit_note_418.txt
+/acme/documents/unsorted/2024-12_quote_307.txt
+/acme/documents/unsorted/2026-06_delivery_note_354.txt
+/acme/documents/unsorted/2026-11_invoice_303.txt

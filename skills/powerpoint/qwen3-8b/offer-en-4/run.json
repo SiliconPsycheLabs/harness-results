@@ -1,0 +1,95 @@
+{
+ "request": "offer-en-4",
+ "kind": "offer",
+ "language": "en",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_pptx",
+    "arguments": {
+     "path": "/acme/documents/presentations/offer_4.pptx",
+     "title": "Offer for Pennant Hydraulics Inc.",
+     "subtitle": "Tom Reyes, 4 March 2027",
+     "slides": [
+      {
+       "title": "What we propose",
+       "bullets": [
+        "Supply of socket sets",
+        "Supply of hydraulic hoses"
+       ]
+      },
+      {
+       "title": "Prices",
+       "table_header": "Item | Quantity | Price (EUR)",
+       "table_rows": [
+        "socket sets | 40 | 4600",
+        "hydraulic hoses | 50 | 1100",
+        "ball bearings | 50 | 7800"
+       ]
+      },
+      {
+       "title": "Delivery and payment",
+       "bullets": [
+        "Delivery within 4 weeks",
+        "Payment at 45 days",
+        "Offer valid until 22 March 2027"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/presentations/offer_4.pptx",
+  "seconds": 6.82,
+  "tokens_in": 2035,
+  "tokens_out": 229,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_pptx",
+    "arguments": {
+     "path": "/acme/documents/presentations/offer_4.pptx",
+     "title": "Offer for Pennant Hydraulics Inc.",
+     "subtitle": "Tom Reyes, 4 March 2027",
+     "slides": [
+      {
+       "title": "What we propose",
+       "bullets": [
+        "Supply of socket sets",
+        "Supply of hydraulic hoses"
+       ]
+      },
+      {
+       "title": "Prices",
+       "table_header": "Item | Quantity | Price (EUR)",
+       "table_rows": [
+        "socket sets | 40 | 4600",
+        "hydraulic hoses | 50 | 1100",
+        "ball bearings | 50 | 7800"
+       ]
+      },
+      {
+       "title": "Delivery and payment",
+       "bullets": [
+        "Delivery within 4 weeks",
+        "Payment at 45 days",
+        "Offer valid until 22 March 2027"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/presentations/offer_4.pptx"
+ }
+}

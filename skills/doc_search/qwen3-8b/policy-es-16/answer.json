@@ -1,0 +1,7 @@
+{
+ "question": "¿Cuál es la tarifa máxima por noche de hotel que reembolsa la política de viajes?",
+ "answer": "La tarifa máxima por noche de hotel que reembolsa la política de viajes es 120 euros.",
+ "sources": [
+  "/acme/documents/policies/travel.txt"
+ ]
+}

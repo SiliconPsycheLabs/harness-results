@@ -1,0 +1,105 @@
+{
+ "request": "results-en-1",
+ "kind": "results",
+ "language": "en",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_pptx",
+    "arguments": {
+     "path": "/acme/documents/presentations/results_q1_2026_1.pptx",
+     "title": "Results of quarter 1 2026",
+     "subtitle": "Anna Keller, 21 March 2027",
+     "slides": [
+      {
+       "title": "Sales by product line",
+       "bullets": [],
+       "table_header": "Product line | Sales (EUR)",
+       "table_rows": [
+        "Hydraulics | 75400",
+        "Bearings | 4000",
+        "Spare parts | 15300"
+       ]
+      },
+      {
+       "title": "Key figures",
+       "bullets": [
+        "Orders received: 689",
+        "New customers: 25",
+        "Deliveries on time: 86%"
+       ],
+       "table_header": "",
+       "table_rows": []
+      },
+      {
+       "title": "Next steps",
+       "bullets": [
+        "Owen Blake: visit to the three largest customers by 27 March 2027",
+        "Tom Reyes: new catalogue by 13 February 2027"
+       ],
+       "table_header": "",
+       "table_rows": []
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The presentation 'Results of quarter 1 2026' has been successfully created and saved at /acme/documents/presentations/results_q1_2026_1.pptx.",
+  "seconds": 8.66,
+  "tokens_in": 2234,
+  "tokens_out": 327,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_pptx",
+    "arguments": {
+     "path": "/acme/documents/presentations/results_q1_2026_1.pptx",
+     "title": "Results of quarter 1 2026",
+     "subtitle": "Anna Keller, 21 March 2027",
+     "slides": [
+      {
+       "title": "Sales by product line",
+       "bullets": [],
+       "table_header": "Product line | Sales (EUR)",
+       "table_rows": [
+        "Hydraulics | 75400",
+        "Bearings | 4000",
+        "Spare parts | 15300"
+       ]
+      },
+      {
+       "title": "Key figures",
+       "bullets": [
+        "Orders received: 689",
+        "New customers: 25",
+        "Deliveries on time: 86%"
+       ],
+       "table_header": "",
+       "table_rows": []
+      },
+      {
+       "title": "Next steps",
+       "bullets": [
+        "Owen Blake: visit to the three largest customers by 27 March 2027",
+        "Tom Reyes: new catalogue by 13 February 2027"
+       ],
+       "table_header": "",
+       "table_rows": []
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The presentation 'Results of quarter 1 2026' has been successfully created and saved at /acme/documents/presentations/results_q1_2026_1.pptx."
+ }
+}

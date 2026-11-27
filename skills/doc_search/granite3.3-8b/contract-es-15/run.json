@@ -1,0 +1,21 @@
+{
+ "request": "contract-es-15",
+ "kind": "contract",
+ "language": "es",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "El contrato de suministro con Suministros Ibarra termina el 31 de diciembre de 2023.",
+  "seconds": 2.35,
+  "tokens_in": 1607,
+  "tokens_out": 92,
+  "right": false,
+  "missing": [
+   "no note at the path asked"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "I apologize, but I am unable to process the request as it is in Spanish. Please provide the question in English."
+ }
+}

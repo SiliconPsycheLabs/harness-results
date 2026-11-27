@@ -1,0 +1,95 @@
+{
+ "request": "results-de-17",
+ "kind": "results",
+ "language": "de",
+ "model": "qwen3.8-flash-next-abliterated",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_pptx",
+    "arguments": {
+     "path": "/acme/documents/presentations/results_q2_2026_17.pptx",
+     "title": "Ergebnisse des Quartals 2 2026",
+     "subtitle": "Lena Brandt, 2. März 2027",
+     "slides": [
+      {
+       "title": "Umsatz nach Produktlinie",
+       "table_header": "Produktlinie | Umsatz (EUR)",
+       "table_rows": [
+        "Ersatzteile | 4200",
+        "Hydraulik | 51600",
+        "Werkzeuge | 54900"
+       ]
+      },
+      {
+       "title": "Kennzahlen",
+       "bullets": [
+        "Eingegangene Bestellungen: 736",
+        "Neue Kunden: 11",
+        "Pünktliche Lieferungen: 99%"
+       ]
+      },
+      {
+       "title": "Nächste Schritte",
+       "bullets": [
+        "Mira Scholz: neuer Katalog bis 2. März 2027",
+        "Jonas Krämer: Besuch bei den drei größten Kunden bis 19. Februar 2027"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/presentations/results_q2_2026_17.pptx",
+  "seconds": 28.84,
+  "tokens_in": 2298,
+  "tokens_out": 373,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_pptx",
+    "arguments": {
+     "path": "/acme/documents/presentations/results_q2_2026_17.pptx",
+     "title": "Ergebnisse des Quartals 2 2026",
+     "subtitle": "Lena Brandt, 2. März 2027",
+     "slides": [
+      {
+       "title": "Umsatz nach Produktlinie",
+       "table_header": "Produktlinie | Umsatz (EUR)",
+       "table_rows": [
+        "Ersatzteile | 4200",
+        "Hydraulik | 51600",
+        "Werkzeuge | 54900"
+       ]
+      },
+      {
+       "title": "Kennzahlen",
+       "bullets": [
+        "Eingegangene Bestellungen: 736",
+        "Neue Kunden: 11",
+        "Pünktliche Lieferungen: 99%"
+       ]
+      },
+      {
+       "title": "Nächste Schritte",
+       "bullets": [
+        "Mira Scholz: neuer Katalog bis 2. März 2027",
+        "Jonas Krämer: Besuch bei den drei größten Kunden bis 19. Februar 2027"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/presentations/results_q2_2026_17.pptx"
+ }
+}

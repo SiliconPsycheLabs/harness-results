@@ -1,0 +1,141 @@
+{
+ "request": "with_supplier-fr-12",
+ "kind": "with_supplier",
+ "language": "fr",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Nadia Perrin"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Hugo Besnard"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Atelier Dumont"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_free_slots",
+    "arguments": {
+     "people": [
+      "nadia.perrin@acme.example",
+      "hugo.besnard@acme.example",
+      "contact@atelier-dumont.example"
+     ],
+     "date": "2027-02-18",
+     "minutes": 30,
+     "part_of_day": "afternoon"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_event",
+    "arguments": {
+     "title": "Qualité fournisseurs",
+     "date": "2027-02-18",
+     "start": "16:30",
+     "end": "17:00",
+     "attendees": [
+      "nadia.perrin@acme.example",
+      "hugo.besnard@acme.example",
+      "contact@atelier-dumont.example"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Le 18 février 2027 à 16:30.",
+  "seconds": 7.65,
+  "tokens_in": 7044,
+  "tokens_out": 289,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Nadia Perrin"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Hugo Besnard"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Atelier Dumont"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_free_slots",
+    "arguments": {
+     "people": [
+      "nadia.perrin@acme.example",
+      "hugo.besnard@acme.example",
+      "contact@atelier-dumont.example"
+     ],
+     "date": "2027-02-18",
+     "minutes": 30,
+     "part_of_day": "afternoon"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_event",
+    "arguments": {
+     "title": "Qualité fournisseurs",
+     "date": "2027-02-18",
+     "start": "16:30",
+     "end": "17:00",
+     "attendees": [
+      "nadia.perrin@acme.example",
+      "hugo.besnard@acme.example",
+      "contact@atelier-dumont.example"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Le 18 février 2027 à 16:30."
+ }
+}

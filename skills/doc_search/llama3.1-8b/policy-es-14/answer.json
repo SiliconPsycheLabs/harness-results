@@ -1,0 +1,7 @@
+{
+ "question": "ÑCuántos días al mes puede un empleado trabajar desde casa?",
+ "answer": "Un empleado puede trabajar desde casa hasta 10 días al mes.",
+ "sources": [
+  "/acme/documents/policies/remote_work.txt"
+ ]
+}

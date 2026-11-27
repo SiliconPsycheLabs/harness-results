@@ -1,0 +1,141 @@
+{
+ "request": "with_supplier-it-8",
+ "kind": "with_supplier",
+ "language": "it",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Luca Ferri"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Giulia Conti"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Officine Galli"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_free_slots",
+    "arguments": {
+     "people": [
+      "luca.ferri@acme.example",
+      "giulia.conti@acme.example",
+      "ordini@officinegalli.example"
+     ],
+     "date": "2027-02-11",
+     "minutes": 90,
+     "part_of_day": "afternoon"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_event",
+    "arguments": {
+     "title": "Revisione del budget",
+     "date": "2027-02-11",
+     "start": "14:30",
+     "end": "16:00",
+     "attendees": [
+      "luca.ferri@acme.example",
+      "giulia.conti@acme.example",
+      "ordini@officinegalli.example"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "La riunione 'Revisione del budget' è stata fissata il 11 febbraio 2027 dalle 14:30 alle 16:00.",
+  "seconds": 8.53,
+  "tokens_in": 7509,
+  "tokens_out": 330,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Luca Ferri"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Giulia Conti"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Officine Galli"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_free_slots",
+    "arguments": {
+     "people": [
+      "luca.ferri@acme.example",
+      "giulia.conti@acme.example",
+      "ordini@officinegalli.example"
+     ],
+     "date": "2027-02-11",
+     "minutes": 90,
+     "part_of_day": "afternoon"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_event",
+    "arguments": {
+     "title": "Revisione del budget",
+     "date": "2027-02-11",
+     "start": "14:30",
+     "end": "16:00",
+     "attendees": [
+      "luca.ferri@acme.example",
+      "giulia.conti@acme.example",
+      "ordini@officinegalli.example"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "La riunione 'Revisione del budget' è stata fissata il 11 febbraio 2027 dalle 14:30 alle 16:00."
+ }
+}

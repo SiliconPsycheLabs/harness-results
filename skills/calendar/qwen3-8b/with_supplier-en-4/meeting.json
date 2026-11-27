@@ -1,0 +1,14 @@
+{
+ "title": "Production plan",
+ "date": "2027-01-18",
+ "start": "16:00",
+ "end": "17:30",
+ "attendees": [
+  "neil.carver@acme.example",
+  "anna.keller@acme.example",
+  "tom.reyes@acme.example",
+  "orders@northwind-bearings.example"
+ ],
+ "location": "",
+ "created_by": "agent"
+}

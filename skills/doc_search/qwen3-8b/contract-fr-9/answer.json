@@ -1,0 +1,7 @@
+{
+ "question": "Quel est le préavis, en jours, pour résilier notre contrat de fourniture avec Atelier Dumont ?",
+ "answer": "Le préavis pour résilier le contrat de fourniture avec Atelier Dumont est de 45 jours.",
+ "sources": [
+  "/acme/contracts/supply_atelier_dumont.txt"
+ ]
+}

@@ -1,0 +1,7 @@
+{
+ "question": "Qual è la penale per settimana di ritardo nella consegna nel contratto di fornitura con Tessitura Bellomo?",
+ "answer": "La penale per settimana di ritardo nella consegna è del 5% del valore dell'ordine.",
+ "sources": [
+  "/acme/contracts/supply_tessitura_bellomo.txt"
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "request": "offer-de-18",
+ "kind": "offer",
+ "language": "de",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_pptx",
+    "arguments": {
+     "path": "/acme/documents/presentations/offer_18.pptx",
+     "title": "Angebot für Seidel Gusstechnik AG",
+     "subtitle": "Jonas Krämer, 12. Januar 2027",
+     "slides": [
+      {
+       "title": "Was wir vorschlagen",
+       "bullets": [
+        "Lieferung von Linearföhrungen",
+        "Lieferung von Kugellager"
+       ]
+      },
+      {
+       "title": "Preise",
+       "table_header": "Artikel | Menge | Preis (EUR)",
+       "table_rows": [
+        "Linearföhrungen | 50 | 2200",
+        "Kugellager | 25 | 5300",
+        "Manometer | 100 | 4800"
+       ]
+      },
+      {
+       "title": "Lieferung und Zahlung",
+       "bullets": [
+        "Lieferung innerhalb von 4 Wochen",
+        "Zahlung nach 45 Tagen",
+        "Angebot gültig bis 1. Februar 2027"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/presentations/offer_18.pptx",
+  "seconds": 6.62,
+  "tokens_in": 2163,
+  "tokens_out": 273,
+  "right": false,
+  "missing": [
+   "slide 'Was wir vorschlagen' lacks: Linearführungen",
+   "slide 'Preise' lacks: Linearführungen"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_pptx",
+    "arguments": {
+     "path": "/acme/documents/presentations/offer_18.pptx",
+     "title": "Angebot für Seidel Gusstechnik AG",
+     "subtitle": "Jonas Krämer, 12. Januar 2027",
+     "slides": [
+      {
+       "title": "Was wir vorschlagen",
+       "bullets": [
+        "Lieferung von Linearföhrungen",
+        "Lieferung von Kugellager"
+       ]
+      },
+      {
+       "title": "Preise",
+       "table_header": "Artikel | Menge | Preis (EUR)",
+       "table_rows": [
+        "Linearföhrungen | 50 | 2200",
+        "Kugellager | 25 | 5300",
+        "Manometer | 100 | 4800"
+       ]
+      },
+      {
+       "title": "Lieferung und Zahlung",
+       "bullets": [
+        "Lieferung innerhalb von 4 Wochen",
+        "Zahlung nach 45 Tagen",
+        "Angebot gültig bis 1. Februar 2027"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/presentations/offer_18.pptx"
+ }
+}

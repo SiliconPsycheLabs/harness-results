@@ -1,0 +1,21 @@
+{
+ "request": "policy-en-2",
+ "kind": "policy",
+ "language": "en",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "Apologies for the confusion. I will search the company's documents for the answer.",
+  "seconds": 1.6,
+  "tokens_in": 1554,
+  "tokens_out": 57,
+  "right": false,
+  "missing": [
+   "no note at the path asked"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "Apologies for the confusion. I will search the company's documents for the answer."
+ }
+}

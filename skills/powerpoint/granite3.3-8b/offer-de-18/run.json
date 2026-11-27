@@ -1,0 +1,95 @@
+{
+ "request": "offer-de-18",
+ "kind": "offer",
+ "language": "de",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_pptx",
+    "arguments": {
+     "path": "/acme/documents/presentations/offer_18.pptx",
+     "title": "Angebot für Seidel Gusstechnik AG",
+     "subtitle": "Jonas Krämer, 12. Januar 2027",
+     "slides": [
+      {
+       "title": "Was wir vorschlagen",
+       "bullets": [
+        "Lieferung von Linearführungen",
+        "Lieferung von Kugellager"
+       ]
+      },
+      {
+       "title": "Preise",
+       "table_header": "Artikel | Menge | Preis (EUR)",
+       "table_rows": [
+        "Linearführungen | 50 | 2200",
+        "Kugellager | 25 | 5300",
+        "Manometer | 100 | 4800"
+       ]
+      },
+      {
+       "title": "Lieferung und Zahlung",
+       "bullets": [
+        "Lieferung innerhalb von 4 Wochen",
+        "Zahlung nach 45 Tagen",
+        "Angebot gültig bis 1. Februar 2027"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Die Präsentation wurde unter /acme/documents/presentations/offer_18.pptx gespeichert.",
+  "seconds": 8.54,
+  "tokens_in": 2343,
+  "tokens_out": 331,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_pptx",
+    "arguments": {
+     "path": "/acme/documents/presentations/offer_18.pptx",
+     "title": "Angebot für Seidel Gusstechnik AG",
+     "subtitle": "Jonas Krämer, 12. Januar 2027",
+     "slides": [
+      {
+       "title": "Was wir vorschlagen",
+       "bullets": [
+        "Lieferung von Linearführungen",
+        "Lieferung von Kugellager"
+       ]
+      },
+      {
+       "title": "Preise",
+       "table_header": "Artikel | Menge | Preis (EUR)",
+       "table_rows": [
+        "Linearführungen | 50 | 2200",
+        "Kugellager | 25 | 5300",
+        "Manometer | 100 | 4800"
+       ]
+      },
+      {
+       "title": "Lieferung und Zahlung",
+       "bullets": [
+        "Lieferung innerhalb von 4 Wochen",
+        "Zahlung nach 45 Tagen",
+        "Angebot gültig bis 1. Februar 2027"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Die Präsentation wurde unter /acme/documents/presentations/offer_18.pptx gespeichert."
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "title": "Lista de precios",
+ "date": "2027-02-03",
+ "start": "16:30",
+ "end": "18:00",
+ "attendees": [
+  "rosa.vidal@acme.example",
+  "marta.navas@acme.example",
+  "carmen.ibarra@acme.example"
+ ],
+ "location": "",
+ "created_by": "agent"
+}

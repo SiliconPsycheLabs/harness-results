@@ -1,0 +1,8 @@
+/acme/documents/archive/2024/2024-09_delivery_note_311.txt
+/acme/documents/archive/2024/2024-12_credit_note_347.txt
+/acme/documents/unsorted/2024-09_delivery_note_311.txt
+/acme/documents/unsorted/2024-12_credit_note_347.txt
+/acme/documents/unsorted/2025-08_credit_note_546.txt
+/acme/documents/unsorted/2025-09_order_confirmation_785.txt
+/acme/documents/unsorted/2026-10_delivery_note_639.txt
+/acme/documents/unsorted/2026-12_credit_note_861.txt

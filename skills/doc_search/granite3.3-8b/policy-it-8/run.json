@@ -1,0 +1,21 @@
+{
+ "request": "policy-it-8",
+ "kind": "policy",
+ "language": "it",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "I apologize for the confusion. I will now search for the relevant document and provide the answer as per the company's travel policy.",
+  "seconds": 1.98,
+  "tokens_in": 1612,
+  "tokens_out": 85,
+  "right": false,
+  "missing": [
+   "no note at the path asked"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "I apologize for the confusion. I will now search for the relevant document and provide the answer as per the company's travel policy."
+ }
+}

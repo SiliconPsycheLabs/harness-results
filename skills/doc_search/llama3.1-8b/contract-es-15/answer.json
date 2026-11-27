@@ -1,0 +1,7 @@
+{
+ "question": "ÑCuándo termina nuestro contrato de suministro con Suministros Ibarra?",
+ "answer": "El contrato termina el 17 de junio de 2029.",
+ "sources": [
+  "/acme/contracts/supply_suministros_ibarra.txt"
+ ]
+}

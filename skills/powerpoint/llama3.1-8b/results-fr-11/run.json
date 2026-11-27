@@ -1,0 +1,95 @@
+{
+ "request": "results-fr-11",
+ "kind": "results",
+ "language": "fr",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_pptx",
+    "arguments": {
+     "path": "/acme/documents/presentations/results_q2_2026_11.pptx",
+     "title": "Résultats du trimestre 2 2026",
+     "subtitle": "Marc Vasseur, 21 janvier 2027",
+     "slides": [
+      {
+       "title": "Ventes par ligne de produits",
+       "table_header": "Ligne de produits | Ventes (EUR)",
+       "table_rows": [
+        "Outillage | 65800",
+        "Roulements | 27100",
+        "Hydraulique | 62900"
+       ]
+      },
+      {
+       "title": "Chiffres clés",
+       "bullets": [
+        "Commandes reçues : 270",
+        "Nouveaux clients : 33",
+        "Livraisons à l'heure : 82%"
+       ]
+      },
+      {
+       "title": "Prochaines étapes",
+       "bullets": [
+        "Claire Dumont : inventaire du stock avant le 29 janvier 2027",
+        "Hugo Besnard : nouveau tarif avant le 11 février 2027"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/presentations/results_q2_2026_11.pptx",
+  "seconds": 6.81,
+  "tokens_in": 2200,
+  "tokens_out": 287,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_pptx",
+    "arguments": {
+     "path": "/acme/documents/presentations/results_q2_2026_11.pptx",
+     "title": "Résultats du trimestre 2 2026",
+     "subtitle": "Marc Vasseur, 21 janvier 2027",
+     "slides": [
+      {
+       "title": "Ventes par ligne de produits",
+       "table_header": "Ligne de produits | Ventes (EUR)",
+       "table_rows": [
+        "Outillage | 65800",
+        "Roulements | 27100",
+        "Hydraulique | 62900"
+       ]
+      },
+      {
+       "title": "Chiffres clés",
+       "bullets": [
+        "Commandes reçues : 270",
+        "Nouveaux clients : 33",
+        "Livraisons à l'heure : 82%"
+       ]
+      },
+      {
+       "title": "Prochaines étapes",
+       "bullets": [
+        "Claire Dumont : inventaire du stock avant le 29 janvier 2027",
+        "Hugo Besnard : nouveau tarif avant le 11 février 2027"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/presentations/results_q2_2026_11.pptx"
+ }
+}

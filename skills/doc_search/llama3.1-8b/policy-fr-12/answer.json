@@ -1,0 +1,7 @@
+{
+ "question": "Dans combien de jours après la dépense une note de frais doit-elle être remise ?",
+ "answer": "Une note de frais est remise dans les 25 jours suivant la dépense.",
+ "sources": [
+  "/acme/documents/policies/expenses.txt"
+ ]
+}

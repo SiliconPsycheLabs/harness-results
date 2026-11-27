@@ -1,0 +1,22 @@
+{
+ "request": "file_supplier-fr-11",
+ "kind": "file_supplier",
+ "language": "fr",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "I apologize for the oversight. I will now list the files in /acme/inbox that contain 'Atelier Dumont' and copy them to /acme/documents/suppliers/atelier_dumont.",
+  "seconds": 2.51,
+  "tokens_in": 1561,
+  "tokens_out": 100,
+  "right": false,
+  "missing": [
+   "/acme/documents/suppliers/atelier_dumont/atelier_dumont_credit_note_27870.txt is missing",
+   "/acme/documents/suppliers/atelier_dumont/atelier_dumont_order_confirmation_15076.txt is missing"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "I apologize for the oversight. I will now list the files in /acme/inbox that contain 'Atelier Dumont' and copy them to /acme/documents/suppliers/atelier_dumont."
+ }
+}

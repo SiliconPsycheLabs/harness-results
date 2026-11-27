@@ -1,0 +1,13 @@
+{
+ "title": "Qualità fornitori",
+ "date": "2027-03-05",
+ "start": "09:30",
+ "end": "11:00",
+ "attendees": [
+  "marta.leone@acme.example",
+  "stefano.riva@acme.example",
+  "elena.sarti@acme.example"
+ ],
+ "location": "",
+ "created_by": "agent"
+}

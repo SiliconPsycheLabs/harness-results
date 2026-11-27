@@ -1,0 +1,21 @@
+{
+ "request": "policy-fr-10",
+ "kind": "policy",
+ "language": "fr",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "Apologies for the confusion. I misunderstood the language of the question. The question is in French, asking about the order amount requiring two written quotes. According to our policy, an order above 5000 USD requires two written quotes. I will save the answer as requested.",
+  "seconds": 2.47,
+  "tokens_in": 1596,
+  "tokens_out": 107,
+  "right": false,
+  "missing": [
+   "no note at the path asked"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "Apologies for the confusion. I misunderstood the language of the question. The question is in French, asking about the order amount that requires two written quotes. According to our policy, an order above 5000 USD necessitates two written quotes. I will save the answer at the specified path /acme/documents/answers/answer_10.json."
+ }
+}

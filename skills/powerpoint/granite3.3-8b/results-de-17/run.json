@@ -1,0 +1,105 @@
+{
+ "request": "results-de-17",
+ "kind": "results",
+ "language": "de",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_pptx",
+    "arguments": {
+     "path": "/acme/documents/presentations/results_q2_2026_17.pptx",
+     "title": "Ergebnisse des Quartals 2 2026",
+     "subtitle": "Lena Brandt, 2. März 2027",
+     "slides": [
+      {
+       "title": "Umsatz nach Produktlinie",
+       "bullets": [],
+       "table_header": "Produktlinie | Umsatz (EUR)",
+       "table_rows": [
+        "Ersatzteile | 4200",
+        "Hydraulik | 51600",
+        "Werkzeuge | 54900"
+       ]
+      },
+      {
+       "title": "Kennzahlen",
+       "bullets": [
+        "Eingegangene Bestellungen: 736",
+        "Neue Kunden: 11",
+        "Pünktliche Lieferungen: 99%"
+       ],
+       "table_header": "",
+       "table_rows": []
+      },
+      {
+       "title": "Nächste Schritte",
+       "bullets": [
+        "Mira Scholz: neuer Katalog bis 2. März 2027",
+        "Jonas Krämer: Besuch bei den drei größten Kunden bis 19. Februar 2027"
+       ],
+       "table_header": "",
+       "table_rows": []
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The presentation has been successfully created and saved at /acme/documents/presentations/results_q2_2026_17.pptx.",
+  "seconds": 10.28,
+  "tokens_in": 2493,
+  "tokens_out": 405,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_pptx",
+    "arguments": {
+     "path": "/acme/documents/presentations/results_q2_2026_17.pptx",
+     "title": "Ergebnisse des Quartals 2 2026",
+     "subtitle": "Lena Brandt, 2. März 2027",
+     "slides": [
+      {
+       "title": "Umsatz nach Produktlinie",
+       "bullets": [],
+       "table_header": "Produktlinie | Umsatz (EUR)",
+       "table_rows": [
+        "Ersatzteile | 4200",
+        "Hydraulik | 51600",
+        "Werkzeuge | 54900"
+       ]
+      },
+      {
+       "title": "Kennzahlen",
+       "bullets": [
+        "Eingegangene Bestellungen: 736",
+        "Neue Kunden: 11",
+        "Pünktliche Lieferungen: 99%"
+       ],
+       "table_header": "",
+       "table_rows": []
+      },
+      {
+       "title": "Nächste Schritte",
+       "bullets": [
+        "Mira Scholz: neuer Katalog bis 2. März 2027",
+        "Jonas Krämer: Besuch bei den drei größten Kunden bis 19. Februar 2027"
+       ],
+       "table_header": "",
+       "table_rows": []
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The presentation 'Ergebnisse des Quartals 2 2026' has been successfully created and saved at /acme/documents/presentations/results_q2_2026_17.pptx."
+ }
+}

@@ -1,0 +1,95 @@
+{
+ "request": "results-de-19",
+ "kind": "results",
+ "language": "de",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_pptx",
+    "arguments": {
+     "path": "/acme/documents/presentations/results_q1_2026_19.pptx",
+     "title": "Ergebnisse des Quartals 1 2026",
+     "subtitle": "Sabine Vogt, 26. März 2027",
+     "slides": [
+      {
+       "title": "Umsatz nach Produktlinie",
+       "table_header": "Produktlinie | Umsatz (EUR)",
+       "table_rows": [
+        "Ersatzteile | 69300",
+        "Hydraulik | 41000",
+        "Werkzeuge | 38700"
+       ]
+      },
+      {
+       "title": "Kennzahlen",
+       "bullets": [
+        "Eingegangene Bestellungen: 501",
+        "Neue Kunden: 19",
+        "Pünktliche Lieferungen: 93%"
+       ]
+      },
+      {
+       "title": "Nächste Schritte",
+       "bullets": [
+        "Jonas Krämer: Lagerinventur bis 15. März 2027",
+        "Tobias Voss: neue Preisliste bis 27. März 2027"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/presentations/results_q1_2026_19.pptx",
+  "seconds": 9.8,
+  "tokens_in": 2316,
+  "tokens_out": 346,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_pptx",
+    "arguments": {
+     "path": "/acme/documents/presentations/results_q1_2026_19.pptx",
+     "title": "Ergebnisse des Quartals 1 2026",
+     "subtitle": "Sabine Vogt, 26. März 2027",
+     "slides": [
+      {
+       "title": "Umsatz nach Produktlinie",
+       "table_header": "Produktlinie | Umsatz (EUR)",
+       "table_rows": [
+        "Ersatzteile | 69300",
+        "Hydraulik | 41000",
+        "Werkzeuge | 38700"
+       ]
+      },
+      {
+       "title": "Kennzahlen",
+       "bullets": [
+        "Eingegangene Bestellungen: 501",
+        "Neue Kunden: 19",
+        "Pünktliche Lieferungen: 93%"
+       ]
+      },
+      {
+       "title": "Nächste Schritte",
+       "bullets": [
+        "Jonas Krämer: Lagerinventur bis 15. März 2027",
+        "Tobias Voss: neue Preisliste bis 27. März 2027"
+       ]
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "/acme/documents/presentations/results_q1_2026_19.pptx"
+ }
+}

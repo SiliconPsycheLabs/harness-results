@@ -1,0 +1,21 @@
+{
+ "request": "contract-de-17",
+ "kind": "contract",
+ "language": "de",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "I apologize for the confusion. I need to search the company's documents for the information. I will use the search_documents tool to find the relevant document and then use read_document to extract the information. After that, I will save the answer using save_answer. Let me proceed with that.",
+  "seconds": 2.47,
+  "tokens_in": 1608,
+  "tokens_out": 104,
+  "right": false,
+  "missing": [
+   "no note at the path asked"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "I apologize for the confusion. I will search for the relevant document and provide the answer. Here is the process:"
+ }
+}

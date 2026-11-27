@@ -1,0 +1,7 @@
+{
+ "question": "Wie lang ist die Küdigungsfrist in Tagen für unseren Liefervertrag mit Krämer Werkzeugbau?",
+ "answer": "Die Küdigungsfrist beträgt 90 Tage.",
+ "sources": [
+  "/acme/contracts/supply_kramer_werkzeugbau.txt"
+ ]
+}

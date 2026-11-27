@@ -1,0 +1,13 @@
+{
+ "title": "Lieferantenqualität",
+ "date": "2027-03-11",
+ "start": "09:30",
+ "end": "11:00",
+ "attendees": [
+  "mira.scholz@acme.example",
+  "lena.brandt@acme.example",
+  "jan.petersen@acme.example"
+ ],
+ "location": "",
+ "created_by": "agent"
+}

@@ -1,0 +1,22 @@
+{
+ "request": "file_supplier-es-15",
+ "kind": "file_supplier",
+ "language": "es",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "No se han encontrado archivos de Suministros Ibarra en /acme/inbox.",
+  "seconds": 1.86,
+  "tokens_in": 1567,
+  "tokens_out": 72,
+  "right": false,
+  "missing": [
+   "/acme/documents/suppliers/suministros_ibarra/suministros_ibarra_delivery_note_75621.txt is missing",
+   "/acme/documents/suppliers/suministros_ibarra/suministros_ibarra_invoice_21601.txt is missing"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "No se han encontrado archivos de Suministros Ibarra en /acme/inbox."
+ }
+}

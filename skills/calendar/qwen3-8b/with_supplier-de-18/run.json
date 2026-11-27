@@ -1,0 +1,163 @@
+{
+ "request": "with_supplier-de-18",
+ "kind": "with_supplier",
+ "language": "de",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Lena Brandt"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Felix Hofmann"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Sabine Vogt"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Lindner Maschinenbau"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_free_slots",
+    "arguments": {
+     "people": [
+      "lena.brandt@acme.example",
+      "felix.hofmann@acme.example",
+      "sabine.vogt@acme.example",
+      "info@lindner-maschinenbau.example"
+     ],
+     "date": "2027-02-12",
+     "minutes": 60,
+     "part_of_day": "morning"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_event",
+    "arguments": {
+     "title": "Preisliste",
+     "date": "2027-02-12",
+     "start": "11:30",
+     "end": "12:30",
+     "attendees": [
+      "lena.brandt@acme.example",
+      "felix.hofmann@acme.example",
+      "sabine.vogt@acme.example",
+      "info@lindner-maschinenbau.example"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "",
+  "seconds": 8.96,
+  "tokens_in": 6875,
+  "tokens_out": 314,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Lena Brandt"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Felix Hofmann"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Sabine Vogt"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Lindner Maschinenbau"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_free_slots",
+    "arguments": {
+     "people": [
+      "lena.brandt@acme.example",
+      "felix.hofmann@acme.example",
+      "sabine.vogt@acme.example",
+      "info@lindner-maschinenbau.example"
+     ],
+     "date": "2027-02-12",
+     "minutes": 60,
+     "part_of_day": "morning"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_event",
+    "arguments": {
+     "title": "Preisliste",
+     "date": "2027-02-12",
+     "start": "11:30",
+     "end": "12:30",
+     "attendees": [
+      "lena.brandt@acme.example",
+      "felix.hofmann@acme.example",
+      "sabine.vogt@acme.example",
+      "info@lindner-maschinenbau.example"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": ""
+ }
+}

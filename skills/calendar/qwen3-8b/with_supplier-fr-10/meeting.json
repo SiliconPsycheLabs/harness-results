@@ -1,0 +1,14 @@
+{
+ "title": "Plan de production",
+ "date": "2027-02-01",
+ "start": "14:00",
+ "end": "15:30",
+ "attendees": [
+  "hugo.besnard@acme.example",
+  "julie.renard@acme.example",
+  "luc.moreau@acme.example",
+  "contact@atelier-dumont.example"
+ ],
+ "location": "",
+ "created_by": "agent"
+}

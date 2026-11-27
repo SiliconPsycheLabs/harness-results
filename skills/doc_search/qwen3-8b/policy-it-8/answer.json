@@ -1,0 +1,7 @@
+{
+ "question": "Qual è la tariffa massima per notte in albergo rimborsata dalla politica delle trasferte?",
+ "answer": "La tariffa massima per notte in albergo rimborsata dalla politica delle trasferte è 130 euro.",
+ "sources": [
+  "/acme/documents/policies/travel.txt"
+ ]
+}

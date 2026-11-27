@@ -1,0 +1,141 @@
+{
+ "request": "with_supplier-es-16",
+ "kind": "with_supplier",
+ "language": "es",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Andrés Molina"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Rosa Vidal"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Suministros Ibarra"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_free_slots",
+    "arguments": {
+     "people": [
+      "andres.molina@acme.example",
+      "rosa.vidal@acme.example",
+      "ventas@suministrosibarra.example"
+     ],
+     "date": "2027-02-01",
+     "minutes": 30,
+     "part_of_day": "afternoon"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_event",
+    "arguments": {
+     "title": "Lista de precios",
+     "date": "2027-02-01",
+     "start": "14:30",
+     "end": "15:00",
+     "attendees": [
+      "andres.molina@acme.example",
+      "rosa.vidal@acme.example",
+      "ventas@suministrosibarra.example"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "2027-02-01 14:30",
+  "seconds": 8.43,
+  "tokens_in": 7216,
+  "tokens_out": 287,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Andrés Molina"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Rosa Vidal"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Suministros Ibarra"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_free_slots",
+    "arguments": {
+     "people": [
+      "andres.molina@acme.example",
+      "rosa.vidal@acme.example",
+      "ventas@suministrosibarra.example"
+     ],
+     "date": "2027-02-01",
+     "minutes": 30,
+     "part_of_day": "afternoon"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_event",
+    "arguments": {
+     "title": "Lista de precios",
+     "date": "2027-02-01",
+     "start": "14:30",
+     "end": "15:00",
+     "attendees": [
+      "andres.molina@acme.example",
+      "rosa.vidal@acme.example",
+      "ventas@suministrosibarra.example"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "2027-02-01 14:30"
+ }
+}

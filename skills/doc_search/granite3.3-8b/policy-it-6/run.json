@@ -1,0 +1,21 @@
+{
+ "request": "policy-it-6",
+ "kind": "policy",
+ "language": "it",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "Apologies for the confusion. I misunderstood the language of the question. The document in Italian states that an employee can work from home up to 5 days a month.",
+  "seconds": 1.95,
+  "tokens_in": 1579,
+  "tokens_out": 80,
+  "right": false,
+  "missing": [
+   "no note at the path asked"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "Apologies for the confusion. I misunderstood the language of the question. The document in Italian states that an employee can work from home up to 5 days a month."
+ }
+}

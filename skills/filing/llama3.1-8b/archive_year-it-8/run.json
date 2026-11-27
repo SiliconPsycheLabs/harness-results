@@ -1,0 +1,81 @@
+{
+ "request": "archive_year-it-8",
+ "kind": "archive_year",
+ "language": "it",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "list_folder",
+    "arguments": {
+     "path": "/acme/documents/unsorted",
+     "name_contains": "2024"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "move_file",
+    "arguments": {
+     "source": "/acme/documents/unsorted/2024-04_quote_804.txt",
+     "destination": "/acme/documents/archive/2024/2024-04_quote_804.txt"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "move_file",
+    "arguments": {
+     "source": "/acme/documents/unsorted/2024-10_invoice_809.txt",
+     "destination": "/acme/documents/archive/2024/2024-10_invoice_809.txt"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "2 files filed in /acme/documents/archive/2024.",
+  "seconds": 4.18,
+  "tokens_in": 3388,
+  "tokens_out": 174,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "list_folder",
+    "arguments": {
+     "path": "/acme/documents/unsorted",
+     "name_contains": "2024"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "move_file",
+    "arguments": {
+     "source": "/acme/documents/unsorted/2024-04_quote_804.txt",
+     "destination": "/acme/documents/archive/2024/2024-04_quote_804.txt"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "move_file",
+    "arguments": {
+     "source": "/acme/documents/unsorted/2024-10_invoice_809.txt",
+     "destination": "/acme/documents/archive/2024/2024-10_invoice_809.txt"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "2 files filed in /acme/documents/archive/2024."
+ }
+}

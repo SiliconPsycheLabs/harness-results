@@ -1,0 +1,7 @@
+{
+ "question": "What is the notice period, in days, to end our supply contract with Harbor Tools?",
+ "answer": "150 days",
+ "sources": [
+  "/acme/contracts/supply_harbor_tools.txt"
+ ]
+}

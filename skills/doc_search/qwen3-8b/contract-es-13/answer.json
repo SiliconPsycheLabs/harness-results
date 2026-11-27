@@ -1,0 +1,7 @@
+{
+ "question": "¿Cuál es la penalización por semana de retraso en la entrega en el contrato de suministro con Suministros Ibarra?",
+ "answer": "La penalización por semana de retraso en la entrega es del 3% del valor del pedido.",
+ "sources": [
+  "/acme/contracts/supply_suministros_ibarra.txt"
+ ]
+}

@@ -1,0 +1,7 @@
+{
+ "question": "After how many days do we pay the invoices of Northwind Bearings, according to the supply contract?",
+ "answer": "75 days after the invoice date, according to the supply contract between Acme Components and Northwind Bearings Ltd.",
+ "sources": [
+  "/acme/contracts/supply_northwind_bearings.txt"
+ ]
+}

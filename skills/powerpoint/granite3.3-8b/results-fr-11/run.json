@@ -1,0 +1,105 @@
+{
+ "request": "results-fr-11",
+ "kind": "results",
+ "language": "fr",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "write_pptx",
+    "arguments": {
+     "path": "/acme/documents/presentations/results_q2_2026_11.pptx",
+     "title": "Résultats du trimestre 2 2026",
+     "subtitle": "Marc Vasseur, 21 janvier 2027",
+     "slides": [
+      {
+       "title": "Ventes par ligne de produits",
+       "bullets": [],
+       "table_header": "Ligne de produits | Ventes (EUR)",
+       "table_rows": [
+        "Outillage | 65800",
+        "Roulements | 27100",
+        "Hydraulique | 62900"
+       ]
+      },
+      {
+       "title": "Chiffres clés",
+       "bullets": [
+        "Commandes reçues : 270",
+        "Nouveaux clients : 33",
+        "Livraisons à l'heure : 82%"
+       ],
+       "table_header": "",
+       "table_rows": []
+      },
+      {
+       "title": "Prochaines étapes",
+       "bullets": [
+        "Claire Dumont : inventaire du stock avant le 29 janvier 2027",
+        "Hugo Besnard : nouveau tarif avant le 11 février 2027"
+       ],
+       "table_header": "",
+       "table_rows": []
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "La présentation a été enregistrée avec succès sous le nom de results_q2_2026_11.pptx dans /acme/documents/presentations.",
+  "seconds": 10.5,
+  "tokens_in": 2477,
+  "tokens_out": 405,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "write_pptx",
+    "arguments": {
+     "path": "/acme/documents/presentations/results_q2_2026_11.pptx",
+     "title": "Résultats du trimestre 2 2026",
+     "subtitle": "Marc Vasseur, 21 janvier 2027",
+     "slides": [
+      {
+       "title": "Ventes par ligne de produits",
+       "bullets": [],
+       "table_header": "Ligne de produits | Ventes (EUR)",
+       "table_rows": [
+        "Outillage | 65800",
+        "Roulements | 27100",
+        "Hydraulique | 62900"
+       ]
+      },
+      {
+       "title": "Chiffres clés",
+       "bullets": [
+        "Commandes reçues : 270",
+        "Nouveaux clients : 33",
+        "Livraisons à l'heure : 82%"
+       ],
+       "table_header": "",
+       "table_rows": []
+      },
+      {
+       "title": "Prochaines étapes",
+       "bullets": [
+        "Claire Dumont : inventaire du stock avant le 29 janvier 2027",
+        "Hugo Besnard : nouveau tarif avant le 11 février 2027"
+       ],
+       "table_header": "",
+       "table_rows": []
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "La présentation a été enregistrée avec succès sous le nom de results_q2_2026_11.pptx dans /acme/documents/presentations."
+ }
+}

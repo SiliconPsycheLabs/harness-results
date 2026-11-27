@@ -1,0 +1,141 @@
+{
+ "request": "with_supplier-it-6",
+ "kind": "with_supplier",
+ "language": "it",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Luca Ferri"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Elena Sarti"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Tessitura Bellomo"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_free_slots",
+    "arguments": {
+     "people": [
+      "luca.ferri@acme.example",
+      "elena.sarti@acme.example",
+      "commerciale@tessiturabellomo.example"
+     ],
+     "date": "2027-02-11",
+     "minutes": 90,
+     "part_of_day": "morning"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_event",
+    "arguments": {
+     "title": "Piano di produzione",
+     "date": "2027-02-11",
+     "start": "10:00",
+     "end": "11:30",
+     "attendees": [
+      "luca.ferri@acme.example",
+      "elena.sarti@acme.example",
+      "commerciale@tessiturabellomo.example"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The meeting 'Piano di produzione' is scheduled for the 11th of February, 2027, from 10:00 to 11:30.",
+  "seconds": 8.79,
+  "tokens_in": 7438,
+  "tokens_out": 341,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Luca Ferri"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Elena Sarti"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Tessitura Bellomo"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_free_slots",
+    "arguments": {
+     "people": [
+      "luca.ferri@acme.example",
+      "elena.sarti@acme.example",
+      "commerciale@tessiturabellomo.example"
+     ],
+     "date": "2027-02-11",
+     "minutes": 90,
+     "part_of_day": "morning"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_event",
+    "arguments": {
+     "title": "Piano di produzione",
+     "date": "2027-02-11",
+     "start": "10:00",
+     "end": "11:30",
+     "attendees": [
+      "luca.ferri@acme.example",
+      "elena.sarti@acme.example",
+      "commerciale@tessiturabellomo.example"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The meeting 'Piano di produzione' is scheduled for the 11th of February, 2027, from 10:00 to 11:30."
+ }
+}

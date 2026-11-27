@@ -1,0 +1,13 @@
+{
+ "title": "Piano di produzione",
+ "date": "2027-02-11",
+ "start": "10:00",
+ "end": "11:30",
+ "attendees": [
+  "luca.ferri@acme.example",
+  "elena.sarti@acme.example",
+  "commerciale@tessiturabellomo.example"
+ ],
+ "location": "",
+ "created_by": "agent"
+}

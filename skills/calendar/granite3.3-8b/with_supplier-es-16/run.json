@@ -1,0 +1,141 @@
+{
+ "request": "with_supplier-es-16",
+ "kind": "with_supplier",
+ "language": "es",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Andrés Molina"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Rosa Vidal"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Suministros Ibarra"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_free_slots",
+    "arguments": {
+     "people": [
+      "andres.molina@acme.example",
+      "rosa.vidal@acme.example",
+      "ventas@suministrosibarra.example"
+     ],
+     "date": "2027-02-01",
+     "minutes": 30,
+     "part_of_day": "afternoon"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_event",
+    "arguments": {
+     "title": "Lista de precios",
+     "date": "2027-02-01",
+     "start": "14:30",
+     "end": "15:00",
+     "attendees": [
+      "andres.molina@acme.example",
+      "rosa.vidal@acme.example",
+      "ventas@suministrosibarra.example"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "La reunión 'Lista de precios' ha sido reservada para el 1 de febrero de 2027, a las 14:30-15:00.",
+  "seconds": 9.25,
+  "tokens_in": 7660,
+  "tokens_out": 344,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Andrés Molina"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Rosa Vidal"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Suministros Ibarra"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_free_slots",
+    "arguments": {
+     "people": [
+      "andres.molina@acme.example",
+      "rosa.vidal@acme.example",
+      "ventas@suministrosibarra.example"
+     ],
+     "date": "2027-02-01",
+     "minutes": 30,
+     "part_of_day": "afternoon"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_event",
+    "arguments": {
+     "title": "Lista de precios",
+     "date": "2027-02-01",
+     "start": "14:30",
+     "end": "15:00",
+     "attendees": [
+      "andres.molina@acme.example",
+      "rosa.vidal@acme.example",
+      "ventas@suministrosibarra.example"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "La reunión 'Lista de precios' ha sido reservada para el 1 de febrero de 2027, a las 14:30-15:00."
+ }
+}
