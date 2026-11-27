@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "contact@atelier-dumont.example"
+ ],
+ "subject": "Réception de la facture F-67503",
+ "body": "Nous vous confirmons avoir reçu la facture F-67503 le 26 juillet 2024. Nous vous rappelons que le paiement sera effectué avant léchance du 1er février 2027.",
+ "attachments": []
+}

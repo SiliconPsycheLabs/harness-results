@@ -1,0 +1,22 @@
+{
+ "request": "job-de-19",
+ "kind": "job",
+ "language": "de",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "No action was possible due to the lack of a PDF file at the specified path '/acme/inbox/kw-27330.pdf'.",
+  "seconds": 3.0,
+  "tokens_in": 3095,
+  "tokens_out": 109,
+  "right": false,
+  "missing": [
+   "no bill with the invoice number",
+   "0 mails sent, not 1"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "Unable to process the invoice without access to the file at '/acme/inbox/kw-27330.pdf'."
+ }
+}

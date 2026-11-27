@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "ventas@suministrosibarra.example"
+ ],
+ "subject": "Factura SI-48591 recibida",
+ "body": "Hemos recibido la factura SI-48591 de Suministros Ibarra S.L. y se pagará a su vencimiento el 27 de enero de 2027.",
+ "attachments": []
+}

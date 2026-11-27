@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "ventas@suministrosibarra.example"
+ ],
+ "subject": "Factura SI-48591 recibida",
+ "body": "Estimados señores:\n\nAcusamos recibo de su factura n.º SI-48591, de fecha 13 de diciembre de 2026, por un importe neto de 316,20 EUR.\n\nLe confirmamos que será pagada a su vencimiento, el 27 de enero de 2027.\n\nUn cordial saludo,\n\nDepartamento de Cuentas a Pagar\nAcme Components",
+ "attachments": []
+}

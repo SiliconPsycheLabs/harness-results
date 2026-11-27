@@ -1,0 +1,178 @@
+{
+ "request": "job-fr-10",
+ "kind": "job",
+ "language": "fr",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/f-21147.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Atelier Dumont SARL"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Atelier Dumont SARL",
+     "number": "F-21147",
+     "date": "2027-01-10",
+     "due_date": "2027-02-09",
+     "lines": [
+      {
+       "description": "électro-réducteurs",
+       "quantity": 5,
+       "unit_price": 439.65
+      },
+      {
+       "description": "électro-forets",
+       "quantity": 4,
+       "unit_price": 14.25
+      }
+     ],
+     "total": 2255.25
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Atelier Dumont SARL"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "contact@atelier-dumont.example"
+     ],
+     "subject": "Réception de la facture F-21147",
+     "body": "Nous vous confirmons avoir reçu la facture F-21147 déposée le 10 janvier 2027. Nous vous rappelons que le paiement sera effectué avant léchance du 9 février 2027.",
+     "attachments": []
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "entered bill 1, sent confirmation to Atelier Dumont SARL",
+  "seconds": 9.62,
+  "tokens_in": 10658,
+  "tokens_out": 376,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/f-21147.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Atelier Dumont SARL"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Atelier Dumont SARL",
+     "number": "F-21147",
+     "date": "2027-01-10",
+     "due_date": "2027-02-09",
+     "lines": [
+      {
+       "description": "électro-réducteurs",
+       "quantity": 5,
+       "unit_price": 439.65
+      },
+      {
+       "description": "électro-forets",
+       "quantity": 4,
+       "unit_price": 14.25
+      }
+     ],
+     "total": 2252.25
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Atelier Dumont SARL",
+     "number": "F-21147",
+     "date": "2027-01-10",
+     "due_date": "2027-02-09",
+     "lines": [
+      {
+       "description": "électro-réducteurs",
+       "quantity": 5,
+       "unit_price": 439.65
+      },
+      {
+       "description": "électro-forets",
+       "quantity": 4,
+       "unit_price": 14.25
+      }
+     ],
+     "total": 2255.25
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Atelier Dumont SARL"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "contact@atelier-dumont.example"
+     ],
+     "subject": "Réception de la facture F-21147",
+     "body": "Nous vous confirmons avoir reçu la facture F-21147. Nous vous rappelons qu’elle sera payée à l’échéance le 9 février 2027.",
+     "attachments": []
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "entered bill 1, sent mail to Atelier Dumont SARL"
+ }
+}

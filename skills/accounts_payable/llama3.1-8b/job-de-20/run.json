@@ -1,0 +1,156 @@
+{
+ "request": "job-de-20",
+ "kind": "job",
+ "language": "de",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/kw-53285.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Krämer Werkzeugbau GmbH"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Krämer Werkzeugbau GmbH",
+     "number": "KW-53285",
+     "date": "2027-01-27",
+     "due_date": "2027-02-26",
+     "lines": [
+      {
+       "description": "Ärbeitshandschuhe",
+       "quantity": 10,
+       "unit_price": 4.55
+      },
+      {
+       "description": "Ärbeitshandschuhe",
+       "quantity": 8,
+       "unit_price": 194.7
+      }
+     ],
+     "total": 1603.1
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Krämer Werkzeugbau GmbH"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "vertrieb@kraemer-werkzeugbau.example"
+     ],
+     "subject": "Rechnung KW-53285 erhalten",
+     "body": "Sehr geehrte Damen und Herren, wir haben Ihre Rechnung KW-53285 vom 27. Januar 2027 erhalten. Wir werden diese Rechnung zur Fälligkeit am 26. Februar 2027 bezahlen. Mit freundlichen Grüßen, Acme Components",
+     "attachments": []
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "entered bill 1: Krämer Werkzeugbau GmbH, invoice KW-53285, net total 1603.10 EUR, written to Krämer Werkzeugbau GmbH: received invoice KW-53285, will pay by due date 26.02.2027",
+  "seconds": 11.28,
+  "tokens_in": 10789,
+  "tokens_out": 421,
+  "right": false,
+  "missing": [
+   "no line Arbeitshandschuh: 10 x 4.55",
+   "no line Linearführung: 8 x 194.70"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/kw-53285.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Krämer Werkzeugbau GmbH"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Krämer Werkzeugbau GmbH",
+     "number": "KW-53285",
+     "date": "2027-01-27",
+     "due_date": "2027-02-26",
+     "lines": [
+      {
+       "description": "Ärbeitshandschuhe",
+       "quantity": 10,
+       "unit_price": 4.55
+      },
+      {
+       "description": "Ärbeitshandschuhe",
+       "quantity": 8,
+       "unit_price": 194.7
+      }
+     ],
+     "total": 1603.1
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Krämer Werkzeugbau GmbH"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "vertrieb@kraemer-werkzeugbau.example"
+     ],
+     "subject": "Rechnung KW-53285 erhalten",
+     "body": "Sehr geehrte Damen und Herren, wir haben Ihre Rechnung KW-53285 vom 27. Januar 2027 erhalten. Wir werden diese Rechnung zur Fälligkeit am 26. Februar 2027 bezahlen. Mit freundlichen Grüßen, Acme Components",
+     "attachments": []
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "entered bill 1: Krämer Werkzeugbau GmbH, invoice KW-53285, net total 1603.10 EUR, written to Krämer Werkzeugbau GmbH: received invoice KW-53285, will pay by due date 26.02.2027"
+ }
+}

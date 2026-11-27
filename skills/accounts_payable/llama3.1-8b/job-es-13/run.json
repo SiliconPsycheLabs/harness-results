@@ -1,0 +1,175 @@
+{
+ "request": "job-es-13",
+ "kind": "job",
+ "language": "es",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/si-65983.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Suministros Ibarra S.L."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Suministros Ibarra S.L.",
+     "number": "SI-65983",
+     "date": "2027-01-06",
+     "due_date": "2027-02-05",
+     "lines": [
+      {
+       "description": "brocas",
+       "quantity": 12,
+       "unit_price": 13.65
+      },
+      {
+       "description": "correas",
+       "quantity": 1,
+       "unit_price": 52.9
+      },
+      {
+       "description": "manómetros",
+       "quantity": 1,
+       "unit_price": 36.8
+      },
+      {
+       "description": "últvulas de bola",
+       "quantity": 50,
+       "unit_price": 33.85
+      }
+     ],
+     "total": 1946.0
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Suministros Ibarra S.L."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "ventas@suministrosibarra.example"
+     ],
+     "subject": "Recibida factura SI-65983",
+     "body": "Estimado proveedor, le informamos que hemos recibido su factura SI-65983 con fecha 6 de enero de 2027. Se pagará a su vencimiento, el 5 de febrero de 2027. Agradecemos su colaboración.",
+     "attachments": []
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "entered draft bill 1: Suministros Ibarra S.L., invoice SI-65983, net total 1946.00 EUR, waiting for validation. Sent mail to ventas@suministrosibarra.example with subject Recibida factura SI-65983.",
+  "seconds": 12.31,
+  "tokens_in": 10971,
+  "tokens_out": 451,
+  "right": false,
+  "missing": [
+   "no line válvula: 50 x 33.85"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/si-65983.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Suministros Ibarra S.L."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Suministros Ibarra S.L.",
+     "number": "SI-65983",
+     "date": "2027-01-06",
+     "due_date": "2027-02-05",
+     "lines": [
+      {
+       "description": "brocas",
+       "quantity": 12,
+       "unit_price": 13.65
+      },
+      {
+       "description": "correas",
+       "quantity": 1,
+       "unit_price": 52.9
+      },
+      {
+       "description": "manómetros",
+       "quantity": 1,
+       "unit_price": 36.8
+      },
+      {
+       "description": "últvulas de bola",
+       "quantity": 50,
+       "unit_price": 33.85
+      }
+     ],
+     "total": 1946.0
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Suministros Ibarra S.L."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "ventas@suministrosibarra.example"
+     ],
+     "subject": "Recibida factura SI-65983",
+     "body": "Estimado proveedor, le informamos que hemos recibido su factura SI-65983 con fecha 6 de enero de 2027. Se pagará a su vencimiento, el 5 de febrero de 2027. Agradecemos su colaboración.",
+     "attachments": []
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "entered draft bill 1: Suministros Ibarra S.L., invoice SI-65983, net total 1946.00 EUR, waiting for validation. Sent mail to ventas@suministrosibarra.example with subject Recibida factura SI-65983."
+ }
+}

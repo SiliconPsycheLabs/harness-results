@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "ventas@suministrosibarra.example"
+ ],
+ "subject": "Recepción de factura SI-88992",
+ "body": "Estimados señores,\n\nAcusamos recibo de su factura n.º SI-88992, de fecha 4 de enero de 2027, por un importe neto de 1.737,30 EUR.\n\nLe informamos de que será pagada en su fecha de vencimiento, el 18 de febrero de 2027.\n\nUn cordial saludo,\n\nDepartamento de Cuentas a Pagar\nAcme Components",
+ "attachments": []
+}

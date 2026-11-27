@@ -1,0 +1,22 @@
+{
+ "request": "job-fr-12",
+ "kind": "job",
+ "language": "fr",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "No action was possible without access to the PDF file and the company's register.",
+  "seconds": 1.57,
+  "tokens_in": 3060,
+  "tokens_out": 55,
+  "right": false,
+  "missing": [
+   "no bill with the invoice number",
+   "0 mails sent, not 1"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "No action was possible without access to the PDF file and the company's register."
+ }
+}

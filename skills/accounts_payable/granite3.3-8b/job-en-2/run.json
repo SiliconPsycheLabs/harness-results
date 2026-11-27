@@ -1,0 +1,22 @@
+{
+ "request": "job-en-2",
+ "kind": "job",
+ "language": "en",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "No action was possible due to lack of access to tools.",
+  "seconds": 1.54,
+  "tokens_in": 3011,
+  "tokens_out": 44,
+  "right": false,
+  "missing": [
+   "no bill with the invoice number",
+   "0 mails sent, not 1"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "No action was possible due to lack of access to tools."
+ }
+}

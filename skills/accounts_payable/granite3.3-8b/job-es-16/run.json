@@ -1,0 +1,22 @@
+{
+ "request": "job-es-16",
+ "kind": "job",
+ "language": "es",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "Unable to process the invoice without access to the file at /acme/inbox/si-48591.pdf.",
+  "seconds": 3.44,
+  "tokens_in": 3100,
+  "tokens_out": 127,
+  "right": false,
+  "missing": [
+   "no bill with the invoice number",
+   "0 mails sent, not 1"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "Unable to process the invoice without access to the PDF file at /acme/inbox/si-48591.pdf."
+ }
+}

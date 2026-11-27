@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "commerciale@tessiturabellomo.example"
+ ],
+ "subject": "Ricezione fattura TB-8296",
+ "body": "Gentile Tessitura Bellomo S.p.A., ricevuta la fattura n. TB-8296 con scadenza 9 febbraio 2027. La fattura sarà pagata entro la scadenza.",
+ "attachments": []
+}

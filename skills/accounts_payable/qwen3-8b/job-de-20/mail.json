@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "vertrieb@kraemer-werkzeugbau.example"
+ ],
+ "subject": "Rechnung KW-53285 erhalten",
+ "body": "Sehr geehrte Damen und Herren,\n\nwir haben die Rechnung KW-53285 erhalten und werden sie am 26. Februar 2027 bezahlen.\n\nMit freundlichen Grüßen,\n\nAcme Components",
+ "attachments": []
+}

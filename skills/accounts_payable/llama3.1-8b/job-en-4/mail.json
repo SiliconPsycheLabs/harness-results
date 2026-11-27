@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "sales@harbortools.example"
+ ],
+ "subject": "Received invoice HT-52891",
+ "body": "Dear Harbor Tools Inc.,\nwe have received your invoice HT-52891, dated 21 December 2026, with a net total of 42.35 EUR. It will be paid by its due date, 19 February 2027.\nBest regards,\nAcme Components",
+ "attachments": []
+}

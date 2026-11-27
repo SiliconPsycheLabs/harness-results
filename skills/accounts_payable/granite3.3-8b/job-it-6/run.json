@@ -1,0 +1,22 @@
+{
+ "request": "job-it-6",
+ "kind": "job",
+ "language": "it",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "Invoice fg-22536.pdf not processed due to lack of access or permission to the file.",
+  "seconds": 1.9,
+  "tokens_in": 3060,
+  "tokens_out": 68,
+  "right": false,
+  "missing": [
+   "no bill with the invoice number",
+   "0 mails sent, not 1"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "Invoice fg-22536.pdf not processed due to lack of access or permission to the file."
+ }
+}

@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "commerciale@tessiturabellomo.example"
+ ],
+ "subject": "Fattura TB-67170 ricevuta",
+ "body": "Gentile Tessitura Bellomo S.p.A.,\n\nLe confermiamo di aver ricevuto la fattura n. TB-67170, con data 7 gennaio 2027. La fattura sarà pagata entro la scadenza del 8 marzo 2027.\n\nCordiali saluti,\n\nAcme Components",
+ "attachments": []
+}

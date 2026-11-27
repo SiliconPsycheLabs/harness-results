@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "contact@atelier-dumont.example"
+ ],
+ "subject": "Réception de la facture F-42518",
+ "body": "Bonjour,\n\nNous avons bien reçu votre facture n° F-42518. Elle sera réglée à son échéance, le 9 février 2027.\n\nCordialement,\nComptabilité fournisseurs\nAcme Components",
+ "attachments": []
+}

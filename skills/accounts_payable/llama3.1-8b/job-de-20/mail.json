@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "vertrieb@kraemer-werkzeugbau.example"
+ ],
+ "subject": "Rechnung KW-53285 erhalten",
+ "body": "Sehr geehrte Damen und Herren, wir haben Ihre Rechnung KW-53285 vom 27. Januar 2027 erhalten. Wir werden diese Rechnung zur Fälligkeit am 26. Februar 2027 bezahlen. Mit freundlichen Grüßen, Acme Components",
+ "attachments": []
+}

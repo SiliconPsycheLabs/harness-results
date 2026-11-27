@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "ordini@officinegalli.example"
+ ],
+ "subject": "Ricevuta fattura FG-73851",
+ "body": "Gentili Officine Galli S.r.l.,\n\ncon la presente confermiamo di aver ricevuto la Vostra fattura n. FG-73851 del 13 gennaio 2027.\n\nLa fattura sarà pagata entro la scadenza del 27 febbraio 2027.\n\nCordiali saluti,\n\nAcme Components\nUfficio Contabilità Fornitori",
+ "attachments": []
+}

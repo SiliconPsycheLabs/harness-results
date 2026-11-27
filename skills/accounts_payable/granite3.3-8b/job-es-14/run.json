@@ -1,0 +1,22 @@
+{
+ "request": "job-es-14",
+ "kind": "job",
+ "language": "es",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "Unable to process the invoice without the PDF content. Please provide the text from /acme/inbox/si-88992.pdf.",
+  "seconds": 4.3,
+  "tokens_in": 3127,
+  "tokens_out": 158,
+  "right": false,
+  "missing": [
+   "no bill with the invoice number",
+   "0 mails sent, not 1"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "Unable to process the invoice without the PDF content. Please provide the text from /acme/inbox/si-88992.pdf."
+ }
+}

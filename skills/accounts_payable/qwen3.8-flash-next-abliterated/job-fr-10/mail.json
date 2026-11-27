@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "contact@atelier-dumont.example"
+ ],
+ "subject": "Réception de la facture F-21147",
+ "body": "Bonjour,\n\nNous avons bien reçu votre facture n° F-21147. Elle sera payée à l'échéance, soit le 9 février 2027.\n\nCordialement,\nLe service comptabilité fournisseurs\nAcme Components",
+ "attachments": []
+}

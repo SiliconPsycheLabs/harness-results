@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "ventas@suministrosibarra.example"
+ ],
+ "subject": "Recepción de la factura SI-65983",
+ "body": "Estimados señores:\n\nHemos recibido su factura n.º SI-65983, de fecha 6 de enero de 2027, por un importe neto de 1.946,00 EUR.\n\nLe confirmamos que será pagada a su vencimiento, el 5 de febrero de 2027.\n\nUn cordial saludo,\n\nDepartamento de Cuentas a Pagar\nAcme Components",
+ "attachments": []
+}

@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "contact@atelier-dumont.example"
+ ],
+ "subject": "Facture F-67503 reçue",
+ "body": "Bonjour,\n\nNous avons reçu votre facture n° F-67503 du 3 décembre 2026. Elle sera payée à l'échéance, le 1 février 2027.\n\nCordialement,",
+ "attachments": []
+}

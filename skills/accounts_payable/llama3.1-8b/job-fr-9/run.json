@@ -1,0 +1,155 @@
+{
+ "request": "job-fr-9",
+ "kind": "job",
+ "language": "fr",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/f-67503.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Atelier Dumont SARL"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Atelier Dumont SARL",
+     "number": "F-67503",
+     "date": "2026-12-03",
+     "due_date": "2027-02-01",
+     "lines": [
+      {
+       "description": "vannes à bille",
+       "quantity": 1,
+       "unit_price": 62.5
+      },
+      {
+       "description": "filtres à air",
+       "quantity": 2,
+       "unit_price": 29.45
+      }
+     ],
+     "total": 121.4
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Atelier Dumont SARL"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "contact@atelier-dumont.example"
+     ],
+     "subject": "Réception de la facture F-67503",
+     "body": "Nous vous confirmons avoir reçu la facture F-67503 le 26 juillet 2024. Nous vous rappelons que le paiement sera effectué avant léchance du 1er février 2027.",
+     "attachments": []
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "entered bill 1, sent mail to Atelier Dumont SARL",
+  "seconds": 9.92,
+  "tokens_in": 10633,
+  "tokens_out": 361,
+  "right": false,
+  "missing": [
+   "the mail does not name the due date"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/f-67503.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Atelier Dumont SARL"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Atelier Dumont SARL",
+     "number": "F-67503",
+     "date": "2026-12-03",
+     "due_date": "2027-02-01",
+     "lines": [
+      {
+       "description": "vannes à bille",
+       "quantity": 1,
+       "unit_price": 62.5
+      },
+      {
+       "description": "filtres à air",
+       "quantity": 2,
+       "unit_price": 29.45
+      }
+     ],
+     "total": 121.4
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Atelier Dumont SARL"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "contact@atelier-dumont.example"
+     ],
+     "subject": "Réception de la facture F-67503",
+     "body": "Nous vous confirmons avoir reçu la facture F-67503 le 26 juillet 2024. Nous vous rappelons que le paiement sera effectué avant léchance du 1er février 2027.",
+     "attachments": []
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "entered bill 1, sent mail to Atelier Dumont SARL"
+ }
+}

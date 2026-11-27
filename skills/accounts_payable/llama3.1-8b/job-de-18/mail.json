@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "info@lindner-maschinenbau.example"
+ ],
+ "subject": "Rechnung LM-9057 erhalten",
+ "body": "Sehr geehrte Damen und Herren, wir haben Ihre Rechnung LM-9057 vom 7. Januar 2027 erhalten. Wir werden diese Rechnung zur Fälligkeit am 6. Februar 2027 bezahlen. Mit freundlichen Grüßen, Acme Components",
+ "attachments": []
+}

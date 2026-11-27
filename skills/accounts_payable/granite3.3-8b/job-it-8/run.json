@@ -1,0 +1,22 @@
+{
+ "request": "job-it-8",
+ "kind": "job",
+ "language": "it",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "Unable to process the invoice due to lack of access to the required tools or information.",
+  "seconds": 3.37,
+  "tokens_in": 3127,
+  "tokens_out": 129,
+  "right": false,
+  "missing": [
+   "no bill with the invoice number",
+   "0 mails sent, not 1"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "Unable to process the invoice due to lack of access to the file system to read the PDF."
+ }
+}

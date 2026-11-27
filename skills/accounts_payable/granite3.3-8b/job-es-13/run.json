@@ -1,0 +1,22 @@
+{
+ "request": "job-es-13",
+ "kind": "job",
+ "language": "es",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "Unable to process the invoice without the actual PDF content. Please provide the text from the PDF to proceed.",
+  "seconds": 4.04,
+  "tokens_in": 3121,
+  "tokens_out": 143,
+  "right": false,
+  "missing": [
+   "no bill with the invoice number",
+   "0 mails sent, not 1"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "No action was possible due to lack of access to tools."
+ }
+}

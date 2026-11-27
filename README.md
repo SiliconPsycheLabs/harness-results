@@ -4,6 +4,7 @@ A deterministic gate decides what an agent may do, and the harness makes the age
 
 Each skill is one thing an office needs done. Its page gives the whole recipe (model, harness version, the instructions, the limits) with what it cost in tokens and seconds, so the same result can be had again.
 
+- **[accounts_payable](skills/accounts_payable/)**: The accounts payable job from start to end: read the supplier invoice that arrived as a PDF, enter it in the accounting application, write to the supplier that it was received and when it will be paid.
 - **[excel](skills/excel/)**: Write an Excel sheet (.xlsx) from an office request: a table with typed columns and a total row computed by a formula.
 - **[mail](skills/mail/)**: Write and send a mail to a supplier or a colleague, with the attachments asked, only to addresses the company allows.
 - **[payments](skills/payments/)**: Prepare the payment of validated supplier bills in the accounting application: every payment waits for a person, and a bank account that is not the one on file is never paid.
@@ -13,6 +14,10 @@ Each skill is one thing an office needs done. Its page gives the whole recipe (m
 
 | Skill | Model | Done right | Stopped by the company's limits | Time per request | Tokens per request |
 | --- | --- | --- | --- | --- | --- |
+| [accounts_payable](skills/accounts_payable/) | [`qwen3-8b`](skills/accounts_payable/qwen3-8b/) | **20 of 20** | **6 of 6** | 11.7 s | 11,014 in, 404 out |
+| [accounts_payable](skills/accounts_payable/) | [`qwen3.8-flash-next-abliterated`](skills/accounts_payable/qwen3.8-flash-next-abliterated/) | **20 of 20** | **6 of 6** | 52.6 s | 11,073 in, 434 out |
+| [accounts_payable](skills/accounts_payable/) | [`llama3.1-8b`](skills/accounts_payable/llama3.1-8b/) | **16 of 20** | **6 of 6** | 11.3 s | 10,953 in, 429 out |
+| [accounts_payable](skills/accounts_payable/) | [`granite3.3-8b`](skills/accounts_payable/granite3.3-8b/) | **0 of 20** | **6 of 6** | 2.7 s | 3,083 in, 101 out |
 | [excel](skills/excel/) | [`qwen3-8b`](skills/excel/qwen3-8b/) | **20 of 20** | **6 of 6** | 5.6 s | 1,924 in, 250 out |
 | [excel](skills/excel/) | [`granite3.3-8b`](skills/excel/granite3.3-8b/) | **20 of 20** | **6 of 6** | 7.6 s | 1,991 in, 273 out |
 | [excel](skills/excel/) | [`qwen3.8-flash-next-abliterated`](skills/excel/qwen3.8-flash-next-abliterated/) | **20 of 20** | **6 of 6** | 31.4 s | 2,020 in, 359 out |
