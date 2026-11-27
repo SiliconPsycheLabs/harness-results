@@ -1,0 +1,119 @@
+{
+ "request": "phone-es-16",
+ "kind": "phone",
+ "language": "es",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "look",
+    "arguments": {},
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "type_text",
+    "arguments": {
+     "field": "Search...",
+     "text": "Suministros Ibarra S.L.",
+     "enter": true
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "click",
+    "arguments": {
+     "kind": "row",
+     "name": "Suministros Ibarra S.L."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "type_text",
+    "arguments": {
+     "field": "Phone",
+     "text": "+34 91 7071 9075",
+     "enter": false
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "click",
+    "arguments": {
+     "kind": "button",
+     "name": "Save manually"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Updated the phone number of Suministros Ibarra S.L. to +34 91 7071 9075.",
+  "seconds": 53.29,
+  "tokens_in": 6891,
+  "tokens_out": 216,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "look",
+    "arguments": {},
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "type_text",
+    "arguments": {
+     "field": "Search...",
+     "text": "Suministros Ibarra S.L.",
+     "enter": true
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "click",
+    "arguments": {
+     "kind": "row",
+     "name": "Suministros Ibarra S.L."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "type_text",
+    "arguments": {
+     "field": "Phone",
+     "text": "+34 91 7071 9075",
+     "enter": false
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "click",
+    "arguments": {
+     "kind": "button",
+     "name": "Save manually"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Updated the phone number of Suministros Ibarra S.L. to +34 91 7071 9075."
+ }
+}

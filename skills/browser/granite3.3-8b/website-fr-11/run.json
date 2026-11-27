@@ -1,0 +1,21 @@
+{
+ "request": "website-fr-11",
+ "kind": "website",
+ "language": "fr",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [],
+  "answer": "No changes were made to the supplier register as the provided information was a website update for Atelier Dumont SARL, which does not require any action from the accounts clerk.",
+  "seconds": 2.78,
+  "tokens_in": 1399,
+  "tokens_out": 90,
+  "right": false,
+  "missing": [
+   "website is '', not 'www.atelier-dumont.example'"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [],
+  "answer": "No changes were made to the supplier register as no tools were called. The task was completed with the final report."
+ }
+}

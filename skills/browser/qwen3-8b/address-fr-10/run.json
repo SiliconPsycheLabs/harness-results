@@ -1,0 +1,163 @@
+{
+ "request": "address-fr-10",
+ "kind": "address",
+ "language": "fr",
+ "model": "qwen3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "look",
+    "arguments": {},
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "type_text",
+    "arguments": {
+     "field": "Search...",
+     "text": "Atelier Dumont SARL",
+     "enter": true
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "click",
+    "arguments": {
+     "kind": "row",
+     "name": "Atelier Dumont SARL"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "type_text",
+    "arguments": {
+     "field": "Street...",
+     "text": "14 rue des Ateliers",
+     "enter": false
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "type_text",
+    "arguments": {
+     "field": "City",
+     "text": "Lyon",
+     "enter": false
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "type_text",
+    "arguments": {
+     "field": "ZIP",
+     "text": "69002",
+     "enter": false
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "click",
+    "arguments": {
+     "kind": "button",
+     "name": "Save manually"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "J'ai mis à jour l'adresse de Atelier Dumont SARL : 14 rue des Ateliers, 69002 Lyon.",
+  "seconds": 72.52,
+  "tokens_in": 11215,
+  "tokens_out": 277,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "look",
+    "arguments": {},
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "type_text",
+    "arguments": {
+     "field": "Search...",
+     "text": "Atelier Dumont SARL",
+     "enter": true
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "click",
+    "arguments": {
+     "kind": "row",
+     "name": "Atelier Dumont SARL"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "type_text",
+    "arguments": {
+     "field": "Street...",
+     "text": "14 rue des Ateliers",
+     "enter": false
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "type_text",
+    "arguments": {
+     "field": "City",
+     "text": "Lyon",
+     "enter": false
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "type_text",
+    "arguments": {
+     "field": "ZIP",
+     "text": "69002",
+     "enter": false
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "click",
+    "arguments": {
+     "kind": "button",
+     "name": "Save manually"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "J'ai mis à jour l'adresse de Atelier Dumont SARL : 14 rue des Ateliers, 69002 Lyon."
+ }
+}

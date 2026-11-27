@@ -1,0 +1,97 @@
+{
+ "request": "phone-it-5",
+ "kind": "phone",
+ "language": "it",
+ "model": "granite3.3-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "look",
+    "arguments": {},
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "click",
+    "arguments": {
+     "kind": "row",
+     "name": "Tessitura Bellomo S.p.A."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "type_text",
+    "arguments": {
+     "field": "Phone",
+     "text": "+39 02 2399 3624",
+     "enter": true
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "click",
+    "arguments": {
+     "kind": "button",
+     "name": "Save manually"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Updated the phone number for Tessitura Bellomo S.p.A.",
+  "seconds": 42.12,
+  "tokens_in": 6249,
+  "tokens_out": 164,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "look",
+    "arguments": {},
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "click",
+    "arguments": {
+     "kind": "row",
+     "name": "Tessitura Bellomo S.p.A."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "type_text",
+    "arguments": {
+     "field": "Phone",
+     "text": "+39 02 2399 3624",
+     "enter": true
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "click",
+    "arguments": {
+     "kind": "button",
+     "name": "Save manually"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Updated the phone number for Tessitura Bellomo S.p.A."
+ }
+}

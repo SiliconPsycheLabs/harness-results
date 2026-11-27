@@ -5,6 +5,7 @@ A deterministic gate decides what an agent may do, and the harness makes the age
 Each skill is one thing an office needs done. Its page gives the whole recipe (model, harness version, the instructions, the limits) with what it cost in tokens and seconds, so the same result can be had again.
 
 - **[accounts_payable](skills/accounts_payable/)**: The accounts payable job from start to end: read the supplier invoice that arrived as a PDF, enter it in the accounting application, write to the supplier that it was received and when it will be paid.
+- **[browser](skills/browser/)**: Keep the supplier register up to date by working in the accounting application through its own pages, in a real browser: find the supplier, change its contact details, save.
 - **[calendar](skills/calendar/)**: Book a meeting in the company calendar: find the first time when everyone is free and create the event with the right people.
 - **[credit_control](skills/credit_control/)**: Credit control from start to end: find a customer's overdue invoices in the accounting application and send one payment reminder for each, to the customer's address on file.
 - **[database](skills/database/)**: Answer a business question from the company's database: write the query, read the rows, and save the answer with the query it comes from.
@@ -24,6 +25,10 @@ Each skill is one thing an office needs done. Its page gives the whole recipe (m
 | [accounts_payable](skills/accounts_payable/) | [`qwen3.8-flash-next-abliterated`](skills/accounts_payable/qwen3.8-flash-next-abliterated/) | **20 of 20** | **6 of 6** | 52.6 s | 11,073 in, 434 out |
 | [accounts_payable](skills/accounts_payable/) | [`llama3.1-8b`](skills/accounts_payable/llama3.1-8b/) | **16 of 20** | **6 of 6** | 11.3 s | 10,953 in, 429 out |
 | [accounts_payable](skills/accounts_payable/) | [`granite3.3-8b`](skills/accounts_payable/granite3.3-8b/) | **0 of 20** | **6 of 6** | 2.7 s | 3,083 in, 101 out |
+| [browser](skills/browser/) | [`qwen3.8-flash-next-abliterated`](skills/browser/qwen3.8-flash-next-abliterated/) | **20 of 20** | **6 of 6** | 82.1 s | 5,786 in, 205 out |
+| [browser](skills/browser/) | [`qwen3-8b`](skills/browser/qwen3-8b/) | **19 of 20** | **6 of 6** | 53.9 s | 6,819 in, 209 out |
+| [browser](skills/browser/) | [`llama3.1-8b`](skills/browser/llama3.1-8b/) | **16 of 20** | **6 of 6** | 54.1 s | 6,852 in, 202 out |
+| [browser](skills/browser/) | [`granite3.3-8b`](skills/browser/granite3.3-8b/) | **7 of 20** | **6 of 6** | 42.6 s | 6,058 in, 161 out |
 | [calendar](skills/calendar/) | [`qwen3-8b`](skills/calendar/qwen3-8b/) | **20 of 20** | **6 of 6** | 8.0 s | 6,955 in, 287 out |
 | [calendar](skills/calendar/) | [`qwen3.8-flash-next-abliterated`](skills/calendar/qwen3.8-flash-next-abliterated/) | **20 of 20** | **6 of 6** | 24.1 s | 6,991 in, 299 out |
 | [calendar](skills/calendar/) | [`granite3.3-8b`](skills/calendar/granite3.3-8b/) | **19 of 20** | **6 of 6** | 8.5 s | 7,316 in, 327 out |
