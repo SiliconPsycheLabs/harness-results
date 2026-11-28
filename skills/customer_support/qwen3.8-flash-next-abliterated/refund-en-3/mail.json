@@ -1,0 +1,10 @@
+{
+ "from": "support@acme.example",
+ "to": [
+  "office@oakridge-abrasives.example"
+ ],
+ "subject": "Refund for order 123",
+ "body": "Dear Oakridge Abrasives Ltd,\n\nWe have received your request regarding the damaged 'bench vice' items in order 123. We have approved and recorded a refund of 640 EUR for these goods.\n\nKind regards,\nAcme Components Support",
+ "attachments": [],
+ "customer": "Oakridge Abrasives Ltd"
+}

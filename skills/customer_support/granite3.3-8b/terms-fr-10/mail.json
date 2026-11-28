@@ -1,0 +1,10 @@
+{
+ "from": "support@acme.example",
+ "to": [
+  "comptabilite@fonderie-vasseur.example"
+ ],
+ "subject": "Re: Shipping Time",
+ "body": "Dear Sir or Madam,\n\nThank you for your inquiry about the shipping time. Our standard shipping time is 3 business days from the date the order is shipped.\n\nPlease note that this is an estimate and actual delivery times may vary depending on the destination and other factors. We will notify you of any significant delays.\n\nShould you have any further questions, please do not hesitate to contact us.\n\nBest regards,\nAcme Components Support",
+ "attachments": [],
+ "customer": "Fonderie Vasseur SARL"
+}

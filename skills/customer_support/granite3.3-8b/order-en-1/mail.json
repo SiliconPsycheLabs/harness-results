@@ -1,0 +1,10 @@
+{
+ "from": "support@acme.example",
+ "to": [
+  "accounts@calder-fasteners.example"
+ ],
+ "subject": "Order No. 130 Details",
+ "body": "Dear Calder Fasteners Ltd,\n\nYour order number 130 was received on 2025-11-15. The total amount for this order is 95 EUR.",
+ "attachments": [],
+ "customer": "Calder Fasteners Ltd"
+}

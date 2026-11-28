@@ -1,0 +1,10 @@
+{
+ "from": "support@acme.example",
+ "to": [
+  "office@oakridge-abrasives.example"
+ ],
+ "subject": "Refund for Damaged Goods",
+ "body": "Dear Oakridge Abrasives Ltd, we have noted your request regarding the damaged goods in order no. 123. A refund of 167.25 EUR has been proposed and is waiting for approval. We will follow up once the support manager confirms it. Thank you for your patience.",
+ "attachments": [],
+ "customer": "Oakridge Abrasives Ltd"
+}

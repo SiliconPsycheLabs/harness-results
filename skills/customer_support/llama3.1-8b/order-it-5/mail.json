@@ -1,0 +1,10 @@
+{
+ "from": "support@acme.example",
+ "to": [
+  "contabilita@fonderiasarti.example"
+ ],
+ "subject": "Ordine n. 65",
+ "body": "Gentile Fonderia Sarti S.p.A.,\n\nil nostro ordine n. 65 è stato ricevuto il 18/03/2025 e il suo importo totale è di 866 EUR.\n\nCordiali saluti,\n[Il tuo nome]",
+ "attachments": [],
+ "customer": "Fonderia Sarti S.p.A."
+}

@@ -1,0 +1,10 @@
+{
+ "from": "support@acme.example",
+ "to": [
+  "office@oakridge-abrasives.example"
+ ],
+ "subject": "Re: Order 123",
+ "body": "Dear Oakridge Abrasives Ltd, we received your order 123 on 2026-05-20. Unfortunately, the goods were delivered in the status 'delivered' but the 10 pieces of 'bench vice' were damaged. We could not refund them as they are not approved yet. A colleague will follow up. Best regards, Acme Components",
+ "attachments": [],
+ "customer": "Oakridge Abrasives Ltd"
+}

@@ -1,0 +1,10 @@
+{
+ "from": "support@acme.example",
+ "to": [
+  "accounts@calder-fasteners.example"
+ ],
+ "subject": "Re: Return Policy",
+ "body": "According to our returns policy, you can return goods within 45 days of delivery, provided they are unused and in their original packaging.",
+ "attachments": [],
+ "customer": "Calder Fasteners Ltd"
+}

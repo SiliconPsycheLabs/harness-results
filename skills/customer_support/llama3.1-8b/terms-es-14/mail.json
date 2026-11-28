@@ -1,0 +1,10 @@
+{
+ "from": "support@acme.example",
+ "to": [
+  "administracion@herramientaslozano.example"
+ ],
+ "subject": "Preguntas sobre daño de transporte",
+ "body": "Estimados, en el plazo de 21 días desde la entrega, puede comunicar un daño de transporte. Atentamente, Acme Components",
+ "attachments": [],
+ "customer": "Herramientas Lozano S.L."
+}

@@ -1,0 +1,10 @@
+{
+ "from": "support@acme.example",
+ "to": [
+  "amministrazione@meccanicaferraro.example"
+ ],
+ "subject": "Warranty on Acme products",
+ "body": "Dear Meccanica Ferraro S.r.l.,\n\nOur products carry a warranty of 24 months from delivery. This warranty covers defects of material and of manufacture, but not wear. Should you encounter any issues, please contact our support team.\n\nBest regards,\nAcme Components Support",
+ "attachments": [],
+ "customer": "Meccanica Ferraro S.r.l."
+}

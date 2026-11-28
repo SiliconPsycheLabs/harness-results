@@ -1,0 +1,83 @@
+{
+ "request": "order-es-16",
+ "kind": "order",
+ "language": "es",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_customer",
+    "arguments": {
+     "name": "Herramientas Lozano S.L."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "run_query",
+    "arguments": {
+     "sql": "SELECT o.order_date, o.status, SUM(ol.quantity * p.unit_price) AS total FROM orders o INNER JOIN order_lines ol ON o.id = ol.order_id INNER JOIN products p ON ol.product_id = p.id WHERE o.customer_id = (SELECT id FROM customers WHERE name = 'Herramientas Lozano S.L.') AND o.id = 100 GROUP BY o.id"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "reply_to_customer",
+    "arguments": {
+     "customer": "Herramientas Lozano S.L.",
+     "to": "administracion@herramientaslozano.example",
+     "subject": "Pedido n.º 100",
+     "body": "Queremos informarle que recibimos su pedido n.º 100 el 20-01-2025. El importe total es 3004 EUR."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Pedido n.º 100 atendido",
+  "seconds": 6.64,
+  "tokens_in": 6343,
+  "tokens_out": 249,
+  "right": false,
+  "missing": [
+   "the reply does not hold '2025-01-20'"
+  ]
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_customer",
+    "arguments": {
+     "name": "Herramientas Lozano S.L."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "run_query",
+    "arguments": {
+     "sql": "SELECT o.order_date, o.status, SUM(ol.quantity * p.unit_price) AS total FROM orders o INNER JOIN order_lines ol ON o.id = ol.order_id INNER JOIN products p ON ol.product_id = p.id WHERE o.customer_id = (SELECT id FROM customers WHERE name = 'Herramientas Lozano S.L.') AND o.id = 100 GROUP BY o.id"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "reply_to_customer",
+    "arguments": {
+     "customer": "Herramientas Lozano S.L.",
+     "to": "administracion@herramientaslozano.example",
+     "subject": "Pedido n.º 100",
+     "body": "Queremos informarle que recibimos su pedido n.º 100 el 20-01-2025. El importe total es 3004 EUR."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Pedido n.º 100 atendido"
+ }
+}

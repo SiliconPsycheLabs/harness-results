@@ -1,0 +1,10 @@
+{
+ "from": "support@acme.example",
+ "to": [
+  "administracion@herramientaslozano.example"
+ ],
+ "subject": "Re: Order #52 - Damaged 'bearing housing' parts",
+ "body": "Dear Herramientas Lozano S.L.,\n\nWe have received your request regarding the damaged 'bearing housing' parts in order #52. A refund for the affected items, amounting to 95.00 EUR, has been proposed and is awaiting approval from our support manager. Once approved, the payment will be processed.\n\nThank you for bringing this to our attention.\n\nBest regards,\nAcme Components Support",
+ "attachments": [],
+ "customer": "Herramientas Lozano S.L."
+}

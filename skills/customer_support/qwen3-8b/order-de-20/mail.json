@@ -1,0 +1,10 @@
+{
+ "from": "support@acme.example",
+ "to": [
+  "rechnungen@seidel-gusstechnik.example"
+ ],
+ "subject": "Bestellung Nr. 3",
+ "body": "Sehr geehrte Damen und Herren,\n\nIhre Bestellung Nr. 3 wurde am 2025-07-28 erhalten und hat einen Gesamtbetrag von 4915 EUR.\n\nMit freundlichen Grüßen,\nAcme Components",
+ "attachments": [],
+ "customer": "Seidel Gusstechnik AG"
+}

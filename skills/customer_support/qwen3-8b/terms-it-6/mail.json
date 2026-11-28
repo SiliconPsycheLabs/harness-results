@@ -1,0 +1,10 @@
+{
+ "from": "support@acme.example",
+ "to": [
+  "amministrazione@meccanicaferraro.example"
+ ],
+ "subject": "Warranty Period",
+ "body": "Gentile Meccanica Ferraro S.r.l.,\n\nI nostri prodotti sono garantiti per 24 mesi dalla consegna. La garanzia copre difetti di materiale e di fabbricazione, non l'usura.\n\nCordiali saluti,",
+ "attachments": [],
+ "customer": "Meccanica Ferraro S.r.l."
+}

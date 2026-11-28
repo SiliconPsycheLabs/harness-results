@@ -1,0 +1,10 @@
+{
+ "from": "support@acme.example",
+ "to": [
+  "comptabilite@fonderie-vasseur.example"
+ ],
+ "subject": "Durée de traitement des commandes",
+ "body": "Bonjour, une commande quitte notre entrepôt en 2 jours ouvrés. Merci de nous faire confiance. Cordialement, léquipe développement de Acme Components.",
+ "attachments": [],
+ "customer": "Fonderie Vasseur SARL"
+}

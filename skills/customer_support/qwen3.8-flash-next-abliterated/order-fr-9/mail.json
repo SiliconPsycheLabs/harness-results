@@ -1,0 +1,10 @@
+{
+ "from": "support@acme.example",
+ "to": [
+  "comptabilite@fonderie-vasseur.example"
+ ],
+ "subject": "Commande n° 136",
+ "body": "Bonjour,\n\nVotre commande n° 136 a été reçue le 2025-08-04. Son montant total est de 195 EUR.\n\nCordialement,\nAcme Components",
+ "attachments": [],
+ "customer": "Fonderie Vasseur SARL"
+}

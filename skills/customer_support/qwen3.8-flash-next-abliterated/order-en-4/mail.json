@@ -1,0 +1,10 @@
+{
+ "from": "support@acme.example",
+ "to": [
+  "ap@pennant-hydraulics.example"
+ ],
+ "subject": "Order 168: date received and total",
+ "body": "Dear Pennant Hydraulics Inc.,\n\nWe received your order no. 168 on 2026-04-09. Its total amount is 1090 EUR.\n\nKind regards,\nAcme Components Support",
+ "attachments": [],
+ "customer": "Pennant Hydraulics Inc."
+}

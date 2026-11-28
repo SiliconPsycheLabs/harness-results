@@ -8,6 +8,7 @@ Each skill is one thing an office needs done. Its page gives the whole recipe (m
 - **[browser](skills/browser/)**: Keep the supplier register up to date by working in the accounting application through its own pages, in a real browser: find the supplier, change its contact details, save.
 - **[calendar](skills/calendar/)**: Book a meeting in the company calendar: find the first time when everyone is free and create the event with the right people.
 - **[credit_control](skills/credit_control/)**: Credit control from start to end: find a customer's overdue invoices in the accounting application and send one payment reminder for each, to the customer's address on file.
+- **[customer_support](skills/customer_support/)**: Customer support from start to end: a customer's message arrives, the agent finds the order in the database or the answer in the company's terms, proposes a refund that a person approves, and replies to the customer's address on file.
 - **[database](skills/database/)**: Answer a business question from the company's database: write the query, read the rows, and save the answer with the query it comes from.
 - **[doc_search](skills/doc_search/)**: Answer a colleague's question from the company's own documents: find the document, read it, and save the answer with the document it comes from.
 - **[excel](skills/excel/)**: Write an Excel sheet (.xlsx) from an office request: a table with typed columns and a total row computed by a formula.
@@ -43,6 +44,10 @@ Each skill is one thing an office needs done. Its page gives the whole recipe (m
 | [credit_control](skills/credit_control/) | [`qwen3-8b`](skills/credit_control/qwen3-8b/) | **20 of 20** | **6 of 6** | 10.8 s | 3,771 in, 345 out |
 | [credit_control](skills/credit_control/) | [`llama3.1-8b`](skills/credit_control/llama3.1-8b/) | **20 of 20** | **6 of 6** | 14.1 s | 6,740 in, 460 out |
 | [credit_control](skills/credit_control/) | [`qwen3.8-flash-next-abliterated`](skills/credit_control/qwen3.8-flash-next-abliterated/) | **20 of 20** | **6 of 6** | 24.9 s | 3,887 in, 390 out |
+| [customer_support](skills/customer_support/) | [`qwen3.8-flash-next-abliterated`](skills/customer_support/qwen3.8-flash-next-abliterated/) | **20 of 20** | **6 of 6** | 20.7 s | 8,223 in, 313 out |
+| [customer_support](skills/customer_support/) | [`granite3.3-8b`](skills/customer_support/granite3.3-8b/) | **17 of 20** | **6 of 6** | 8.9 s | 7,578 in, 318 out |
+| [customer_support](skills/customer_support/) | [`qwen3-8b`](skills/customer_support/qwen3-8b/) | **16 of 20** | **6 of 6** | 6.3 s | 7,192 in, 268 out |
+| [customer_support](skills/customer_support/) | [`llama3.1-8b`](skills/customer_support/llama3.1-8b/) | **16 of 19** | **6 of 6** | 7.4 s | 6,417 in, 274 out |
 | [database](skills/database/) | [`qwen3.8-flash-next-abliterated`](skills/database/qwen3.8-flash-next-abliterated/) | **20 of 20** | **6 of 6** | 19.8 s | 2,855 in, 310 out |
 | [database](skills/database/) | [`qwen3-8b`](skills/database/qwen3-8b/) | **19 of 20** | **6 of 6** | 9.7 s | 2,838 in, 317 out |
 | [database](skills/database/) | [`llama3.1-8b`](skills/database/llama3.1-8b/) | **18 of 20** | **6 of 6** | 7.3 s | 2,811 in, 282 out |

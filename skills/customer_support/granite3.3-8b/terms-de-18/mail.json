@@ -1,0 +1,10 @@
+{
+ "from": "support@acme.example",
+ "to": [
+  "rechnungen@seidel-gusstechnik.example"
+ ],
+ "subject": "Re: Returns policy",
+ "body": "Seidel Gusstechnik AG\nrechnungen@seidel-gusstechnik.example\nReturns Policy\nYou can return goods within 30 days of delivery, unused and in their packaging. The customer pays the transport of a return, unless the goods arrived damaged. No refund has been proposed yet as it waits for the support manager's approval.",
+ "attachments": [],
+ "customer": "Seidel Gusstechnik AG"
+}

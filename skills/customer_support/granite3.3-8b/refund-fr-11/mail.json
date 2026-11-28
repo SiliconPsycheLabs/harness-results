@@ -1,0 +1,10 @@
+{
+ "from": "support@acme.example",
+ "to": [
+  "comptabilite@fonderie-vasseur.example"
+ ],
+ "subject": "Re: Order #23 - Damaged Bench Vice",
+ "body": "Dear Fonderie Vasseur SARL,\n\nWe have received your message regarding order #23, where two 'bench vice' pieces arrived damaged. We have processed a refund for the damaged items amounting to 128 EUR. The refund has been recorded and awaits approval from our support manager.\n\nWe apologize for the inconvenience and will follow up to confirm payment.\n\nBest regards,\nAcme Components Support Team",
+ "attachments": [],
+ "customer": "Fonderie Vasseur SARL"
+}

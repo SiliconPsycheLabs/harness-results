@@ -1,0 +1,99 @@
+{
+ "request": "order-fr-12",
+ "kind": "order",
+ "language": "fr",
+ "model": "qwen3.8-flash-next-abliterated",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_customer",
+    "arguments": {
+     "name": "Fonderie Vasseur SARL"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "run_query",
+    "arguments": {
+     "sql": "SELECT orders.order_date, SUM(order_lines.quantity * products.unit_price) AS total FROM orders JOIN order_lines ON orders.id = order_lines.order_id JOIN products ON order_lines.product_id = products.id WHERE orders.id = 166 AND customers.name = 'Fonderie Vasseur SARL' GROUP BY orders.id;"
+    },
+    "gate": "stopped",
+    "reason": "statement not understood: not understood: OptimizeError: Column 'name' could not be resolved for table: 'customers'. Line: 1, Col: 242",
+    "ran": false
+   },
+   {
+    "tool": "run_query",
+    "arguments": {
+     "sql": "SELECT orders.order_date, SUM(order_lines.quantity * products.unit_price) AS total FROM orders JOIN order_lines ON orders.id = order_lines.order_id JOIN products ON order_lines.product_id = products.id JOIN customers ON orders.customer_id = customers.id WHERE orders.id = 166 AND customers.name = 'Fonderie Vasseur SARL' GROUP BY orders.id;"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "reply_to_customer",
+    "arguments": {
+     "customer": "Fonderie Vasseur SARL",
+     "to": "comptabilite@fonderie-vasseur.example",
+     "subject": "Commande n° 166",
+     "body": "Bonjour,\n\nVotre commande n° 166 a été reçue le 2025-05-18. Son montant total est de 1040 EUR.\n\nCordialement,\nAcme Components"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Réponse envoyée à Fonderie Vasseur SARL : commande n° 166 reçue le 2025-05-18, montant total 1040 EUR.",
+  "seconds": 24.38,
+  "tokens_in": 8471,
+  "tokens_out": 385,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_customer",
+    "arguments": {
+     "name": "Fonderie Vasseur SARL"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "run_query",
+    "arguments": {
+     "sql": "SELECT orders.order_date, SUM(order_lines.quantity * products.unit_price) AS total FROM orders JOIN order_lines ON orders.id = order_lines.order_id JOIN products ON order_lines.product_id = products.id WHERE orders.id = 166 AND customers.name = 'Fonderie Vasseur SARL' GROUP BY orders.id;"
+    },
+    "gate": "stopped",
+    "reason": "statement not understood: not understood: OptimizeError: Column 'name' could not be resolved for table: 'customers'. Line: 1, Col: 242",
+    "ran": true
+   },
+   {
+    "tool": "run_query",
+    "arguments": {
+     "sql": "SELECT orders.order_date, SUM(order_lines.quantity * products.unit_price) AS total FROM orders JOIN order_lines ON orders.id = order_lines.order_id JOIN products ON order_lines.product_id = products.id JOIN customers ON orders.customer_id = customers.id WHERE orders.id = 166 AND customers.name = 'Fonderie Vasseur SARL' GROUP BY orders.id;"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "reply_to_customer",
+    "arguments": {
+     "customer": "Fonderie Vasseur SARL",
+     "to": "comptabilite@fonderie-vasseur.example",
+     "subject": "Commande n° 166",
+     "body": "Bonjour,\n\nNous avons reçu votre commande n° 166 le 2025-05-18. Son montant total est de 1040 EUR.\n\nCordialement,\nAcme Components"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Réponse envoyée à Fonderie Vasseur SARL : commande n° 166 reçue le 2025-05-18, montant total 1040 EUR."
+ }
+}

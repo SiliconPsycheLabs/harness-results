@@ -1,0 +1,10 @@
+{
+ "from": "support@acme.example",
+ "to": [
+  "rechnungen@seidel-gusstechnik.example"
+ ],
+ "subject": "Rückgaberecht",
+ "body": "Sehr geehrte Damen und Herren,\n\nnach unserer Rückgabepolitik können Sie Waren innerhalb von 30 Tagen nach der Lieferung zurückgeben, vorausgesetzt, sie sind unbenutzt und in ihrer Originalverpackung.\n\nMit freundlichen Grüßen,\nAcme Components",
+ "attachments": [],
+ "customer": "Seidel Gusstechnik AG"
+}

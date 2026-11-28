@@ -1,0 +1,10 @@
+{
+ "from": "support@acme.example",
+ "to": [
+  "administracion@herramientaslozano.example"
+ ],
+ "subject": "Información sobre el pedido n.º 100",
+ "body": "El pedido n.º 100 fue recibido el 2025-01-20 y su importe total es de 3004 EUR.",
+ "attachments": [],
+ "customer": "Herramientas Lozano S.L."
+}

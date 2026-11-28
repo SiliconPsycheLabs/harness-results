@@ -1,0 +1,10 @@
+{
+ "from": "support@acme.example",
+ "to": [
+  "administracion@herramientaslozano.example"
+ ],
+ "subject": "Transport damage reporting period",
+ "body": "According to our shipping terms, damage in transport must be reported within 10 days of delivery.",
+ "attachments": [],
+ "customer": "Herramientas Lozano S.L."
+}

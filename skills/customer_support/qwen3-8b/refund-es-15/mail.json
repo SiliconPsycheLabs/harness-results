@@ -1,0 +1,10 @@
+{
+ "from": "support@acme.example",
+ "to": [
+  "administracion@herramientaslozano.example"
+ ],
+ "subject": "Reembolso del pedido n.º 52",
+ "body": "Estimados de Herramientas Lozano S.L.,\n\nHemos procesado su solicitud de reembolso para el pedido n.º 52, donde 5 piezas de 'bearing housing' llegaron dañadas. El reembolso de 95,00 EUR ha sido aprobado y registrado para pago.\n\nAgradecemos su comprensión y nos disculpamos por la inconveniencia causada.\n\nAtentamente,\nEquipo de Soporte de Acme Components",
+ "attachments": [],
+ "customer": "Herramientas Lozano S.L."
+}

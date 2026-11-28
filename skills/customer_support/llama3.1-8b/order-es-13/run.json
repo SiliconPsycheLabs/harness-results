@@ -1,0 +1,81 @@
+{
+ "request": "order-es-13",
+ "kind": "order",
+ "language": "es",
+ "model": "llama3.1-8b",
+ "with_the_gate": {
+  "calls": [
+   {
+    "tool": "find_customer",
+    "arguments": {
+     "name": "Fundiciones Aranda S.A."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "run_query",
+    "arguments": {
+     "sql": "SELECT o.order_date, o.status, SUM(ol.quantity * p.unit_price) AS total FROM orders o JOIN order_lines ol ON o.id = ol.order_id JOIN products p ON ol.product_id = p.id WHERE o.customer_id = (SELECT id FROM customers WHERE name = 'Fundiciones Aranda S.A.') AND o.id = 20 GROUP BY o.id"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "reply_to_customer",
+    "arguments": {
+     "customer": "Fundiciones Aranda S.A.",
+     "to": "contabilidad@fundicionesaranda.example",
+     "subject": "Pedido n.º 20",
+     "body": "Queremos informarle que recibimos su pedido n.º 20 el 20 de febrero de 2026. El importe total es de 9840 EUR."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Pedido n.º 20 resuelto.",
+  "seconds": 6.66,
+  "tokens_in": 6308,
+  "tokens_out": 243,
+  "right": true,
+  "missing": []
+ },
+ "gate_only_watching": {
+  "calls": [
+   {
+    "tool": "find_customer",
+    "arguments": {
+     "name": "Fundiciones Aranda S.A."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "run_query",
+    "arguments": {
+     "sql": "SELECT o.order_date, o.status, SUM(ol.quantity * p.unit_price) AS total FROM orders o JOIN order_lines ol ON o.id = ol.order_id JOIN products p ON ol.product_id = p.id WHERE o.customer_id = (SELECT id FROM customers WHERE name = 'Fundiciones Aranda S.A.') AND o.id = 20 GROUP BY o.id"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "reply_to_customer",
+    "arguments": {
+     "customer": "Fundiciones Aranda S.A.",
+     "to": "contabilidad@fundicionesaranda.example",
+     "subject": "Pedido n.º 20",
+     "body": "Queremos informarle que recibimos su pedido n.º 20 el 20 de febrero de 2026. El importe total es de 9840 EUR."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Pedido n.º 20 resuelto."
+ }
+}

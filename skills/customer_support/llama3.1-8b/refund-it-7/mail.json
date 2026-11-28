@@ -1,0 +1,10 @@
+{
+ "from": "support@acme.example",
+ "to": [
+  "amministrazione@meccanicaferraro.example"
+ ],
+ "subject": "Rimborso ordine n. 78",
+ "body": "Gentile Meccanica Ferraro S.r.l.,\n\ncon riferimento alla vostra richiesta di rimborso per l'ordine n. 78, vi informiamo che il rimborso di 75,00 EUR è stato approvato e registrato per il pagamento.\n\nCordiali saluti,\nAcme Components",
+ "attachments": [],
+ "customer": "Meccanica Ferraro S.r.l."
+}

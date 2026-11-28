@@ -1,0 +1,10 @@
+{
+ "from": "support@acme.example",
+ "to": [
+  "einkauf@voss-schraubenwerk.example"
+ ],
+ "subject": "Bestellung Nr. 15",
+ "body": "Wir haben Ihre Bestellung Nr. 15 am 2025-05-23 erhalten. Der Gesamtbetrag beträgt 4 EUR.",
+ "attachments": [],
+ "customer": "Voss Schraubenwerk GmbH"
+}

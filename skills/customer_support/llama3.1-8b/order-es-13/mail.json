@@ -1,0 +1,10 @@
+{
+ "from": "support@acme.example",
+ "to": [
+  "contabilidad@fundicionesaranda.example"
+ ],
+ "subject": "Pedido n.º 20",
+ "body": "Queremos informarle que recibimos su pedido n.º 20 el 20 de febrero de 2026. El importe total es de 9840 EUR.",
+ "attachments": [],
+ "customer": "Fundiciones Aranda S.A."
+}

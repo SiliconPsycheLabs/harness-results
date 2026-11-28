@@ -1,0 +1,10 @@
+{
+ "from": "support@acme.example",
+ "to": [
+  "buchhaltung@brandt-praezisionsteile.example"
+ ],
+ "subject": "Erstattung für Bestellung Nr. 54",
+ "body": "Sehr geehrte Damen und Herren,\n\nwir haben Ihre Nachricht bezüglich der beschädigten 10 Stück 'pressure gauge' aus Ihrer Bestellung Nr. 54 erhalten. Die Erstattung in Höhe von 410 EUR wurde genehmigt und zur Zahlung angewiesen.\n\nMit freundlichen Grüßen\nIhr Acme Components Support-Team",
+ "attachments": [],
+ "customer": "Brandt Präzisionsteile GmbH"
+}

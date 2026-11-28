@@ -1,0 +1,10 @@
+{
+ "from": "support@acme.example",
+ "to": [
+  "comptabilite@fonderie-vasseur.example"
+ ],
+ "subject": "Remboursement commande n° 23",
+ "body": "Bonjour,\n\nNous avons bien pris en compte votre demande concernant les 2 pièces de 'bench vice' endommagées de la commande n° 23.\n\nLe remboursement de 128 EUR a été approuvé et enregistré pour paiement.\n\nCordialement,\n\nAcme Components",
+ "attachments": [],
+ "customer": "Fonderie Vasseur SARL"
+}

@@ -1,0 +1,10 @@
+{
+ "from": "support@acme.example",
+ "to": [
+  "amministrazione@meccanicaferraro.example"
+ ],
+ "subject": "Rimborso ordine n. 78",
+ "body": "Gentile Meccanica Ferraro S.r.l.,\n\nabbiamo ricevuto la vostra richiesta di rimborso per i 5 pezzi di 'air filter' dell'ordine n. 78, arrivati danneggiati.\n\nAbbiamo approvato e registrato per il pagamento un rimborso di 75 EUR.\n\nCordiali saluti,\nAcme Components",
+ "attachments": [],
+ "customer": "Meccanica Ferraro S.r.l."
+}

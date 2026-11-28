@@ -1,0 +1,10 @@
+{
+ "from": "support@acme.example",
+ "to": [
+  "amministrazione@meccanicaferraro.example"
+ ],
+ "subject": "Informazioni sulla garanzia",
+ "body": "Gentile Meccanica Ferraro S.r.l.,\n\nin risposta alla Sua richiesta, Le confermiamo che ogni prodotto Acme Components ha una garanzia di 24 mesi dalla data di consegna.\n\nLa garanzia copre i difetti di materiale e di fabbricazione, ma non la normale usura.\n\nRestiamo a disposizione per qualsiasi ulteriore chiarimento.\n\nCordiali saluti,\nAcme Components",
+ "attachments": [],
+ "customer": "Meccanica Ferraro S.r.l."
+}

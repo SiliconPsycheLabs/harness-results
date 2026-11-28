@@ -1,0 +1,10 @@
+{
+ "from": "support@acme.example",
+ "to": [
+  "administracion@herramientaslozano.example"
+ ],
+ "subject": "Días para comunicar daño de transporte",
+ "body": "Según nuestros términos de envío, debe comunicar cualquier daño de transporte dentro de los 10 días siguientes a la entrega, acompañado de fotografías.",
+ "attachments": [],
+ "customer": "Herramientas Lozano S.L."
+}

@@ -1,0 +1,10 @@
+{
+ "from": "support@acme.example",
+ "to": [
+  "amministrazione@meccanicaferraro.example"
+ ],
+ "subject": "Rimborso per prodotti danneggiati",
+ "body": "Gentile Meccanica Ferraro S.r.l.,\n\nIl nostro sistema mostra che l'ordine n. 78 è stato consegnato il 2025-05-24 e ha un totale di 1851 EUR. Poiché i 5 pezzi di 'air filter' sono arrivati danneggiati, possiamo procedere al rimborso, ma la somma supera i 1000 EUR e richiede l'approvazione dell'amministrazione.\n\nIn base alla nostra politica sui resi, i prodotti danneggiati possono essere restituiti entro 45 giorni dalla consegna, e il cliente non paga il trasporto. Vi preghiamo di inviarci la documentazione necessaria per il rimborso e di contattarci per ulteriori informazioni.\n\nCordiali saluti,\nAcme Components",
+ "attachments": [],
+ "customer": "Meccanica Ferraro S.r.l."
+}

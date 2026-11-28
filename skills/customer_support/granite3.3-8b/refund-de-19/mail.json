@@ -1,0 +1,10 @@
+{
+ "from": "support@acme.example",
+ "to": [
+  "buchhaltung@brandt-praezisionsteile.example"
+ ],
+ "subject": "Re: Order 54 - Damaged Goods",
+ "body": "Dear Buchhaltung, we confirm the receipt of your message about the damaged pressure gauges in order 54. A refund for the 10 damaged items, amounting to 410 EUR, has been proposed and is awaiting payment approval.",
+ "attachments": [],
+ "customer": "Brandt Präzisionsteile GmbH"
+}

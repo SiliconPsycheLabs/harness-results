@@ -1,0 +1,10 @@
+{
+ "from": "support@acme.example",
+ "to": [
+  "amministrazione@meccanicaferraro.example"
+ ],
+ "subject": "Ordine n. 118 - Dettagli",
+ "body": "Gentile Meccanica Ferraro S.r.l.,\n\nL'ordine n. 118 è stato ricevuto il 2025-01-07 e il suo importo totale è di 994 EUR.\n\nCordiali saluti,",
+ "attachments": [],
+ "customer": "Meccanica Ferraro S.r.l."
+}
