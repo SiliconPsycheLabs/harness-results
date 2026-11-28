@@ -49,7 +49,7 @@
       "luca.ferri@acme.example",
       "paolo.greco@acme.example"
      ],
-     "location": "Conference Room A"
+     "location": "Acme Components"
     },
     "gate": "passed",
     "reason": "",
@@ -79,7 +79,7 @@
       "paolo.greco@acme.example"
      ],
      "subject": "Piano di produzione",
-     "body": "La riunione si terrÃ  il 29 marzo 2027 alle 10:00 AM. Attached is the agenda.",
+     "body": "Il giorno 29 marzo 2027, dalle 10:00 alle 11:00.",
      "attachments": [
       "/acme/documents/meetings/agenda_5.docx"
      ]
@@ -89,10 +89,10 @@
     "ran": true
    }
   ],
-  "answer": "La riunione \"Piano di produzione\" Ã¨ fissata per il 29 marzo 2027 alle 10:00 AM. L'ordine del giorno Ã¨ stato scritto in /acme/documents/meetings/agenda_5.docx e le invitazioni sono state inviate con l'allegato.",
-  "seconds": 17.88,
-  "tokens_in": 18484,
-  "tokens_out": 623,
+  "answer": "La riunione \"Piano di produzione\" è stata organizzata per il 29 marzo 2027, dalle 10:00 alle 11:00, presso la sede di Acme Components. Gli inviti sono stati inviati con l'ordine del giorno allegato.",
+  "seconds": 18.99,
+  "tokens_in": 18507,
+  "tokens_out": 609,
   "right": true,
   "missing": []
  },
@@ -142,7 +142,7 @@
       "luca.ferri@acme.example",
       "paolo.greco@acme.example"
      ],
-     "location": "Conference Room A"
+     "location": "Acme Components"
     },
     "gate": "passed",
     "reason": "",
@@ -172,7 +172,7 @@
       "paolo.greco@acme.example"
      ],
      "subject": "Piano di produzione",
-     "body": "La riunione si terrà il 29 marzo 2027 alle 10:00 AM. L'ordine del giorno è stato allegato.",
+     "body": "La riunione si terrà il 29 marzo 2027, dalle 10:00 alle 11:00. \nLuogo: Acme Components\nOrdine del giorno:\n- Livelli di magazzino\n- Numeri dell'ultimo trimestre\n- Reclami aperti",
      "attachments": [
       "/acme/documents/meetings/agenda_5.docx"
      ]
@@ -182,6 +182,6 @@
     "ran": true
    }
   ],
-  "answer": "La riunione \"Piano di produzione\" è stata fissata per il 29 marzo 2027 alle 10:00 AM. L'ordine del giorno è stato scritto in /acme/documents/meetings/agenda_5.docx e le invitazioni sono state inviate con l'allegato."
+  "answer": "La riunione \"Piano di produzione\" è stata organizzata per il 29 marzo 2027, dalle 10:00 alle 11:00, presso la sede di Acme Components. Gli inviti sono stati inviati a Luca Ferri e Paolo Greco, con l'ordine del giorno allegato."
  }
 }

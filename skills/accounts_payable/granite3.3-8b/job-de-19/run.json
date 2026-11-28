@@ -4,19 +4,139 @@
  "language": "de",
  "model": "granite3.3-8b",
  "with_the_gate": {
-  "calls": [],
-  "answer": "No action was possible due to the lack of a PDF file at the specified path '/acme/inbox/kw-27330.pdf'.",
-  "seconds": 3.0,
-  "tokens_in": 3095,
-  "tokens_out": 109,
-  "right": false,
-  "missing": [
-   "no bill with the invoice number",
-   "0 mails sent, not 1"
-  ]
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/kw-27330.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Krämer Werkzeugbau GmbH"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Krämer Werkzeugbau GmbH",
+     "number": "KW-27330",
+     "date": "2027-01-14",
+     "due_date": "2027-02-28",
+     "lines": [
+      {
+       "description": "Stahlflansche",
+       "quantity": 15,
+       "unit_price": 40.7
+      }
+     ],
+     "total": 610.5
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Krämer Werkzeugbau GmbH"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "vertrieb@kraemer-werkzeugbau.example"
+     ],
+     "subject": "Rechnung KW-27330",
+     "body": "Wir haben Ihre Rechnung KW-27330 vom 14. Januar 2027 erhalten, die unter Nr. KW-27330 ausgegeben wurde. Sie ist am 28. Februar 2027 fällig.",
+     "attachments": []
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Invoice 'kw-27330.pdf' processed. A draft bill was created for supplier 'Krämer Werkzeugbau GmbH', with the invoice number, dates, lines, and total as provided. The supplier's contact was informed about receipt and payment due date.",
+  "seconds": 15.2,
+  "tokens_in": 13475,
+  "tokens_out": 484,
+  "right": true,
+  "missing": []
  },
  "gate_only_watching": {
-  "calls": [],
-  "answer": "Unable to process the invoice without access to the file at '/acme/inbox/kw-27330.pdf'."
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/kw-27330.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Krämer Werkzeugbau GmbH"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Krämer Werkzeugbau GmbH",
+     "number": "KW-27330",
+     "date": "2027-01-14",
+     "due_date": "2027-02-28",
+     "lines": [
+      {
+       "description": "Stahlflansche",
+       "quantity": 15,
+       "unit_price": 40.7
+      }
+     ],
+     "total": 610.5
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Krämer Werkzeugbau GmbH"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "vertrieb@kraemer-werkzeugbau.example"
+     ],
+     "subject": "Rechnung KW-27330",
+     "body": "Wir haben Ihre Rechnung KW-27330 vom 14. Januar 2027 erhalten, die unter Rechnungsnummer KW-27330 fällig am 28. Februar 2027 ist. Sie wird wie vereinbart bezahlt."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Invoice 'kw-27330.pdf' processed. A draft bill was created for supplier 'Krämer Werkzeugbau GmbH', with the invoice number, dates, lines, and total as stated. The supplier's contact was informed via email that the invoice was received and will be paid by the due date."
  }
 }

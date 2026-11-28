@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "vertrieb@kraemer-werkzeugbau.example"
+ ],
+ "subject": "Zahlungsavis",
+ "body": "Sehr geehrte Damen und Herren,\n\nmit diesem Schreiben bestätigen wir die Zahlung Ihrer Rechnung KW-82504 vom 14.12.2026 im Betrag von 1984.50 EUR. Wir hoffen, dass Sie mit unserer Leistung zufrieden sind.\n\nMit freundlichen Grüßen,\nAcme Components\n",
+ "attachments": []
+}

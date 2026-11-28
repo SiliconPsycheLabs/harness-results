@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "ordini@officinegalli.example"
+ ],
+ "subject": "Payment confirmation for invoices FG-8560 and FG-95816",
+ "body": "This is to confirm that Acme Components has paid your invoices FG-8560 and FG-95816 in the amounts of 4462.10 EUR and 909.40 EUR respectively.",
+ "attachments": []
+}

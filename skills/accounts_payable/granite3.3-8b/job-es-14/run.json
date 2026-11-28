@@ -4,19 +4,172 @@
  "language": "es",
  "model": "granite3.3-8b",
  "with_the_gate": {
-  "calls": [],
-  "answer": "Unable to process the invoice without the PDF content. Please provide the text from /acme/inbox/si-88992.pdf.",
-  "seconds": 4.3,
-  "tokens_in": 3127,
-  "tokens_out": 158,
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/si-88992.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Suministros Ibarra S.L."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Suministros Ibarra S.L.",
+     "number": "SI-88992",
+     "date": "2022-01-04",
+     "due_date": "2022-02-18",
+     "lines": [
+      {
+       "description": "bridas de acero",
+       "quantity": 8,
+       "unit_price": 36.35
+      },
+      {
+       "description": "filtros de aire",
+       "quantity": 5,
+       "unit_price": 23.45
+      },
+      {
+       "description": "mangueras hidráulicas",
+       "quantity": 15,
+       "unit_price": 26.35
+      },
+      {
+       "description": "rodamientos",
+       "quantity": 40,
+       "unit_price": 23.35
+      }
+     ],
+     "total": 1737.3
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Suministros Ibarra S.L."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "ventas@suministrosibarra.example"
+     ],
+     "subject": "Re: FACTURA n.º SI-88992",
+     "body": "We have received your invoice SI-88992 dated 4th January 2022, due 18th February 2022. It will be paid by its due date."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Invoice from 'Suministros Ibarra S.L.' registered and emailed. Invoice number 'SI-88992' received, dated '2022-01-04', due '2022-02-18'. Lines: 'bridas de acero' 8 units at 36.35 euros each, 'filtros de aire' 5 units at 23.45 euros each, 'mangueras hidráulicas' 15 units at 26.35 euros each, 'rodamientos' 40 units at 23.35 euros each. Total: 1737.30 euros.",
+  "seconds": 23.6,
+  "tokens_in": 14339,
+  "tokens_out": 705,
   "right": false,
   "missing": [
-   "no bill with the invoice number",
-   "0 mails sent, not 1"
+   "date is 2022-01-04, not 2027-01-04",
+   "due date is 2022-02-18, not 2027-02-18",
+   "the mail does not name the due date"
   ]
  },
  "gate_only_watching": {
-  "calls": [],
-  "answer": "Unable to process the invoice without the PDF content. Please provide the text from /acme/inbox/si-88992.pdf."
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/si-88992.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Suministros Ibarra S.L."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Suministros Ibarra S.L.",
+     "number": "SI-88992",
+     "date": "2022-01-04",
+     "due_date": "2022-02-18",
+     "lines": [
+      {
+       "description": "bridas de acero",
+       "quantity": 8,
+       "unit_price": 36.35
+      },
+      {
+       "description": "filtros de aire",
+       "quantity": 5,
+       "unit_price": 23.45
+      },
+      {
+       "description": "mangueras hidráulicas",
+       "quantity": 15,
+       "unit_price": 26.35
+      },
+      {
+       "description": "rodamientos",
+       "quantity": 40,
+       "unit_price": 23.35
+      }
+     ],
+     "total": 1737.3
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Suministros Ibarra S.L."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "ventas@suministrosibarra.example"
+     ],
+     "subject": "Re: FACTURA n.º SI-88992",
+     "body": "We have received your invoice SI-88992 dated 4th January 2022, due 18th February 2022. It will be paid by its due date."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Invoice from 'Suministros Ibarra S.L.' registered and emailed. Invoice number 'SI-88992' received, dated '2022-01-04', due '2022-02-18'. Lines: 'bridas de acero' 8 units at 36.35 euros each, 'filtros de aire' 5 units at 23.45 euros each, 'mangueras hidráulicas' 15 units at 26.35 euros each, 'rodamientos' 40 units at 23.35 euros each. Total: 1737.30 euros."
  }
 }

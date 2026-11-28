@@ -102,8 +102,8 @@
    }
   ],
   "answer": "The meeting 'Plan de production' has been scheduled for 8th March 2027, from 15:30 to 16:30. The agenda has been written and sent to Claire Dumont, Luc Moreau, and Atelier Dumont with the attached agenda.",
-  "seconds": 20.19,
-  "tokens_in": 20946,
+  "seconds": 22.72,
+  "tokens_in": 20994,
   "tokens_out": 706,
   "right": true,
   "missing": []

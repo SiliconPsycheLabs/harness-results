@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "commerciale@tessiturabellomo.example"
+ ],
+ "subject": "Payment advice",
+ "body": "This email confirms payment of your invoices TB-37164 and TB-99367. Amounts: 282.10 EUR, 251.80 EUR.",
+ "attachments": []
+}

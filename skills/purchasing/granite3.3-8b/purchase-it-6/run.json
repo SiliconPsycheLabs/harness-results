@@ -90,7 +90,7 @@
       "contact@atelier-dumont.example"
      ],
      "subject": "Q-5784 - Ordine di Acquisto",
-     "body": "Confermiamo l'ordine per i seguenti articoli: flange in acciaio 10 unità e 20 metri di tessuto tecnico, come specificato nel preventivo n. Q-5784. Attache l'ordine.",
+     "body": "Confermiamo l'ordine per i seguenti articoli: flange in acciaio 10, metri di tessuto tecnico 20, come specificato nel preventivo n. Q-5784. Attache l'ordine.",
      "attachments": [
       "/acme/documents/orders/order_6.xlsx"
      ]
@@ -101,9 +101,9 @@
    }
   ],
   "answer": "Atelier Dumont SARL was chosen with a total of 684.90 EUR. The order was sent, awaiting the purchasing manager's confirmation.",
-  "seconds": 13.41,
-  "tokens_in": 11420,
-  "tokens_out": 484,
+  "seconds": 11.94,
+  "tokens_in": 11418,
+  "tokens_out": 482,
   "right": false,
   "missing": [
    "5 columns, not 4",

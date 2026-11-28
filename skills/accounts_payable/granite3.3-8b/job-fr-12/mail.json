@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "contact@atelier-dumont.example"
+ ],
+ "subject": "Reception of invoice F-52898",
+ "body": "We have received your invoice F-52898 dated 7 January 2027, due 6 February 2027. It will be paid by the due date.",
+ "attachments": []
+}

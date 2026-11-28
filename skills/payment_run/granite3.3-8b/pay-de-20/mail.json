@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "info@lindner-maschinenbau.example"
+ ],
+ "subject": "Payment confirmation for invoices",
+ "body": "This email confirms payment of your invoices. Paid: LM-51165 for CHF 2567.10, LM-53363 for CHF 2456.10.",
+ "attachments": []
+}

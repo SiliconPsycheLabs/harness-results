@@ -49,10 +49,10 @@
     "ran": true
    }
   ],
-  "answer": "The invoice F-15927 of Atelier Dumont SARL was paid in full. An email with the payment advice was sent to contact@atelier-dumont.example.",
-  "seconds": 9.46,
+  "answer": "The invoice F-15927 of Atelier Dumont SARL was paid in full, and the payment was confirmed via email.",
+  "seconds": 10.0,
   "tokens_in": 6318,
-  "tokens_out": 305,
+  "tokens_out": 294,
   "right": true,
   "missing": []
  },
@@ -102,6 +102,6 @@
     "ran": true
    }
   ],
-  "answer": "The invoice F-15927 of Atelier Dumont SARL was paid in full. An email with the payment advice was sent to contact@atelier-dumont.example."
+  "answer": "The invoice F-15927 of Atelier Dumont SARL was paid in full, and the payment was confirmed via email."
  }
 }

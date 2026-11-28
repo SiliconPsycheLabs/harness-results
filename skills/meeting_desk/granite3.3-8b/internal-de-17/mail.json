@@ -1,0 +1,13 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "sabine.vogt@acme.example",
+  "lena.brandt@acme.example",
+  "mira.scholz@acme.example"
+ ],
+ "subject": "Produktionsplan",
+ "body": "Die Besprechung findet am 26.03.2027 von 15:30 bis 17:00 Uhr statt.",
+ "attachments": [
+  "/acme/documents/meetings/agenda_17.docx"
+ ]
+}

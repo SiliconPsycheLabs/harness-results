@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "ordini@officinegalli.example"
+ ],
+ "subject": "Payment confirmation for invoices",
+ "body": "Dear Officine Galli S.r.l.,\n\nWe are writing to confirm the payment of your invoices:\n- Invoice number FG-79162, amount 3400.30 EUR.\n\nThank you for your cooperation.\n\nBest regards,\nAcme Components Accounts Payable",
+ "attachments": []
+}

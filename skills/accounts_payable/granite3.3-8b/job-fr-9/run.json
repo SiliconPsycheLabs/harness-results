@@ -4,19 +4,150 @@
  "language": "fr",
  "model": "granite3.3-8b",
  "with_the_gate": {
-  "calls": [],
-  "answer": "No action was possible without a call to read_pdf to extract the invoice data.",
-  "seconds": 1.75,
-  "tokens_in": 3060,
-  "tokens_out": 56,
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/f-67503.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Atelier Dumont SARL"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Atelier Dumont SARL",
+     "number": "F-67503",
+     "date": "2026-12-03",
+     "due_date": "2027-02-01",
+     "lines": [
+      {
+       "description": "vannes à bille",
+       "quantity": 1,
+       "unit_price": 62.5
+      },
+      {
+       "description": "filtres à air",
+       "quantity": 2,
+       "unit_price": 29.45
+      }
+     ],
+     "total": 121.4
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Atelier Dumont SARL"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "contact@atelier-dumont.example"
+     ],
+     "subject": "Reception of invoice F-67503",
+     "body": "We have received your invoice F-67503 dated 3 December 2026, due 1 February 2027. It will be paid by the due date."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Invoice F-67503 entered and mail sent to supplier.",
+  "seconds": 13.5,
+  "tokens_in": 13426,
+  "tokens_out": 405,
   "right": false,
   "missing": [
-   "no bill with the invoice number",
-   "0 mails sent, not 1"
+   "the mail does not name the due date"
   ]
  },
  "gate_only_watching": {
-  "calls": [],
-  "answer": "No action was possible without access to the PDF file."
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/f-67503.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Atelier Dumont SARL"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Atelier Dumont SARL",
+     "number": "F-67503",
+     "date": "2026-12-03",
+     "due_date": "2027-02-01",
+     "lines": [
+      {
+       "description": "vannes à bille",
+       "quantity": 1,
+       "unit_price": 62.5
+      },
+      {
+       "description": "filtres à air",
+       "quantity": 2,
+       "unit_price": 29.45
+      }
+     ],
+     "total": 121.4
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Atelier Dumont SARL"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "contact@atelier-dumont.example"
+     ],
+     "subject": "Reception of invoice F-67503",
+     "body": "We have received your invoice F-67503 dated 3 December 2026, due 1 February 2027. It will be paid by the due date."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Invoice F-67503 entered and mail sent to supplier."
  }
 }

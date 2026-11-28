@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "ventas@suministrosibarra.example"
+ ],
+ "subject": "Aviso de pago SI-16266",
+ "body": "Estimado Suministros Ibarra S.L.,\n\nLe informamos que hemos pagado su factura SI-16266 en su totalidad. A continuación, se detallan los pagos realizados:\n\n- Factura SI-16266: 4104.60 EUR",
+ "attachments": []
+}

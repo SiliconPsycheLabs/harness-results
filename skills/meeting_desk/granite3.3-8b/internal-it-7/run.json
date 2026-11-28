@@ -88,10 +88,10 @@
     "ran": true
    }
   ],
-  "answer": "La riunione \"Piano di produzione\" è stata fissata per il 24 marzo 2027 alle 09:30 AM. L'ordine del giorno è stato scritto in /acme/documents/meetings/agenda_7.docx e le invitazioni sono state inviate con l'allegato.",
-  "seconds": 17.43,
-  "tokens_in": 18444,
-  "tokens_out": 604,
+  "answer": "La riunione \"Piano di produzione\" è stata fissata per il 24 marzo 2027 alle 09:30 AM. L'ordine del giorno è stato scritto in /acme/documents/meetings/agenda_7.docx e l'invito è stato inviato a Sara Monti e Elena Sarti con l'allegato.",
+  "seconds": 20.84,
+  "tokens_in": 18584,
+  "tokens_out": 632,
   "right": true,
   "missing": []
  },
@@ -180,6 +180,6 @@
     "ran": true
    }
   ],
-  "answer": "La riunione \"Piano di produzione\" è stata fissata per il 24 marzo 2027 alle 09:30 AM. L'ordine del giorno è stato scritto in /acme/documents/meetings/agenda_7.docx e le invitazioni sono state inviate con l'allegato."
+  "answer": "La riunione \"Piano di produzione\" è stata fissata per il 24 marzo 2027 alle 09:30 AM. L'ordine del giorno è stato scritto in /acme/documents/meetings/agenda_7.docx e l'invito è stato inviato a Sara Monti e Elena Sarti con l'allegato."
  }
 }

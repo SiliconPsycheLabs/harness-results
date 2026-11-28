@@ -1,0 +1,12 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "tobias.voss@acme.example",
+  "lena.brandt@acme.example"
+ ],
+ "subject": "Budgetprüfung",
+ "body": "Die Besprechung findet am 1. April 2027 um 14:00 statt.",
+ "attachments": [
+  "/acme/documents/meetings/agenda_19.docx"
+ ]
+}

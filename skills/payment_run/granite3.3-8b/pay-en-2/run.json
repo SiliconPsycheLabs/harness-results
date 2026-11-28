@@ -62,7 +62,7 @@
    }
   ],
   "answer": "Paid 2 invoices for Northwind Bearings Ltd, totaling 3160.80 EUR. Sent payment advice to orders@northwind-bearings.example.",
-  "seconds": 12.35,
+  "seconds": 13.71,
   "tokens_in": 8145,
   "tokens_out": 371,
   "right": true,

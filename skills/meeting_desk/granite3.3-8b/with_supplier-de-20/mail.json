@@ -1,0 +1,14 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "sabine.vogt@acme.example",
+  "lena.brandt@acme.example",
+  "jonas.kramer@acme.example",
+  "info@lindner-maschinenbau.example"
+ ],
+ "subject": "Preisliste",
+ "body": "Die Besprechung findet am 24.02.2027, von 16:30 bis 17:00 Uhr statt.",
+ "attachments": [
+  "/acme/documents/meetings/agenda_20.docx"
+ ]
+}

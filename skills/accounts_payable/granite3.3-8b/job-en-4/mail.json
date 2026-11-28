@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "sales@harbortools.example"
+ ],
+ "subject": "Received invoice HT-52891",
+ "body": "We have received your invoice HT-52891 dated 21 December 2026. It will be paid by 19 February 2027.",
+ "attachments": []
+}

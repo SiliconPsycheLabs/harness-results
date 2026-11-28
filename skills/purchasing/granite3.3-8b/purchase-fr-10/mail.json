@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "vertrieb@kraemer-werkzeugbau.example"
+ ],
+ "subject": "Quote 10_b",
+ "body": "Nous passons commande selon votre devis Q-7959.",
+ "attachments": [
+  "/acme/documents/orders/order_10.xlsx"
+ ]
+}

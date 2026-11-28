@@ -101,8 +101,8 @@
    }
   ],
   "answer": "La reunión \"Lista de precios\" se ha programado para el 8 de febrero de 2027 a las 10:00 en la sala de reuniones 1. Se ha creado el documento de orden del día y se ha enviado la invitación a los asistentes con el documento adjunto.",
-  "seconds": 20.21,
-  "tokens_in": 20777,
+  "seconds": 21.97,
+  "tokens_in": 20825,
   "tokens_out": 687,
   "right": true,
   "missing": []

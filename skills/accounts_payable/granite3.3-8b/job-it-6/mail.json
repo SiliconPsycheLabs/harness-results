@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "ordini@officinegalli.example"
+ ],
+ "subject": "Ricevuta fattura FG-22536",
+ "body": "Abbiamo ricevuto la fattura n. FG-22536 datata 12 gennaio 2027. Sarà pagata entro la scadenza del 11 febbraio 2027.",
+ "attachments": []
+}

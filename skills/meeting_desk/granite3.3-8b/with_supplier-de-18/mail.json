@@ -1,0 +1,14 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "jan.petersen@acme.example",
+  "sabine.vogt@acme.example",
+  "lena.brandt@acme.example",
+  "vertrieb@kraemer-werkzeugbau.example"
+ ],
+ "subject": "Preisliste",
+ "body": "Die Besprechung findet am 3. März 2027, von 14:00 bis 15:00 Uhr statt.",
+ "attachments": [
+  "/acme/documents/meetings/agenda_18.docx"
+ ]
+}

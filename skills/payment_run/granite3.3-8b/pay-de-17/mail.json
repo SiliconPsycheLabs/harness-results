@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "vertrieb@kraemer-werkzeugbau.example"
+ ],
+ "subject": "Zahlungsavis",
+ "body": "Sehr geehrte Damen und Herren,\n\nmit diesem Schreiben bestätigen wir die Zahlung Ihrer Rechnung KW-17067 im Betrag von 3968.20 EUR am 2023-03-15. Wir danken Ihnen für Ihre Geschäftsbeziehung.",
+ "attachments": []
+}

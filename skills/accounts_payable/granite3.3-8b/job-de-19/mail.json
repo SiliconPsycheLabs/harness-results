@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "vertrieb@kraemer-werkzeugbau.example"
+ ],
+ "subject": "Rechnung KW-27330",
+ "body": "Wir haben Ihre Rechnung KW-27330 vom 14. Januar 2027 erhalten, die unter Nr. KW-27330 ausgegeben wurde. Sie ist am 28. Februar 2027 fällig.",
+ "attachments": []
+}

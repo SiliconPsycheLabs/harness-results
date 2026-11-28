@@ -4,19 +4,150 @@
  "language": "es",
  "model": "granite3.3-8b",
  "with_the_gate": {
-  "calls": [],
-  "answer": "Unable to process the invoice without access to the file at /acme/inbox/si-48591.pdf.",
-  "seconds": 3.44,
-  "tokens_in": 3100,
-  "tokens_out": 127,
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/si-48591.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Suministros Ibarra S.L."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Suministros Ibarra S.L.",
+     "number": "SI-48591",
+     "date": "2026-12-13",
+     "due_date": "2027-01-27",
+     "lines": [
+      {
+       "description": "brocas",
+       "quantity": 2,
+       "unit_price": 7
+      },
+      {
+       "description": "correas",
+       "quantity": 4,
+       "unit_price": 75.55
+      }
+     ],
+     "total": 316.2
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Suministros Ibarra S.L."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "ventas@suministrosibarra.example"
+     ],
+     "subject": "Re: FACTURA SI-48591",
+     "body": "We have received your invoice SI-48591 dated 13 December 2026. It will be paid by its due date, 27 January 2027."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Invoice from 'SI' registered and mailed. The invoice number is '48591', the date is '2026-12-13', the due date is '2027-01-27', with lines: 'brocas, 2, 7.00, 14.00', 'correas, 4, 75.55, 302.20'. Mail sent to 'ventas@suministrosibarra.example'.",
+  "seconds": 18.9,
+  "tokens_in": 13784,
+  "tokens_out": 574,
   "right": false,
   "missing": [
-   "no bill with the invoice number",
-   "0 mails sent, not 1"
+   "the mail does not name the due date"
   ]
  },
  "gate_only_watching": {
-  "calls": [],
-  "answer": "Unable to process the invoice without access to the PDF file at /acme/inbox/si-48591.pdf."
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/si-48591.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Suministros Ibarra S.L."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Suministros Ibarra S.L.",
+     "number": "SI-48591",
+     "date": "2026-12-13",
+     "due_date": "2027-01-27",
+     "lines": [
+      {
+       "description": "brocas",
+       "quantity": 2,
+       "unit_price": 7
+      },
+      {
+       "description": "correas",
+       "quantity": 4,
+       "unit_price": 75.55
+      }
+     ],
+     "total": 316.2
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Suministros Ibarra S.L."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "ventas@suministrosibarra.example"
+     ],
+     "subject": "Re: FACTURA SI-48591",
+     "body": "We have received your invoice SI-48591 dated 2026-12-13. It is due on 2027-01-27. We will pay it by its due date."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Invoice from 'SI' registered and mailed. The invoice number is '48591', the date is '2026-12-13', the due date is '2027-01-27', with lines for quantities and unit prices as provided, and a net total of '316.20' EUR."
  }
 }

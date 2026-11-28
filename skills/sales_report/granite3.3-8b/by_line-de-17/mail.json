@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "mira.scholz@acme.example"
+ ],
+ "subject": "Bericht: Bestellungen nach Produktlinie im Jahr 2026",
+ "body": "Bitte finden Sie den angehängten Bericht.",
+ "attachments": [
+  "/acme/documents/reports/report_17.xlsx"
+ ]
+}

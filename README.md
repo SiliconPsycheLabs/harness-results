@@ -31,7 +31,7 @@ Each skill is one thing an office needs done. Its page gives the whole recipe (m
 | [accounts_payable](skills/accounts_payable/) | [`qwen3-8b`](skills/accounts_payable/qwen3-8b/) | **20 of 20** | **6 of 6** | 11.7 s | 11,014 in, 404 out |
 | [accounts_payable](skills/accounts_payable/) | [`qwen3.8-flash-next-abliterated`](skills/accounts_payable/qwen3.8-flash-next-abliterated/) | **20 of 20** | **6 of 6** | 52.6 s | 11,073 in, 434 out |
 | [accounts_payable](skills/accounts_payable/) | [`llama3.1-8b`](skills/accounts_payable/llama3.1-8b/) | **16 of 20** | **6 of 6** | 11.3 s | 10,953 in, 429 out |
-| [accounts_payable](skills/accounts_payable/) | [`granite3.3-8b`](skills/accounts_payable/granite3.3-8b/) | **0 of 20** | **6 of 6** | 2.7 s | 3,083 in, 101 out |
+| [accounts_payable](skills/accounts_payable/) | [`granite3.3-8b`](skills/accounts_payable/granite3.3-8b/) | **9 of 20** | **6 of 6** | 16.1 s | 13,739 in, 491 out |
 | [browser](skills/browser/) | [`qwen3.8-flash-next-abliterated`](skills/browser/qwen3.8-flash-next-abliterated/) | **20 of 20** | **6 of 6** | 82.1 s | 5,786 in, 205 out |
 | [browser](skills/browser/) | [`qwen3-8b`](skills/browser/qwen3-8b/) | **19 of 20** | **6 of 6** | 53.9 s | 6,819 in, 209 out |
 | [browser](skills/browser/) | [`llama3.1-8b`](skills/browser/llama3.1-8b/) | **16 of 20** | **6 of 6** | 54.1 s | 6,852 in, 202 out |
@@ -74,12 +74,12 @@ Each skill is one thing an office needs done. Its page gives the whole recipe (m
 | [mail](skills/mail/) | [`granite3.3-8b`](skills/mail/granite3.3-8b/) | **11 of 20** | **6 of 6** | 7.2 s | 2,266 in, 270 out |
 | [meeting_desk](skills/meeting_desk/) | [`qwen3.8-flash-next-abliterated`](skills/meeting_desk/qwen3.8-flash-next-abliterated/) | **20 of 20** | **6 of 6** | 44.1 s | 17,362 in, 564 out |
 | [meeting_desk](skills/meeting_desk/) | [`qwen3-8b`](skills/meeting_desk/qwen3-8b/) | **19 of 20** | **6 of 6** | 15.2 s | 17,250 in, 532 out |
+| [meeting_desk](skills/meeting_desk/) | [`granite3.3-8b`](skills/meeting_desk/granite3.3-8b/) | **19 of 20** | **6 of 6** | 22.6 s | 21,053 in, 702 out |
 | [meeting_desk](skills/meeting_desk/) | [`llama3.1-8b`](skills/meeting_desk/llama3.1-8b/) | **18 of 20** | **6 of 6** | 14.3 s | 18,663 in, 516 out |
-| [meeting_desk](skills/meeting_desk/) | [`granite3.3-8b`](skills/meeting_desk/granite3.3-8b/) | **6 of 20** | **6 of 6** | 5.0 s | 3,913 in, 175 out |
 | [payment_run](skills/payment_run/) | [`qwen3-8b`](skills/payment_run/qwen3-8b/) | **20 of 20** | **6 of 6** | 9.5 s | 6,994 in, 359 out |
 | [payment_run](skills/payment_run/) | [`llama3.1-8b`](skills/payment_run/llama3.1-8b/) | **20 of 20** | **6 of 6** | 10.3 s | 7,345 in, 316 out |
 | [payment_run](skills/payment_run/) | [`qwen3.8-flash-next-abliterated`](skills/payment_run/qwen3.8-flash-next-abliterated/) | **20 of 20** | **6 of 6** | 22.4 s | 7,084 in, 368 out |
-| [payment_run](skills/payment_run/) | [`granite3.3-8b`](skills/payment_run/granite3.3-8b/) | **8 of 20** | **6 of 6** | 3.4 s | 2,123 in, 119 out |
+| [payment_run](skills/payment_run/) | [`granite3.3-8b`](skills/payment_run/granite3.3-8b/) | **19 of 20** | **6 of 6** | 13.6 s | 8,069 in, 405 out |
 | [payments](skills/payments/) | [`llama3.1-8b`](skills/payments/llama3.1-8b/) | **20 of 20** | **6 of 6** | 8.2 s | 3,612 in, 193 out |
 | [payments](skills/payments/) | [`granite3.3-8b`](skills/payments/granite3.3-8b/) | **20 of 20** | **6 of 6** | 8.4 s | 3,431 in, 219 out |
 | [payments](skills/payments/) | [`qwen3-8b`](skills/payments/qwen3-8b/) | **20 of 20** | **6 of 6** | 9.9 s | 3,289 in, 234 out |
@@ -95,11 +95,11 @@ Each skill is one thing an office needs done. Its page gives the whole recipe (m
 | [purchasing](skills/purchasing/) | [`qwen3.8-flash-next-abliterated`](skills/purchasing/qwen3.8-flash-next-abliterated/) | **20 of 20** | **6 of 6** | 36.0 s | 10,825 in, 440 out |
 | [purchasing](skills/purchasing/) | [`llama3.1-8b`](skills/purchasing/llama3.1-8b/) | **14 of 20** | **6 of 6** | 10.3 s | 10,451 in, 370 out |
 | [purchasing](skills/purchasing/) | [`qwen3-8b`](skills/purchasing/qwen3-8b/) | **12 of 19** | **5 of 5** | 13.1 s | 10,507 in, 423 out |
-| [purchasing](skills/purchasing/) | [`granite3.3-8b`](skills/purchasing/granite3.3-8b/) | **0 of 20** | **6 of 6** | 3.6 s | 2,947 in, 117 out |
+| [purchasing](skills/purchasing/) | [`granite3.3-8b`](skills/purchasing/granite3.3-8b/) | **0 of 20** | **6 of 6** | 20.3 s | 16,291 in, 726 out |
 | [sales_report](skills/sales_report/) | [`qwen3-8b`](skills/sales_report/qwen3-8b/) | **20 of 20** | **6 of 6** | 8.8 s | 8,415 in, 388 out |
 | [sales_report](skills/sales_report/) | [`qwen3.8-flash-next-abliterated`](skills/sales_report/qwen3.8-flash-next-abliterated/) | **20 of 20** | **6 of 6** | 27.2 s | 8,436 in, 380 out |
 | [sales_report](skills/sales_report/) | [`llama3.1-8b`](skills/sales_report/llama3.1-8b/) | **17 of 20** | **6 of 6** | 9.3 s | 8,194 in, 348 out |
-| [sales_report](skills/sales_report/) | [`granite3.3-8b`](skills/sales_report/granite3.3-8b/) | **0 of 20** | **6 of 6** | 1.7 s | 2,974 in, 54 out |
+| [sales_report](skills/sales_report/) | [`granite3.3-8b`](skills/sales_report/granite3.3-8b/) | **11 of 17** | **6 of 6** | 16.6 s | 13,133 in, 571 out |
 | [supplier_bill](skills/supplier_bill/) | [`qwen3-8b`](skills/supplier_bill/qwen3-8b/) | **20 of 20** | **6 of 6** | 7.5 s | 3,264 in, 221 out |
 | [supplier_bill](skills/supplier_bill/) | [`qwen3.8-flash-next-abliterated`](skills/supplier_bill/qwen3.8-flash-next-abliterated/) | **20 of 20** | **6 of 6** | 22.3 s | 3,271 in, 231 out |
 | [supplier_bill](skills/supplier_bill/) | [`llama3.1-8b`](skills/supplier_bill/llama3.1-8b/) | **19 of 20** | **6 of 6** | 6.0 s | 3,174 in, 202 out |

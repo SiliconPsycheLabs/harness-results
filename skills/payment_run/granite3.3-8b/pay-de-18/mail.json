@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "info@lindner-maschinenbau.example"
+ ],
+ "subject": "Payment advice for invoices",
+ "body": "This email confirms the payment of your invoices. Paid:\n- LM-53817 for 4532.90 EUR\n- LM-92864 for 4069.60 EUR",
+ "attachments": []
+}

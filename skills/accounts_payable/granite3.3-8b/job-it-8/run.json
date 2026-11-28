@@ -4,19 +4,141 @@
  "language": "it",
  "model": "granite3.3-8b",
  "with_the_gate": {
-  "calls": [],
-  "answer": "Unable to process the invoice due to lack of access to the required tools or information.",
-  "seconds": 3.37,
-  "tokens_in": 3127,
-  "tokens_out": 129,
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/fg-73851.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Officine Galli S.r.l."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Officine Galli S.r.l.",
+     "number": "FG-73851",
+     "date": "2022-01-13",
+     "due_date": "2022-02-27",
+     "lines": [
+      {
+       "description": "guarnizioni",
+       "quantity": 5,
+       "unit_price": 1.4
+      }
+     ],
+     "total": 7
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Officine Galli S.r.l."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "ordini@officinegalli.example"
+     ],
+     "subject": "Fattura n. FG-73851 ricevuta",
+     "body": "Gentile Officine Galli S.r.l.,\n\nAbbiamo ricevuto la fattura n. FG-73851 datata 13 gennaio 2027 con scadenza 27 febbraio 2027. Sarà pagata entro la data di scadenza.\n\nCordiali saluti,\nAcme Components"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Invoice FG-73851 processed. Draft bill created for supplier 'Officine Galli S.r.l.' with invoice number 'FG-73851', date '2022-01-13', due date '2022-02-27'. Email sent to ordini@officinegalli.example confirming receipt and stating payment by due date.",
+  "seconds": 18.17,
+  "tokens_in": 13677,
+  "tokens_out": 568,
   "right": false,
   "missing": [
-   "no bill with the invoice number",
-   "0 mails sent, not 1"
+   "date is 2022-01-13, not 2027-01-13",
+   "due date is 2022-02-27, not 2027-02-27"
   ]
  },
  "gate_only_watching": {
-  "calls": [],
-  "answer": "Unable to process the invoice due to lack of access to the file system to read the PDF."
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/fg-73851.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Officine Galli S.r.l."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Officine Galli S.r.l.",
+     "number": "FG-73851",
+     "date": "2023-01-13",
+     "due_date": "2027-02-27",
+     "lines": [
+      {
+       "description": "guarnizioni",
+       "quantity": 5,
+       "unit_price": 1.4
+      }
+     ],
+     "total": 7.0
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Officine Galli S.r.l."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "ordini@officinegalli.example"
+     ],
+     "subject": "Fattura FG-73851 ricevuta",
+     "body": "Abbiamo ricevuto la fattura n. FG-73851 datata 13 gennaio 2027 con scadenza 27 febbraio 2027. Sarà pagata entro la data di scadenza."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Invoice FG-73851 processed. Draft bill created for supplier 'Officine Galli S.r.l.', email sent to 'ordini@officinegalli.example' confirming receipt and stating payment by due date."
  }
 }

@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "ventas@suministrosibarra.example"
+ ],
+ "subject": "Re: FACTURA SI-42337",
+ "body": "We have received your invoice SI-42337 dated 2022-01-12, due on 2022-02-11. It will be paid by its due date.",
+ "attachments": []
+}

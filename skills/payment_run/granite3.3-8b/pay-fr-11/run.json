@@ -50,7 +50,7 @@
    }
   ],
   "answer": "The invoice F-26147 of Atelier Dumont SARL was paid in full, and the payment was confirmed via email.",
-  "seconds": 9.04,
+  "seconds": 9.8,
   "tokens_in": 6318,
   "tokens_out": 294,
   "right": true,
@@ -95,7 +95,7 @@
       "contact@atelier-dumont.example"
      ],
      "subject": "Avis de paiement pour factures payées",
-     "body": "Chers collaborateurs,\n\nNous vous informons que les factures suivantes ont été payées:\n- F-26147: 2920.30 EUR.\n\nCordialement,\nAcme Components."
+     "body": "Chers collaborateurs,\n\nNous vous informons que les factures suivantes ont été payées:\n- F-26147: 2920.30 EUR\n\nCordialement,\nAcme Components."
     },
     "gate": "passed",
     "reason": "",

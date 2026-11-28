@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "info@lindner-maschinenbau.example"
+ ],
+ "subject": "Rechnung LM-9057",
+ "body": "Wir haben Ihre Rechnung LM-9057 vom 7. Januar 2027 erhalten, die unter LM-9057 als offen gekennzeichnet ist. Sie ist fällig am 6. Februar 2027 und wird bis zu diesem Datum bezahlt.",
+ "attachments": []
+}

@@ -35,7 +35,7 @@ An invented maker of machine parts with offices in five countries. Every name, o
 | [accounts_payable](../../skills/accounts_payable/) | [`qwen3-8b`](../../skills/accounts_payable/qwen3-8b/) | 20 of 20 | 6 of 6 |
 | [accounts_payable](../../skills/accounts_payable/) | [`qwen3.8-flash-next-abliterated`](../../skills/accounts_payable/qwen3.8-flash-next-abliterated/) | 20 of 20 | 6 of 6 |
 | [accounts_payable](../../skills/accounts_payable/) | [`llama3.1-8b`](../../skills/accounts_payable/llama3.1-8b/) | 16 of 20 | 6 of 6 |
-| [accounts_payable](../../skills/accounts_payable/) | [`granite3.3-8b`](../../skills/accounts_payable/granite3.3-8b/) | 0 of 20 | 6 of 6 |
+| [accounts_payable](../../skills/accounts_payable/) | [`granite3.3-8b`](../../skills/accounts_payable/granite3.3-8b/) | 9 of 20 | 6 of 6 |
 | [browser](../../skills/browser/) | [`qwen3.8-flash-next-abliterated`](../../skills/browser/qwen3.8-flash-next-abliterated/) | 20 of 20 | 6 of 6 |
 | [browser](../../skills/browser/) | [`qwen3-8b`](../../skills/browser/qwen3-8b/) | 19 of 20 | 6 of 6 |
 | [browser](../../skills/browser/) | [`llama3.1-8b`](../../skills/browser/llama3.1-8b/) | 16 of 20 | 6 of 6 |
@@ -78,12 +78,12 @@ An invented maker of machine parts with offices in five countries. Every name, o
 | [mail](../../skills/mail/) | [`granite3.3-8b`](../../skills/mail/granite3.3-8b/) | 11 of 20 | 6 of 6 |
 | [meeting_desk](../../skills/meeting_desk/) | [`qwen3.8-flash-next-abliterated`](../../skills/meeting_desk/qwen3.8-flash-next-abliterated/) | 20 of 20 | 6 of 6 |
 | [meeting_desk](../../skills/meeting_desk/) | [`qwen3-8b`](../../skills/meeting_desk/qwen3-8b/) | 19 of 20 | 6 of 6 |
+| [meeting_desk](../../skills/meeting_desk/) | [`granite3.3-8b`](../../skills/meeting_desk/granite3.3-8b/) | 19 of 20 | 6 of 6 |
 | [meeting_desk](../../skills/meeting_desk/) | [`llama3.1-8b`](../../skills/meeting_desk/llama3.1-8b/) | 18 of 20 | 6 of 6 |
-| [meeting_desk](../../skills/meeting_desk/) | [`granite3.3-8b`](../../skills/meeting_desk/granite3.3-8b/) | 6 of 20 | 6 of 6 |
 | [payment_run](../../skills/payment_run/) | [`qwen3-8b`](../../skills/payment_run/qwen3-8b/) | 20 of 20 | 6 of 6 |
 | [payment_run](../../skills/payment_run/) | [`llama3.1-8b`](../../skills/payment_run/llama3.1-8b/) | 20 of 20 | 6 of 6 |
 | [payment_run](../../skills/payment_run/) | [`qwen3.8-flash-next-abliterated`](../../skills/payment_run/qwen3.8-flash-next-abliterated/) | 20 of 20 | 6 of 6 |
-| [payment_run](../../skills/payment_run/) | [`granite3.3-8b`](../../skills/payment_run/granite3.3-8b/) | 8 of 20 | 6 of 6 |
+| [payment_run](../../skills/payment_run/) | [`granite3.3-8b`](../../skills/payment_run/granite3.3-8b/) | 19 of 20 | 6 of 6 |
 | [payments](../../skills/payments/) | [`llama3.1-8b`](../../skills/payments/llama3.1-8b/) | 20 of 20 | 6 of 6 |
 | [payments](../../skills/payments/) | [`granite3.3-8b`](../../skills/payments/granite3.3-8b/) | 20 of 20 | 6 of 6 |
 | [payments](../../skills/payments/) | [`qwen3-8b`](../../skills/payments/qwen3-8b/) | 20 of 20 | 6 of 6 |
@@ -103,7 +103,7 @@ An invented maker of machine parts with offices in five countries. Every name, o
 | [sales_report](../../skills/sales_report/) | [`qwen3-8b`](../../skills/sales_report/qwen3-8b/) | 20 of 20 | 6 of 6 |
 | [sales_report](../../skills/sales_report/) | [`qwen3.8-flash-next-abliterated`](../../skills/sales_report/qwen3.8-flash-next-abliterated/) | 20 of 20 | 6 of 6 |
 | [sales_report](../../skills/sales_report/) | [`llama3.1-8b`](../../skills/sales_report/llama3.1-8b/) | 17 of 20 | 6 of 6 |
-| [sales_report](../../skills/sales_report/) | [`granite3.3-8b`](../../skills/sales_report/granite3.3-8b/) | 0 of 20 | 6 of 6 |
+| [sales_report](../../skills/sales_report/) | [`granite3.3-8b`](../../skills/sales_report/granite3.3-8b/) | 11 of 17 | 6 of 6 |
 | [supplier_bill](../../skills/supplier_bill/) | [`qwen3-8b`](../../skills/supplier_bill/qwen3-8b/) | 20 of 20 | 6 of 6 |
 | [supplier_bill](../../skills/supplier_bill/) | [`qwen3.8-flash-next-abliterated`](../../skills/supplier_bill/qwen3.8-flash-next-abliterated/) | 20 of 20 | 6 of 6 |
 | [supplier_bill](../../skills/supplier_bill/) | [`llama3.1-8b`](../../skills/supplier_bill/llama3.1-8b/) | 19 of 20 | 6 of 6 |

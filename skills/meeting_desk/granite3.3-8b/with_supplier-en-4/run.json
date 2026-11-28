@@ -4,20 +4,230 @@
  "language": "en",
  "model": "granite3.3-8b",
  "with_the_gate": {
-  "calls": [],
-  "answer": "I apologize for the confusion. I am unable to proceed without the necessary information. Please provide the names of the attendees and the preferred time slot for the meeting.",
-  "seconds": 4.28,
-  "tokens_in": 3827,
-  "tokens_out": 143,
-  "right": false,
-  "missing": [
-   "0 meetings created, not 1",
-   "agenda: no file at the path asked",
-   "0 mails sent, not 1"
-  ]
+  "calls": [
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Anna Keller"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Paolo Ferri"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Lucia Marin"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Northwind Bearings"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_free_slots",
+    "arguments": {
+     "people": [
+      "anna.keller@acme.example",
+      "paolo.ferri@acme.example",
+      "lucia.marin@acme.example",
+      "orders@northwind-bearings.example"
+     ],
+     "date": "2027-02-10",
+     "minutes": 60,
+     "part_of_day": "afternoon"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_event",
+    "arguments": {
+     "title": "Price list",
+     "date": "2027-02-10",
+     "start": "16:30",
+     "end": "17:30",
+     "attendees": [
+      "anna.keller@acme.example",
+      "paolo.ferri@acme.example",
+      "lucia.marin@acme.example",
+      "orders@northwind-bearings.example"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/meetings/agenda_4.docx",
+     "title": "Price list",
+     "blocks": [
+      {
+       "type": "numbered",
+       "text": "Stock levels\nCosts of the new line\nFigures of the last quarter"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "anna.keller@acme.example",
+      "paolo.ferri@acme.example",
+      "lucia.marin@acme.example",
+      "orders@northwind-bearings.example"
+     ],
+     "subject": "Price list",
+     "body": "The meeting is on 10/02/2027 from 16:30 to 17:30",
+     "attachments": [
+      "/acme/documents/meetings/agenda_4.docx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The meeting 'Price list' is scheduled on 10/02/2027 from 16:30 to 17:30. The agenda has been written at /acme/documents/meetings/agenda_4.docx and the invitation has been sent to Anna Keller, Paolo Ferri, Lucia Marin, and Northwind Bearings.",
+  "seconds": 22.19,
+  "tokens_in": 23150,
+  "tokens_out": 716,
+  "right": true,
+  "missing": []
  },
  "gate_only_watching": {
-  "calls": [],
-  "answer": "Apologies for the confusion. I am unable to proceed without the necessary information. Please provide the names and addresses of Anna Keller, Paolo Ferri, Lucia Marin, and Northwind Bearings."
+  "calls": [
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Anna Keller"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Paolo Ferri"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Lucia Marin"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Northwind Bearings"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_free_slots",
+    "arguments": {
+     "people": [
+      "anna.keller@acme.example",
+      "paolo.ferri@acme.example",
+      "lucia.marin@acme.example",
+      "orders@northwind-bearings.example"
+     ],
+     "date": "2027-02-10",
+     "minutes": 60,
+     "part_of_day": "afternoon"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_event",
+    "arguments": {
+     "title": "Price list",
+     "date": "2027-02-10",
+     "start": "16:30",
+     "end": "17:30",
+     "attendees": [
+      "anna.keller@acme.example",
+      "paolo.ferri@acme.example",
+      "lucia.marin@acme.example",
+      "orders@northwind-bearings.example"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/meetings/agenda_4.docx",
+     "title": "Price list",
+     "blocks": [
+      {
+       "type": "numbered",
+       "text": "Stock levels\nCosts of the new line\nFigures of the last quarter"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "anna.keller@acme.example",
+      "paolo.ferri@acme.example",
+      "lucia.marin@acme.example",
+      "orders@northwind-bearings.example"
+     ],
+     "subject": "Price list",
+     "body": "The meeting is on 10/02/2027 from 16:30 to 17:30",
+     "attachments": [
+      "/acme/documents/meetings/agenda_4.docx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The meeting 'Price list' is scheduled on 10/02/2027 from 16:30 to 17:30. The agenda has been written at /acme/documents/meetings/agenda_4.docx and the invitation has been sent to Anna Keller, Paolo Ferri, Lucia Marin, and Northwind Bearings."
  }
 }

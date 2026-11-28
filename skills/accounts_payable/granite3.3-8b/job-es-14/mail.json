@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "ventas@suministrosibarra.example"
+ ],
+ "subject": "Re: FACTURA n.º SI-88992",
+ "body": "We have received your invoice SI-88992 dated 4th January 2022, due 18th February 2022. It will be paid by its due date.",
+ "attachments": []
+}

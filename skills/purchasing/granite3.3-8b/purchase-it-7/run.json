@@ -70,7 +70,7 @@
        "",
        "",
        "5.000",
-       "5.000"
+       "total_columns"
       ]
      ],
      "total_columns": [
@@ -128,7 +128,7 @@
        "",
        "",
        "5000",
-       "5000"
+       "total_columns"
       ]
      ],
      "total_columns": [
@@ -186,7 +186,7 @@
        "",
        "",
        "5000",
-       "5000"
+       "total_columns"
       ]
      ],
      "total_columns": [
@@ -212,8 +212,8 @@
      "to": [
       "orders@northwind-bearings.example"
      ],
-     "subject": "Q-6324 Order",
-     "body": "We order as per your quote Q-6324.",
+     "subject": "Q-6324 - Order confirmation",
+     "body": "We confirm the order as per your quote Q-6324 dated 18 February 2027. Please find the purchase order attached.",
      "attachments": [
       "/acme/documents/orders/order_7.xlsx"
      ]
@@ -223,10 +223,10 @@
     "ran": false
    }
   ],
-  "answer": "Northwind Bearings Ltd was chosen with a total of 4.966,00 EUR. The email was sent, and the order is waiting for the purchasing manager's confirmation.",
-  "seconds": 24.74,
-  "tokens_in": 17298,
-  "tokens_out": 850,
+  "answer": "Northwind Bearings Ltd was chosen with a total of 4.966,00 EUR. The order was sent, awaiting the purchasing manager's confirmation.",
+  "seconds": 21.39,
+  "tokens_in": 17303,
+  "tokens_out": 864,
   "right": false,
   "missing": [
    "no file at the path asked",

@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "commerciale@tessiturabellomo.example"
+ ],
+ "subject": "Fattura TB-8296 ricevuta",
+ "body": "Abbiamo ricevuto la fattura n. TB-8296 datata 10 gennaio 2027 con scadenza 9 febbraio 2027. Sarà pagata entro la scadenza.",
+ "attachments": []
+}

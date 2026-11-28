@@ -101,8 +101,8 @@
    }
   ],
   "answer": "The meeting 'Price list' is scheduled for March 15, 2027, from 11:30 AM to 12:30 AM. The agenda has been written and sent to Tom Reyes, Anna Keller, and Neil Carver with the attached agenda.",
-  "seconds": 17.98,
-  "tokens_in": 20092,
+  "seconds": 19.28,
+  "tokens_in": 20140,
   "tokens_out": 604,
   "right": true,
   "missing": []
@@ -204,6 +204,6 @@
     "ran": true
    }
   ],
-  "answer": "The meeting 'Price list' is scheduled for March 15, 2027, from 11:30 AM to 12:30 AM. The agenda has been written and sent to Tom Reyes, Anna Keller, and Neil Carver with the attachments."
+  "answer": "The meeting 'Price list' is scheduled for March 15, 2027, from 11:30 AM to 12:30 AM. The agenda has been written and sent to Tom Reyes, Anna Keller, and Neil Carver with the attached agenda."
  }
 }

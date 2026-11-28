@@ -4,20 +4,223 @@
  "language": "en",
  "model": "granite3.3-8b",
  "with_the_gate": {
-  "calls": [],
-  "answer": "Unable to proceed without the necessary information and permissions. Please provide the required details and confirm the action.",
-  "seconds": 3.7,
-  "tokens_in": 3794,
-  "tokens_out": 109,
-  "right": false,
-  "missing": [
-   "0 meetings created, not 1",
-   "agenda: no file at the path asked",
-   "0 mails sent, not 1"
-  ]
+  "calls": [
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Paolo Ferri"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Anna Keller"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Lucia Marin"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_free_slots",
+    "arguments": {
+     "people": [
+      "paolo.ferri@acme.example",
+      "anna.keller@acme.example",
+      "lucia.marin@acme.example"
+     ],
+     "date": "2027-02-11",
+     "minutes": 60,
+     "part_of_day": "afternoon"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_event",
+    "arguments": {
+     "title": "Budget review",
+     "date": "2027-02-11",
+     "start": "14:00",
+     "end": "14:60",
+     "attendees": [
+      "paolo.ferri@acme.example",
+      "anna.keller@acme.example",
+      "lucia.marin@acme.example"
+     ]
+    },
+    "gate": "stopped",
+    "reason": "the arguments do not follow the tool's input schema",
+    "ran": false
+   },
+   {
+    "tool": "create_event",
+    "arguments": {
+     "title": "Budget review",
+     "date": "2027-02-11",
+     "start": "14:00",
+     "end": "15:00",
+     "attendees": [
+      "paolo.ferri@acme.example",
+      "anna.keller@acme.example",
+      "lucia.marin@acme.example"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/meetings/agenda_1.docx",
+     "title": "Budget review",
+     "blocks": [
+      {
+       "type": "numbered",
+       "text": "Stock levels; Figures of the last quarter; Next steps and owners"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "paolo.ferri@acme.example",
+      "anna.keller@acme.example",
+      "lucia.marin@acme.example"
+     ],
+     "subject": "Budget review",
+     "body": "The meeting is on 2027-02-11 from 14:00 to 15:00",
+     "attachments": [
+      "/acme/documents/meetings/agenda_1.docx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The meeting 'Budget review' is scheduled on 2027-02-11 from 14:00 to 15:00. The invitation with the agenda attached has been sent to Paolo Ferri, Anna Keller, and Lucia Marin.",
+  "seconds": 24.27,
+  "tokens_in": 23288,
+  "tokens_out": 708,
+  "right": true,
+  "missing": []
  },
  "gate_only_watching": {
-  "calls": [],
-  "answer": "Unable to proceed without the necessary information and permissions. Please provide the required details and confirm the action."
+  "calls": [
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Paolo Ferri"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Anna Keller"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Lucia Marin"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_free_slots",
+    "arguments": {
+     "people": [
+      "paolo.ferri@acme.example",
+      "anna.keller@acme.example",
+      "lucia.marin@acme.example"
+     ],
+     "date": "2027-02-11",
+     "minutes": 60,
+     "part_of_day": "afternoon"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_event",
+    "arguments": {
+     "title": "Budget review",
+     "date": "2027-02-11",
+     "start": "14:00",
+     "end": "14:60",
+     "attendees": [
+      "paolo.ferri@acme.example",
+      "anna.keller@acme.example",
+      "lucia.marin@acme.example"
+     ]
+    },
+    "gate": "stopped",
+    "reason": "the arguments do not follow the tool's input schema",
+    "ran": true
+   },
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/meetings/agenda_1.docx",
+     "title": "Budget review",
+     "blocks": [
+      {
+       "type": "numbered",
+       "text": "Stock levels; Figures of the last quarter; Next steps and owners"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "paolo.ferri@acme.example",
+      "anna.keller@acme.example",
+      "lucia.marin@acme.example"
+     ],
+     "subject": "Budget review",
+     "body": "The meeting is on 2027-02-11 from 14:00 to 14:60",
+     "attachments": [
+      "/acme/documents/meetings/agenda_1.docx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The meeting 'Budget review' is scheduled on 2027-02-11 from 14:00 to 14:60. The invitation with the agenda attached has been sent to Paolo Ferri, Anna Keller, and Lucia Marin."
  }
 }

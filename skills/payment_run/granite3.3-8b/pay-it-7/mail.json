@@ -1,0 +1,9 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "commerciale@tessiturabellomo.example"
+ ],
+ "subject": "Payment advice",
+ "body": "This is to confirm that Acme Components has paid your invoice TB-2930 in the amount of 1063.90 EUR on 2023-03-14.",
+ "attachments": []
+}

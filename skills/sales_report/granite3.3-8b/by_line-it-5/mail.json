@@ -1,0 +1,11 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "marco.bellomo@acme.example"
+ ],
+ "subject": "Report 2025 by product line",
+ "body": "Il report Excel è allegato.",
+ "attachments": [
+  "/acme/documents/reports/report_5.xlsx"
+ ]
+}

@@ -4,20 +4,210 @@
  "language": "fr",
  "model": "granite3.3-8b",
  "with_the_gate": {
-  "calls": [],
-  "answer": "Apologies for the confusion. I am unable to proceed without the necessary details such as the specific time slots for the attendees, Paul Lefèvre, Inès Garnier, and Luc Moreau. Without this information, I cannot accurately schedule the meeting using the find_free_slots tool. Once I have this information, I will be able to organize the meeting, create the agenda, and send out the invitations accordingly.",
-  "seconds": 5.5,
-  "tokens_in": 3896,
-  "tokens_out": 203,
+  "calls": [
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Paul Lefèvre"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Inès Garnier"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Luc Moreau"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_free_slots",
+    "arguments": {
+     "people": [
+      "paul.lefevre@acme.example",
+      "ines.garnier@acme.example",
+      "luc.moreau@acme.example"
+     ],
+     "date": "2027-03-31",
+     "minutes": 90,
+     "part_of_day": "afternoon"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_event",
+    "arguments": {
+     "title": "Revue du budget",
+     "date": "2027-03-31",
+     "start": "14:00",
+     "end": "16:30",
+     "attendees": [
+      "paul.lefevre@acme.example",
+      "ines.garnier@acme.example",
+      "luc.moreau@acme.example"
+     ],
+     "location": "Conference Room A"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/meetings/agenda_11.docx",
+     "title": "Revue du budget",
+     "blocks": [
+      {
+       "type": "numbered",
+       "text": "Chiffres du dernier trimestre; Niveaux de stock; Réclamations ouvertes"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "paul.lefevre@acme.example",
+      "ines.garnier@acme.example",
+      "luc.moreau@acme.example"
+     ],
+     "subject": "Revue du budget",
+     "body": "The meeting is scheduled for March 31, 2027, from 14:00 to 16:30. Attached is the agenda.",
+     "attachments": [
+      "/acme/documents/meetings/agenda_11.docx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The meeting 'Revue du budget' has been scheduled for March 31, 2027, from 14:00 to 16:30. The agenda has been written and sent to Paul Lefèvre, Inès Garnier, and Luc Moreau with the invitation.",
+  "seconds": 21.32,
+  "tokens_in": 20906,
+  "tokens_out": 662,
   "right": false,
   "missing": [
-   "0 meetings created, not 1",
-   "agenda: no file at the path asked",
-   "0 mails sent, not 1"
+   "lasts 150 minutes, not 90",
+   "the invitation does not name the day"
   ]
  },
  "gate_only_watching": {
-  "calls": [],
-  "answer": "Apologies for the confusion. I am unable to proceed without the necessary names and contact information for Paul Lefèvre, Inès Garnier, and Luc Moreau. Please provide their names for the find_person tool to look up their addresses."
+  "calls": [
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Paul Lefèvre"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Inès Garnier"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_person",
+    "arguments": {
+     "name": "Luc Moreau"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_free_slots",
+    "arguments": {
+     "people": [
+      "paul.lefevre@acme.example",
+      "ines.garnier@acme.example",
+      "luc.moreau@acme.example"
+     ],
+     "date": "2027-03-31",
+     "minutes": 90,
+     "part_of_day": "afternoon"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_event",
+    "arguments": {
+     "title": "Revue du budget",
+     "date": "2027-03-31",
+     "start": "14:00",
+     "end": "16:30",
+     "attendees": [
+      "paul.lefevre@acme.example",
+      "ines.garnier@acme.example",
+      "luc.moreau@acme.example"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "write_docx",
+    "arguments": {
+     "path": "/acme/documents/meetings/agenda_11.docx",
+     "title": "Revue du budget",
+     "blocks": [
+      {
+       "type": "numbered",
+       "text": "Chiffres du dernier trimestre; Niveaux de stock; Réclamations ouvertes"
+      }
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "paul.lefevre@acme.example",
+      "ines.garnier@acme.example",
+      "luc.moreau@acme.example"
+     ],
+     "subject": "Revue du budget",
+     "body": "The meeting is scheduled for March 31, 2027, from 14:00 to 16:30.",
+     "attachments": [
+      "/acme/documents/meetings/agenda_11.docx"
+     ]
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "The meeting 'Revue du budget' has been scheduled for March 31, 2027, from 14:00 to 16:30. The agenda has been written and sent to Paul Lefèvre, Inès Garnier, and Luc Moreau with the invitation."
  }
 }

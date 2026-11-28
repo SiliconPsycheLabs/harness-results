@@ -1,0 +1,13 @@
+{
+ "from": "office@acme.example",
+ "to": [
+  "paul.lefevre@acme.example",
+  "ines.garnier@acme.example",
+  "luc.moreau@acme.example"
+ ],
+ "subject": "Revue du budget",
+ "body": "The meeting is scheduled for March 31, 2027, from 14:00 to 16:30. Attached is the agenda.",
+ "attachments": [
+  "/acme/documents/meetings/agenda_11.docx"
+ ]
+}

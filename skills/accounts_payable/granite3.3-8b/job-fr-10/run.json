@@ -4,19 +4,150 @@
  "language": "fr",
  "model": "granite3.3-8b",
  "with_the_gate": {
-  "calls": [],
-  "answer": "No action was possible without a call to read_pdf to extract the invoice data.",
-  "seconds": 1.76,
-  "tokens_in": 3060,
-  "tokens_out": 56,
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/f-21147.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Atelier Dumont SARL"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Atelier Dumont SARL",
+     "number": "F-21147",
+     "date": "2027-01-10",
+     "due_date": "2027-02-09",
+     "lines": [
+      {
+       "description": "réducteurs",
+       "quantity": 5,
+       "unit_price": 439.65
+      },
+      {
+       "description": "forets",
+       "quantity": 4,
+       "unit_price": 14.25
+      }
+     ],
+     "total": 2255.25
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Atelier Dumont SARL"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "contact@atelier-dumont.example"
+     ],
+     "subject": "Reception of invoice F-21147",
+     "body": "We have received your invoice F-21147 dated 10 January 2027, due 9 February 2027. It will be paid by the due date."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Invoice F-21147 entered and mail sent to supplier.",
+  "seconds": 13.27,
+  "tokens_in": 13415,
+  "tokens_out": 396,
   "right": false,
   "missing": [
-   "no bill with the invoice number",
-   "0 mails sent, not 1"
+   "the mail does not name the due date"
   ]
  },
  "gate_only_watching": {
-  "calls": [],
-  "answer": "No action was possible without a call to read_pdf to extract the invoice data."
+  "calls": [
+   {
+    "tool": "read_pdf",
+    "arguments": {
+     "path": "/acme/inbox/f-21147.pdf"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_supplier",
+    "arguments": {
+     "name": "Atelier Dumont SARL"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "create_supplier_bill",
+    "arguments": {
+     "supplier": "Atelier Dumont SARL",
+     "number": "F-21147",
+     "date": "2027-01-10",
+     "due_date": "2027-02-09",
+     "lines": [
+      {
+       "description": "réducteurs",
+       "quantity": 5,
+       "unit_price": 439.65
+      },
+      {
+       "description": "forets",
+       "quantity": 4,
+       "unit_price": 14.25
+      }
+     ],
+     "total": 2255.25
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "find_contact",
+    "arguments": {
+     "name": "Atelier Dumont SARL"
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   },
+   {
+    "tool": "send_mail",
+    "arguments": {
+     "to": [
+      "contact@atelier-dumont.example"
+     ],
+     "subject": "Reception of invoice F-21147",
+     "body": "We have received your invoice F-21147 dated 10 January 2027, due 9 February 2027. It will be paid by the due date."
+    },
+    "gate": "passed",
+    "reason": "",
+    "ran": true
+   }
+  ],
+  "answer": "Invoice F-21147 entered and mail sent to supplier."
  }
 }
